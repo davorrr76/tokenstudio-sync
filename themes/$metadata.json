@@ -1,5 +1,10 @@
 {
   "tokenSetOrder": [
-    "Color"
+    "core",
+    "Brands",
+    "Brands/Brand-A",
+    "Brands/Brand-A/Light",
+    "Brands/Brand-A/Dark",
+    "Brands/Brand-B"
   ]
 }
