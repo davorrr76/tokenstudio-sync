@@ -1,6 +1,19 @@
 {
   "tokenSetOrder": [
     "Foundations/Typography",
-    "Semantics/Typography"
+    "Foundations/Colors",
+    "Semantics/Typography",
+    "Semantics/Colors",
+    "Components/Typography",
+    "Components/Colors",
+    "media/@360",
+    "media/@480",
+    "media/@640",
+    "media/@768",
+    "media/@1024",
+    "media/@1280",
+    "media/@1544",
+    "media/@1676",
+    "media/@1920"
   ]
 }
