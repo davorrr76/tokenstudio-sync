@@ -14,12 +14,23 @@
     },
     "fontWeight": {
       "regular": {
-        "value": "regular",
+        "value": "Regular",
         "type": "fontWeights"
       },
       "bold": {
-        "value": "bold",
+        "value": "Bold",
         "type": "fontWeights"
+      }
+    }
+  },
+  "test": {
+    "typography": {
+      "token": {
+        "value": {
+          "fontFamily": "{f.fontFamily.body}",
+          "fontWeight": "{f.fontWeight.regular}"
+        },
+        "type": "typography"
       }
     }
   }
