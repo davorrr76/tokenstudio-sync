@@ -1,7 +1,7 @@
 {
   "tokenSetOrder": [
-    "Foundations/Typography",
-    "Foundations/Colors",
+    "Primitives/Typography",
+    "Primitives/Colors",
     "Semantics/Typography",
     "Semantics/Colors",
     "Components/Typography",

@@ -1,7 +1,7 @@
 {
   "s": {
     "typography": {
-      "display": {
+      "titles": {
         "S": {
           "value": {
             "fontFamily": "{ob.f.fontFamily.body}",
