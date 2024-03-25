@@ -5,6 +5,11 @@
         "value": "Noto Sans",
         "type": "fontFamilies",
         "description": "foundation"
+      },
+      "code": {
+        "value": "Consolas",
+        "type": "fontFamilies",
+        "description": "foundation"
       }
     }
   }
