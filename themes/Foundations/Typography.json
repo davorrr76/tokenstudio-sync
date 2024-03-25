@@ -1,16 +1,26 @@
 {
-  "viewport": {
-    "width": {
-      "value": "{viewport.min}",
-      "type": "sizing"
+  "f": {
+    "fontFamily": {
+      "body": {
+        "value": "Noto Sans",
+        "type": "fontFamilies",
+        "description": "foundation"
+      },
+      "code": {
+        "value": "Consolas",
+        "type": "fontFamilies",
+        "description": "foundation"
+      }
     },
-    "min": {
-      "value": "360",
-      "type": "sizing"
-    },
-    "max": {
-      "value": "1920",
-      "type": "sizing"
+    "fontWeight": {
+      "regular": {
+        "value": "regular",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": "bold",
+        "type": "fontWeights"
+      }
     }
   }
 }

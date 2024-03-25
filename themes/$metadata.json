@@ -21,6 +21,9 @@
     "Media/@1920",
     "Density/High",
     "Density/Low",
-    "Density/Medium"
+    "Density/Medium",
+    "Contrast",
+    "Contrast/High",
+    "Contrast/Default"
   ]
 }
