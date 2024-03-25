@@ -78,5 +78,21 @@
         }
       }
     }
+  },
+  "s": {
+    "LetterSpacing": {
+      "S": {
+        "value": "100%",
+        "type": "letterSpacing"
+      },
+      "M": {
+        "value": "100%",
+        "type": "letterSpacing"
+      },
+      "L": {
+        "value": "100%",
+        "type": "letterSpacing"
+      }
+    }
   }
 }
