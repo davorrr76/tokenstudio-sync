@@ -22,7 +22,8 @@
     "Density/High",
     "Density/Low",
     "Density/Medium",
-    "Contrast",
+    "Theme/Dark",
+    "Theme/Light",
     "Contrast/High",
     "Contrast/Default"
   ]
