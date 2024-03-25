@@ -5,7 +5,7 @@
         "medium": {
           "regular": {
             "value": {
-              "fontFamily": "{f.fontFamily.body}"
+              "fontFamily": "{ob.f.fontFamily.body}"
             },
             "type": "typography"
           }

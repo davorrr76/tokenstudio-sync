@@ -1,36 +1,81 @@
 {
-  "f": {
-    "fontFamily": {
-      "body": {
-        "value": "Noto Sans",
-        "type": "fontFamilies",
-        "description": "foundation"
-      },
-      "code": {
-        "value": "Consolas",
-        "type": "fontFamilies",
-        "description": "foundation"
-      }
-    },
-    "fontWeight": {
-      "regular": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "bold": {
-        "value": "Bold",
-        "type": "fontWeights"
-      }
-    }
-  },
-  "test": {
-    "typography": {
-      "token": {
-        "value": {
-          "fontFamily": "{f.fontFamily.body}",
-          "fontWeight": "{f.fontWeight.regular}"
+  "ob": {
+    "f": {
+      "fontFamily": {
+        "body": {
+          "value": "Noto Sans",
+          "type": "fontFamilies",
+          "description": "foundation"
         },
-        "type": "typography"
+        "code": {
+          "value": "Noto Sans Mono",
+          "type": "fontFamilies",
+          "description": "foundation"
+        }
+      },
+      "fontWeight": {
+        "regular": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "bold": {
+          "value": "Bold",
+          "type": "fontWeights"
+        }
+      },
+      "fontSize": {
+        "xs": {
+          "value": "round( {ob.f.fontSize.sm} /1.14)",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "round( {ob.f.fontSize.base} /1.14)",
+          "type": "fontSizes"
+        },
+        "base": {
+          "value": "16",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "round( {ob.f.fontSize.base} *1.14)",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "roundTo({ob.f.fontSize.lg} *1.1)",
+          "type": "fontSizes"
+        },
+        "2xl": {
+          "value": "roundTo( {ob.f.fontSize.xl} *1.1)",
+          "type": "fontSizes"
+        },
+        "3xl": {
+          "value": "roundTo( {ob.f.fontSize.2xl} *1.2)",
+          "type": "fontSizes"
+        },
+        "4xl": {
+          "value": "roundTo( {ob.f.fontSize.3xl} *1.22)",
+          "type": "fontSizes"
+        },
+        "5xl": {
+          "value": "roundTo( {ob.f.fontSize.4xl} *1.25)",
+          "type": "fontSizes"
+        },
+        "6xl": {
+          "value": "roundTo( {ob.f.fontSize.5xl} *1.2)",
+          "type": "fontSizes"
+        },
+        "7xl": {
+          "value": "roundTo( {ob.f.fontSize.6xl} *1.16)",
+          "type": "fontSizes"
+        },
+        "8xl": {
+          "value": "roundTo( {ob.f.fontSize.7xl} *1.15)",
+          "type": "fontSizes"
+        },
+        "9xl": {
+          "value": "roundTo( {ob.f.fontSize.8xl} *1.25)",
+          "type": "fontSizes"
+        }
       }
     }
   }
