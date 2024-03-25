@@ -1,0 +1,16 @@
+{
+  "s": {
+    "typography": {
+      "body": {
+        "medium": {
+          "regular": {
+            "value": {
+              "fontFamily": "{f.fontFamily.body}"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "f": {
+    "fontFamily": {
+      "body": {
+        "value": "Noto Sans",
+        "type": "fontFamilies",
+        "description": "foundation"
+      }
+    }
+  }
+}
