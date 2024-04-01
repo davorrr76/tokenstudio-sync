@@ -63,18 +63,6 @@
         "6xl": {
           "value": "roundTo( {ob.f.fontSize.5xl} *1.2)",
           "type": "fontSizes"
-        },
-        "7xl": {
-          "value": "roundTo( {ob.f.fontSize.6xl} *1.16)",
-          "type": "fontSizes"
-        },
-        "8xl": {
-          "value": "roundTo( {ob.f.fontSize.7xl} *1.15)",
-          "type": "fontSizes"
-        },
-        "9xl": {
-          "value": "roundTo( {ob.f.fontSize.8xl} *1.25)",
-          "type": "fontSizes"
         }
       }
     }
