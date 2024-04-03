@@ -18,6 +18,10 @@
           "value": "Regular",
           "type": "fontWeights"
         },
+        "medium": {
+          "value": "Medium",
+          "type": "fontWeights"
+        },
         "bold": {
           "value": "Bold",
           "type": "fontWeights"
@@ -64,22 +68,18 @@
           "value": "roundTo( {ob.f.fontSize.5xl} *1.2)",
           "type": "fontSizes"
         }
-      }
-    }
-  },
-  "s": {
-    "LetterSpacing": {
-      "S": {
-        "value": "100%",
-        "type": "letterSpacing"
       },
-      "M": {
-        "value": "100%",
-        "type": "letterSpacing"
+      "letterSpacing": {
+        "default": {
+          "value": "0",
+          "type": "letterSpacing"
+        }
       },
-      "L": {
-        "value": "100%",
-        "type": "letterSpacing"
+      "lineHeight": {
+        "default": {
+          "value": "100%",
+          "type": "lineHeights"
+        }
       }
     }
   }
