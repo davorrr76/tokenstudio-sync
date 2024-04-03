@@ -13,20 +13,6 @@
           "description": "foundation"
         }
       },
-      "fontWeight": {
-        "regular": {
-          "value": "Regular",
-          "type": "fontWeights"
-        },
-        "medium": {
-          "value": "Medium",
-          "type": "fontWeights"
-        },
-        "bold": {
-          "value": "Bold",
-          "type": "fontWeights"
-        }
-      },
       "fontSize": {
         "xs": {
           "value": "round( {ob.f.fontSize.sm} /1.14)",
@@ -79,6 +65,22 @@
         "default": {
           "value": "100%",
           "type": "lineHeights"
+        }
+      }
+    },
+    "p": {
+      "fontWeight": {
+        "regular": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "medium": {
+          "value": "Medium",
+          "type": "fontWeights"
+        },
+        "bold": {
+          "value": "Bold",
+          "type": "fontWeights"
         }
       }
     }
