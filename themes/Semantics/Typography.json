@@ -65,8 +65,8 @@
             "H6": {
               "value": {
                 "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.app.2xl}",
-                "fontWeight": "{ob.p.fontWeight.3}"
+                "fontSize": "{ob.p.fontSize.app.lg}",
+                "fontWeight": "{ob.p.fontWeight.1}"
               },
               "type": "typography"
             }
@@ -87,7 +87,7 @@
                 "value": {
                   "fontFamily": "{ob.p.fontFamily.body}",
                   "fontSize": "{ob.p.fontSize.app.xs}",
-                  "fontWeight": "{ob.p.fontWeight.3}",
+                  "fontWeight": "{ob.p.fontWeight.2}",
                   "lineHeight": "{ob.p.lineHeight.default}",
                   "letterSpacing": "{ob.p.letterSpacing.1}"
                 },
@@ -109,7 +109,7 @@
                 "value": {
                   "fontFamily": "{ob.p.fontFamily.body}",
                   "fontSize": "{ob.p.fontSize.app.sm}",
-                  "fontWeight": "{ob.p.fontWeight.3}",
+                  "fontWeight": "{ob.p.fontWeight.2}",
                   "lineHeight": "{ob.p.lineHeight.default}",
                   "letterSpacing": "{ob.p.letterSpacing.1}"
                 },
