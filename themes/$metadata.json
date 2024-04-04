@@ -8,8 +8,8 @@
     "Components/Colors",
     "Brands/CH-BK",
     "Brands/CH-OB",
-    "Context/Apps",
-    "Context/Sites",
+    "Context/App",
+    "Context/Pub",
     "Media/@360",
     "Media/@480",
     "Media/@640",
@@ -21,8 +21,6 @@
     "Media/@1920",
     "Density/High",
     "Density/Low",
-    "Density/Medium",
-    "Contrast/High",
-    "Contrast/Default"
+    "Density/Medium"
   ]
 }
