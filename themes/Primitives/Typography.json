@@ -100,21 +100,29 @@
         }
       },
       "letterSpacing": {
-        "default": {
+        "0": {
+          "value": "-0.25",
+          "type": "letterSpacing"
+        },
+        "1": {
           "value": "0",
+          "type": "letterSpacing"
+        },
+        "2": {
+          "value": "0.25",
           "type": "letterSpacing"
         }
       },
       "fontWeight": {
-        "regular": {
+        "0": {
           "value": "Regular",
           "type": "fontWeights"
         },
-        "medium": {
+        "1": {
           "value": "Medium",
           "type": "fontWeights"
         },
-        "bold": {
+        "3": {
           "value": "Bold",
           "type": "fontWeights"
         }
