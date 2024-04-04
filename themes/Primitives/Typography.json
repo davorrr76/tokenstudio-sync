@@ -118,9 +118,7 @@
           "value": "Bold",
           "type": "fontWeights"
         }
-      }
-    },
-    "f": {
+      },
       "lineHeight": {
         "default": {
           "value": "100%",
