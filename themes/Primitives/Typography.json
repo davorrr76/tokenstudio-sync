@@ -113,7 +113,11 @@
           "type": "letterSpacing"
         },
         "3": {
-          "value": "0.25",
+          "value": "0.5",
+          "type": "letterSpacing"
+        },
+        "4": {
+          "value": "0.75",
           "type": "letterSpacing"
         }
       },
