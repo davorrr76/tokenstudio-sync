@@ -111,6 +111,10 @@
         "2": {
           "value": "0.25",
           "type": "letterSpacing"
+        },
+        "3": {
+          "value": "0.25",
+          "type": "letterSpacing"
         }
       },
       "fontWeight": {

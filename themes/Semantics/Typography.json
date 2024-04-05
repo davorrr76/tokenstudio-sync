@@ -26,7 +26,8 @@
               "value": {
                 "fontFamily": "{ob.p.fontFamily.body}",
                 "fontSize": "{ob.p.fontSize.app.6xl}",
-                "fontWeight": "{ob.p.fontWeight.0}"
+                "fontWeight": "{ob.p.fontWeight.0}",
+                "letterSpacing": "{ob.p.letterSpacing.0}"
               },
               "type": "typography"
             },
@@ -34,7 +35,8 @@
               "value": {
                 "fontFamily": "{ob.p.fontFamily.body}",
                 "fontSize": "{ob.p.fontSize.app.5xl}",
-                "fontWeight": "{ob.p.fontWeight.0}"
+                "fontWeight": "{ob.p.fontWeight.0}",
+                "letterSpacing": "{ob.p.letterSpacing.0}"
               },
               "type": "typography"
             },
