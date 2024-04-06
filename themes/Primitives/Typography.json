@@ -100,10 +100,6 @@
         }
       },
       "letterSpacing": {
-        "0": {
-          "value": "-0.25",
-          "type": "letterSpacing"
-        },
         "1": {
           "value": "0",
           "type": "letterSpacing"
@@ -119,6 +115,26 @@
         "4": {
           "value": "0.75",
           "type": "letterSpacing"
+        },
+        "narrower": {
+          "value": "-2",
+          "type": "letterSpacing"
+        },
+        "narrow": {
+          "value": "-1",
+          "type": "letterSpacing"
+        },
+        "normal": {
+          "value": "0",
+          "type": "letterSpacing"
+        },
+        "wide": {
+          "value": "0.5",
+          "type": "letterSpacing"
+        },
+        "wider": {
+          "value": "1",
+          "type": "letterSpacing"
         }
       },
       "fontWeight": {
@@ -131,14 +147,38 @@
           "type": "fontWeights"
         },
         "2": {
-          "value": "Bold",
+          "value": "SemiBold",
           "type": "fontWeights"
         }
       },
       "lineHeight": {
-        "default": {
-          "value": "100%",
-          "type": "lineHeights"
+        "headlines": {
+          "xl": {
+            "value": "110%",
+            "type": "lineHeights"
+          },
+          "lg": {
+            "value": "110%",
+            "type": "lineHeights"
+          },
+          "default": {
+            "value": "110%",
+            "type": "lineHeights"
+          },
+          "sm": {
+            "value": "130%",
+            "type": "lineHeights"
+          }
+        },
+        "body": {
+          "relaxed": {
+            "value": "175%",
+            "type": "lineHeights"
+          },
+          "default": {
+            "value": "150%",
+            "type": "lineHeights"
+          }
         }
       }
     }
