@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "id": "f4b0b4cc23aff41200cbedbb7bea96e455525dfe",
+    "name": "Main",
+    "$figmaStyleReferences": {
+      "ob.s.typography.app.subtitle.S": "S:a53db0bdcf317078130e054e4545970d58b9c033,",
+      "ob.s.typography.app.subtitle.M": "S:e3cf6798a86bd3d7e59d009a34f67a1f110261fb,",
+      "ob.s.typography.app.heading.H1": "S:2839c94ff2e54b0568df3a1187b91973ad360df7,",
+      "ob.s.typography.app.heading.H2": "S:62380cdac7b4c6668db811d430063783da04928a,",
+      "ob.s.typography.app.heading.H3": "S:a7ee4d40f62c0951b0489dcdf7918c54e8feb9c7,",
+      "ob.s.typography.app.heading.H4": "S:aa03079421e401169a1476504a2dc222bb183861,",
+      "ob.s.typography.app.heading.H5": "S:b56329296189d8faa3b0e2164a39d0da98e004d7,",
+      "ob.s.typography.app.heading.H6": "S:134f522204e805512ad7a22575a531c193e1c807,",
+      "ob.s.typography.app.label.S.regular": "S:260b3e47418a782a22e9fa163c1f720cede17c5f,",
+      "ob.s.typography.app.label.S.bold": "S:06193178de6666c7c3c0c64cb4fa15fec0e24c0f,",
+      "ob.s.typography.app.label.M.regular": "S:d5077b42d1cbe9081d3d42da0251a30d0ce40c39,",
+      "ob.s.typography.app.label.M.bold": "S:7aa582bbb4db0c08c8d1c9edbdc4bb390febbb27,",
+      "ob.s.typography.app.body.M.regular": "S:24b241de85e17e6abb2e4a90780b39b3502c17f9,",
+      "ob.s.typography.app.body.M.bold": "S:879aa603937ddd5c197485930977557bb5485470,",
+      "ob.s.typography.app.body.S.regular": "S:4f11761c59b7603b4603ec1f734a707d83f70dec,",
+      "ob.s.typography.app.body.S.bold": "S:c5159279f8860df4f13c2765cbaa752192307426,"
+    },
+    "selectedTokenSets": {
+      "Primitives/Typography": "source",
+      "Primitives/Colors": "source",
+      "Semantics/Typography": "enabled",
+      "Semantics/Colors": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:158:24762",
+    "$figmaModeId": "158:0",
+    "$figmaVariableReferences": {}
+  }
+]

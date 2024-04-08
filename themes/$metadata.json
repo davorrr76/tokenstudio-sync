@@ -1,9 +1,9 @@
 {
   "tokenSetOrder": [
-    "Primitives/Typography",
     "Primitives/Colors",
-    "Semantics/Typography",
+    "Primitives/Typography",
     "Semantics/Colors",
+    "Semantics/Typography",
     "Components/Typography",
     "Components/Colors",
     "Context/App",

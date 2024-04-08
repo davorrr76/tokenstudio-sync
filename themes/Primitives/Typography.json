@@ -24,7 +24,7 @@
             "type": "fontSizes"
           },
           "base": {
-            "value": "16",
+            "value": "{ob.p.fontSize._base}",
             "type": "fontSizes"
           },
           "lg": {
@@ -97,27 +97,19 @@
             "value": "roundTo( {ob.p.fontSize.app.5xl} *1.2)",
             "type": "fontSizes"
           }
+        },
+        "_base": {
+          "value": "16",
+          "type": "fontSizes"
+        },
+        "_scale": {
+          "value": "1.2",
+          "type": "fontSizes"
         }
       },
       "letterSpacing": {
-        "1": {
-          "value": "0",
-          "type": "letterSpacing"
-        },
-        "2": {
-          "value": "0.25",
-          "type": "letterSpacing"
-        },
-        "3": {
-          "value": "0.5",
-          "type": "letterSpacing"
-        },
-        "4": {
-          "value": "0.75",
-          "type": "letterSpacing"
-        },
         "narrower": {
-          "value": "-2",
+          "value": "-1.5",
           "type": "letterSpacing"
         },
         "narrow": {
