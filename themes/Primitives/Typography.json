@@ -52,8 +52,9 @@
             "type": "fontSizes"
           },
           "6xl": {
-            "value": "roundTo( {ob.p.fontSize.app.5xl} *1.2)",
-            "type": "fontSizes"
+            "value": "45",
+            "type": "fontSizes",
+            "description": "Fits perfectly into the 4px grid"
           }
         },
         "pub": {
@@ -163,13 +164,25 @@
           }
         },
         "body": {
-          "relaxed": {
-            "value": "175%",
-            "type": "lineHeights"
+          "M": {
+            "relaxed": {
+              "value": "175%",
+              "type": "lineHeights"
+            },
+            "default": {
+              "value": "150%",
+              "type": "lineHeights"
+            }
           },
-          "default": {
-            "value": "150%",
-            "type": "lineHeights"
+          "S": {
+            "relaxed": {
+              "value": "175%",
+              "type": "lineHeights"
+            },
+            "default": {
+              "value": "146%",
+              "type": "lineHeights"
+            }
           }
         }
       }
