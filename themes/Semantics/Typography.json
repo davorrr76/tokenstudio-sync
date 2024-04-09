@@ -106,7 +106,8 @@
                 "lineHeight": "{ob.p.lineHeight.4xl}",
                 "letterSpacing": "{ob.p.letterSpacing.narrower}"
               },
-              "type": "typography"
+              "type": "typography",
+              "description": "Starts at 4xl to get more familiar font sizes among the headings and the body font styles"
             },
             "H2": {
               "value": {
@@ -217,7 +218,8 @@
                 "fontSize": "{ob.p.fontSize.base}",
                 "fontWeight": "{ob.p.fontWeight.1}",
                 "lineHeight": "{ob.p.lineHeight.base}",
-                "letterSpacing": "{ob.p.letterSpacing.normal}"
+                "letterSpacing": "{ob.p.letterSpacing.normal}",
+                "paragraphSpacing": "{ob.p.paragraphSpacing.sm}"
               },
               "type": "typography"
             },
@@ -239,7 +241,8 @@
                 "fontSize": "{ob.p.fontSize.sm}",
                 "fontWeight": "{ob.p.fontWeight.1}",
                 "lineHeight": "{ob.p.lineHeight.sm}",
-                "letterSpacing": "{ob.p.letterSpacing.normal}"
+                "letterSpacing": "{ob.p.letterSpacing.normal}",
+                "paragraphSpacing": "{ob.p.paragraphSpacing.xs}"
               },
               "type": "typography"
             },
@@ -261,7 +264,8 @@
                 "fontSize": "{ob.p.fontSize.lg}",
                 "fontWeight": "{ob.p.fontWeight.0}",
                 "lineHeight": "{ob.p.lineHeight.lg}",
-                "letterSpacing": "{ob.p.letterSpacing.normal}"
+                "letterSpacing": "{ob.p.letterSpacing.normal}",
+                "paragraphSpacing": "{ob.p.paragraphSpacing.sm}"
               },
               "type": "typography"
             },
@@ -279,48 +283,91 @@
         },
         "spacing": {
           "heading": {
-            "fullrange": {
-              "H1": {
-                "bottom": {
-                  "value": "{ob.p.spacing.default} -1",
-                  "type": "spacing"
-                }
-              },
-              "H2": {
-                "bottom": {
-                  "value": "{ob.p.spacing.default}",
-                  "type": "spacing"
-                }
-              },
-              "H3": {
-                "bottom": {
-                  "value": "{ob.p.spacing.default}",
-                  "type": "spacing"
-                }
-              },
-              "H4": {
-                "bottom": {
-                  "value": "{ob.p.spacing.default}",
-                  "type": "spacing"
-                }
-              },
-              "H5": {
-                "bottom": {
-                  "value": "{ob.p.spacing.default}",
-                  "type": "spacing"
-                }
-              },
-              "H6": {
-                "bottom": {
-                  "value": "{ob.p.spacing.default}",
-                  "type": "spacing"
-                }
+            "H1": {
+              "bottom": {
+                "value": "{ob.p.spacing.default} -1",
+                "type": "spacing",
+                "description": "-1 is correction for Figma to stay on the base line grid. It has to be validated in web browser, if a corrections are needed."
+              }
+            },
+            "H2": {
+              "bottom": {
+                "value": "{ob.p.spacing.default}",
+                "type": "spacing"
+              }
+            },
+            "H3": {
+              "bottom": {
+                "value": "{ob.p.spacing.default}",
+                "type": "spacing"
+              }
+            },
+            "H4": {
+              "bottom": {
+                "value": "{ob.p.spacing.default}",
+                "type": "spacing"
+              }
+            },
+            "H5": {
+              "bottom": {
+                "value": "{ob.p.spacing.sm}",
+                "type": "spacing"
+              }
+            },
+            "H6": {
+              "bottom": {
+                "value": "{ob.p.spacing.sm}",
+                "type": "spacing"
               }
             }
           },
           "body": {
-            "value": "{ob.p.spacing.xxl}",
-            "type": "spacing"
+            "L": {
+              "bottom": {
+                "value": "{ob.s.typography.spacing.body.default}",
+                "type": "spacing"
+              }
+            },
+            "M": {
+              "bottom": {
+                "value": "{ob.s.typography.spacing.body.default}",
+                "type": "spacing"
+              }
+            },
+            "S": {
+              "bottom": {
+                "value": "{ob.s.typography.spacing.body.default}",
+                "type": "spacing"
+              }
+            },
+            "default": {
+              "value": "{ob.p.spacing.xl}",
+              "type": "spacing"
+            }
+          },
+          "title": {
+            "L": {
+              "bottom": {
+                "value": "{ob.s.typography.spacing.title.default}",
+                "type": "spacing"
+              }
+            },
+            "M": {
+              "bottom": {
+                "value": "{ob.s.typography.spacing.title.default}",
+                "type": "spacing"
+              }
+            },
+            "S": {
+              "bottom": {
+                "value": "{ob.s.typography.spacing.title.default}",
+                "type": "spacing"
+              }
+            },
+            "default": {
+              "value": "{ob.p.spacing.sm}",
+              "type": "spacing"
+            }
           }
         },
         "colors": {
