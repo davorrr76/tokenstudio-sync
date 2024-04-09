@@ -1,12 +1,213 @@
 {
   "c": {
-    "H1": {
-      "value": {
-        "typography": "{ob.s.typography.heading.fullrange.H1}",
-        "fill": "{ob.s.typography.colors.headings.h1.color}"
+    "typography": {
+      "heading": {
+        "H1": {
+          "value": {
+            "typography": "{ob.s.typography.heading.fullrange.H1}",
+            "fill": "{ob.s.typography.colors.headings.h1.color}"
+          },
+          "type": "composition",
+          "description": "Test composite token"
+        },
+        "H2": {
+          "value": {
+            "typography": "{ob.s.typography.heading.fullrange.H2}",
+            "fill": "{ob.s.typography.colors.headings.h1.color}"
+          },
+          "type": "composition",
+          "description": "Test composite token"
+        },
+        "H3": {
+          "value": {
+            "typography": "{ob.s.typography.heading.fullrange.H3}",
+            "fill": "{ob.s.typography.colors.headings.h1.color}"
+          },
+          "type": "composition",
+          "description": "Test composite token"
+        },
+        "H4": {
+          "value": {
+            "typography": "{ob.s.typography.heading.fullrange.H4}",
+            "fill": "{ob.s.typography.colors.headings.h1.color}"
+          },
+          "type": "composition",
+          "description": "Test composite token"
+        },
+        "H5": {
+          "value": {
+            "typography": "{ob.s.typography.heading.fullrange.H5}",
+            "fill": "{ob.s.typography.colors.headings.h1.color}"
+          },
+          "type": "composition",
+          "description": "Test composite token"
+        },
+        "H6": {
+          "value": {
+            "typography": "{ob.s.typography.heading.fullrange.H6}",
+            "fill": "{ob.s.typography.colors.headings.h1.color}"
+          },
+          "type": "composition",
+          "description": "Test composite token"
+        }
       },
-      "type": "composition",
-      "description": "Test composite token"
+      "form": {
+        "inputText": {
+          "content": {
+            "value": {
+              "typography": "{ob.s.typography.body.L.default}",
+              "fill": "{tempStandardBody}"
+            },
+            "type": "composition",
+            "description": "\n"
+          },
+          "prefix": {
+            "value": {
+              "typography": "{ob.s.typography.body.L.default}",
+              "fill": "{tempStandardBody}"
+            },
+            "type": "composition",
+            "description": "\n"
+          },
+          "suffix": {
+            "value": {
+              "typography": "{ob.s.typography.body.L.default}",
+              "fill": "{tempStandardBody}"
+            },
+            "type": "composition",
+            "description": "\n"
+          },
+          "label": {
+            "value": {
+              "typography": "{ob.s.typography.label.S.bold}",
+              "fill": "{tempStandardBody}"
+            },
+            "type": "composition",
+            "description": "\n"
+          },
+          "hint": {
+            "value": {
+              "typography": "{ob.s.typography.label.S.bold}",
+              "fill": "{tempStandardBody}"
+            },
+            "type": "composition",
+            "description": "\n"
+          }
+        },
+        "checkbox": {
+          "content": {
+            "value": {
+              "typography": "{ob.s.typography.body.L.default}",
+              "fill": "{tempStandardBody}"
+            },
+            "type": "composition",
+            "description": "\n"
+          },
+          "label": {
+            "value": {
+              "typography": "{ob.s.typography.label.S.bold}",
+              "fill": "{tempStandardBody}"
+            },
+            "type": "composition",
+            "description": "\n"
+          },
+          "hint": {
+            "value": {
+              "typography": "{ob.s.typography.label.S.bold}",
+              "fill": "{tempStandardBody}"
+            },
+            "type": "composition",
+            "description": "\n"
+          }
+        },
+        "radio": {
+          "content": {
+            "value": {
+              "typography": "{ob.s.typography.body.L.default}",
+              "fill": "{tempStandardBody}"
+            },
+            "type": "composition",
+            "description": "\n"
+          },
+          "label": {
+            "value": {
+              "typography": "{ob.s.typography.label.S.bold}",
+              "fill": "{tempStandardBody}"
+            },
+            "type": "composition",
+            "description": "\n"
+          },
+          "hint": {
+            "value": {
+              "typography": "{ob.s.typography.label.S.bold}",
+              "fill": "{tempStandardBody}"
+            },
+            "type": "composition",
+            "description": "\n"
+          }
+        }
+      },
+      "table": {
+        "header": {
+          "value": {
+            "typography": "{ob.s.typography.body.M.strong}",
+            "fill": "{tempStandardBody}"
+          },
+          "type": "composition"
+        },
+        "content": {
+          "value": {
+            "typography": "{ob.s.typography.body.M.strong}",
+            "fill": "{tempStandardBody}"
+          },
+          "type": "composition"
+        }
+      },
+      "button": {
+        "text": {
+          "value": {
+            "typography": "{ob.s.typography.label.M.regular}"
+          },
+          "type": "composition"
+        }
+      },
+      "textLink": {
+        "normal": {
+          "value": {
+            "textDecoration": "{ob.p.text-decoration.textLink}",
+            "fill": "{tempStandardBody}"
+          },
+          "type": "composition"
+        },
+        "hover": {
+          "value": {
+            "textDecoration": "{ob.p.text-decoration.textLink}",
+            "fill": "{tempStandardBody}"
+          },
+          "type": "composition"
+        },
+        "visited": {
+          "value": {
+            "textDecoration": "{ob.p.text-decoration.textLink}",
+            "fill": "{tempStandardBody}"
+          },
+          "type": "composition"
+        },
+        "focus": {
+          "value": {
+            "textDecoration": "{ob.p.text-decoration.textLink}",
+            "fill": "{tempStandardBody}"
+          },
+          "type": "composition"
+        },
+        "active": {
+          "value": {
+            "textDecoration": "{ob.p.text-decoration.textLink}",
+            "fill": "{tempStandardBody}"
+          },
+          "type": "composition"
+        }
+      }
     }
   }
 }
