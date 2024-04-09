@@ -2,7 +2,7 @@
   "c": {
     "H1": {
       "value": {
-        "typography": "{ob.s.typography.app.heading.H1}",
+        "typography": "{ob.s.typography.headingFullR.H1}",
         "fill": "{ob.s.typography.app.headings.h1.color}"
       },
       "type": "composition",
