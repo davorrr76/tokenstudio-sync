@@ -163,6 +163,14 @@
           "value": "8",
           "type": "paragraphSpacing"
         }
+      },
+      "typography": {
+        "link": {
+          "decoration": {
+            "value": "underline",
+            "type": "textDecoration"
+          }
+        }
       }
     }
   }
