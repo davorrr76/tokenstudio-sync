@@ -44,7 +44,13 @@
                 "letterSpacing": "{ob.p.letterSpacing.supernarrow}",
                 "lineHeight": "{ob.p.lineHeight.6xl}"
               },
-              "type": "typography"
+              "type": "typography",
+              "spacing": {
+                "bottom": {
+                  "value": "{ob.p.spacing.xl} -1",
+                  "type": "spacing"
+                }
+              }
             },
             "H2": {
               "value": {
@@ -54,7 +60,13 @@
                 "letterSpacing": "{ob.p.letterSpacing.supernarrow}",
                 "lineHeight": "{ob.p.lineHeight.5xl}"
               },
-              "type": "typography"
+              "type": "typography",
+              "spacing": {
+                "bottom": {
+                  "value": "{ob.p.spacing.default}",
+                  "type": "spacing"
+                }
+              }
             },
             "H3": {
               "value": {
@@ -64,7 +76,13 @@
                 "lineHeight": "{ob.p.lineHeight.4xl}",
                 "letterSpacing": "{ob.p.letterSpacing.narrower}"
               },
-              "type": "typography"
+              "type": "typography",
+              "spacing": {
+                "bottom": {
+                  "value": "{ob.p.spacing.default}",
+                  "type": "spacing"
+                }
+              }
             },
             "H4": {
               "value": {

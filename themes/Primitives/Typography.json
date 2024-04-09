@@ -145,6 +145,24 @@
           "value": "round( {ob.p.fontSize.6xl} *1.14)",
           "type": "lineHeights"
         }
+      },
+      "paragraphSpacing": {
+        "base": {
+          "value": "16",
+          "type": "paragraphSpacing"
+        },
+        "lg": {
+          "value": "20",
+          "type": "paragraphSpacing"
+        },
+        "sm": {
+          "value": "12",
+          "type": "paragraphSpacing"
+        },
+        "xs": {
+          "value": "8",
+          "type": "paragraphSpacing"
+        }
       }
     }
   }

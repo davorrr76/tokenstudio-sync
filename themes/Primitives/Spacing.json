@@ -1,0 +1,42 @@
+{
+  "ob": {
+    "p": {
+      "space": {
+        "SpaceBase": {
+          "value": "4",
+          "type": "other"
+        }
+      },
+      "spacing": {
+        "xs": {
+          "value": "{ob.p.space.SpaceBase} * 1",
+          "type": "spacing"
+        },
+        "sm": {
+          "value": "{ob.p.space.SpaceBase} * 2",
+          "type": "spacing"
+        },
+        "md": {
+          "value": "{ob.p.space.SpaceBase} * 3",
+          "type": "spacing"
+        },
+        "default": {
+          "value": "{ob.p.space.SpaceBase} * 4",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{ob.p.space.SpaceBase} * 6",
+          "type": "spacing"
+        },
+        "xl": {
+          "value": "{ob.p.space.SpaceBase} * 8",
+          "type": "spacing"
+        },
+        "xxl": {
+          "value": "{ob.p.space.SpaceBase} * 12",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

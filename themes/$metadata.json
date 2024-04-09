@@ -2,6 +2,7 @@
   "tokenSetOrder": [
     "Primitives/Colors",
     "Primitives/Typography",
+    "Primitives/Spacing",
     "Semantics/Colors",
     "Semantics/Typography",
     "Components/Typography",
