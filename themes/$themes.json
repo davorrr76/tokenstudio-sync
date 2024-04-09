@@ -10,8 +10,7 @@
       "Primitives/Typography": "source",
       "Primitives/Colors": "enabled",
       "Semantics/Colors": "enabled",
-      "Semantics/Typography": "enabled",
-      "Primitives/Spacing": "disabled"
+      "Semantics/Typography": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:160:26160",
     "$figmaModeId": "160:9",

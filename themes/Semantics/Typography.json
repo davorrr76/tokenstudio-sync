@@ -44,13 +44,7 @@
                 "letterSpacing": "{ob.p.letterSpacing.supernarrow}",
                 "lineHeight": "{ob.p.lineHeight.6xl}"
               },
-              "type": "typography",
-              "spacing": {
-                "bottom": {
-                  "value": "{ob.p.spacing.xl} -1",
-                  "type": "spacing"
-                }
-              }
+              "type": "typography"
             },
             "H2": {
               "value": {
@@ -60,13 +54,7 @@
                 "letterSpacing": "{ob.p.letterSpacing.supernarrow}",
                 "lineHeight": "{ob.p.lineHeight.5xl}"
               },
-              "type": "typography",
-              "spacing": {
-                "bottom": {
-                  "value": "{ob.p.spacing.default}",
-                  "type": "spacing"
-                }
-              }
+              "type": "typography"
             },
             "H3": {
               "value": {
@@ -76,13 +64,7 @@
                 "lineHeight": "{ob.p.lineHeight.4xl}",
                 "letterSpacing": "{ob.p.letterSpacing.narrower}"
               },
-              "type": "typography",
-              "spacing": {
-                "bottom": {
-                  "value": "{ob.p.spacing.default}",
-                  "type": "spacing"
-                }
-              }
+              "type": "typography"
             },
             "H4": {
               "value": {
@@ -293,6 +275,52 @@
               },
               "type": "typography"
             }
+          }
+        },
+        "spacing": {
+          "heading": {
+            "fullrange": {
+              "H1": {
+                "bottom": {
+                  "value": "{ob.p.spacing.default} -1",
+                  "type": "spacing"
+                }
+              },
+              "H2": {
+                "bottom": {
+                  "value": "{ob.p.spacing.default}",
+                  "type": "spacing"
+                }
+              },
+              "H3": {
+                "bottom": {
+                  "value": "{ob.p.spacing.default}",
+                  "type": "spacing"
+                }
+              },
+              "H4": {
+                "bottom": {
+                  "value": "{ob.p.spacing.default}",
+                  "type": "spacing"
+                }
+              },
+              "H5": {
+                "bottom": {
+                  "value": "{ob.p.spacing.default}",
+                  "type": "spacing"
+                }
+              },
+              "H6": {
+                "bottom": {
+                  "value": "{ob.p.spacing.default}",
+                  "type": "spacing"
+                }
+              }
+            }
+          },
+          "body": {
+            "value": "{ob.p.spacing.xxl}",
+            "type": "spacing"
           }
         },
         "colors": {
