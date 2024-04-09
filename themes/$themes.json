@@ -15,10 +15,6 @@
       "ob.s.typography.app.label.S.bold": "S:cd61df3ac6f5af104ef09d81b41941a47630351f,",
       "ob.s.typography.app.label.M.regular": "S:6827ab333428d8a47944de77cddbf9422819366b,",
       "ob.s.typography.app.label.M.bold": "S:77f71b3ae5aec14ec6925e8033566cd7b17131de,",
-      "ob.s.typography.app.body.M.regular": "S:b3c29cbeee19bde004cdc2fa922e70a61b68a959,",
-      "ob.s.typography.app.body.M.bold": "S:e83ed34be5dc4609356132681c53cd7e31e69913,",
-      "ob.s.typography.app.body.S.regular": "S:5edd3b324d8afc8b9c4ef51d7f4774796d093eb9,",
-      "ob.s.typography.app.body.S.bold": "S:947f379f0352ab1ff0ab1cee2e24bd30a243df9d,",
       "red.50": "S:8ecb15946e0f5476055d04f0c95a6f7ac8770a14,",
       "red.100": "S:eec965a79e678168f476f27eb31e980d8a6347ae,",
       "red.200": "S:67bc3176cafae0e5ab27762533793bc116a0e902,",
@@ -121,7 +117,11 @@
       "pink.700": "S:ca86ff9dbfcb82f406f2274d8c4ee77bed2ed75e,",
       "pink.800": "S:6af135ebfab55d6ef5a0e590a19cfa081747dfde,",
       "pink.900": "S:f3b24abc9aa79d93971034c3e9a5cc701836d133,",
-      "brand.red-bund": "S:788ee30cad7fa62f42f6f214dfbf693b66576077,"
+      "brand.red-bund": "S:788ee30cad7fa62f42f6f214dfbf693b66576077,",
+      "ob.s.typography.app.body.M.regular": "S:b3c29cbeee19bde004cdc2fa922e70a61b68a959,",
+      "ob.s.typography.app.body.M.bold": "S:e83ed34be5dc4609356132681c53cd7e31e69913,",
+      "ob.s.typography.app.body.S.regular": "S:5edd3b324d8afc8b9c4ef51d7f4774796d093eb9,",
+      "ob.s.typography.app.body.S.bold": "S:947f379f0352ab1ff0ab1cee2e24bd30a243df9d,"
     },
     "selectedTokenSets": {
       "Primitives/Typography": "source",

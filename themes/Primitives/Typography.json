@@ -16,11 +16,11 @@
       "fontSize": {
         "app": {
           "xs": {
-            "value": "round( {ob.p.fontSize.app.sm} /1.14)",
+            "value": "round( {ob.p.fontSize.app.sm} /1.2)",
             "type": "fontSizes"
           },
           "sm": {
-            "value": "round( {ob.p.fontSize.app.base} /1.14)",
+            "value": "round( {ob.p.fontSize.app.base} /1.2)",
             "type": "fontSizes"
           },
           "base": {
@@ -32,11 +32,11 @@
             "type": "fontSizes"
           },
           "xl": {
-            "value": "roundTo({ob.p.fontSize.app.lg} *1.1)",
+            "value": "roundTo({ob.p.fontSize.app.lg} *1.2)",
             "type": "fontSizes"
           },
           "2xl": {
-            "value": "roundTo( {ob.p.fontSize.app.xl} *1.1)",
+            "value": "roundTo( {ob.p.fontSize.app.xl} *1.2)",
             "type": "fontSizes"
           },
           "3xl": {
@@ -44,67 +44,20 @@
             "type": "fontSizes"
           },
           "4xl": {
-            "value": "roundTo( {ob.p.fontSize.app.3xl} *1.22)",
+            "value": "roundTo( {ob.p.fontSize.app.3xl} *1.15)",
             "type": "fontSizes"
           },
           "5xl": {
-            "value": "roundTo( {ob.p.fontSize.app.4xl} *1.25)",
+            "value": "roundTo( {ob.p.fontSize.app.4xl} *1.15)",
             "type": "fontSizes"
           },
           "6xl": {
-            "value": "45",
-            "type": "fontSizes",
-            "description": "Fits perfectly into the 4px grid"
-          }
-        },
-        "pub": {
-          "xs": {
-            "value": "round( {ob.p.fontSize.app.sm} /1.14)",
-            "type": "fontSizes"
-          },
-          "sm": {
-            "value": "round( {ob.p.fontSize.app.base} /1.14)",
-            "type": "fontSizes"
-          },
-          "base": {
-            "value": "19",
-            "type": "fontSizes"
-          },
-          "lg": {
-            "value": "round( {ob.p.fontSize.app.base} *1.14)",
-            "type": "fontSizes"
-          },
-          "xl": {
-            "value": "roundTo({ob.p.fontSize.app.lg} *1.1)",
-            "type": "fontSizes"
-          },
-          "2xl": {
-            "value": "roundTo( {ob.p.fontSize.app.xl} *1.1)",
-            "type": "fontSizes"
-          },
-          "3xl": {
-            "value": "roundTo( {ob.p.fontSize.app.2xl} *1.2)",
-            "type": "fontSizes"
-          },
-          "4xl": {
-            "value": "roundTo( {ob.p.fontSize.app.3xl} *1.22)",
-            "type": "fontSizes"
-          },
-          "5xl": {
-            "value": "roundTo( {ob.p.fontSize.app.4xl} *1.25)",
-            "type": "fontSizes"
-          },
-          "6xl": {
-            "value": "roundTo( {ob.p.fontSize.app.5xl} *1.2)",
+            "value": "roundTo( {ob.p.fontSize.app.5xl} *1.25)",
             "type": "fontSizes"
           }
         },
         "_base": {
           "value": "17",
-          "type": "fontSizes"
-        },
-        "_scale": {
-          "value": "1.2",
           "type": "fontSizes"
         }
       },
@@ -145,55 +98,45 @@
         }
       },
       "lineHeight": {
-        "headlines": {
-          "xl": {
-            "value": "110%",
-            "type": "lineHeights"
-          },
-          "lg": {
-            "value": "110%",
-            "type": "lineHeights"
-          },
-          "default": {
-            "value": "110%",
-            "type": "lineHeights"
-          },
-          "sm": {
-            "value": "130%",
-            "type": "lineHeights"
-          }
+        "xs": {
+          "value": "16",
+          "type": "lineHeights"
         },
-        "body": {
-          "M": {
-            "relaxed": {
-              "value": "175%",
-              "type": "lineHeights"
-            },
-            "default": {
-              "value": "150%",
-              "type": "lineHeights"
-            }
-          },
-          "S": {
-            "relaxed": {
-              "value": "175%",
-              "type": "lineHeights"
-            },
-            "default": {
-              "value": "146%",
-              "type": "lineHeights"
-            }
-          },
-          "L": {
-            "relaxed": {
-              "value": "28",
-              "type": "lineHeights"
-            },
-            "default": {
-              "value": "24",
-              "type": "lineHeights"
-            }
-          }
+        "sm": {
+          "value": "20",
+          "type": "lineHeights"
+        },
+        "base": {
+          "value": "round( {ob.p.fontSize.app.base} *1.4)",
+          "type": "lineHeights"
+        },
+        "lg": {
+          "value": "round( {ob.p.fontSize.app.lg} *1.45)",
+          "type": "lineHeights"
+        },
+        "xl": {
+          "value": "round( {ob.p.fontSize.app.xl} *1.2)",
+          "type": "lineHeights"
+        },
+        "2xl": {
+          "value": "round( {ob.p.fontSize.app.2xl} *1.14)",
+          "type": "lineHeights"
+        },
+        "3xl": {
+          "value": "round( {ob.p.fontSize.app.3xl} *1.18)",
+          "type": "lineHeights"
+        },
+        "4xl": {
+          "value": "round( {ob.p.fontSize.app.4xl} *1.14)",
+          "type": "lineHeights"
+        },
+        "5xl": {
+          "value": "round( {ob.p.fontSize.app.5xl} *1.16)",
+          "type": "lineHeights"
+        },
+        "6xl": {
+          "value": "round( {ob.p.fontSize.app.6xl} *1.14)",
+          "type": "lineHeights"
         }
       }
     }
