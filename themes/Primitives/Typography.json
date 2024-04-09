@@ -100,7 +100,7 @@
           }
         },
         "_base": {
-          "value": "16",
+          "value": "17",
           "type": "fontSizes"
         },
         "_scale": {
@@ -181,6 +181,16 @@
             },
             "default": {
               "value": "146%",
+              "type": "lineHeights"
+            }
+          },
+          "L": {
+            "relaxed": {
+              "value": "28",
+              "type": "lineHeights"
+            },
+            "default": {
+              "value": "24",
               "type": "lineHeights"
             }
           }

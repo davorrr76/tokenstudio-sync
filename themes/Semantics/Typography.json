@@ -140,7 +140,7 @@
                   "fontFamily": "{ob.p.fontFamily.body}",
                   "fontSize": "{ob.p.fontSize.app.base}",
                   "fontWeight": "{ob.p.fontWeight.0}",
-                  "lineHeight": "{ob.p.lineHeight.body.M.default}",
+                  "lineHeight": "{ob.p.lineHeight.body.L.default}",
                   "letterSpacing": "{ob.p.letterSpacing.normal}"
                 },
                 "type": "typography"
