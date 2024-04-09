@@ -116,12 +116,12 @@
       "ob.s.typography.body.S.bold": "S:947f379f0352ab1ff0ab1cee2e24bd30a243df9d,",
       "ob.s.typography.title.S": "S:826827ecb3a678f1b96dd0f71139f4f9052d3fac,",
       "ob.s.typography.title.M": "S:bc9b9590328add6a3032817dc0a95276821f2e95,",
-      "ob.s.typography.headingFullR.H1": "S:3228f5c2729751cc63ddc53a22bf30b911ce820a,",
-      "ob.s.typography.headingFullR.H2": "S:02e6bbb9f7657af3555d7979e6256c3c8996cc46,",
-      "ob.s.typography.headingFullR.H3": "S:83ed821736a09168b2775e733fd36784085775bf,",
-      "ob.s.typography.headingFullR.H4": "S:8788135b61467c9e8990446be07c6637868a81fe,",
-      "ob.s.typography.headingFullR.H5": "S:98a34c0bc2033c3a5fe2673c2c67a1ba7a240db8,",
-      "ob.s.typography.headingFullR.H6": "S:042fd637f9a42869f97adaac900e8e67138146e8,"
+      "ob.s.typography.heading.fullrange.H1": "S:3228f5c2729751cc63ddc53a22bf30b911ce820a,",
+      "ob.s.typography.heading.fullrange.H2": "S:02e6bbb9f7657af3555d7979e6256c3c8996cc46,",
+      "ob.s.typography.heading.fullrange.H3": "S:83ed821736a09168b2775e733fd36784085775bf,",
+      "ob.s.typography.heading.fullrange.H4": "S:8788135b61467c9e8990446be07c6637868a81fe,",
+      "ob.s.typography.heading.fullrange.H5": "S:98a34c0bc2033c3a5fe2673c2c67a1ba7a240db8,",
+      "ob.s.typography.heading.fullrange.H6": "S:042fd637f9a42869f97adaac900e8e67138146e8,"
     },
     "selectedTokenSets": {
       "Primitives/Typography": "source",
