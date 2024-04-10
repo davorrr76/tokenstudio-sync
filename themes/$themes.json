@@ -11,7 +11,9 @@
       "Primitives/Colors": "enabled",
       "Semantics/Colors": "enabled",
       "Semantics/Typography": "enabled",
-      "Primitives/Spacing": "source"
+      "Primitives/Spacing": "source",
+      "Components/Typography": "enabled",
+      "Components/Colors": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:160:26160",
     "$figmaModeId": "160:9",
@@ -121,5 +123,20 @@
       "brand.red-bund": "fef63d760dd5f5be61d52ac7f1b2d46c88a851a0"
     },
     "group": "Primitives"
+  },
+  {
+    "id": "3c3f0fb3c782deb6307500cbbf65062c34338df6",
+    "name": "no media",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives/Colors": "enabled",
+      "Primitives/Typography": "enabled",
+      "Primitives/Spacing": "enabled",
+      "Semantics/Colors": "enabled",
+      "Semantics/Typography": "enabled",
+      "Components/Typography": "enabled",
+      "Components/Colors": "enabled"
+    },
+    "group": "All 3 tiers"
   }
 ]
