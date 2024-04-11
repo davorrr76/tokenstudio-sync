@@ -6,20 +6,19 @@
           "value": "Noto Sans",
           "type": "fontFamilies",
           "description": "BIT Corporate Web Font"
-        },
-        "code": {
-          "value": "Noto Sans Mono",
-          "type": "fontFamilies",
-          "description": "foundation"
         }
       },
       "fontSize": {
+        "_base": {
+          "value": "17",
+          "type": "fontSizes"
+        },
         "xs": {
-          "value": "round( {ob.p.fontSize.sm} /1.2)",
+          "value": "12",
           "type": "fontSizes"
         },
         "sm": {
-          "value": "round( {ob.p.fontSize.base} /1.2)",
+          "value": "14",
           "type": "fontSizes"
         },
         "base": {
@@ -27,61 +26,49 @@
           "type": "fontSizes"
         },
         "lg": {
-          "value": "round( {ob.p.fontSize.base} *1.14)",
+          "value": "23",
           "type": "fontSizes"
         },
         "xl": {
-          "value": "roundTo({ob.p.fontSize.lg} *1.2)",
+          "value": "28",
           "type": "fontSizes"
         },
         "2xl": {
-          "value": "roundTo( {ob.p.fontSize.xl} *1.2)",
+          "value": "39",
           "type": "fontSizes"
         },
         "3xl": {
-          "value": "roundTo( {ob.p.fontSize.2xl} *1.2)",
+          "value": "45",
           "type": "fontSizes"
         },
         "4xl": {
-          "value": "roundTo( {ob.p.fontSize.3xl} *1.15)",
-          "type": "fontSizes"
-        },
-        "5xl": {
-          "value": "roundTo( {ob.p.fontSize.4xl} *1.15)",
-          "type": "fontSizes"
-        },
-        "6xl": {
-          "value": "roundTo( {ob.p.fontSize.5xl} *1.25)",
-          "type": "fontSizes"
-        },
-        "_base": {
-          "value": "17",
+          "value": "51",
           "type": "fontSizes"
         }
       },
       "letterSpacing": {
         "supernarrow": {
-          "value": "-1.5px",
+          "value": "-3%",
           "type": "letterSpacing",
           "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
         },
         "narrower": {
-          "value": "-1px",
+          "value": "-1.5%",
           "type": "letterSpacing",
           "description": "For font size 3x for a more compact visual appearance.\nHas to be convertered to em!"
         },
         "narrow": {
-          "value": "-0.5px",
+          "value": "-0.5%",
           "type": "letterSpacing",
           "description": "For font sizes 2xl for a more compact visual appearance.\nHas to be convertered to em!\n"
         },
         "normal": {
-          "value": "0px",
+          "value": "0",
           "type": "letterSpacing",
           "description": "Default letter spacing for body and labels.\nHas to be convertered to em!"
         },
         "wide": {
-          "value": "0.5px",
+          "value": "0.5%",
           "type": "letterSpacing",
           "description": "For buttons for a more confortable visual appearance\nHas to be convertered to em!"
         }
@@ -96,71 +83,67 @@
           "type": "fontWeights"
         },
         "2": {
-          "value": "Bold",
+          "value": "SemiBold",
           "type": "fontWeights"
         },
         "3": {
+          "value": "Bold",
+          "type": "fontWeights"
+        },
+        "4": {
           "value": "ExtraBold",
           "type": "fontWeights"
         }
       },
       "lineHeight": {
         "xs": {
-          "value": "round( {ob.p.fontSize.base} *0.94)",
+          "value": "16",
           "type": "lineHeights"
         },
         "sm": {
-          "value": "round( {ob.p.fontSize.base} *1.2)",
+          "value": "20",
           "type": "lineHeights"
         },
         "base": {
-          "value": "round( {ob.p.fontSize.base} *1.4)",
+          "value": "24",
           "type": "lineHeights"
         },
         "lg": {
-          "value": "round( {ob.p.fontSize.lg} *1.45)",
+          "value": "28",
           "type": "lineHeights"
         },
         "xl": {
-          "value": "round( {ob.p.fontSize.xl} *1.2)",
+          "value": "32",
           "type": "lineHeights"
         },
         "2xl": {
-          "value": "round( {ob.p.fontSize.2xl} *1.14)",
+          "value": "44",
           "type": "lineHeights"
         },
         "3xl": {
-          "value": "round( {ob.p.fontSize.3xl} *1.18)",
+          "value": "52",
           "type": "lineHeights"
         },
         "4xl": {
-          "value": "round( {ob.p.fontSize.4xl} *1.14)",
-          "type": "lineHeights"
-        },
-        "5xl": {
-          "value": "round( {ob.p.fontSize.5xl} *1.16)",
-          "type": "lineHeights"
-        },
-        "6xl": {
-          "value": "round( {ob.p.fontSize.6xl} *1.14)",
+          "value": "56",
           "type": "lineHeights"
         }
       },
       "paragraphSpacing": {
-        "base": {
-          "value": "16",
-          "type": "paragraphSpacing"
-        },
-        "lg": {
-          "value": "20",
+        "xs": {
+          "value": "8",
           "type": "paragraphSpacing"
         },
         "sm": {
           "value": "12",
           "type": "paragraphSpacing"
         },
-        "xs": {
-          "value": "8",
+        "base": {
+          "value": "16",
+          "type": "paragraphSpacing"
+        },
+        "lg": {
+          "value": "20",
           "type": "paragraphSpacing"
         }
       },

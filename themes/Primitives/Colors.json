@@ -637,7 +637,9 @@
     "red-bund": {
       "value": "#ff0000",
       "type": "color",
-      "parent": "Colors/Mode 1"
+      "parent": "Primitives/Colors",
+      "description": "",
+      "oldValue": "#ff0000"
     }
   }
 }

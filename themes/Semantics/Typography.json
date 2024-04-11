@@ -3,169 +3,96 @@
     "s": {
       "typography": {
         "title": {
-          "S": {
-            "value": {
-              "fontFamily": "{ob.p.fontFamily.body}",
-              "fontSize": "{ob.p.fontSize.sm}",
-              "fontWeight": "{ob.p.fontWeight.3}",
-              "lineHeight": "{ob.p.lineHeight.sm}",
-              "letterSpacing": "{ob.p.letterSpacing.normal}"
-            },
-            "type": "typography"
-          },
-          "M": {
-            "value": {
-              "fontFamily": "{ob.p.fontFamily.body}",
-              "fontSize": "{ob.p.fontSize.base}",
-              "fontWeight": "{ob.p.fontWeight.3}",
-              "lineHeight": "{ob.p.lineHeight.base}",
-              "letterSpacing": "{ob.p.letterSpacing.normal}"
-            },
-            "type": "typography"
-          },
-          "L": {
-            "value": {
-              "fontFamily": "{ob.p.fontFamily.body}",
-              "fontSize": "{ob.p.fontSize.lg}",
-              "fontWeight": "{ob.p.fontWeight.2}",
-              "lineHeight": "{ob.p.lineHeight.lg}",
-              "letterSpacing": "{ob.p.letterSpacing.normal}"
-            },
-            "type": "typography"
-          }
+          "value": "{ob.s.typography.heading.fullScale.H6}",
+          "type": "typography",
+          "description": "Used for Cards Title. The title has the same size (and other properties) as H4 from the FullScaleHeadings. Reason: Reducing font size increases the overall typography quality."
         },
         "heading": {
-          "fullrange": {
+          "fullScale": {
             "H1": {
               "value": {
                 "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.6xl}",
+                "fontSize": "{ob.p.fontSize.4xl}",
                 "fontWeight": "{ob.p.fontWeight.2}",
                 "letterSpacing": "{ob.p.letterSpacing.supernarrow}",
-                "lineHeight": "{ob.p.lineHeight.6xl}"
+                "lineHeight": "{ob.p.lineHeight.4xl}"
               },
               "type": "typography"
             },
             "H2": {
               "value": {
                 "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.5xl}",
+                "fontSize": "{ob.p.fontSize.3xl}",
                 "fontWeight": "{ob.p.fontWeight.2}",
                 "letterSpacing": "{ob.p.letterSpacing.supernarrow}",
-                "lineHeight": "{ob.p.lineHeight.5xl}"
+                "lineHeight": "{ob.p.lineHeight.3xl}"
               },
               "type": "typography"
             },
             "H3": {
               "value": {
                 "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.4xl}",
+                "fontSize": "{ob.p.fontSize.2xl}",
                 "fontWeight": "{ob.p.fontWeight.2}",
-                "lineHeight": "{ob.p.lineHeight.4xl}",
-                "letterSpacing": "{ob.p.letterSpacing.narrower}"
+                "letterSpacing": "{ob.p.letterSpacing.narrower}",
+                "lineHeight": "{ob.p.lineHeight.2xl}"
               },
               "type": "typography"
             },
             "H4": {
               "value": {
                 "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.3xl}",
-                "fontWeight": "{ob.p.fontWeight.2}",
-                "lineHeight": "{ob.p.lineHeight.3xl}",
-                "letterSpacing": "{ob.p.letterSpacing.narrow}"
+                "fontSize": "{ob.p.fontSize.xl}",
+                "fontWeight": "{ob.p.fontWeight.3}",
+                "letterSpacing": "{ob.p.letterSpacing.narrower}",
+                "lineHeight": "{ob.p.lineHeight.xl}"
               },
               "type": "typography"
             },
             "H5": {
               "value": {
                 "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.2xl}",
-                "fontWeight": "{ob.p.fontWeight.2}",
-                "lineHeight": "{ob.p.lineHeight.2xl}",
-                "letterSpacing": "{ob.p.letterSpacing.narrow}"
+                "fontSize": "{ob.p.fontSize.lg}",
+                "fontWeight": "{ob.p.fontWeight.3}",
+                "letterSpacing": "{ob.p.letterSpacing.narrow}",
+                "lineHeight": "{ob.p.lineHeight.lg}"
               },
               "type": "typography"
             },
             "H6": {
-              "value": {
-                "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.xl}",
-                "fontWeight": "{ob.p.fontWeight.2}",
-                "letterSpacing": "{ob.p.letterSpacing.narrow}",
-                "lineHeight": "{ob.p.lineHeight.xl}"
-              },
+              "value": "{ob.s.typography.body.L.strong}",
               "type": "typography"
             }
           },
           "compact": {
             "H1": {
-              "value": {
-                "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.4xl}",
-                "fontWeight": "{ob.p.fontWeight.2}",
-                "lineHeight": "{ob.p.lineHeight.4xl}",
-                "letterSpacing": "{ob.p.letterSpacing.narrower}"
-              },
-              "type": "typography",
-              "description": "Starts at 4xl to get more familiar font sizes among the headings and the body font styles"
+              "value": "{ob.s.typography.heading.fullScale.H4}",
+              "type": "typography"
             },
             "H2": {
-              "value": {
-                "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.3xl}",
-                "fontWeight": "{ob.p.fontWeight.2}",
-                "lineHeight": "{ob.p.lineHeight.3xl}",
-                "letterSpacing": "{ob.p.letterSpacing.narrow}"
-              },
+              "value": "{ob.s.typography.heading.fullScale.H5}",
               "type": "typography"
             },
             "H3": {
-              "value": {
-                "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.2xl}",
-                "fontWeight": "{ob.p.fontWeight.2}",
-                "lineHeight": "{ob.p.lineHeight.2xl}",
-                "letterSpacing": "{ob.p.letterSpacing.narrow}"
-              },
+              "value": "{ob.s.typography.heading.fullScale.H6}",
               "type": "typography"
             },
             "H4": {
-              "value": {
-                "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.2xl}",
-                "fontWeight": "{ob.p.fontWeight.2}",
-                "lineHeight": "{ob.p.lineHeight.2xl}",
-                "letterSpacing": "{ob.p.letterSpacing.narrow}"
-              },
-              "type": "typography",
-              "description": "Same as H3 in this compact range scale"
+              "value": "{ob.s.typography.heading.fullScale.H6}",
+              "type": "typography"
             },
             "H5": {
-              "value": {
-                "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.2xl}",
-                "fontWeight": "{ob.p.fontWeight.2}",
-                "lineHeight": "{ob.p.lineHeight.2xl}",
-                "letterSpacing": "{ob.p.letterSpacing.narrow}"
-              },
-              "type": "typography",
-              "description": "Same as H3 in this compact range scale"
+              "value": "{ob.s.typography.heading.fullScale.H6}",
+              "type": "typography"
             },
             "H6": {
-              "value": {
-                "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.2xl}",
-                "fontWeight": "{ob.p.fontWeight.2}",
-                "lineHeight": "{ob.p.lineHeight.2xl}",
-                "letterSpacing": "{ob.p.letterSpacing.narrow}"
-              },
-              "type": "typography",
-              "description": "Same as H3 in this compact range scale"
+              "value": "{ob.s.typography.heading.fullScale.H6}",
+              "type": "typography"
             }
           }
         },
         "label": {
-          "M": {
+          "L": {
             "regular": {
               "value": {
                 "fontFamily": "{ob.p.fontFamily.body}",
@@ -176,7 +103,7 @@
               },
               "type": "typography"
             },
-            "bold": {
+            "strong": {
               "value": {
                 "fontFamily": "{ob.p.fontFamily.body}",
                 "fontSize": "{ob.p.fontSize.sm}",
@@ -198,7 +125,7 @@
               },
               "type": "typography"
             },
-            "bold": {
+            "strong": {
               "value": {
                 "fontFamily": "{ob.p.fontFamily.body}",
                 "fontSize": "{ob.p.fontSize.xs}",
@@ -211,7 +138,7 @@
           }
         },
         "body": {
-          "M": {
+          "L": {
             "default": {
               "value": {
                 "fontFamily": "{ob.p.fontFamily.body}",
@@ -229,7 +156,7 @@
                 "fontSize": "{ob.p.fontSize.base}",
                 "fontWeight": "{ob.p.fontWeight.3}",
                 "lineHeight": "{ob.p.lineHeight.base}",
-                "letterSpacing": "{ob.p.letterSpacing.normal}"
+                "letterSpacing": "{ob.p.letterSpacing.narrow}"
               },
               "type": "typography"
             }
@@ -252,29 +179,6 @@
                 "fontSize": "{ob.p.fontSize.sm}",
                 "fontWeight": "{ob.p.fontWeight.3}",
                 "lineHeight": "{ob.p.lineHeight.sm}",
-                "letterSpacing": "{ob.p.letterSpacing.normal}"
-              },
-              "type": "typography"
-            }
-          },
-          "L": {
-            "default": {
-              "value": {
-                "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.lg}",
-                "fontWeight": "{ob.p.fontWeight.0}",
-                "lineHeight": "{ob.p.lineHeight.lg}",
-                "letterSpacing": "{ob.p.letterSpacing.normal}",
-                "paragraphSpacing": "{ob.p.paragraphSpacing.sm}"
-              },
-              "type": "typography"
-            },
-            "strong": {
-              "value": {
-                "fontFamily": "{ob.p.fontFamily.body}",
-                "fontSize": "{ob.p.fontSize.lg}",
-                "fontWeight": "{ob.p.fontWeight.2}",
-                "lineHeight": "{ob.p.lineHeight.lg}",
                 "letterSpacing": "{ob.p.letterSpacing.normal}"
               },
               "type": "typography"
@@ -323,12 +227,6 @@
           },
           "body": {
             "L": {
-              "bottom": {
-                "value": "{ob.s.typography.spacing.body.default}",
-                "type": "spacing"
-              }
-            },
-            "M": {
               "bottom": {
                 "value": "{ob.s.typography.spacing.body.default}",
                 "type": "spacing"
