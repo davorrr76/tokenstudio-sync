@@ -2,11 +2,6 @@
   "ob": {
     "s": {
       "typography": {
-        "title": {
-          "value": "{ob.s.typography.heading.fullScale.H6}",
-          "type": "typography",
-          "description": "Used for Cards Title. The title has the same size (and other properties) as H4 from the FullScaleHeadings. Reason: Reducing font size increases the overall typography quality."
-        },
         "heading": {
           "fullScale": {
             "H1": {

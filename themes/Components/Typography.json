@@ -5,42 +5,42 @@
         "H1": {
           "value": {
             "typography": "{ob.s.typography.heading.fullScale.H1}",
-            "fill": "{ob.s.color.typography.surfaceDefault.headingBright}"
+            "fill": "{ob.s.color.typography.surfaceDefault.heading.bright}"
           },
           "type": "composition"
         },
         "H2": {
           "value": {
             "typography": "{ob.s.typography.heading.fullScale.H2}",
-            "fill": "{ob.s.color.typography.surfaceDefault.headingBright}"
+            "fill": "{ob.s.color.typography.surfaceDefault.heading.bright}"
           },
           "type": "composition"
         },
         "H3": {
           "value": {
             "typography": "{ob.s.typography.heading.fullScale.H3}",
-            "fill": "{ob.s.color.typography.surfaceDefault.headingBright}"
+            "fill": "{ob.s.color.typography.surfaceDefault.heading.bright}"
           },
           "type": "composition"
         },
         "H4": {
           "value": {
             "typography": "{ob.s.typography.heading.fullScale.H4}",
-            "fill": "{ob.s.color.typography.surfaceDefault.headingBright}"
+            "fill": "{ob.s.color.typography.surfaceDefault.heading.bright}"
           },
           "type": "composition"
         },
         "H5": {
           "value": {
             "typography": "{ob.s.typography.heading.fullScale.H5}",
-            "fill": "{ob.s.color.typography.surfaceDefault.headingBright}"
+            "fill": "{ob.s.color.typography.surfaceDefault.heading.bright}"
           },
           "type": "composition"
         },
         "H6": {
           "value": {
             "typography": "{ob.s.typography.heading.fullScale.H6}",
-            "fill": "{ob.s.color.typography.surfaceDefault.headingDark}"
+            "fill": "{ob.s.color.typography.surfaceDefault.heading.dark}"
           },
           "type": "composition"
         }

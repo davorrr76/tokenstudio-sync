@@ -8,17 +8,25 @@
       "color": {
         "typography": {
           "surfaceDefault": {
-            "headingBright": {
-              "value": "{cobalt.600}",
-              "type": "color"
+            "heading": {
+              "bright": {
+                "value": "{cobalt.600}",
+                "type": "color"
+              },
+              "dark": {
+                "value": "{cobalt.700}",
+                "type": "color"
+              }
             },
-            "headingDark": {
-              "value": "{cobalt.700}",
-              "type": "color"
-            },
-            "bodyDefault": {
-              "value": "{cobalt.900}",
-              "type": "color"
+            "body": {
+              "default": {
+                "value": "{cobalt.900}",
+                "type": "color"
+              },
+              "bright": {
+                "value": "{cobalt.800}",
+                "type": "color"
+              }
             }
           }
         }

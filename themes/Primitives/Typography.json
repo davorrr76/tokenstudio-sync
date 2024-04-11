@@ -9,10 +9,6 @@
         }
       },
       "fontSize": {
-        "_base": {
-          "value": "17",
-          "type": "fontSizes"
-        },
         "xs": {
           "value": "12",
           "type": "fontSizes"
@@ -22,7 +18,7 @@
           "type": "fontSizes"
         },
         "base": {
-          "value": "{ob.p.fontSize._base}",
+          "value": "17",
           "type": "fontSizes"
         },
         "lg": {
@@ -97,35 +93,35 @@
       },
       "lineHeight": {
         "xs": {
-          "value": "16",
+          "value": "4* {ob.p.space.SpaceBase}",
           "type": "lineHeights"
         },
         "sm": {
-          "value": "20",
+          "value": "5* {ob.p.space.SpaceBase}",
           "type": "lineHeights"
         },
         "base": {
-          "value": "24",
+          "value": "6* {ob.p.space.SpaceBase}",
           "type": "lineHeights"
         },
         "lg": {
-          "value": "28",
+          "value": "7* {ob.p.space.SpaceBase}",
           "type": "lineHeights"
         },
         "xl": {
-          "value": "32",
+          "value": "8* {ob.p.space.SpaceBase}",
           "type": "lineHeights"
         },
         "2xl": {
-          "value": "44",
+          "value": "11* {ob.p.space.SpaceBase}",
           "type": "lineHeights"
         },
         "3xl": {
-          "value": "52",
+          "value": "13* {ob.p.space.SpaceBase}",
           "type": "lineHeights"
         },
         "4xl": {
-          "value": "56",
+          "value": "14* {ob.p.space.SpaceBase}",
           "type": "lineHeights"
         }
       },
