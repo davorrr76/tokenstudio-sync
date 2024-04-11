@@ -11,7 +11,8 @@
       "fontSize": {
         "xs": {
           "value": "12",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "They have to be based on {ob.p.space.SpaceBase} so we can scale and be fluid, responsive"
         },
         "sm": {
           "value": "14",
@@ -127,19 +128,19 @@
       },
       "paragraphSpacing": {
         "xs": {
-          "value": "8",
+          "value": "2* {ob.p.space.SpaceBase}",
           "type": "paragraphSpacing"
         },
         "sm": {
-          "value": "12",
+          "value": "3* {ob.p.space.SpaceBase}",
           "type": "paragraphSpacing"
         },
         "base": {
-          "value": "16",
+          "value": "4* {ob.p.space.SpaceBase}",
           "type": "paragraphSpacing"
         },
         "lg": {
-          "value": "20",
+          "value": "5* {ob.p.space.SpaceBase}",
           "type": "paragraphSpacing"
         }
       },

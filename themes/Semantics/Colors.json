@@ -9,7 +9,7 @@
         "typography": {
           "surfaceDefault": {
             "heading": {
-              "bright": {
+              "default": {
                 "value": "{cobalt.600}",
                 "type": "color"
               },

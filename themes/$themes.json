@@ -156,9 +156,9 @@
       "pink.800": "d9de56fc666fa99d5b79120a46c55dfe908aa0b2",
       "pink.900": "fb5d49e0dc240443c6d5a3556cf8469a1ccb5441",
       "brand.red-bund": "a3a557e311da60bb713cc2cd05ae1af93360a222",
-      "ob.s.color.typography.surfaceDefault.heading.bright": "cde6f813e991e2eb4e9cfdc130b3f853bca0bc4e",
       "ob.s.color.typography.surfaceDefault.heading.dark": "c6a9e5b6a022211cb08724def2f7420989efe573",
-      "ob.s.color.typography.surfaceDefault.body.default": "7e4d153496d5cf4150a270f34bdf0b4d101caba0"
+      "ob.s.color.typography.surfaceDefault.body.default": "7e4d153496d5cf4150a270f34bdf0b4d101caba0",
+      "ob.s.color.typography.surfaceDefault.heading.default": "cde6f813e991e2eb4e9cfdc130b3f853bca0bc4e"
     },
     "group": "Primitives"
   },
@@ -304,9 +304,9 @@
       "pink.800": "5e12288588976d707eab56c98cce66f9ec38820e",
       "pink.900": "9392cb127507a5e0311fcbb775dd7714a492d22e",
       "brand.red-bund": "76bf1b327e801e10f2703c44c579e0f39967b376",
-      "ob.s.color.typography.surfaceDefault.heading.bright": "de036be01b4ceda0f7cf7cace6faef5f14a38d63",
       "ob.s.color.typography.surfaceDefault.heading.dark": "37e15946cd59ed818f3258c57c2bc10ce779ec16",
-      "ob.s.color.typography.surfaceDefault.body.default": "4f077d5f50f57ef085db945c14b71e9a27c23b5e"
+      "ob.s.color.typography.surfaceDefault.body.default": "4f077d5f50f57ef085db945c14b71e9a27c23b5e",
+      "ob.s.color.typography.surfaceDefault.heading.default": "de036be01b4ceda0f7cf7cace6faef5f14a38d63"
     }
   }
 ]
