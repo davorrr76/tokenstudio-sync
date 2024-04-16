@@ -1,6 +1,6 @@
 {
   "tempStandardBody": {
-    "value": "{cobalt.800}",
+    "value": "{ob.p.colors.cobalt.800}",
     "type": "color"
   },
   "ob": {
@@ -10,24 +10,128 @@
           "surfaceDefault": {
             "heading": {
               "default": {
-                "value": "{cobalt.600}",
+                "value": "{ob.p.colors.cobalt.600}",
                 "type": "color"
               },
               "dark": {
-                "value": "{cobalt.700}",
+                "value": "{ob.p.colors.cobalt.700}",
                 "type": "color"
               }
             },
             "body": {
-              "default": {
-                "value": "{cobalt.900}",
-                "type": "color"
+              "static": {
+                "default": {
+                  "value": "{ob.p.colors.cobalt.900}",
+                  "type": "color"
+                },
+                "bright": {
+                  "value": "{ob.p.colors.cobalt.800}",
+                  "type": "color"
+                }
               },
-              "bright": {
-                "value": "{cobalt.800}",
-                "type": "color"
+              "link": {
+                "enabled": {
+                  "value": "{ob.p.colors.blue.700}",
+                  "type": "color"
+                },
+                "hover": {
+                  "value": "{ob.p.colors.blue.800}",
+                  "type": "color"
+                },
+                "active": {
+                  "value": "{ob.p.colors.blue.900}",
+                  "type": "color"
+                },
+                "focus": {
+                  "value": "{ob.p.colors.blue.800}",
+                  "type": "color"
+                },
+                "visited": {
+                  "value": "{ob.p.colors.purple.700}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{ob.p.colors.cobalt.300}",
+                  "type": "color"
+                }
               }
             }
+          },
+          "surfaceInverted": {
+            "heading": {
+              "default": {
+                "value": "{ob.p.colors.gray.white}",
+                "type": "color"
+              },
+              "dark": {
+                "value": "{ob.p.colors.cobalt.100}",
+                "type": "color"
+              }
+            },
+            "body": {
+              "static": {
+                "default": {
+                  "value": "{ob.p.colors.gray.white}",
+                  "type": "color"
+                },
+                "darker": {
+                  "value": "{ob.p.colors.cobalt.100}",
+                  "type": "color"
+                }
+              },
+              "link": {
+                "enabled": {
+                  "value": "{ob.p.colors.gray.white}",
+                  "type": "color"
+                },
+                "hover": {
+                  "value": "{ob.p.colors.cobalt.100}",
+                  "type": "color"
+                },
+                "active": {
+                  "value": "{ob.p.colors.gray.white}",
+                  "type": "color"
+                },
+                "focus": {
+                  "value": "{ob.p.colors.gray.white}",
+                  "type": "color"
+                },
+                "visited": {
+                  "value": "{ob.p.colors.cobalt.100}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{ob.p.colors.cobalt.300}",
+                  "type": "color"
+                }
+              }
+            }
+          }
+        },
+        "status": {
+          "info": {
+            "value": "{ob.p.colors.blue.800}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{ob.p.colors.green.700}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{ob.p.colors.red.800}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{ob.p.colors.orange.800}",
+            "type": "color"
+          },
+          "accent": {
+            "value": "{ob.p.colors.brand.red-bund}",
+            "type": "color"
+          },
+          "axFocus": {
+            "value": "{ob.p.colors.indigo.500}",
+            "type": "color"
           }
         }
       }
