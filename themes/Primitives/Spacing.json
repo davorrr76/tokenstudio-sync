@@ -11,19 +11,23 @@
       "spacing": {
         "xs": {
           "value": "{ob.p.space.SpaceBase} * 1",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "The smallest spacing in Oblique. Use it to create distance between icons and text within buttons, chips, and similar elements, where the icon and the text build a semantic entity but need a slight spacing between them for better readability."
         },
         "sm": {
           "value": "{ob.p.space.SpaceBase} * 2",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "The smallest spacing in Oblique. Use it to create distance between icons and text within buttons, chips, and similar elements, where the icon and the text build a semantic entity but need a slight spacing between them for better readability."
         },
         "md": {
           "value": "{ob.p.space.SpaceBase} * 3",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "This spacing is effective for separating sections within cards. It’s also suitable for stacking controls that require a clear distinction without being too far apart, enhancing overall navigability."
         },
         "default": {
           "value": "{ob.p.space.SpaceBase} * 4",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "A standard spacing for broader padding around modal windows, card content, and larger form elements. It provides sufficient breathing room around content blocks, improving readability and focus on individual content elements without overcrowding."
         },
         "lg": {
           "value": "{ob.p.space.SpaceBase} * 6",
@@ -31,11 +35,13 @@
         },
         "xl": {
           "value": "{ob.p.space.SpaceBase} * 8",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "Great for creating more expansive gaps between larger components such as different panels in a layout or between a toolbar and the content below. This spacing can be used to enhance focus on sections of the interface that require user attention."
         },
         "xxl": {
           "value": "{ob.p.space.SpaceBase} * 12",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "The largest spacing, ideal for the most significant separations in your UI, such as between distinct content sections on a page or large screen-wide elements. It creates a strong visual hierarchy, making it easier for users to distinguish between grouped or related content at a glance."
         }
       }
     }
