@@ -5,6 +5,7 @@
     "Primitives/Spacing",
     "Semantics/Colors",
     "Semantics/Typography",
+    "Effects",
     "Components/Typography",
     "Components/Colors",
     "Context/App",
