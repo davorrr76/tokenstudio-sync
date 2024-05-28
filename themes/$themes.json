@@ -52,7 +52,6 @@
       "ob.s.typography.spacing.title.S.bottom": "8d422ba95a2ddeef09f1d203dbed01f811745d00",
       "ob.s.typography.spacing.title.default": "8e441e4a3c7c1ea4e842a5927b6a985183d53c8b",
       "ob.s.typography.colors.headings.h1.color": "4bec0f223acf864f8b9006b835cf67eabd055434",
-      "tempStandardBody": "11ad9a5400997a453a9beabf2b0141b9828152ba",
       "ob.s.color.typography.surfaceDefault.heading.default": "4f52dce655445c54b6261cb5037f31726a3bc495",
       "ob.s.color.typography.surfaceDefault.heading.dark": "96e4b71d5d1dcb8036c3741a503bc1520fe23017",
       "ob.s.color.typography.surfaceDefault.body.static.default": "f376b4d4614dc9c375f384b26ecaf470606a55e6",
@@ -216,7 +215,6 @@
       "ob.s.typography.spacing.title.S.bottom": "ce5f3e3614b9473bd432a1e6223ad26b457c0a23",
       "ob.s.typography.spacing.title.default": "33fef25a6087fee2baad535aef5b40bc84f2c9b1",
       "ob.s.typography.colors.headings.h1.color": "1a69e2724dabd9bd63ff631b1b334019e664b690",
-      "tempStandardBody": "287dd326fbaf91ad7869bc599ee15b538ceef7c9",
       "ob.s.color.typography.surfaceDefault.heading.default": "8be8a586f92b0f9872982f5b8ee5892ecd485a64",
       "ob.s.color.typography.surfaceDefault.heading.dark": "025b7ce69c2bec21ad2baf4fb0b2c37b0ae3bb15",
       "ob.s.color.typography.surfaceDefault.body.static.default": "098404496f562ce9b31b061aed0d0d61bf4baa14",
@@ -373,5 +371,19 @@
       "ob.p.spacing.xl": "5483ae00dca5effb4a54ebf7dc5ccbbf897725ec",
       "ob.p.spacing.xxl": "48ba6c945f443ef5af79cbf5f8ecc4cbb5d7b57d"
     }
+  },
+  {
+    "id": "50eef590f18c879bdd1ed7703991af9ec423b8fb",
+    "name": "Effects",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives/Colors": "enabled",
+      "Primitives/Typography": "enabled",
+      "Primitives/Spacing": "enabled",
+      "Semantics/Colors": "enabled",
+      "Semantics/Typography": "enabled",
+      "Semantics/Shadows": "enabled"
+    },
+    "group": "All 3 tiers"
   }
 ]

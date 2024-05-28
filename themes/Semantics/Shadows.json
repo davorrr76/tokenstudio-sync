@@ -1,0 +1,160 @@
+{
+  "shadow": {
+    "ax-outline": {
+      "value": {
+        "color": "#8655f6",
+        "type": "dropShadow",
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "3"
+      },
+      "type": "boxShadow",
+      "description": "When using the TAB key to navigate web elements, visually highlighting the focus with a CSS box-shadow is key for accessibility and user experience."
+    },
+    "sm": {
+      "value": {
+        "color": "#0000000d",
+        "type": "dropShadow",
+        "x": "0",
+        "y": "1",
+        "blur": "2",
+        "spread": "0"
+      },
+      "type": "boxShadow",
+      "description": "Potentially unused. Validation required with FG."
+    },
+    "md": {
+      "value": [
+        {
+          "color": "#0000000f",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0"
+        },
+        {
+          "color": "#00000014",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1",
+          "blur": "5",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Potentially unused. Validation required with FG."
+    },
+    "default": {
+      "value": [
+        {
+          "color": "#0000000f",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "-1"
+        },
+        {
+          "color": "#00000014",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "4",
+          "blur": "10",
+          "spread": "-1"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Utilize for buttons, the overlay panel of the Select form element, and the components Notification and Popover."
+    },
+    "lg": {
+      "value": [
+        {
+          "color": "#0000000d",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "2",
+          "blur": "6",
+          "spread": "-1"
+        },
+        {
+          "color": "#00000014",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "5",
+          "blur": "20",
+          "spread": "-2"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Employ for modal windows (component Dialog) and the enabled state of the component Card."
+    },
+    "xl": {
+      "value": [
+        {
+          "color": "#0000000a",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "6",
+          "blur": "10",
+          "spread": "-5"
+        },
+        {
+          "color": "#00000017",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "15",
+          "blur": "25",
+          "spread": "-3"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Apply to the hover state of the component Card and the panel of the main navigation (desktop)."
+    },
+    "2xl": {
+      "value": [
+        {
+          "color": "#00000021",
+          "type": "dropShadow",
+          "x": "1",
+          "y": "10",
+          "blur": "70",
+          "spread": "-8"
+        },
+        {
+          "color": "#0000000d",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "10",
+          "blur": "20",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Potentially unused. Validation required with FG."
+    },
+    "main-nav active": {
+      "value": [
+        {
+          "color": "#00000021",
+          "type": "dropShadow",
+          "x": "1",
+          "y": "10",
+          "blur": "70",
+          "spread": "-8"
+        },
+        {
+          "color": "#0000000f",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "10",
+          "blur": "20",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Use for the active item of the main navigation."
+    }
+  }
+}
