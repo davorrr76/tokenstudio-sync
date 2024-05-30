@@ -1,0 +1,24 @@
+{
+  "border": {
+    "default": {
+      "value": "1",
+      "type": "borderWidth"
+    },
+    "stronger": {
+      "value": "2px",
+      "type": "borderWidth"
+    }
+  },
+  "xs": {
+    "value": "2px",
+    "type": "borderRadius"
+  },
+  "s": {
+    "value": "4px",
+    "type": "borderRadius"
+  },
+  "m": {
+    "value": "8px",
+    "type": "borderRadius"
+  }
+}
