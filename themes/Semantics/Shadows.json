@@ -4,24 +4,24 @@
       "shadow": {
         "ax-outline": {
           "value": {
-            "color": "#8655f6",
-            "type": "dropShadow",
             "x": "0",
             "y": "0",
             "blur": "0",
-            "spread": "3"
+            "spread": "3",
+            "color": "{ob.s.color.shadow.focus}",
+            "type": "dropShadow"
           },
           "type": "boxShadow",
           "description": "When using the TAB key to navigate web elements, visually highlighting the focus with an outline (CSS box-shadow) is key for accessibility and UX."
         },
         "sm": {
           "value": {
-            "color": "#131b220d",
-            "type": "dropShadow",
             "x": "0",
             "y": "1",
             "blur": "2",
-            "spread": "0"
+            "spread": "0",
+            "color": "{ob.s.color.shadow.default}0d",
+            "type": "dropShadow"
           },
           "type": "boxShadow",
           "description": "Potentially unused. Validation required with FG."
@@ -29,7 +29,7 @@
         "md": {
           "value": [
             {
-              "color": "#131b220f",
+              "color": "{ob.s.color.shadow.default}0f",
               "type": "dropShadow",
               "x": "0",
               "y": "1",
@@ -37,7 +37,7 @@
               "spread": "0"
             },
             {
-              "color": "#131b2214",
+              "color": "{ob.s.color.shadow.default}14",
               "type": "dropShadow",
               "x": "0",
               "y": "1",
@@ -51,7 +51,7 @@
         "default": {
           "value": [
             {
-              "color": "#131b220f",
+              "color": "{ob.s.color.shadow.default}0f",
               "type": "dropShadow",
               "x": "0",
               "y": "2",
@@ -59,7 +59,7 @@
               "spread": "-1"
             },
             {
-              "color": "#131b2214",
+              "color": "{ob.s.color.shadow.default}14",
               "type": "dropShadow",
               "x": "0",
               "y": "4",
@@ -73,7 +73,7 @@
         "lg": {
           "value": [
             {
-              "color": "#131b220d",
+              "color": "{ob.s.color.shadow.default}0d",
               "type": "dropShadow",
               "x": "0",
               "y": "2",
@@ -81,7 +81,7 @@
               "spread": "-1"
             },
             {
-              "color": "#131b2214",
+              "color": "{ob.s.color.shadow.default}14",
               "type": "dropShadow",
               "x": "0",
               "y": "5",
@@ -95,7 +95,7 @@
         "xl": {
           "value": [
             {
-              "color": "#131b220a",
+              "color": "{ob.s.color.shadow.default}0a",
               "type": "dropShadow",
               "x": "0",
               "y": "6",
@@ -103,7 +103,7 @@
               "spread": "-5"
             },
             {
-              "color": "#131b2217",
+              "color": "{ob.s.color.shadow.default}17",
               "type": "dropShadow",
               "x": "0",
               "y": "15",
@@ -117,7 +117,7 @@
         "2xl": {
           "value": [
             {
-              "color": "#131b2221",
+              "color": "{ob.s.color.shadow.default}21",
               "type": "dropShadow",
               "x": "1",
               "y": "10",
@@ -125,7 +125,7 @@
               "spread": "-8"
             },
             {
-              "color": "#131b220d",
+              "color": "{ob.s.color.shadow.default}0d",
               "type": "dropShadow",
               "x": "0",
               "y": "10",
@@ -139,7 +139,7 @@
           "active": {
             "value": [
               {
-                "color": "#131b2221",
+                "color": "{ob.s.color.shadow.default}21",
                 "type": "dropShadow",
                 "x": "1",
                 "y": "10",
@@ -147,7 +147,7 @@
                 "spread": "-8"
               },
               {
-                "color": "#131b220f",
+                "color": "{ob.s.color.shadow.default}0f",
                 "type": "dropShadow",
                 "x": "0",
                 "y": "10",

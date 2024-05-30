@@ -5,7 +5,7 @@
         "SpaceBase": {
           "value": "4",
           "type": "other",
-          "description": "To ensure that your math equations consistently align with your 4/8 pixel grid, assign the factor token value to that specific integer."
+          "description": "To ensure that your math equations consistently align with your 4/8 pixel grid, assign the factor token value to that specific integer.\nThe place of this token might be not 100% correct. Chech dimensions."
         }
       },
       "spacing": {
@@ -17,7 +17,7 @@
         "sm": {
           "value": "{ob.p.space.SpaceBase} * 2",
           "type": "spacing",
-          "description": "The smallest spacing in Oblique. Use it to create distance between icons and text within buttons, chips, and similar elements, where the icon and the text build a semantic entity but need a slight spacing between them for better readability."
+          "description": "Use this for minimal padding inside smaller components like form fields, list items, or dialog actions. It helps maintain clarity without adding bulk, ideal for grouping related items such as labels and input boxes closely together."
         },
         "md": {
           "value": "{ob.p.space.SpaceBase} * 3",
