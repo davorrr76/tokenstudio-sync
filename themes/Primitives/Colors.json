@@ -126,18 +126,18 @@
             "description": ""
           }
         },
-        "gray": {
+        "basic": {
           "white": {
             "value": "#ffffff",
             "type": "color",
             "parent": "Colors/Mode 1",
             "description": ""
           },
-          "black": {
-            "value": "#000000",
+          "brand": {
+            "value": "#ff0000",
             "type": "color",
-            "parent": "Colors/Mode 1",
-            "description": ""
+            "parent": "Primitives/Colors",
+            "oldValue": "#ff0000"
           }
         },
         "orange": {
@@ -634,15 +634,6 @@
             "type": "color",
             "parent": "Colors/Mode 1",
             "description": ""
-          }
-        },
-        "brand": {
-          "red-bund": {
-            "value": "#ff0000",
-            "type": "color",
-            "parent": "Primitives/Colors",
-            "description": "",
-            "oldValue": "#ff0000"
           }
         }
       }
