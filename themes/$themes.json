@@ -34,8 +34,7 @@
       "Primitives/Spacing": "source",
       "Components/Typography": "enabled",
       "Components/Colors": "enabled",
-      "Primitives/Spacing2": "disabled",
-      "Primitives/Sizing": "disabled"
+      "Primitives/Global": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:37:6227",
     "$figmaModeId": "37:1",
@@ -294,8 +293,7 @@
       "Semantics/Typography": "enabled",
       "Components/Typography": "enabled",
       "Components/Colors": "enabled",
-      "Primitives/Spacing2": "disabled",
-      "Primitives/Sizing": "disabled"
+      "Primitives/Global": "disabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -438,13 +436,6 @@
       "ob.s.color.status.accent.surfaceStandard.bg": "8a7f8ec81a5d4326a7eb8428d25585fe0eaf19a1",
       "ob.s.color.shadow.default": "8fe8910bf83d8ccbf4fc6b0bc86f25ecd1a35c85",
       "ob.s.color.shadow.focus": "e8b846034262a7bd0b712a3dc266e7c2444cd011",
-      "ob.p.spacing.xs": "78a4f1d6af804479239c77a85ee08068a6205055",
-      "ob.p.spacing.sm": "13c2816f474a4bebd26ba2ea25e41cef23129bdd",
-      "ob.p.spacing.md": "37a71921a87398887b687d6651b71cf00466637c",
-      "ob.p.spacing.default": "e10cf8fd9d556bb2c8e132f8c6405196cc875645",
-      "ob.p.spacing.lg": "c040c9ff9256392cd695ca13d6ed4df20f13f2ed",
-      "ob.p.spacing.xl": "a20f06e30861131b5b42643573579b02831473e9",
-      "ob.p.spacing.xxl": "4ba7bb2cbc8d4c5f5a1c1d5d55a6f3b392b97404",
       "ob.p.colors.red.50": "59f6f1552c54f0c863dbd81ec28652ab4352ae15",
       "ob.p.colors.red.100": "c261939fefd401fde2ada6c509c7b14869a92b85",
       "ob.p.colors.red.200": "80f1eabd1645a8947388dedc4a0a1d0e04e54faf",
@@ -546,7 +537,14 @@
       "ob.p.colors.pink.600": "ed58cf972f01408607b49997e79eb606ef95db20",
       "ob.p.colors.pink.700": "619fb03249b07120fb2c4efe241e26228866ae91",
       "ob.p.colors.pink.800": "8293784101f9dc695b8ec8ca19b896ee64ab4be2",
-      "ob.p.colors.pink.900": "7363da8868296b31a426fb6aee25bfd3ba66b308"
+      "ob.p.colors.pink.900": "7363da8868296b31a426fb6aee25bfd3ba66b308",
+      "ob.s.spacing.xs": "78a4f1d6af804479239c77a85ee08068a6205055",
+      "ob.s.spacing.sm": "13c2816f474a4bebd26ba2ea25e41cef23129bdd",
+      "ob.s.spacing.md": "37a71921a87398887b687d6651b71cf00466637c",
+      "ob.s.spacing.default": "e10cf8fd9d556bb2c8e132f8c6405196cc875645",
+      "ob.s.spacing.lg": "c040c9ff9256392cd695ca13d6ed4df20f13f2ed",
+      "ob.s.spacing.xl": "a20f06e30861131b5b42643573579b02831473e9",
+      "ob.s.spacing.xxl": "4ba7bb2cbc8d4c5f5a1c1d5d55a6f3b392b97404"
     }
   },
   {
@@ -555,19 +553,18 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives/Spacing": "enabled",
-      "Primitives/Spacing2": "disabled",
-      "Primitives/Sizing": "disabled"
+      "Primitives/Global": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:37:6226",
     "$figmaModeId": "37:3",
     "$figmaVariableReferences": {
-      "ob.p.spacing.xs": "34ebcdf92f5754dfbe4d5aaa45d8a4a631ae7189",
-      "ob.p.spacing.sm": "050b150f05b0b0958022704def150cafd62c34c0",
-      "ob.p.spacing.md": "e1b2639a8740f0dab4db2899d8bb6865fee5679d",
-      "ob.p.spacing.default": "1f6f0e7dfc23c484ee67333fbdad05816e2dac42",
-      "ob.p.spacing.lg": "ebf62738a8a1463fd60d8c2996b5cce7476a7098",
-      "ob.p.spacing.xl": "5483ae00dca5effb4a54ebf7dc5ccbbf897725ec",
-      "ob.p.spacing.xxl": "48ba6c945f443ef5af79cbf5f8ecc4cbb5d7b57d"
+      "ob.s.spacing.xs": "34ebcdf92f5754dfbe4d5aaa45d8a4a631ae7189",
+      "ob.s.spacing.sm": "050b150f05b0b0958022704def150cafd62c34c0",
+      "ob.s.spacing.md": "e1b2639a8740f0dab4db2899d8bb6865fee5679d",
+      "ob.s.spacing.default": "1f6f0e7dfc23c484ee67333fbdad05816e2dac42",
+      "ob.s.spacing.lg": "ebf62738a8a1463fd60d8c2996b5cce7476a7098",
+      "ob.s.spacing.xl": "5483ae00dca5effb4a54ebf7dc5ccbbf897725ec",
+      "ob.s.spacing.xxl": "48ba6c945f443ef5af79cbf5f8ecc4cbb5d7b57d"
     }
   },
   {
@@ -590,8 +587,7 @@
       "Semantics/Colors": "enabled",
       "Semantics/Typography": "enabled",
       "Semantics/Shadows": "enabled",
-      "Primitives/Spacing2": "disabled",
-      "Primitives/Sizing": "disabled"
+      "Primitives/Global": "disabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -734,13 +730,6 @@
       "ob.s.color.status.accent.surfaceStandard.bg": "8a7f8ec81a5d4326a7eb8428d25585fe0eaf19a1",
       "ob.s.color.shadow.default": "8fe8910bf83d8ccbf4fc6b0bc86f25ecd1a35c85",
       "ob.s.color.shadow.focus": "e8b846034262a7bd0b712a3dc266e7c2444cd011",
-      "ob.p.spacing.xs": "78a4f1d6af804479239c77a85ee08068a6205055",
-      "ob.p.spacing.sm": "13c2816f474a4bebd26ba2ea25e41cef23129bdd",
-      "ob.p.spacing.md": "37a71921a87398887b687d6651b71cf00466637c",
-      "ob.p.spacing.default": "e10cf8fd9d556bb2c8e132f8c6405196cc875645",
-      "ob.p.spacing.lg": "c040c9ff9256392cd695ca13d6ed4df20f13f2ed",
-      "ob.p.spacing.xl": "a20f06e30861131b5b42643573579b02831473e9",
-      "ob.p.spacing.xxl": "4ba7bb2cbc8d4c5f5a1c1d5d55a6f3b392b97404",
       "ob.p.colors.red.50": "59f6f1552c54f0c863dbd81ec28652ab4352ae15",
       "ob.p.colors.red.100": "c261939fefd401fde2ada6c509c7b14869a92b85",
       "ob.p.colors.red.200": "80f1eabd1645a8947388dedc4a0a1d0e04e54faf",
@@ -842,7 +831,14 @@
       "ob.p.colors.pink.600": "ed58cf972f01408607b49997e79eb606ef95db20",
       "ob.p.colors.pink.700": "619fb03249b07120fb2c4efe241e26228866ae91",
       "ob.p.colors.pink.800": "8293784101f9dc695b8ec8ca19b896ee64ab4be2",
-      "ob.p.colors.pink.900": "7363da8868296b31a426fb6aee25bfd3ba66b308"
+      "ob.p.colors.pink.900": "7363da8868296b31a426fb6aee25bfd3ba66b308",
+      "ob.s.spacing.xs": "78a4f1d6af804479239c77a85ee08068a6205055",
+      "ob.s.spacing.sm": "13c2816f474a4bebd26ba2ea25e41cef23129bdd",
+      "ob.s.spacing.md": "37a71921a87398887b687d6651b71cf00466637c",
+      "ob.s.spacing.default": "e10cf8fd9d556bb2c8e132f8c6405196cc875645",
+      "ob.s.spacing.lg": "c040c9ff9256392cd695ca13d6ed4df20f13f2ed",
+      "ob.s.spacing.xl": "a20f06e30861131b5b42643573579b02831473e9",
+      "ob.s.spacing.xxl": "4ba7bb2cbc8d4c5f5a1c1d5d55a6f3b392b97404"
     }
   }
 ]

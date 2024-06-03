@@ -18,7 +18,7 @@
           "value": "14",
           "type": "fontSizes"
         },
-        "base": {
+        "md": {
           "value": "17",
           "type": "fontSizes"
         },
@@ -94,53 +94,57 @@
       },
       "lineHeight": {
         "xs": {
-          "value": "4* {ob.p.space.SpaceBase}",
+          "value": "4* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
         "sm": {
-          "value": "5* {ob.p.space.SpaceBase}",
+          "value": "5* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
-        "base": {
-          "value": "6* {ob.p.space.SpaceBase}",
+        "md": {
+          "value": "6* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
         "lg": {
-          "value": "7* {ob.p.space.SpaceBase}",
+          "value": "7* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
         "xl": {
-          "value": "8* {ob.p.space.SpaceBase}",
+          "value": "8* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
         "2xl": {
-          "value": "11* {ob.p.space.SpaceBase}",
+          "value": "11* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
         "3xl": {
-          "value": "13* {ob.p.space.SpaceBase}",
+          "value": "13* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
         "4xl": {
-          "value": "14* {ob.p.space.SpaceBase}",
+          "value": "14* {ob.p.lineHeight._base}",
+          "type": "lineHeights"
+        },
+        "_base": {
+          "value": "4",
           "type": "lineHeights"
         }
       },
       "paragraphSpacing": {
         "xs": {
-          "value": "2* {ob.p.space.SpaceBase}",
+          "value": "2* {ob.p.lineHeight._base}",
           "type": "paragraphSpacing"
         },
         "sm": {
-          "value": "3* {ob.p.space.SpaceBase}",
+          "value": "3* {ob.p.lineHeight._base}",
           "type": "paragraphSpacing"
         },
         "base": {
-          "value": "4* {ob.p.space.SpaceBase}",
+          "value": "4* {ob.p.lineHeight._base}",
           "type": "paragraphSpacing"
         },
         "lg": {
-          "value": "5* {ob.p.space.SpaceBase}",
+          "value": "5* {ob.p.lineHeight._base}",
           "type": "paragraphSpacing"
         }
       },

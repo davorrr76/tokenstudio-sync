@@ -1,1 +1,8 @@
-{}
+{
+  "scale": {
+    "mult": {
+      "value": "4",
+      "type": "number"
+    }
+  }
+}

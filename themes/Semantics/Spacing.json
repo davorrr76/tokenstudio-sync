@@ -1,6 +1,6 @@
 {
   "ob": {
-    "p": {
+    "s": {
       "spacing": {
         "xs": {
           "value": "{ob.s.spacing.SpaceBase} * 1",

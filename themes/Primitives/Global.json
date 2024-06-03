@@ -1,12 +1,10 @@
 {
-  "border": {
-    "default": {
-      "value": "1px",
-      "type": "dimension"
-    },
-    "thicker": {
-      "value": "2px",
-      "type": "dimension"
+  "ob": {
+    "s": {
+      "superbase": {
+        "value": "{scale.mult} * 1",
+        "type": "number"
+      }
     }
   }
 }
