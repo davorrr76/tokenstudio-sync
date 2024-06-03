@@ -184,7 +184,7 @@
           "heading": {
             "H1": {
               "bottom": {
-                "value": "{ob.p.spacing.default} -1",
+                "value": "{ob.p.spacing.default}",
                 "type": "spacing",
                 "description": "-1 is correction for Figma to stay on the base line grid. It has to be validated in web browser, if a corrections are needed."
               }

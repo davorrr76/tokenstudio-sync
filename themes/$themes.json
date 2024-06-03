@@ -34,7 +34,8 @@
       "Primitives/Spacing": "source",
       "Components/Typography": "enabled",
       "Components/Colors": "enabled",
-      "Primitives/Borders": "disabled"
+      "Primitives/Spacing2": "disabled",
+      "Primitives/Sizing": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:37:6227",
     "$figmaModeId": "37:1",
@@ -293,7 +294,8 @@
       "Semantics/Typography": "enabled",
       "Components/Typography": "enabled",
       "Components/Colors": "enabled",
-      "Primitives/Borders": "disabled"
+      "Primitives/Spacing2": "disabled",
+      "Primitives/Sizing": "disabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -553,7 +555,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives/Spacing": "enabled",
-      "Primitives/Borders": "disabled"
+      "Primitives/Spacing2": "disabled",
+      "Primitives/Sizing": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:37:6226",
     "$figmaModeId": "37:3",
@@ -587,7 +590,8 @@
       "Semantics/Colors": "enabled",
       "Semantics/Typography": "enabled",
       "Semantics/Shadows": "enabled",
-      "Primitives/Borders": "disabled"
+      "Primitives/Spacing2": "disabled",
+      "Primitives/Sizing": "disabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",

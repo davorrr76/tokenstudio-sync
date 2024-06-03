@@ -1,42 +1,42 @@
 {
-  "radii": {
-    "sm": {
-      "value": "{radii.base} * .5",
-      "type": "borderRadius"
-    },
-    "md": {
-      "value": "{radii.base} * 1",
-      "type": "borderRadius"
-    },
-    "lg": {
-      "value": "{radii.base} * 2",
-      "type": "borderRadius"
-    },
-    "none": {
-      "value": "0",
-      "type": "borderRadius"
-    },
-    "round": {
-      "value": "9999",
-      "type": "borderRadius"
-    },
-    "base": {
-      "value": "4",
-      "type": "borderRadius"
-    }
-  },
-  "borderWidth": {
-    "default": {
-      "value": "1",
-      "type": "borderWidth"
-    },
-    "stronger": {
-      "value": "2",
-      "type": "borderWidth"
-    },
-    "none": {
-      "value": "0",
-      "type": "borderWidth"
+  "ob": {
+    "s": {
+      "radii": {
+        "sm": {
+          "value": "{ob.p.radii.50}",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "{ob.p.radii.100}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{ob.p.radii.200}",
+          "type": "borderRadius"
+        },
+        "none": {
+          "value": "{ob.p.radii.none}",
+          "type": "borderRadius"
+        },
+        "round": {
+          "value": "{ob.p.radii.round}",
+          "type": "borderRadius"
+        }
+      },
+      "borderWidth": {
+        "default": {
+          "value": "{ob.p.borderWidth.100}",
+          "type": "borderWidth"
+        },
+        "stronger": {
+          "value": "{ob.p.borderWidth.200}",
+          "type": "borderWidth"
+        },
+        "none": {
+          "value": "{ob.p.borderWidth.none}",
+          "type": "borderWidth"
+        }
+      }
     }
   }
 }

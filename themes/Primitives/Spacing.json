@@ -5,7 +5,7 @@
         "SpaceBase": {
           "value": "4",
           "type": "other",
-          "description": "To ensure that your math equations consistently align with your 4/8 pixel grid, assign the factor token value to that specific integer.\nThe place of this token might be not 100% correct. Chech dimensions."
+          "description": "To ensure that your math equations consistently align with your 4/8 pixel grid, assign the factor token value to that specific integer.\nThe place of this token might be not 100% correct. Check dimensions."
         }
       },
       "spacing": {
