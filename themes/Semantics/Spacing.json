@@ -3,43 +3,48 @@
     "s": {
       "spacing": {
         "xs": {
-          "value": "{ob.s.spacing.SpaceBase} * 1",
+          "value": "{ob.p.space.50}",
           "type": "spacing",
           "description": "The smallest spacing in Oblique. Use it to create distance between icons and text within buttons, chips, and similar elements, where the icon and the text build a semantic entity but need a slight spacing between them for better readability."
         },
         "sm": {
-          "value": "{ob.s.spacing.SpaceBase} * 2",
+          "value": "{ob.p.space.100}",
+          "type": "spacing",
+          "description": "The smallest spacing in Oblique. Use it to create distance between icons and text within buttons, chips, and similar elements, where the icon and the text build a semantic entity but need a slight spacing between them for better readability."
+        },
+        "md": {
+          "value": "{ob.p.space.200}",
           "type": "spacing",
           "description": "Use this for minimal padding inside smaller components like form fields, list items, or dialog actions. It helps maintain clarity without adding bulk, ideal for grouping related items such as labels and input boxes closely together."
         },
-        "md": {
-          "value": "{ob.s.spacing.SpaceBase} * 3",
+        "lg": {
+          "value": "{ob.p.space.300}",
           "type": "spacing",
           "description": "This spacing is effective for separating sections within cards. It’s also suitable for stacking controls that require a clear distinction without being too far apart, enhancing overall navigability."
         },
-        "default": {
-          "value": "{ob.s.spacing.SpaceBase} * 4",
+        "xl": {
+          "value": "{ob.s.spacing._base} * 4",
           "type": "spacing",
           "description": "A standard spacing for broader padding around modal windows, card content, and larger form elements. It provides sufficient breathing room around content blocks, improving readability and focus on individual content elements without overcrowding."
         },
-        "lg": {
-          "value": "{ob.s.spacing.SpaceBase} * 6",
+        "2xl": {
+          "value": "{ob.s.spacing._base} * 6",
           "type": "spacing"
         },
-        "xl": {
-          "value": "{ob.s.spacing.SpaceBase} * 8",
+        "3xl": {
+          "value": "{ob.s.spacing._base} * 8",
           "type": "spacing",
           "description": "Great for creating more expansive gaps between larger components such as different panels in a layout or between a toolbar and the content below. This spacing can be used to enhance focus on sections of the interface that require user attention."
         },
-        "SpaceBase": {
-          "value": "4",
-          "type": "other",
-          "description": "To ensure that your math equations consistently align with your 4/8 pixel grid, assign the factor token value to that specific integer.\nThe place of this token might be not 100% correct. Check dimensions."
-        },
-        "xxl": {
-          "value": "{ob.s.spacing.SpaceBase} * 12",
+        "4xl": {
+          "value": "{ob.s.spacing._base} * 12",
           "type": "spacing",
           "description": "The largest spacing, ideal for the most significant separations in your UI, such as between distinct content sections on a page or large screen-wide elements. It creates a strong visual hierarchy, making it easier for users to distinguish between grouped or related content at a glance."
+        },
+        "_base": {
+          "value": "{ob.s.superbase}",
+          "type": "spacing",
+          "description": "A standard spacing for broader padding around modal windows, card content, and larger form elements. It provides sufficient breathing room around content blocks, improving readability and focus on individual content elements without overcrowding."
         }
       }
     }

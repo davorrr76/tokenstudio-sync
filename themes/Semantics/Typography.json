@@ -184,38 +184,37 @@
           "heading": {
             "H1": {
               "bottom": {
-                "value": "{ob.s.spacing.default}",
-                "type": "spacing",
-                "description": "-1 is correction for Figma to stay on the base line grid. It has to be validated in web browser, if a corrections are needed."
+                "value": "{ob.s.spacing.xl}",
+                "type": "spacing"
               }
             },
             "H2": {
               "bottom": {
-                "value": "{ob.s.spacing.default}",
+                "value": "{ob.s.spacing.xl}",
                 "type": "spacing"
               }
             },
             "H3": {
               "bottom": {
-                "value": "{ob.s.spacing.default}",
+                "value": "{ob.s.spacing.xl}",
                 "type": "spacing"
               }
             },
             "H4": {
               "bottom": {
-                "value": "{ob.s.spacing.default}",
+                "value": "{ob.s.spacing.xl}",
                 "type": "spacing"
               }
             },
             "H5": {
               "bottom": {
-                "value": "{ob.s.spacing.sm}",
+                "value": "{ob.s.spacing.md}",
                 "type": "spacing"
               }
             },
             "H6": {
               "bottom": {
-                "value": "{ob.s.spacing.sm}",
+                "value": "{ob.s.spacing.md}",
                 "type": "spacing"
               }
             }
@@ -234,7 +233,7 @@
               }
             },
             "default": {
-              "value": "{ob.s.spacing.xl}",
+              "value": "{ob.s.spacing.3xl}",
               "type": "spacing"
             }
           },
@@ -258,7 +257,7 @@
               }
             },
             "default": {
-              "value": "{ob.s.spacing.sm}",
+              "value": "{ob.s.spacing.md}",
               "type": "spacing"
             }
           }

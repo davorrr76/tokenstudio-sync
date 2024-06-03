@@ -126,7 +126,7 @@
           "type": "lineHeights"
         },
         "_base": {
-          "value": "4",
+          "value": "{ob.s.superbase}",
           "type": "lineHeights"
         }
       },

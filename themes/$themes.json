@@ -31,10 +31,9 @@
       "Primitives/Colors": "enabled",
       "Semantics/Colors": "enabled",
       "Semantics/Typography": "enabled",
-      "Primitives/Spacing": "source",
       "Components/Typography": "enabled",
       "Components/Colors": "enabled",
-      "Primitives/Global": "disabled"
+      "Primitives/Spacing": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:37:6227",
     "$figmaModeId": "37:1",
@@ -288,12 +287,11 @@
     "selectedTokenSets": {
       "Primitives/Colors": "enabled",
       "Primitives/Typography": "enabled",
-      "Primitives/Spacing": "enabled",
       "Semantics/Colors": "enabled",
       "Semantics/Typography": "enabled",
       "Components/Typography": "enabled",
       "Components/Colors": "enabled",
-      "Primitives/Global": "disabled"
+      "Primitives/Spacing": "disabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -538,13 +536,13 @@
       "ob.p.colors.pink.700": "619fb03249b07120fb2c4efe241e26228866ae91",
       "ob.p.colors.pink.800": "8293784101f9dc695b8ec8ca19b896ee64ab4be2",
       "ob.p.colors.pink.900": "7363da8868296b31a426fb6aee25bfd3ba66b308",
-      "ob.s.spacing.xs": "78a4f1d6af804479239c77a85ee08068a6205055",
-      "ob.s.spacing.sm": "13c2816f474a4bebd26ba2ea25e41cef23129bdd",
-      "ob.s.spacing.md": "37a71921a87398887b687d6651b71cf00466637c",
-      "ob.s.spacing.default": "e10cf8fd9d556bb2c8e132f8c6405196cc875645",
-      "ob.s.spacing.lg": "c040c9ff9256392cd695ca13d6ed4df20f13f2ed",
-      "ob.s.spacing.xl": "a20f06e30861131b5b42643573579b02831473e9",
-      "ob.s.spacing.xxl": "4ba7bb2cbc8d4c5f5a1c1d5d55a6f3b392b97404"
+      "ob.s.spacing.2xl": "c040c9ff9256392cd695ca13d6ed4df20f13f2ed",
+      "ob.s.spacing.3xl": "a20f06e30861131b5b42643573579b02831473e9",
+      "ob.s.spacing.4xl": "4ba7bb2cbc8d4c5f5a1c1d5d55a6f3b392b97404",
+      "ob.s.spacing.xl": "e10cf8fd9d556bb2c8e132f8c6405196cc875645",
+      "ob.s.spacing.md": "13c2816f474a4bebd26ba2ea25e41cef23129bdd",
+      "ob.s.spacing.sm": "78a4f1d6af804479239c77a85ee08068a6205055",
+      "ob.s.spacing.lg": "37a71921a87398887b687d6651b71cf00466637c"
     }
   },
   {
@@ -552,19 +550,18 @@
     "name": "Spacing",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Primitives/Spacing": "enabled",
-      "Primitives/Global": "disabled"
+      "Primitives/Spacing": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:37:6226",
     "$figmaModeId": "37:3",
     "$figmaVariableReferences": {
-      "ob.s.spacing.xs": "34ebcdf92f5754dfbe4d5aaa45d8a4a631ae7189",
-      "ob.s.spacing.sm": "050b150f05b0b0958022704def150cafd62c34c0",
-      "ob.s.spacing.md": "e1b2639a8740f0dab4db2899d8bb6865fee5679d",
-      "ob.s.spacing.default": "1f6f0e7dfc23c484ee67333fbdad05816e2dac42",
-      "ob.s.spacing.lg": "ebf62738a8a1463fd60d8c2996b5cce7476a7098",
-      "ob.s.spacing.xl": "5483ae00dca5effb4a54ebf7dc5ccbbf897725ec",
-      "ob.s.spacing.xxl": "48ba6c945f443ef5af79cbf5f8ecc4cbb5d7b57d"
+      "ob.s.spacing.2xl": "ebf62738a8a1463fd60d8c2996b5cce7476a7098",
+      "ob.s.spacing.3xl": "5483ae00dca5effb4a54ebf7dc5ccbbf897725ec",
+      "ob.s.spacing.4xl": "48ba6c945f443ef5af79cbf5f8ecc4cbb5d7b57d",
+      "ob.s.spacing.xl": "1f6f0e7dfc23c484ee67333fbdad05816e2dac42",
+      "ob.s.spacing.md": "050b150f05b0b0958022704def150cafd62c34c0",
+      "ob.s.spacing.sm": "34ebcdf92f5754dfbe4d5aaa45d8a4a631ae7189",
+      "ob.s.spacing.lg": "e1b2639a8740f0dab4db2899d8bb6865fee5679d"
     }
   },
   {
@@ -583,11 +580,10 @@
     "selectedTokenSets": {
       "Primitives/Colors": "enabled",
       "Primitives/Typography": "enabled",
-      "Primitives/Spacing": "enabled",
       "Semantics/Colors": "enabled",
       "Semantics/Typography": "enabled",
       "Semantics/Shadows": "enabled",
-      "Primitives/Global": "disabled"
+      "Primitives/Spacing": "disabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -832,13 +828,13 @@
       "ob.p.colors.pink.700": "619fb03249b07120fb2c4efe241e26228866ae91",
       "ob.p.colors.pink.800": "8293784101f9dc695b8ec8ca19b896ee64ab4be2",
       "ob.p.colors.pink.900": "7363da8868296b31a426fb6aee25bfd3ba66b308",
-      "ob.s.spacing.xs": "78a4f1d6af804479239c77a85ee08068a6205055",
-      "ob.s.spacing.sm": "13c2816f474a4bebd26ba2ea25e41cef23129bdd",
-      "ob.s.spacing.md": "37a71921a87398887b687d6651b71cf00466637c",
-      "ob.s.spacing.default": "e10cf8fd9d556bb2c8e132f8c6405196cc875645",
-      "ob.s.spacing.lg": "c040c9ff9256392cd695ca13d6ed4df20f13f2ed",
-      "ob.s.spacing.xl": "a20f06e30861131b5b42643573579b02831473e9",
-      "ob.s.spacing.xxl": "4ba7bb2cbc8d4c5f5a1c1d5d55a6f3b392b97404"
+      "ob.s.spacing.2xl": "c040c9ff9256392cd695ca13d6ed4df20f13f2ed",
+      "ob.s.spacing.3xl": "a20f06e30861131b5b42643573579b02831473e9",
+      "ob.s.spacing.4xl": "4ba7bb2cbc8d4c5f5a1c1d5d55a6f3b392b97404",
+      "ob.s.spacing.xl": "e10cf8fd9d556bb2c8e132f8c6405196cc875645",
+      "ob.s.spacing.md": "13c2816f474a4bebd26ba2ea25e41cef23129bdd",
+      "ob.s.spacing.sm": "78a4f1d6af804479239c77a85ee08068a6205055",
+      "ob.s.spacing.lg": "37a71921a87398887b687d6651b71cf00466637c"
     }
   }
 ]

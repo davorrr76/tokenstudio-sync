@@ -1,15 +1,14 @@
 {
   "tokenSetOrder": [
     "Primitives/Global",
+    "Primitives/Spacing",
     "Primitives/Colors",
     "Primitives/Typography",
-    "Primitives/Spacing2",
     "Primitives/Borders",
     "Primitives/Sizing",
-    "Primitives/Spacing",
     "Semantics/Spacing",
-    "Semantics/Borders",
     "Semantics/Colors",
+    "Semantics/Borders",
     "Semantics/Typography",
     "Semantics/Shadows",
     "Components/Typography",
