@@ -831,5 +831,46 @@
       "ob.s.spacing.sm": "78a4f1d6af804479239c77a85ee08068a6205055",
       "ob.s.spacing.lg": "37a71921a87398887b687d6651b71cf00466637c"
     }
+  },
+  {
+    "id": "ac24864e5ad72834027921ab2addfc962cef51dc",
+    "name": "@1024",
+    "$figmaStyleReferences": {
+      "ob.s.typography.heading.fullScale.H1": "S:45983ec2a5e5b356998a03629e1ffaa6407edfe4,",
+      "ob.s.typography.heading.fullScale.H2": "S:750b8fa612e178d1e0fd9c621d601e25c36da021,",
+      "ob.s.typography.heading.fullScale.H3": "S:fdadd96182b2adc3b2a392234e759e839beaeb9f,",
+      "ob.s.typography.heading.fullScale.H4": "S:86691f1c94fa3c89e8fce70ecfe41ab2828de455,",
+      "ob.s.typography.heading.fullScale.H5": "S:c332c0bb71759de55a21c9fc928f958e4f1fbd00,",
+      "ob.s.typography.heading.fullScale.H6": "S:7044ba4d5333ec24d613b4996317277ce3cdcdb8,",
+      "ob.s.typography.heading.compact.H1": "S:0571fe40b697f8ed16f12259a46802d44755cd44,",
+      "ob.s.typography.heading.compact.H2": "S:c7c1a32dce61bf6ef481e568b5a739827dff42f9,",
+      "ob.s.typography.heading.compact.H3": "S:6834ee978813e899223976ea5b0f7c7869b9d85f,",
+      "ob.s.typography.heading.compact.H4": "S:0e9b6d40b64653908218fa4c2a129f6c9e03cb5a,",
+      "ob.s.typography.heading.compact.H5": "S:c9dcf6e6773c61b4a5625165b85515a9e6a8883f,",
+      "ob.s.typography.heading.compact.H6": "S:0279e1fab95e94340caa095d88be629051af4aa7,",
+      "ob.s.typography.label.L.regular": "S:f7318b3d333c1b5c28abcd5d987d3f8edfaa12d3,",
+      "ob.s.typography.label.L.strong": "S:02eacc1fbd347dc8465aa23ea54b1e279af7a691,",
+      "ob.s.typography.label.S.regular": "S:5ee5530acf15d2b94d1531995db223c943dd3c3c,",
+      "ob.s.typography.label.S.strong": "S:9e607bc054af670559a039c80193753f5b2d4998,",
+      "ob.s.typography.body.L.default": "S:3756cd10f38500ba0e612a14dad1002f2b1f7be9,",
+      "ob.s.typography.body.L.strong": "S:d09d0a840a4eb21ce694412c240d8e4248fcbe67,",
+      "ob.s.typography.body.S.default": "S:4cf092d831c9be1443346b59431a7cda962de731,",
+      "ob.s.typography.body.S.strong": "S:6177a8ece7588f24f103ced3fa8f97086366f5d0,"
+    },
+    "selectedTokenSets": {
+      "Media/@1024": "source",
+      "Primitives/Typography": "enabled",
+      "Primitives/Global": "enabled",
+      "Primitives/Spacing": "enabled",
+      "Primitives/Colors": "enabled",
+      "Primitives/Borders": "enabled",
+      "Primitives/Sizing": "enabled",
+      "Semantics/TypographyBase": "enabled",
+      "Semantics/TypographyStyles": "enabled",
+      "Semantics/Spacing": "enabled",
+      "Semantics/Colors": "enabled",
+      "Semantics/Borders": "enabled",
+      "Semantics/Shadows": "enabled"
+    }
   }
 ]

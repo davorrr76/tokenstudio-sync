@@ -12,37 +12,46 @@
       },
       "fontSize": {
         "xs": {
-          "value": "{ob.p.fontSize.100}",
+          "value": "{ob.p.fontSizeUnitless.100}",
           "type": "fontSizes",
           "description": "They have to be based on {ob.p.space.SpaceBase} so we can scale and be fluid, responsive"
         },
         "sm": {
-          "value": "{ob.p.fontSize.200}",
+          "value": "{ob.p.fontSizeUnitless.200}",
           "type": "fontSizes"
         },
         "md": {
-          "value": "{ob.p.fontSize.300}",
+          "value": "{ob.p.fontSizeUnitless.300}",
           "type": "fontSizes"
         },
         "lg": {
-          "value": "{ob.p.fontSize.400}",
+          "value": "{ob.p.fontSizeUnitless.400}",
           "type": "fontSizes"
         },
         "xl": {
-          "value": "{ob.p.fontSize.500}",
+          "value": "{ob.p.fontSizeUnitless.500}",
           "type": "fontSizes"
         },
         "2xl": {
-          "value": "{ob.p.fontSize.700}",
+          "value": "{ob.p.fontSizeUnitless.700}",
           "type": "fontSizes"
         },
         "3xl": {
-          "value": "{ob.p.fontSize.800}",
+          "value": "{ob.p.fontSizeUnitless.800}",
           "type": "fontSizes"
         },
         "4xl": {
-          "value": "{ob.p.fontSize.900}",
+          "value": "{ob.p.fontSizeUnitless.900}",
           "type": "fontSizes"
+        },
+        "_base": {
+          "value": "{ob.p.fontSizeUnitless.300}",
+          "type": "fontSizes"
+        },
+        "experimental": {
+          "value": "{ob.p.fontSizeForRemExperimental.100} rem",
+          "type": "fontSizes",
+          "description": "They have to be based on {ob.p.space.SpaceBase} so we can scale and be fluid, responsive"
         }
       },
       "letterSpacing": {

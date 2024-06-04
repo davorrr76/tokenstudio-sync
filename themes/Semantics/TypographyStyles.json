@@ -90,7 +90,7 @@
               "value": {
                 "fontFamily": "{ob.s.fontFamily.body.corporateFont}",
                 "fontSize": "{ob.s.fontSize.md}",
-                "fontWeight": "{ob.s.fontWeight.bold}",
+                "fontWeight": "{ob.p.fontWeight.300}",
                 "lineHeight": "{ob.s.lineHeight.md}",
                 "letterSpacing": "{ob.s.letterSpacing.narrow}"
               },
@@ -100,7 +100,7 @@
               "value": {
                 "fontFamily": "{ob.s.fontFamily.body.corporateFont}",
                 "fontSize": "{ob.s.fontSize.md}",
-                "fontWeight": "{ob.s.fontWeight.bold}",
+                "fontWeight": "{ob.p.fontWeight.300}",
                 "lineHeight": "{ob.s.lineHeight.md}",
                 "letterSpacing": "{ob.s.letterSpacing.narrow}"
               },

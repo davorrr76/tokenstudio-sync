@@ -8,49 +8,49 @@
           "description": "BIT Corporate Web Font"
         }
       },
-      "fontSize": {
+      "fontSizeUnitless": {
         "100": {
-          "value": "3 * {ob.p.fontSize._base}",
+          "value": "3 * {ob.p.fontSizeUnitless._base}",
           "type": "fontSizes"
         },
         "200": {
-          "value": "3.5 * {ob.p.fontSize._base}",
+          "value": "3.5 * {ob.p.fontSizeUnitless._base}",
           "type": "fontSizes"
         },
         "300": {
-          "value": "4.25 * {ob.p.fontSize._base}",
+          "value": "4.25 * {ob.p.fontSizeUnitless._base}",
           "type": "fontSizes"
         },
         "400": {
-          "value": "5.75 * {ob.p.fontSize._base}",
+          "value": "5.75 * {ob.p.fontSizeUnitless._base}",
           "type": "fontSizes"
         },
         "500": {
-          "value": "7 * {ob.p.fontSize._base}",
+          "value": "7 * {ob.p.fontSizeUnitless._base}",
           "type": "fontSizes"
         },
         "600": {
-          "value": "8.5 * {ob.p.fontSize._base}",
+          "value": "8.5 * {ob.p.fontSizeUnitless._base}",
           "type": "fontSizes"
         },
         "700": {
-          "value": "9.75 * {ob.p.fontSize._base}",
+          "value": "9.75 * {ob.p.fontSizeUnitless._base}",
           "type": "fontSizes"
         },
         "800": {
-          "value": "11.25 * {ob.p.fontSize._base}",
+          "value": "11.25 * {ob.p.fontSizeUnitless._base}",
           "type": "fontSizes"
         },
         "900": {
-          "value": "12.25 * {ob.p.fontSize._base}",
+          "value": "12.25 * {ob.p.fontSizeUnitless._base}",
           "type": "fontSizes"
         },
         "1000": {
-          "value": "14 * {ob.p.fontSize._base}",
+          "value": "14 * {ob.p.fontSizeUnitless._base}",
           "type": "fontSizes"
         },
         "1100": {
-          "value": "15 * {ob.p.fontSize._base}",
+          "value": "15 * {ob.p.fontSizeUnitless._base}",
           "type": "fontSizes"
         },
         "_base": {
@@ -278,6 +278,56 @@
         "_base": {
           "value": "{ob.p.superbase}",
           "type": "lineHeights"
+        }
+      },
+      "fontSizeForRemExperimental": {
+        "100": {
+          "value": "roundTo({ob.p.fontSizeUnitless.100} / 17, 1)",
+          "type": "fontSizes"
+        },
+        "200": {
+          "value": "roundTo({ob.p.fontSizeUnitless.200} / 17, 1)",
+          "type": "fontSizes"
+        },
+        "300": {
+          "value": "roundTo( {ob.p.fontSizeUnitless.300} / 17, 1)",
+          "type": "fontSizes"
+        },
+        "400": {
+          "value": "roundTo({ob.p.fontSizeUnitless.400} / 17, 1)",
+          "type": "fontSizes"
+        },
+        "500": {
+          "value": "roundTo({ob.p.fontSizeUnitless.500} / 17, 1)",
+          "type": "fontSizes"
+        },
+        "600": {
+          "value": "roundTo({ob.p.fontSizeUnitless.600} / 17, 1)",
+          "type": "fontSizes"
+        },
+        "700": {
+          "value": "roundTo( {ob.p.fontSizeUnitless._base} / 17, 1)",
+          "type": "fontSizes"
+        },
+        "800": {
+          "value": "roundTo({ob.p.fontSizeUnitless.800} / 17, 1)",
+          "type": "fontSizes"
+        },
+        "900": {
+          "value": "roundTo( {ob.p.fontSizeUnitless.900} / 17, 1)",
+          "type": "fontSizes"
+        },
+        "1000": {
+          "value": "roundTo( {ob.p.fontSizeUnitless.100} / 17, 1)",
+          "type": "fontSizes"
+        },
+        "1100": {
+          "value": "roundTo({ob.p.fontSizeUnitless.1100} / 17, 1)",
+          "type": "fontSizes"
+        },
+        "_base": {
+          "value": "{ob.p.superbase}",
+          "type": "fontSizes"
         }
       }
     }
