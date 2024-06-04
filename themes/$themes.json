@@ -32,10 +32,8 @@
       "Semantics/TypeBase": "source",
       "Semantics/TypeStyles": "enabled",
       "Components/Form": "enabled",
-      "Master Layout/Header": "disabled",
-      "Master Layout/Navigation": "disabled",
-      "Master Layout/Layout": "disabled",
-      "Master Layout/Footer": "disabled"
+      "Primitives/Z-Index": "disabled",
+      "Primitives/Assets": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:37:6227",
     "$figmaModeId": "37:1",
@@ -292,10 +290,8 @@
       "Semantics/TypeBase": "enabled",
       "Semantics/TypeStyles": "enabled",
       "Components/Form": "enabled",
-      "Master Layout/Header": "disabled",
-      "Master Layout/Navigation": "disabled",
-      "Master Layout/Layout": "disabled",
-      "Master Layout/Footer": "disabled"
+      "Primitives/Z-Index": "disabled",
+      "Primitives/Assets": "disabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -554,10 +550,8 @@
     "name": "Spacing",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Master Layout/Header": "disabled",
-      "Master Layout/Navigation": "disabled",
-      "Master Layout/Layout": "disabled",
-      "Master Layout/Footer": "disabled"
+      "Primitives/Z-Index": "disabled",
+      "Primitives/Assets": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:37:6226",
     "$figmaModeId": "37:3",
@@ -590,10 +584,8 @@
       "Semantics/Shadows": "enabled",
       "Semantics/TypeBase": "enabled",
       "Semantics/TypeStyles": "enabled",
-      "Master Layout/Header": "disabled",
-      "Master Layout/Navigation": "disabled",
-      "Master Layout/Layout": "disabled",
-      "Master Layout/Footer": "disabled"
+      "Primitives/Z-Index": "disabled",
+      "Primitives/Assets": "disabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -886,10 +878,8 @@
       "Semantics/TypeBase": "enabled",
       "Semantics/TypeStyles": "enabled",
       "Primitives/Type": "enabled",
-      "Master Layout/Header": "disabled",
-      "Master Layout/Navigation": "disabled",
-      "Master Layout/Layout": "disabled",
-      "Master Layout/Footer": "disabled"
+      "Primitives/Z-Index": "disabled",
+      "Primitives/Assets": "disabled"
     }
   }
 ]
