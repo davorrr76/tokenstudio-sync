@@ -10,47 +10,51 @@
       },
       "fontSize": {
         "100": {
-          "value": "12",
+          "value": "3 * {ob.p.fontSize._base}",
           "type": "fontSizes"
         },
         "200": {
-          "value": "14",
+          "value": "3.5 * {ob.p.fontSize._base}",
           "type": "fontSizes"
         },
         "300": {
-          "value": "17",
+          "value": "4.25 * {ob.p.fontSize._base}",
           "type": "fontSizes"
         },
         "400": {
-          "value": "23",
+          "value": "5.75 * {ob.p.fontSize._base}",
           "type": "fontSizes"
         },
         "500": {
-          "value": "28",
+          "value": "7 * {ob.p.fontSize._base}",
           "type": "fontSizes"
         },
         "600": {
-          "value": "34",
+          "value": "8.5 * {ob.p.fontSize._base}",
           "type": "fontSizes"
         },
         "700": {
-          "value": "39",
+          "value": "9.75 * {ob.p.fontSize._base}",
           "type": "fontSizes"
         },
         "800": {
-          "value": "45",
+          "value": "11.25 * {ob.p.fontSize._base}",
           "type": "fontSizes"
         },
         "900": {
-          "value": "51",
+          "value": "12.25 * {ob.p.fontSize._base}",
           "type": "fontSizes"
         },
         "1000": {
-          "value": "56",
+          "value": "14 * {ob.p.fontSize._base}",
           "type": "fontSizes"
         },
         "1100": {
-          "value": "60",
+          "value": "15 * {ob.p.fontSize._base}",
+          "type": "fontSizes"
+        },
+        "_base": {
+          "value": "{ob.p.superbase}",
           "type": "fontSizes"
         }
       },
