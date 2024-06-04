@@ -145,11 +145,11 @@
       "type": "sizing"
     },
     "6750": {
-      "value": "{size.base}*67.5",
+      "value": "{size._base}*67.5",
       "type": "sizing"
     },
-    "base": {
-      "value": "8",
+    "_base": {
+      "value": "{ob.p.superbase}",
       "type": "sizing"
     }
   }

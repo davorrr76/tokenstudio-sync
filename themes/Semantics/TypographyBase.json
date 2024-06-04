@@ -8,41 +8,6 @@
           "description": "BIT Corporate Web Font"
         }
       },
-      "fontSize": {
-        "xs": {
-          "value": "12",
-          "type": "fontSizes",
-          "description": "They have to be based on {ob.p.space.SpaceBase} so we can scale and be fluid, responsive"
-        },
-        "sm": {
-          "value": "14",
-          "type": "fontSizes"
-        },
-        "md": {
-          "value": "17",
-          "type": "fontSizes"
-        },
-        "lg": {
-          "value": "23",
-          "type": "fontSizes"
-        },
-        "xl": {
-          "value": "28",
-          "type": "fontSizes"
-        },
-        "2xl": {
-          "value": "39",
-          "type": "fontSizes"
-        },
-        "3xl": {
-          "value": "45",
-          "type": "fontSizes"
-        },
-        "4xl": {
-          "value": "51",
-          "type": "fontSizes"
-        }
-      },
       "letterSpacing": {
         "supernarrow": {
           "value": "-3%",
@@ -118,41 +83,72 @@
       }
     },
     "s": {
+      "fontSize": {
+        "xs": {
+          "value": "{ob.p.fontSize.100}",
+          "type": "fontSizes",
+          "description": "They have to be based on {ob.p.space.SpaceBase} so we can scale and be fluid, responsive"
+        },
+        "sm": {
+          "value": "{ob.p.fontSize.200}",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "{ob.p.fontSize.300}",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{ob.p.fontSize.400}",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "{ob.p.fontSize.500}",
+          "type": "fontSizes"
+        },
+        "2xl": {
+          "value": "{ob.p.fontSize.700}",
+          "type": "fontSizes"
+        },
+        "3xl": {
+          "value": "45",
+          "type": "fontSizes"
+        },
+        "4xl": {
+          "value": "{ob.p.fontSize.900}",
+          "type": "fontSizes"
+        }
+      },
       "lineHeight": {
         "xs": {
-          "value": "4* {ob.p.lineHeight._base}",
+          "value": "{ob.p.lineHeight.300}",
           "type": "lineHeights"
         },
         "sm": {
-          "value": "5* {ob.p.lineHeight._base}",
+          "value": "{ob.p.lineHeight.400}",
           "type": "lineHeights"
         },
         "md": {
-          "value": "6* {ob.p.lineHeight._base}",
+          "value": "{ob.p.lineHeight.500}",
           "type": "lineHeights"
         },
         "lg": {
-          "value": "7* {ob.p.lineHeight._base}",
+          "value": "{ob.p.lineHeight.600}",
           "type": "lineHeights"
         },
         "xl": {
-          "value": "8* {ob.p.lineHeight._base}",
+          "value": "{ob.p.lineHeight.700}",
           "type": "lineHeights"
         },
         "2xl": {
-          "value": "11* {ob.p.lineHeight._base}",
+          "value": "{ob.p.lineHeight.1000}",
           "type": "lineHeights"
         },
         "3xl": {
-          "value": "13* {ob.p.lineHeight._base}",
+          "value": "{ob.p.lineHeight.1200}",
           "type": "lineHeights"
         },
         "4xl": {
-          "value": "14* {ob.p.lineHeight._base}",
-          "type": "lineHeights"
-        },
-        "_base": {
-          "value": "{ob.p.superbase}",
+          "value": "{ob.p.lineHeight.1300}",
           "type": "lineHeights"
         }
       }

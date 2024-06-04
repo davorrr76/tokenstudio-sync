@@ -9,6 +9,50 @@
         }
       },
       "fontSize": {
+        "100": {
+          "value": "12",
+          "type": "fontSizes"
+        },
+        "200": {
+          "value": "14",
+          "type": "fontSizes"
+        },
+        "300": {
+          "value": "17",
+          "type": "fontSizes"
+        },
+        "400": {
+          "value": "23",
+          "type": "fontSizes"
+        },
+        "500": {
+          "value": "28",
+          "type": "fontSizes"
+        },
+        "600": {
+          "value": "34",
+          "type": "fontSizes"
+        },
+        "700": {
+          "value": "39",
+          "type": "fontSizes"
+        },
+        "800": {
+          "value": "45",
+          "type": "fontSizes"
+        },
+        "900": {
+          "value": "51",
+          "type": "fontSizes"
+        },
+        "1000": {
+          "value": "56",
+          "type": "fontSizes"
+        },
+        "1100": {
+          "value": "60",
+          "type": "fontSizes"
+        },
         "xs": {
           "value": "12",
           "type": "fontSizes",
