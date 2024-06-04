@@ -31,8 +31,8 @@
       "Semantics/Colors": "enabled",
       "Components/Typography": "enabled",
       "Components/Colors": "enabled",
-      "Semantics/TypographyBase": "source",
-      "Semantics/TypographyStyles": "enabled"
+      "Semantics/TypeBase": "source",
+      "Semantics/TypeStyles": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:37:6227",
     "$figmaModeId": "37:1",
@@ -288,8 +288,8 @@
       "Semantics/Colors": "enabled",
       "Components/Typography": "enabled",
       "Components/Colors": "enabled",
-      "Semantics/TypographyBase": "enabled",
-      "Semantics/TypographyStyles": "enabled"
+      "Semantics/TypeBase": "enabled",
+      "Semantics/TypeStyles": "enabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -577,8 +577,8 @@
       "Primitives/Colors": "enabled",
       "Semantics/Colors": "enabled",
       "Semantics/Shadows": "enabled",
-      "Semantics/TypographyBase": "enabled",
-      "Semantics/TypographyStyles": "enabled"
+      "Semantics/TypeBase": "enabled",
+      "Semantics/TypeStyles": "enabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -865,12 +865,12 @@
       "Primitives/Colors": "enabled",
       "Primitives/Borders": "enabled",
       "Primitives/Sizing": "enabled",
-      "Semantics/TypographyBase": "enabled",
-      "Semantics/TypographyStyles": "enabled",
       "Semantics/Spacing": "enabled",
       "Semantics/Colors": "enabled",
       "Semantics/Borders": "enabled",
-      "Semantics/Shadows": "enabled"
+      "Semantics/Shadows": "enabled",
+      "Semantics/TypeBase": "enabled",
+      "Semantics/TypeStyles": "enabled"
     }
   }
 ]
