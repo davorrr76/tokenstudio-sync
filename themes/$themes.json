@@ -547,9 +547,7 @@
     "id": "7eb30d2506736115b1f9e28e31b32bc6378ac3c3",
     "name": "Spacing",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Semantics/TypographyStyles": "disabled"
-    },
+    "selectedTokenSets": {},
     "$figmaCollectionId": "VariableCollectionId:37:6226",
     "$figmaModeId": "37:3",
     "$figmaVariableReferences": {
