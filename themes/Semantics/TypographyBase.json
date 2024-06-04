@@ -8,51 +8,24 @@
           "description": "BIT Corporate Web Font"
         }
       },
-      "letterSpacing": {
-        "supernarrow": {
-          "value": "-3%",
-          "type": "letterSpacing",
-          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
-        },
-        "narrower": {
-          "value": "-1.5%",
-          "type": "letterSpacing",
-          "description": "For font size 3x for a more compact visual appearance.\nHas to be convertered to em!"
-        },
-        "narrow": {
-          "value": "-0.5%",
-          "type": "letterSpacing",
-          "description": "For font sizes 2xl for a more compact visual appearance.\nHas to be convertered to em!\n"
-        },
-        "normal": {
-          "value": "0",
-          "type": "letterSpacing",
-          "description": "Default letter spacing for body and labels.\nHas to be convertered to em!"
-        },
-        "wide": {
-          "value": "0.5%",
-          "type": "letterSpacing",
-          "description": "For buttons for a more confortable visual appearance\nHas to be convertered to em!"
-        }
-      },
       "fontWeight": {
         "0": {
           "value": "Regular",
           "type": "fontWeights"
         },
-        "1": {
+        "100": {
           "value": "Medium",
           "type": "fontWeights"
         },
-        "2": {
+        "200": {
           "value": "SemiBold",
           "type": "fontWeights"
         },
-        "3": {
+        "300": {
           "value": "Bold",
           "type": "fontWeights"
         },
-        "4": {
+        "400": {
           "value": "ExtraBold",
           "type": "fontWeights"
         }
@@ -110,12 +83,39 @@
           "type": "fontSizes"
         },
         "3xl": {
-          "value": "45",
+          "value": "{ob.p.fontSize.800}",
           "type": "fontSizes"
         },
         "4xl": {
           "value": "{ob.p.fontSize.900}",
           "type": "fontSizes"
+        }
+      },
+      "letterSpacing": {
+        "superNarrow": {
+          "value": "{ob.p.letterSpacing.neg-300}",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "narrower": {
+          "value": "{ob.p.letterSpacing.neg-150}",
+          "type": "letterSpacing",
+          "description": "For font size 3x for a more compact visual appearance.\nHas to be convertered to em!"
+        },
+        "narrow": {
+          "value": "{ob.p.letterSpacing.neg-50}",
+          "type": "letterSpacing",
+          "description": "For font sizes 2xl for a more compact visual appearance.\nHas to be convertered to em!\n"
+        },
+        "normal": {
+          "value": "{ob.p.letterSpacing.0}",
+          "type": "letterSpacing",
+          "description": "Default letter spacing for body and labels.\nHas to be convertered to em!"
+        },
+        "wide": {
+          "value": "{ob.p.letterSpacing.50}",
+          "type": "letterSpacing",
+          "description": "For buttons for a more confortable visual appearance\nHas to be convertered to em!"
         }
       },
       "lineHeight": {

@@ -55,30 +55,65 @@
         }
       },
       "letterSpacing": {
-        "supernarrow": {
-          "value": "-3%",
+        "0": {
+          "value": "auto",
           "type": "letterSpacing",
           "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
         },
-        "narrower": {
-          "value": "-1.5%",
-          "type": "letterSpacing",
-          "description": "For font size 3x for a more compact visual appearance.\nHas to be convertered to em!"
-        },
-        "narrow": {
-          "value": "-0.5%",
-          "type": "letterSpacing",
-          "description": "For font sizes 2xl for a more compact visual appearance.\nHas to be convertered to em!\n"
-        },
-        "normal": {
-          "value": "0",
-          "type": "letterSpacing",
-          "description": "Default letter spacing for body and labels.\nHas to be convertered to em!"
-        },
-        "wide": {
+        "50": {
           "value": "0.5%",
           "type": "letterSpacing",
-          "description": "For buttons for a more confortable visual appearance\nHas to be convertered to em!"
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "100": {
+          "value": "1%",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "150": {
+          "value": "1.5%",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "200": {
+          "value": "2%",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "250": {
+          "value": "2.5%",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "neg-50": {
+          "value": "-0.5%",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "neg-100": {
+          "value": "-1%",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "neg-150": {
+          "value": "-1.5%",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "neg-200": {
+          "value": "-2%",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "neg-250": {
+          "value": "-2.5%",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "neg-300": {
+          "value": "-3%",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
         }
       },
       "fontWeight": {
@@ -86,19 +121,19 @@
           "value": "Regular",
           "type": "fontWeights"
         },
-        "1": {
+        "100": {
           "value": "Medium",
           "type": "fontWeights"
         },
-        "2": {
+        "200": {
           "value": "SemiBold",
           "type": "fontWeights"
         },
-        "3": {
+        "300": {
           "value": "Bold",
           "type": "fontWeights"
         },
-        "4": {
+        "400": {
           "value": "ExtraBold",
           "type": "fontWeights"
         }
@@ -112,12 +147,12 @@
           "value": "3* {ob.p.lineHeight._base}",
           "type": "paragraphSpacing"
         },
-        "base": {
-          "value": "4* {ob.p.lineHeight._base}",
-          "type": "paragraphSpacing"
-        },
         "lg": {
           "value": "5* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        },
+        "base": {
+          "value": "4* {ob.p.lineHeight._base}",
           "type": "paragraphSpacing"
         }
       },
