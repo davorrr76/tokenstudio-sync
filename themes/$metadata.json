@@ -21,6 +21,10 @@
     "Semantics/Colors",
     "Semantics/Borders",
     "Semantics/Shadows",
+    "Master Layout/Header",
+    "Master Layout/Navigation",
+    "Master Layout/Layout",
+    "Master Layout/Footer",
     "Components/Form",
     "Components/Alert",
     "Components/Autocomplete",
@@ -47,11 +51,6 @@
     "Components/Sticky",
     "Components/Table",
     "Components/Tabs",
-    "Components/Tooltip",
-    "Context/App",
-    "Context/Pub",
-    "Density/High",
-    "Density/Low",
-    "Density/Medium"
+    "Components/Tooltip"
   ]
 }
