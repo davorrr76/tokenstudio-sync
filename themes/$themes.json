@@ -32,8 +32,7 @@
       "Semantics/Colors": "enabled",
       "Semantics/Typography": "enabled",
       "Components/Typography": "enabled",
-      "Components/Colors": "enabled",
-      "Primitives/Spacing": "disabled"
+      "Components/Colors": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:37:6227",
     "$figmaModeId": "37:1",
@@ -290,8 +289,7 @@
       "Semantics/Colors": "enabled",
       "Semantics/Typography": "enabled",
       "Components/Typography": "enabled",
-      "Components/Colors": "enabled",
-      "Primitives/Spacing": "disabled"
+      "Components/Colors": "enabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -549,9 +547,7 @@
     "id": "7eb30d2506736115b1f9e28e31b32bc6378ac3c3",
     "name": "Spacing",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Primitives/Spacing": "disabled"
-    },
+    "selectedTokenSets": {},
     "$figmaCollectionId": "VariableCollectionId:37:6226",
     "$figmaModeId": "37:3",
     "$figmaVariableReferences": {
@@ -582,8 +578,7 @@
       "Primitives/Typography": "enabled",
       "Semantics/Colors": "enabled",
       "Semantics/Typography": "enabled",
-      "Semantics/Shadows": "enabled",
-      "Primitives/Spacing": "disabled"
+      "Semantics/Shadows": "enabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
