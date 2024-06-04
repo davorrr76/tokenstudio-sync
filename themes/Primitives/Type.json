@@ -329,6 +329,24 @@
           "value": "{ob.p.superbase}",
           "type": "fontSizes"
         }
+      },
+      "textcase": {
+        "none": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "uppercase": {
+          "value": "uppercase",
+          "type": "textCase"
+        },
+        "lowercase": {
+          "value": "uppercase",
+          "type": "textCase"
+        },
+        "capitalize": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
       }
     }
   }
