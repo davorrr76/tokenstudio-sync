@@ -2,7 +2,7 @@
   "ob": {
     "p": {
       "fontFamily": {
-        "body": {
+        "corporateFont": {
           "value": "Noto Sans",
           "type": "fontFamilies",
           "description": "BIT Corporate Web Font"
@@ -139,6 +139,38 @@
         }
       },
       "paragraphSpacing": {
+        "50": {
+          "value": "1* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        },
+        "100": {
+          "value": "2* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        },
+        "200": {
+          "value": "3* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        },
+        "300": {
+          "value": "4* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        },
+        "400": {
+          "value": "5* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        },
+        "500": {
+          "value": "6* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        },
+        "600": {
+          "value": "7* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        },
+        "700": {
+          "value": "8* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        },
         "xs": {
           "value": "2* {ob.p.lineHeight._base}",
           "type": "paragraphSpacing"
@@ -147,18 +179,22 @@
           "value": "3* {ob.p.lineHeight._base}",
           "type": "paragraphSpacing"
         },
-        "lg": {
-          "value": "5* {ob.p.lineHeight._base}",
+        "md": {
+          "value": "4* {ob.p.lineHeight._base}",
           "type": "paragraphSpacing"
         },
-        "base": {
-          "value": "4* {ob.p.lineHeight._base}",
+        "lg": {
+          "value": "5* {ob.p.lineHeight._base}",
           "type": "paragraphSpacing"
         }
       },
       "text-decoration": {
-        "textLink": {
+        "underline": {
           "value": "underline",
+          "type": "textDecoration"
+        },
+        "none": {
+          "value": "none",
           "type": "textDecoration"
         }
       },

@@ -1,61 +1,15 @@
 {
   "ob": {
-    "p": {
+    "s": {
       "fontFamily": {
         "body": {
-          "value": "Noto Sans",
-          "type": "fontFamilies",
-          "description": "BIT Corporate Web Font"
+          "corporateFont": {
+            "value": "Noto Sans",
+            "type": "fontFamilies",
+            "description": "BIT Corporate Web Font"
+          }
         }
       },
-      "fontWeight": {
-        "0": {
-          "value": "Regular",
-          "type": "fontWeights"
-        },
-        "100": {
-          "value": "Medium",
-          "type": "fontWeights"
-        },
-        "200": {
-          "value": "SemiBold",
-          "type": "fontWeights"
-        },
-        "300": {
-          "value": "Bold",
-          "type": "fontWeights"
-        },
-        "400": {
-          "value": "ExtraBold",
-          "type": "fontWeights"
-        }
-      },
-      "paragraphSpacing": {
-        "xs": {
-          "value": "2* {ob.p.lineHeight._base}",
-          "type": "paragraphSpacing"
-        },
-        "sm": {
-          "value": "3* {ob.p.lineHeight._base}",
-          "type": "paragraphSpacing"
-        },
-        "base": {
-          "value": "4* {ob.p.lineHeight._base}",
-          "type": "paragraphSpacing"
-        },
-        "lg": {
-          "value": "5* {ob.p.lineHeight._base}",
-          "type": "paragraphSpacing"
-        }
-      },
-      "text-decoration": {
-        "textLink": {
-          "value": "underline",
-          "type": "textDecoration"
-        }
-      }
-    },
-    "s": {
       "fontSize": {
         "xs": {
           "value": "{ob.p.fontSize.100}",
@@ -118,6 +72,28 @@
           "description": "For buttons for a more confortable visual appearance\nHas to be convertered to em!"
         }
       },
+      "fontWeight": {
+        "regular": {
+          "value": "{ob.p.fontWeight.0}",
+          "type": "fontWeights"
+        },
+        "medium": {
+          "value": "{ob.p.fontWeight.100}",
+          "type": "fontWeights"
+        },
+        "semiBold": {
+          "value": "{ob.p.fontWeight.200}",
+          "type": "fontWeights"
+        },
+        "bold": {
+          "value": "{ob.p.fontWeight.300}",
+          "type": "fontWeights"
+        },
+        "extraBold": {
+          "value": "{ob.p.fontWeight.400}",
+          "type": "fontWeights"
+        }
+      },
       "lineHeight": {
         "xs": {
           "value": "{ob.p.lineHeight.300}",
@@ -150,6 +126,34 @@
         "4xl": {
           "value": "{ob.p.lineHeight.1300}",
           "type": "lineHeights"
+        }
+      },
+      "paragraphSpacing": {
+        "xs": {
+          "value": "2* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        },
+        "sm": {
+          "value": "3* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        },
+        "md": {
+          "value": "4* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        },
+        "lg": {
+          "value": "5* {ob.p.lineHeight._base}",
+          "type": "paragraphSpacing"
+        }
+      },
+      "text-decoration": {
+        "bodyLink": {
+          "value": "{ob.p.text-decoration.underline}",
+          "type": "textDecoration"
+        },
+        "ListLink": {
+          "value": "{ob.p.text-decoration.none}",
+          "type": "textDecoration"
         }
       }
     }

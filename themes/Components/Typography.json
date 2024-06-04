@@ -168,35 +168,35 @@
       "textLink": {
         "normal": {
           "value": {
-            "textDecoration": "{ob.p.text-decoration.textLink}",
+            "textDecoration": "{ob.s.text-decoration.bodyLink}",
             "fill": "{tempStandardBody}"
           },
           "type": "composition"
         },
         "hover": {
           "value": {
-            "textDecoration": "{ob.p.text-decoration.textLink}",
+            "textDecoration": "{ob.s.text-decoration.bodyLink}",
             "fill": "{tempStandardBody}"
           },
           "type": "composition"
         },
         "visited": {
           "value": {
-            "textDecoration": "{ob.p.text-decoration.textLink}",
+            "textDecoration": "{ob.s.text-decoration.bodyLink}",
             "fill": "{tempStandardBody}"
           },
           "type": "composition"
         },
         "focus": {
           "value": {
-            "textDecoration": "{ob.p.text-decoration.textLink}",
+            "textDecoration": "{ob.s.text-decoration.bodyLink}",
             "fill": "{tempStandardBody}"
           },
           "type": "composition"
         },
         "active": {
           "value": {
-            "textDecoration": "{ob.p.text-decoration.textLink}",
+            "textDecoration": "{ob.s.text-decoration.bodyLink}",
             "fill": "{tempStandardBody}"
           },
           "type": "composition"
