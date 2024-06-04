@@ -1,6 +1,6 @@
 {
   "ob": {
-    "s": {
+    "p": {
       "superbase": {
         "value": "{scale.mult} * 1",
         "type": "number"

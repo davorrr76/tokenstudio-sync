@@ -75,7 +75,7 @@
           "type": "spacing"
         },
         "_base": {
-          "value": "{ob.s.superbase}",
+          "value": "{ob.p.superbase}",
           "type": "spacing"
         }
       }

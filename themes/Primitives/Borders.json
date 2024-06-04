@@ -55,7 +55,7 @@
           "type": "borderRadius"
         },
         "_base": {
-          "value": "{ob.s.superbase}",
+          "value": "{ob.p.superbase}",
           "type": "borderRadius"
         }
       },
@@ -81,7 +81,7 @@
           "type": "borderWidth"
         },
         "_base": {
-          "value": "{ob.s.superbase}",
+          "value": "{ob.p.superbase}",
           "type": "borderWidth"
         }
       }

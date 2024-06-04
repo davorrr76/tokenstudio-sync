@@ -115,78 +115,40 @@
           "value": "underline",
           "type": "textDecoration"
         }
-      },
+      }
+    },
+    "s": {
       "lineHeight": {
-        "50": {
-          "value": "1* {ob.p.lineHeight._base}",
-          "type": "lineHeights"
-        },
-        "100": {
-          "value": "2* {ob.p.lineHeight._base}",
-          "type": "lineHeights"
-        },
-        "200": {
-          "value": "3* {ob.p.lineHeight._base}",
-          "type": "lineHeights"
-        },
-        "300": {
+        "xs": {
           "value": "4* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
-        "400": {
+        "sm": {
           "value": "5* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
-        "500": {
+        "md": {
           "value": "6* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
-        "600": {
+        "lg": {
           "value": "7* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
-        "700": {
+        "xl": {
           "value": "8* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
-        "800": {
-          "value": "9* {ob.p.lineHeight._base}",
-          "type": "lineHeights"
-        },
-        "900": {
-          "value": "10* {ob.p.lineHeight._base}",
-          "type": "lineHeights"
-        },
-        "1000": {
+        "2xl": {
           "value": "11* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
-        "1100": {
-          "value": "12* {ob.p.lineHeight._base}",
-          "type": "lineHeights"
-        },
-        "1200": {
+        "3xl": {
           "value": "13* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
-        "1300": {
+        "4xl": {
           "value": "14* {ob.p.lineHeight._base}",
-          "type": "lineHeights"
-        },
-        "1400": {
-          "value": "15* {ob.p.lineHeight._base}",
-          "type": "lineHeights"
-        },
-        "1500": {
-          "value": "16* {ob.p.lineHeight._base}",
-          "type": "lineHeights"
-        },
-        "1600": {
-          "value": "17* {ob.p.lineHeight._base}",
-          "type": "lineHeights"
-        },
-        "1700": {
-          "value": "18* {ob.p.lineHeight._base}",
           "type": "lineHeights"
         },
         "_base": {

@@ -27,12 +27,13 @@
       "ob.s.typography.heading.compact.H6": "S:ad942119a4c8977ebfbf1465f66ccc460d8aeecf,"
     },
     "selectedTokenSets": {
-      "Primitives/Typography": "source",
       "Primitives/Colors": "enabled",
       "Semantics/Colors": "enabled",
       "Semantics/Typography": "enabled",
       "Components/Typography": "enabled",
-      "Components/Colors": "enabled"
+      "Components/Colors": "enabled",
+      "Primitives/Typography": "disabled",
+      "Semantics/TypographyBase": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:37:6227",
     "$figmaModeId": "37:1",
@@ -285,11 +286,12 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives/Colors": "enabled",
-      "Primitives/Typography": "enabled",
       "Semantics/Colors": "enabled",
       "Semantics/Typography": "enabled",
       "Components/Typography": "enabled",
-      "Components/Colors": "enabled"
+      "Components/Colors": "enabled",
+      "Primitives/Typography": "disabled",
+      "Semantics/TypographyBase": "enabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -547,7 +549,10 @@
     "id": "7eb30d2506736115b1f9e28e31b32bc6378ac3c3",
     "name": "Spacing",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "Primitives/Typography": "disabled",
+      "Semantics/TypographyBase": "disabled"
+    },
     "$figmaCollectionId": "VariableCollectionId:37:6226",
     "$figmaModeId": "37:3",
     "$figmaVariableReferences": {
@@ -575,10 +580,11 @@
     },
     "selectedTokenSets": {
       "Primitives/Colors": "enabled",
-      "Primitives/Typography": "enabled",
       "Semantics/Colors": "enabled",
       "Semantics/Typography": "enabled",
-      "Semantics/Shadows": "enabled"
+      "Semantics/Shadows": "enabled",
+      "Primitives/Typography": "disabled",
+      "Semantics/TypographyBase": "enabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
