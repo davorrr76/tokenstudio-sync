@@ -207,13 +207,13 @@
         "body": {
           "L": {
             "bottom": {
-              "value": "{ob.s.typography.spacing.body.default}",
+              "value": "{ob.s.spacing.body.default}",
               "type": "spacing"
             }
           },
           "S": {
             "bottom": {
-              "value": "{ob.s.typography.spacing.body.default}",
+              "value": "{ob.s.spacing.body.default}",
               "type": "spacing"
             }
           },
@@ -225,19 +225,19 @@
         "title": {
           "L": {
             "bottom": {
-              "value": "{ob.s.typography.spacing.title.default}",
+              "value": "ob.s.spacing.title.default",
               "type": "spacing"
             }
           },
           "M": {
             "bottom": {
-              "value": "{ob.s.typography.spacing.title.default}",
+              "value": "ob.s.spacing.title.default",
               "type": "spacing"
             }
           },
           "S": {
             "bottom": {
-              "value": "{ob.s.typography.spacing.title.default}",
+              "value": "ob.s.spacing.title.default",
               "type": "spacing"
             }
           },
