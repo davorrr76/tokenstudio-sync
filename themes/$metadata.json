@@ -46,10 +46,10 @@
     "Components/Table",
     "Components/Tabs",
     "Components/Tooltip",
-    "Overrides/Media/@360-xs",
-    "Overrides/Media/@720-sm",
-    "Overrides/Media/@1080-md",
-    "Overrides/Media/@1440-lg",
-    "Overrides/Media/@1920-xl"
+    "Overrides/Breakpoints/@360-xs",
+    "Overrides/Breakpoints/@720-sm",
+    "Overrides/Breakpoints/@1080-md",
+    "Overrides/Breakpoints/@1440-lg",
+    "Overrides/Breakpoints/@1920-xl"
   ]
 }
