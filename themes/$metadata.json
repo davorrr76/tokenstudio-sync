@@ -1,14 +1,5 @@
 {
   "tokenSetOrder": [
-    "Media/@360",
-    "Media/@480",
-    "Media/@640",
-    "Media/@768",
-    "Media/@1024",
-    "Media/@1280",
-    "Media/@1544",
-    "Media/@1676",
-    "Media/@1920",
     "Primitives/Global",
     "Primitives/Sizing",
     "Primitives/Spacing",
@@ -54,6 +45,11 @@
     "Components/Sticky",
     "Components/Table",
     "Components/Tabs",
-    "Components/Tooltip"
+    "Components/Tooltip",
+    "Overrides/Media/@360-xs",
+    "Overrides/Media/@720-sm",
+    "Overrides/Media/@1080-md",
+    "Overrides/Media/@1440-lg",
+    "Overrides/Media/@1920-xl"
   ]
 }

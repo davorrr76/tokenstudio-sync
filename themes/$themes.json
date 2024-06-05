@@ -31,7 +31,12 @@
       "Semantics/Colors": "enabled",
       "Semantics/TypeBase": "source",
       "Semantics/TypeStyles": "enabled",
-      "Components/Form": "enabled"
+      "Components/Form": "enabled",
+      "Overrides/Media/@360-xs": "disabled",
+      "Overrides/Media/@720-sm": "disabled",
+      "Overrides/Media/@1080-md": "disabled",
+      "Overrides/Media/@1440-lg": "disabled",
+      "Overrides/Media/@1920-xl": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:37:6227",
     "$figmaModeId": "37:1",
@@ -287,7 +292,12 @@
       "Semantics/Colors": "enabled",
       "Semantics/TypeBase": "enabled",
       "Semantics/TypeStyles": "enabled",
-      "Components/Form": "enabled"
+      "Components/Form": "enabled",
+      "Overrides/Media/@360-xs": "disabled",
+      "Overrides/Media/@720-sm": "disabled",
+      "Overrides/Media/@1080-md": "disabled",
+      "Overrides/Media/@1440-lg": "disabled",
+      "Overrides/Media/@1920-xl": "disabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -545,7 +555,13 @@
     "id": "7eb30d2506736115b1f9e28e31b32bc6378ac3c3",
     "name": "Spacing",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "Overrides/Media/@360-xs": "disabled",
+      "Overrides/Media/@720-sm": "disabled",
+      "Overrides/Media/@1080-md": "disabled",
+      "Overrides/Media/@1440-lg": "disabled",
+      "Overrides/Media/@1920-xl": "disabled"
+    },
     "$figmaCollectionId": "VariableCollectionId:37:6226",
     "$figmaModeId": "37:3",
     "$figmaVariableReferences": {
@@ -576,7 +592,12 @@
       "Semantics/Colors": "enabled",
       "Semantics/Shadows": "enabled",
       "Semantics/TypeBase": "enabled",
-      "Semantics/TypeStyles": "enabled"
+      "Semantics/TypeStyles": "enabled",
+      "Overrides/Media/@360-xs": "disabled",
+      "Overrides/Media/@720-sm": "disabled",
+      "Overrides/Media/@1080-md": "disabled",
+      "Overrides/Media/@1440-lg": "disabled",
+      "Overrides/Media/@1920-xl": "disabled"
     },
     "group": "All 3 tiers",
     "$figmaCollectionId": "VariableCollectionId:37:6372",
@@ -856,7 +877,6 @@
       "ob.s.typography.body.S.strong": "S:6177a8ece7588f24f103ced3fa8f97086366f5d0,"
     },
     "selectedTokenSets": {
-      "Media/@1024": "source",
       "Primitives/Global": "enabled",
       "Primitives/Spacing": "enabled",
       "Primitives/Colors": "enabled",
@@ -871,7 +891,12 @@
       "Primitives/Type": "enabled",
       "Semantics/Z-Index": "enabled",
       "Primitives/Z-Index": "enabled",
-      "Primitives/Assets": "enabled"
+      "Primitives/Assets": "enabled",
+      "Overrides/Media/@360-xs": "disabled",
+      "Overrides/Media/@720-sm": "disabled",
+      "Overrides/Media/@1080-md": "source",
+      "Overrides/Media/@1440-lg": "disabled",
+      "Overrides/Media/@1920-xl": "disabled"
     }
   }
 ]
