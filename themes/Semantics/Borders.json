@@ -2,6 +2,10 @@
   "ob": {
     "s": {
       "radii": {
+        "none": {
+          "value": "{ob.p.radii.none}",
+          "type": "borderRadius"
+        },
         "sm": {
           "value": "{ob.p.radii.50}",
           "type": "borderRadius"
@@ -12,10 +16,6 @@
         },
         "lg": {
           "value": "{ob.p.radii.200}",
-          "type": "borderRadius"
-        },
-        "none": {
-          "value": "{ob.p.radii.none}",
           "type": "borderRadius"
         },
         "round": {
