@@ -36,6 +36,64 @@
           "value": "{ob.p.borderWidth.none}",
           "type": "borderWidth"
         }
+      },
+      "corners": {
+        "bottom": {
+          "sm": {
+            "value": "0 0 {ob.s.radii.sm} {ob.s.radii.sm}",
+            "type": "borderRadius"
+          },
+          "md": {
+            "value": "0 0 {ob.s.radii.md} {ob.s.radii.md}",
+            "type": "borderRadius"
+          },
+          "lg": {
+            "value": "0 0 {ob.s.radii.lg} {ob.s.radii.lg}",
+            "type": "borderRadius"
+          }
+        },
+        "top": {
+          "sm": {
+            "value": "{ob.s.radii.sm} {ob.s.radii.sm} 0 0",
+            "type": "borderRadius"
+          },
+          "md": {
+            "value": "{ob.s.radii.md} {ob.s.radii.md} 0 0",
+            "type": "borderRadius"
+          },
+          "lg": {
+            "value": "{ob.s.radii.lg} {ob.s.radii.lg} 0 0",
+            "type": "borderRadius"
+          }
+        },
+        "left": {
+          "sm": {
+            "value": "{ob.s.radii.sm} 0 0 {ob.s.radii.sm}",
+            "type": "borderRadius"
+          },
+          "md": {
+            "value": "{ob.s.radii.md} 0 0 {ob.s.radii.md}",
+            "type": "borderRadius"
+          },
+          "lg": {
+            "value": "{ob.s.radii.lg} 0 0 {ob.s.radii.lg}",
+            "type": "borderRadius"
+          }
+        },
+        "right": {
+          "sm": {
+            "value": "0 {ob.s.radii.sm}  {ob.s.radii.sm} 0",
+            "type": "borderRadius"
+          },
+          "md": {
+            "value": "0 {ob.s.radii.md} {ob.s.radii.md} 0",
+            "type": "borderRadius"
+          },
+          "lg": {
+            "value": "0 {ob.s.radii.lg} {ob.s.radii.lg} 0",
+            "type": "borderRadius"
+          }
+        }
       }
     }
   }

@@ -1,9 +1,10 @@
 {
   "ob": {
     "p": {
-      "superbase": {
+      "scaleBase": {
         "value": "{scale.mult} * 1",
-        "type": "number"
+        "type": "number",
+        "description": "This resizes the entire design system"
       }
     }
   }

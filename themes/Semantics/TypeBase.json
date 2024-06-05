@@ -48,10 +48,10 @@
           "value": "{ob.p.fontSizeUnitless.300}",
           "type": "fontSizes"
         },
-        "experimental": {
+        "experimentalRem": {
           "value": "{ob.p.fontSizeForRemExperimental.100} rem",
           "type": "fontSizes",
-          "description": "They have to be based on {ob.p.space.SpaceBase} so we can scale and be fluid, responsive"
+          "description": "This is an experiment with REM unit. has to be validated. maybe the units should be assigned in the style dictionary"
         }
       },
       "letterSpacing": {

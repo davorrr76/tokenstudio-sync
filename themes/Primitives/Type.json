@@ -54,7 +54,7 @@
           "type": "fontSizes"
         },
         "_base": {
-          "value": "{ob.p.superbase}",
+          "value": "{ob.p.scaleBase}",
           "type": "fontSizes"
         }
       },
@@ -276,7 +276,7 @@
           "type": "lineHeights"
         },
         "_base": {
-          "value": "{ob.p.superbase}",
+          "value": "{ob.p.scaleBase}",
           "type": "lineHeights"
         }
       },
@@ -326,7 +326,7 @@
           "type": "fontSizes"
         },
         "_base": {
-          "value": "{ob.p.superbase}",
+          "value": "{ob.p.scaleBase}",
           "type": "fontSizes"
         }
       },
