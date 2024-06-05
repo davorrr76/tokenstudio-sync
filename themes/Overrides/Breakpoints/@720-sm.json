@@ -6,6 +6,10 @@
           "value": "3.8",
           "type": "number"
         }
+      },
+      "viewport": {
+        "value": "720",
+        "type": "number"
       }
     },
     "activeViewport": {

@@ -11,10 +11,6 @@
         "value": "1920",
         "type": "number"
       }
-    },
-    "activeViewport": {
-      "value": "{ob.p.breakpoint.xl}",
-      "type": "other"
     }
   }
 }
