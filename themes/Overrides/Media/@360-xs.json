@@ -4,5 +4,11 @@
       "value": "3.5",
       "type": "number"
     }
+  },
+  "ob": {
+    "activeViewport": {
+      "value": "{ob.p.breakpoint.xs}",
+      "type": "other"
+    }
   }
 }
