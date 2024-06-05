@@ -2,7 +2,7 @@
   "ob": {
     "p": {
       "scaleBase": {
-        "value": "{scale.mult} * 1",
+        "value": "{ob.p.scale.mult} * 1",
         "type": "number",
         "description": "This resizes the entire design system"
       },
@@ -32,6 +32,10 @@
           "type": "Breakpoint",
           "description": "Extra large devices, large desktops"
         }
+      },
+      "viewport": {
+        "value": "1080",
+        "type": "number"
       }
     }
   }

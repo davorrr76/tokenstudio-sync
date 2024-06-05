@@ -1,11 +1,17 @@
 {
-  "scale": {
-    "mult": {
-      "value": "5",
-      "type": "number"
-    }
-  },
   "ob": {
+    "p": {
+      "scale": {
+        "mult": {
+          "value": "5",
+          "type": "number"
+        }
+      },
+      "viewport": {
+        "value": "1920",
+        "type": "number"
+      }
+    },
     "activeViewport": {
       "value": "{ob.p.breakpoint.xl}",
       "type": "other"

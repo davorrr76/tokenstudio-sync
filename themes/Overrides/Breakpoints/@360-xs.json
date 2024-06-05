@@ -1,11 +1,13 @@
 {
-  "scale": {
-    "mult": {
-      "value": "3.5",
-      "type": "number"
-    }
-  },
   "ob": {
+    "p": {
+      "scale": {
+        "mult": {
+          "value": "3.5",
+          "type": "number"
+        }
+      }
+    },
     "activeViewport": {
       "value": "{ob.p.breakpoint.xs}",
       "type": "other"
