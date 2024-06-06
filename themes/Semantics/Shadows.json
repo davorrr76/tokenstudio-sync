@@ -12,7 +12,7 @@
             "type": "dropShadow"
           },
           "type": "boxShadow",
-          "description": "When using the TAB key to navigate web elements, visually highlighting the focus with an outline (CSS box-shadow) is key for accessibility and UX."
+          "description": "When using the TAB key to navigate web elements, visually highlighting the focus with an outline (made with CSS box-shadow in our case) is key for accessibility and UX."
         },
         "sm": {
           "value": {
