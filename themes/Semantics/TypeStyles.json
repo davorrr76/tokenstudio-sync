@@ -133,10 +133,10 @@
             "regular": {
               "value": {
                 "fontFamily": "{ob.s.fontFamily.body.corporateFont}",
-                "fontSize": "{ob.s.fontSize.sm}",
                 "fontWeight": "{ob.s.fontWeight.medium}",
                 "lineHeight": "{ob.s.lineHeight.sm}",
-                "letterSpacing": "{ob.s.letterSpacing.normal}"
+                "letterSpacing": "{ob.s.letterSpacing.normal}",
+                "fontSize": "{ob.s.fontSize.sm}"
               },
               "type": "typography"
             },
