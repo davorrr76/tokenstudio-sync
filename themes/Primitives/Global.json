@@ -36,6 +36,12 @@
       "viewport": {
         "value": "1080",
         "type": "number"
+      },
+      "scale": {
+        "mult": {
+          "value": "4",
+          "type": "number"
+        }
       }
     }
   }
