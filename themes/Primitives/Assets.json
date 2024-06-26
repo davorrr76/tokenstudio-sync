@@ -15,6 +15,12 @@
             "value": "logo-highcontrast.svg",
             "type": "asset"
           }
+        },
+        "icon": {
+          "size": {
+            "value": "24",
+            "type": "asset"
+          }
         }
       }
     }
