@@ -1,0 +1,14 @@
+{
+  "ob": {
+    "c": {
+      "notification-inline": {
+        "icon": {
+          "size": {
+            "value": "{ob.s.icon.size.md}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}

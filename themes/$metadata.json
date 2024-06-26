@@ -21,7 +21,7 @@
     "Master Layout/Layout",
     "Master Layout/Footer",
     "Components/Form",
-    "Components/Alert",
+    "Components/Notification-inline",
     "Components/Autocomplete",
     "Components/Badge",
     "Components/Breadcrumb",

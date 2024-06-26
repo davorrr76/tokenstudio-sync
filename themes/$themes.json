@@ -50,11 +50,13 @@
       "Semantics/Shadows": "enabled",
       "Semantics/Z-Index": "enabled",
       "Semantics/Assets": "enabled",
-      "Semantics/Icons": "enabled"
+      "Semantics/Icons": "enabled",
+      "Components/Notification-inline": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2002:4975",
     "$figmaModeId": "2002:36",
     "$figmaVariableReferences": {
+      "ob.c.notification-inline.icon.size": "52c416e8b3a834b4fdecaeab5f418e2545259cbf",
       "ob.s.zindex.stepperMobile": "a6fae050f374247af77544a605a1a10f1ace8c34",
       "ob.s.zindex.header": "0ac43481efc56c43d5c93b421fecf52a02e8918c",
       "ob.s.zindex.drawer": "05289e54a14085decaf2efcf7d01519f46712aba",
