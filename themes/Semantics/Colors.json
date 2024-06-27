@@ -580,8 +580,8 @@
               }
             },
             "surfaceInverted": {
-              "bgLight": {
-                "value": "{ob.p.colors.red.100}",
+              "bg": {
+                "value": "{ob.p.colors.red.800}",
                 "type": "color"
               },
               "fg": {

@@ -57,6 +57,9 @@
     "$figmaModeId": "2002:36",
     "$figmaVariableReferences": {
       "ob.c.notification-inline.icon.size": "52c416e8b3a834b4fdecaeab5f418e2545259cbf",
+      "ob.c.notification-inline.icon.paddingLeft": "e53c93ba0d5a2708378e387f6343e318fec542c5",
+      "ob.c.notification-inline.icon.paddingTop": "baaab238353c24e04a2cbad9f5aa54ac993dba65",
+      "ob.c.notification-inline.lineVertical.size": "c9a7279f11deb766865577504c081c05d9e6bff1",
       "ob.s.zindex.stepperMobile": "a6fae050f374247af77544a605a1a10f1ace8c34",
       "ob.s.zindex.header": "0ac43481efc56c43d5c93b421fecf52a02e8918c",
       "ob.s.zindex.drawer": "05289e54a14085decaf2efcf7d01519f46712aba",
@@ -185,7 +188,6 @@
       "ob.s.color.status.warning.surfaceInverted.fg": "5aaacd2bc64f39586557f36e6d05490cce912067",
       "ob.s.color.status.error.surfaceStandard.bg": "e66936f1dafba371fea93bbbbaad7f4e24784769",
       "ob.s.color.status.error.surfaceStandard.fg": "243938963ddd48b8a10eeff8f6fc65d98bd26b9d",
-      "ob.s.color.status.error.surfaceInverted.bgLight": "9ff14f115bc6003c627c6507fa4d034aa4a9d343",
       "ob.s.color.status.error.surfaceInverted.fg": "51abb0c9ffc9c14a835eb671da5300208fd13d92",
       "ob.s.color.status.success.surfaceStandard.bg": "664b0bed11bbe55da3c75e7a40d3cb20af4fa323",
       "ob.s.color.status.success.surfaceStandard.fg": "dd380cd4531c8becd0e646400ef48ca6e4ee8a3a",
@@ -220,7 +222,11 @@
       "ob.s.icon.size.md": "cd168da25f84a9912326242f1cee25d4f57f3e36",
       "ob.s.icon.size.lg": "83494a4e37e9acddc9a0b3d650f97d91157d30a8",
       "ob.s.icon.size.xl": "5087398d893630cdc76645a3a00049db39121c37",
-      "ob.s.icon.size.2xl": "b1855bcb8917a38545467b5cfaf60877c1253456"
+      "ob.s.icon.size.2xl": "b1855bcb8917a38545467b5cfaf60877c1253456",
+      "ob.c.notification-inline.icon.info.color": "f3825cbffecc5396c1bbad2711c2414777c0c7a6",
+      "ob.c.notification-inline.lineVertical.info.color": "625f9f194d934008d77483f1325dbe2a20c96bfa",
+      "ob.c.notification-inline.surface.bgColor.info.bgColor": "8433c144cf62d1d9fd345afb7038a2f4a587052f",
+      "ob.s.color.status.error.surfaceInverted.bg": "9ff14f115bc6003c627c6507fa4d034aa4a9d343"
     },
     "group": "Core"
   },

@@ -6,7 +6,111 @@
           "size": {
             "value": "{ob.s.icon.size.md}",
             "type": "sizing"
+          },
+          "info": {
+            "color": {
+              "value": "{ob.s.color.status.info.surfaceInverted.bg}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "color": {
+              "value": "{ob.s.color.status.error.surfaceInverted.bg}",
+              "type": "color"
+            }
+          },
+          "warning": {
+            "color": {
+              "value": "{ob.s.color.status.warning.surfaceInverted.bg}",
+              "type": "color"
+            }
+          },
+          "success": {
+            "color": {
+              "value": "{ob.s.color.status.success.surfaceInverted.bg}",
+              "type": "color"
+            }
+          },
+          "paddingLeft": {
+            "value": "{ob.p.space.400}",
+            "type": "spacing"
+          },
+          "paddingTop": {
+            "value": "{ob.p.space.500}",
+            "type": "spacing"
           }
+        },
+        "lineVertical": {
+          "info": {
+            "color": {
+              "value": "{ob.s.color.status.info.surfaceInverted.bg}",
+              "type": "color"
+            }
+          },
+          "size": {
+            "value": "{ob.s.icon.size.md}",
+            "type": "sizing"
+          },
+          "error": {
+            "color": {
+              "value": "{ob.c.notification-inline.icon.error.color}",
+              "type": "color"
+            }
+          },
+          "warning": {
+            "color": {
+              "value": "{ob.c.notification-inline.icon.warning.color}",
+              "type": "color"
+            }
+          },
+          "success": {
+            "color": {
+              "value": "{ob.c.notification-inline.icon.success.color}",
+              "type": "color"
+            }
+          }
+        },
+        "surface": {
+          "bgColor": {
+            "info": {
+              "bgColor": {
+                "value": "{ob.s.color.status.info.surfaceStandard.bg}",
+                "type": "color"
+              }
+            },
+            "error": {
+              "bgColor": {
+                "value": "{ob.s.color.status.error.surfaceStandard.bg}",
+                "type": "color"
+              }
+            },
+            "warning": {
+              "bgColor": {
+                "value": "{ob.s.color.status.warning.surfaceStandard.bg}",
+                "type": "color"
+              }
+            },
+            "success": {
+              "bgColor": {
+                "value": "{ob.s.color.status.success.surfaceStandard.bg}",
+                "type": "color"
+              }
+            }
+          },
+          "radius": {
+            "value": "{ob.s.corners.right.md}",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "notification-line": {
+        "text": {
+          "value": "{ob.s.typography.body.L.default}",
+          "type": "typography"
+        },
+        "title": {
+          "value": "{ob.s.typography.body.L.strong}",
+          "type": "typography"
         }
       }
     }
