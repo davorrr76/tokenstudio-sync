@@ -47,8 +47,8 @@
               "type": "color"
             }
           },
-          "size": {
-            "value": "{ob.s.icon.size.md}",
+          "width": {
+            "value": "{ob.p.size.50}",
             "type": "sizing"
           },
           "error": {
