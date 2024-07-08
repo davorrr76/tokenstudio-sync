@@ -6,7 +6,7 @@
           "surfaceStandard": {
             "buttonPrimary": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceInverted.body}",
+                "value": "{ob.s.color.text.surfaceDark.body}",
                 "type": "color"
               },
               "bg": {
@@ -72,7 +72,7 @@
           "surfaceInverted": {
             "buttonPrimary": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceInverted.body}",
+                "value": "{ob.s.color.text.surfaceDark.body}",
                 "type": "color"
               },
               "bg": {
@@ -157,7 +157,7 @@
           }
         },
         "background": {
-          "surfaceStandard": {
+          "surfaceLight": {
             "default": {
               "value": "{ob.p.colors.basic.white}",
               "type": "color",
@@ -178,7 +178,7 @@
           }
         },
         "text": {
-          "surfaceStandard": {
+          "surfaceLight": {
             "headings": {
               "default": {
                 "value": "{ob.p.colors.cobalt.600}",
@@ -201,7 +201,7 @@
               }
             }
           },
-          "surfaceInverted": {
+          "surfaceDark": {
             "headings": {
               "value": "{ob.p.colors.basic.white}",
               "type": "color"
@@ -216,7 +216,7 @@
           "inputField": {
             "enabled": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               },
               "bg": {
@@ -244,7 +244,7 @@
             },
             "focus": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               },
               "bg": {
@@ -258,7 +258,7 @@
             },
             "errorEnabled": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               },
               "bg": {
@@ -272,7 +272,7 @@
             },
             "errorHover": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               },
               "bg": {
@@ -286,7 +286,7 @@
             },
             "errorFocus": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.subtle}",
+                "value": "{ob.s.color.text.surfaceLight.body.subtle}",
                 "type": "color"
               },
               "bg": {
@@ -300,7 +300,7 @@
             },
             "readMode": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.subtle}",
+                "value": "{ob.s.color.text.surfaceLight.body.subtle}",
                 "type": "color"
               },
               "bg": {
@@ -316,7 +316,7 @@
           "select": {
             "hover": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               },
               "bg": {
@@ -326,7 +326,7 @@
             },
             "focus": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               },
               "bg": {
@@ -336,21 +336,21 @@
             },
             "pressed": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.s.color.background.surfaceStandard.default}",
+                "value": "{ob.s.color.background.surfaceLight.default}",
                 "type": "color"
               }
             },
             "active": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.s.color.background.surfaceStandard.default}",
+                "value": "{ob.s.color.background.surfaceLight.default}",
                 "type": "color"
               },
               "verticalLine": {
@@ -360,7 +360,7 @@
             },
             "enabled": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               },
               "bg": {
@@ -374,7 +374,7 @@
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.s.color.background.surfaceStandard.default}",
+                "value": "{ob.s.color.background.surfaceLight.default}",
                 "type": "color"
               }
             }
@@ -453,7 +453,7 @@
           },
           "_defaults": {
             "enabled": {
-              "value": "{ob.s.color.text.surfaceStandard.body.default}",
+              "value": "{ob.s.color.text.surfaceLight.body.default}",
               "type": "color"
             },
             "disabled": {
@@ -530,7 +530,7 @@
                 "type": "color"
               },
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               }
             },
@@ -540,7 +540,7 @@
                 "type": "color"
               },
               "fg": {
-                "value": "{ob.s.color.text.surfaceInverted.body}",
+                "value": "{ob.s.color.text.surfaceDark.body}",
                 "type": "color"
               }
             }
@@ -552,7 +552,7 @@
                 "type": "color"
               },
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               }
             },
@@ -563,7 +563,7 @@
                 "description": "Paring for icon only (e.g. Alert) or a larger bold font weight. Otherwise AX critical."
               },
               "fg": {
-                "value": "{ob.s.color.text.surfaceInverted.body}",
+                "value": "{ob.s.color.text.surfaceDark.body}",
                 "type": "color"
               }
             }
@@ -575,7 +575,7 @@
                 "type": "color"
               },
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               }
             },
@@ -585,7 +585,7 @@
                 "type": "color"
               },
               "fg": {
-                "value": "{ob.s.color.text.surfaceInverted.body}",
+                "value": "{ob.s.color.text.surfaceDark.body}",
                 "type": "color"
               }
             }
@@ -597,7 +597,7 @@
                 "type": "color"
               },
               "fg": {
-                "value": "{ob.s.color.text.surfaceStandard.body.default}",
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
                 "type": "color"
               }
             },
@@ -608,7 +608,7 @@
                 "description": "Paring for icon only (e.g. Alert) or a larger bold font weight. Otherwise AX critical."
               },
               "fg": {
-                "value": "{ob.s.color.text.surfaceInverted.body}",
+                "value": "{ob.s.color.text.surfaceDark.body}",
                 "type": "color"
               }
             }

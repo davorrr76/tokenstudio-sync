@@ -15,6 +15,16 @@
     "activeViewport": {
       "value": "{ob.p.breakpoint.xs}",
       "type": "other"
+    },
+    "c": {
+      "notification-inline": {
+        "text-container": {
+          "padding-right": {
+            "value": "0",
+            "type": "spacing"
+          }
+        }
+      }
     }
   }
 }
