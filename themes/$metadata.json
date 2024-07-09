@@ -48,10 +48,12 @@
     "Components/Table",
     "Components/Tabs",
     "Components/Tooltip",
-    "Overrides/Breakpoints/@360-xs",
-    "Overrides/Breakpoints/@720-sm",
-    "Overrides/Breakpoints/@1080-md",
     "Overrides/Breakpoints/@1440-lg",
-    "Overrides/Breakpoints/@1920-xl"
+    "Overrides/Breakpoints/@720-sm",
+    "Overrides/Breakpoints/@360-xs",
+    "Core/Core",
+    "Breakpoint/1440-lg",
+    "Breakpoint/720-sm",
+    "Breakpoint/360-xs"
   ]
 }

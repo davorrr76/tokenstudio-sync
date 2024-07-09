@@ -1,0 +1,35 @@
+{
+  "ob": {
+    "p": {
+      "scale": {
+        "mult": {
+          "value": "0.25rem",
+          "type": "dimension",
+          "parent": "Breakpoint/1440-lg",
+          "description": "",
+          "oldValue": "4px"
+        }
+      },
+      "viewport": {
+        "value": "90rem",
+        "type": "dimension",
+        "parent": "Breakpoint/1440-lg",
+        "description": "",
+        "oldValue": "1440px"
+      }
+    },
+    "c": {
+      "infobox": {
+        "text-blocks": {
+          "padding-right": {
+            "value": "0rem",
+            "type": "dimension",
+            "parent": "Breakpoint/1440-lg",
+            "description": "",
+            "oldValue": "0px"
+          }
+        }
+      }
+    }
+  }
+}

@@ -38,59 +38,75 @@
         }
       },
       "corners": {
-        "bottom": {
+        "top-right": {
+          "none": {
+            "value": "{ob.s.radii.none}",
+            "type": "borderRadius"
+          },
           "sm": {
-            "value": "0 0 {ob.s.radii.sm} {ob.s.radii.sm}",
+            "value": "{ob.s.radii.sm}",
             "type": "borderRadius"
           },
           "md": {
-            "value": "0 0 {ob.s.radii.md} {ob.s.radii.md}",
+            "value": "{ob.s.radii.md}",
             "type": "borderRadius"
           },
           "lg": {
-            "value": "0 0 {ob.s.radii.lg} {ob.s.radii.lg}",
+            "value": "{ob.s.radii.lg}",
             "type": "borderRadius"
           }
         },
-        "top": {
+        "top-left": {
+          "none": {
+            "value": "{ob.s.radii.none}",
+            "type": "borderRadius"
+          },
           "sm": {
-            "value": "{ob.s.radii.sm} {ob.s.radii.sm} 0 0",
+            "value": "{ob.s.radii.sm}",
             "type": "borderRadius"
           },
           "md": {
-            "value": "{ob.s.radii.md} {ob.s.radii.md} 0 0",
+            "value": "{ob.s.radii.md}",
             "type": "borderRadius"
           },
           "lg": {
-            "value": "{ob.s.radii.lg} {ob.s.radii.lg} 0 0",
+            "value": "{ob.s.radii.lg}",
             "type": "borderRadius"
           }
         },
-        "left": {
+        "bottom-left": {
+          "none": {
+            "value": "{ob.s.radii.none}",
+            "type": "borderRadius"
+          },
           "sm": {
-            "value": "{ob.s.radii.sm} 0 0 {ob.s.radii.sm}",
+            "value": "{ob.s.radii.sm}",
             "type": "borderRadius"
           },
           "md": {
-            "value": "{ob.s.radii.md} 0 0 {ob.s.radii.md}",
+            "value": "{ob.s.radii.md}",
             "type": "borderRadius"
           },
           "lg": {
-            "value": "{ob.s.radii.lg} 0 0 {ob.s.radii.lg}",
+            "value": "{ob.s.radii.lg}",
             "type": "borderRadius"
           }
         },
-        "right": {
+        "bottom-right": {
+          "none": {
+            "value": "{ob.s.radii.none}",
+            "type": "borderRadius"
+          },
           "sm": {
-            "value": "0 {ob.s.radii.sm}  {ob.s.radii.sm} 0",
+            "value": "{ob.s.radii.sm}",
             "type": "borderRadius"
           },
           "md": {
-            "value": "0 {ob.s.radii.md} {ob.s.radii.md} 0",
+            "value": "{ob.s.radii.md}",
             "type": "borderRadius"
           },
           "lg": {
-            "value": "0 {ob.s.radii.lg} {ob.s.radii.lg} 0",
+            "value": "{ob.s.radii.lg}",
             "type": "borderRadius"
           }
         }

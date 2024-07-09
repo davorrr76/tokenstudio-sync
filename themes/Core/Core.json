@@ -1,0 +1,1700 @@
+{
+  "ob": {
+    "c": {
+      "infobox": {
+        "icon": {
+          "color": {
+            "info": {
+              "color": {
+                "value": "{ob.s.color.status.info.surfaceInverted.bg}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "error": {
+              "color": {
+                "value": "{ob.s.color.status.error.surfaceInverted.bg}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "warning": {
+              "color": {
+                "value": "{ob.s.color.status.warning.surfaceInverted.bg}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "success": {
+              "color": {
+                "value": "{ob.s.color.status.success.surfaceInverted.bg}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          },
+          "size": {
+            "value": "2rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "",
+            "oldValue": "32px"
+          },
+          "padding-left": {
+            "value": "1rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "",
+            "oldValue": "16px"
+          },
+          "padding-top": {
+            "value": "1.25rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "",
+            "oldValue": "20px"
+          },
+          "padding-bottom": {
+            "value": "0rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "needs a primitive \"none\"",
+            "oldValue": "0px"
+          },
+          "padding-right": {
+            "value": "0rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "needs a primitive \"none\"",
+            "oldValue": "0px"
+          }
+        },
+        "lineVertical": {
+          "color": {
+            "info": {
+              "color": {
+                "value": "{ob.s.color.status.info.surfaceInverted.bg}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "error": {
+              "color": {
+                "value": "{ob.c.infobox.icon.color.error.color}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "warning": {
+              "color": {
+                "value": "{ob.c.infobox.icon.color.warning.color}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "success": {
+              "color": {
+                "value": "{ob.c.infobox.icon.color.success.color}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          },
+          "width": {
+            "value": "{ob.p.size.50}",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": ""
+          },
+          "height": {
+            "value": "6.25rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "This is not applied in Figma, since Figma does not height value in percentage. The height setting in Figma is \"fill container\".",
+            "oldValue": "100px"
+          }
+        },
+        "surface": {
+          "color": {
+            "bgColor": {
+              "info": {
+                "bgColor": {
+                  "value": "{ob.s.color.status.info.surfaceStandard.bg}",
+                  "type": "color",
+                  "parent": "Core/Core",
+                  "description": ""
+                }
+              },
+              "error": {
+                "bgColor": {
+                  "value": "{ob.s.color.status.error.surfaceStandard.bg}",
+                  "type": "color",
+                  "parent": "Core/Core",
+                  "description": ""
+                }
+              },
+              "warning": {
+                "bgColor": {
+                  "value": "{ob.s.color.status.warning.surfaceStandard.bg}",
+                  "type": "color",
+                  "parent": "Core/Core",
+                  "description": ""
+                }
+              },
+              "success": {
+                "bgColor": {
+                  "value": "{ob.s.color.status.success.surfaceStandard.bg}",
+                  "type": "color",
+                  "parent": "Core/Core",
+                  "description": ""
+                }
+              }
+            }
+          }
+        },
+        "text-blocks": {
+          "padding-right": {
+            "value": "0.5rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "",
+            "oldValue": "8px"
+          },
+          "vertical-gap": {
+            "value": "{ob.s.spacing.md}",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "Vertical Gap between two text blocks - title and body in the component."
+          },
+          "padding-top": {
+            "value": "1.5rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "",
+            "oldValue": "24px"
+          },
+          "padding-bottom": {
+            "value": "0rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "",
+            "oldValue": "0px"
+          },
+          "padding-left": {
+            "value": "1rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "",
+            "oldValue": "16px"
+          }
+        },
+        "close-button": {
+          "padding-left": {
+            "value": "1rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "",
+            "oldValue": "16px"
+          },
+          "padding-top": {
+            "value": "1rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "",
+            "oldValue": "16px"
+          },
+          "padding-bottom": {
+            "value": "{ob.s.spacing.none}",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "needs a primitive \"none\""
+          },
+          "padding-right": {
+            "value": "1rem",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": "needs a primitive \"none\"",
+            "oldValue": "16px"
+          }
+        }
+      }
+    },
+    "s": {
+      "color": {
+        "action": {
+          "surfaceStandard": {
+            "buttonPrimary": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceDark.body}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#596978",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#00000000",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "buttonSecondary": {
+              "fg": {
+                "value": "#2f4356",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#2f4356",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "buttonTertiary": {
+              "fg": {
+                "value": "#2f4356",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#00000000",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "link": {
+              "enabled": {
+                "value": "#1d4ed8",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "hover": {
+                "value": "#1e40af",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "active": {
+                "value": "#1e3a8a",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "focus": {
+                "value": "#1d4ed8",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "visited": {
+                "value": "#6d28d9",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          },
+          "surfaceInverted": {
+            "buttonPrimary": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceDark.body}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#596978",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "buttonSecondary": {
+              "fg": {
+                "value": "#2f4356",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#2f4356",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "buttonTertiary": {
+              "fg": {
+                "value": "#2f4356",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "link": {
+              "enabled": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "hover": {
+                "value": "#dfe4e9",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "active": {
+                "value": "#acb4bd",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "focus": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "visited": {
+                "value": "#dfe4e9",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          }
+        },
+        "accent": {
+          "accent": {
+            "value": "#ff0000",
+            "type": "color",
+            "parent": "Core/Core",
+            "description": ""
+          }
+        },
+        "border": {
+          "subtle": {
+            "value": "#dfe4e9",
+            "type": "color",
+            "parent": "Core/Core",
+            "description": ""
+          },
+          "default": {
+            "value": "#acb4bd",
+            "type": "color",
+            "parent": "Core/Core",
+            "description": ""
+          },
+          "strong": {
+            "value": "#828e9a",
+            "type": "color",
+            "parent": "Core/Core",
+            "description": ""
+          }
+        },
+        "background": {
+          "surfaceLight": {
+            "default": {
+              "value": "#ffffff",
+              "type": "color",
+              "parent": "Core/Core",
+              "description": "Inverted text color in footer"
+            }
+          },
+          "surfaceInverted": {
+            "default": {
+              "value": "#263645",
+              "type": "color",
+              "parent": "Core/Core",
+              "description": "Footer standard background color"
+            },
+            "bright": {
+              "value": "#2f4356",
+              "type": "color",
+              "parent": "Core/Core",
+              "description": "Footer brighter background color"
+            }
+          }
+        },
+        "text": {
+          "surfaceLight": {
+            "headings": {
+              "default": {
+                "value": "#2f4356",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "strong": {
+                "value": "#263645",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": "Darker Heading Color for H6 only since it is a small font size, so it needs to be obviously strong when facing the body text."
+              }
+            },
+            "body": {
+              "subtle": {
+                "value": "#1c2834",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "default": {
+                "value": "#131b22",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          },
+          "surfaceDark": {
+            "headings": {
+              "value": "#ffffff",
+              "type": "color",
+              "parent": "Core/Core",
+              "description": ""
+            },
+            "body": {
+              "value": "#ffffff",
+              "type": "color",
+              "parent": "Core/Core",
+              "description": ""
+            }
+          }
+        },
+        "form": {
+          "inputField": {
+            "enabled": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#596978",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "disabled": {
+              "fg": {
+                "value": "#828e9a",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#828e9a",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "focus": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "errorEnabled": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#ffedee",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#99191e",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "errorHover": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#ffedee",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#99191e",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "errorFocus": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.subtle}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#ffedee",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#99191e",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "readMode": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.subtle}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "border": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          },
+          "select": {
+            "hover": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#f0f4f7",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "focus": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#dfe4e9",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "pressed": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "{ob.s.color.background.surfaceLight.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "active": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "{ob.s.color.background.surfaceLight.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "verticalLine": {
+                "value": "{ob.s.color.status.accent.surfaceStandard.bg}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "enabled": {
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "#f0f4f7",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "disabled": {
+              "fg": {
+                "value": "#828e9a",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "bg": {
+                "value": "{ob.s.color.background.surfaceLight.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          },
+          "checkbox": {
+            "enabled": {
+              "container": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "icon": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "stateLayer": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "icon": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "stateLayer": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "hover": {
+              "container": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "icon": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "stateLayer": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "focus": {
+              "container": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "icon": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "stateLayer": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "icon": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "stateLayer": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          },
+          "_defaults": {
+            "enabled": {
+              "value": "{ob.s.color.text.surfaceLight.body.default}",
+              "type": "color",
+              "parent": "Core/Core",
+              "description": ""
+            },
+            "disabled": {
+              "value": "#828e9a",
+              "type": "color",
+              "parent": "Core/Core",
+              "description": ""
+            },
+            "error": {
+              "value": "#99191e",
+              "type": "color",
+              "parent": "Core/Core",
+              "description": ""
+            },
+            "focus": {
+              "value": "{ob.s.color.shadow.focus}",
+              "type": "color",
+              "parent": "Core/Core",
+              "description": ""
+            }
+          },
+          "radioButton": {
+            "enabled": {
+              "icon": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "stateLayer": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "disabled": {
+              "icon": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "stateLayer": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "hover": {
+              "icon": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "stateLayer": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "focus": {
+              "icon": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "stateLayer": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "pressed": {
+              "icon": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "stateLayer": {
+                "value": "#ffffff",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          }
+        },
+        "status": {
+          "info": {
+            "surfaceStandard": {
+              "bg": {
+                "value": "#dbeafe",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "surfaceInverted": {
+              "bg": {
+                "value": "#1e40af",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "fg": {
+                "value": "{ob.s.color.text.surfaceDark.body}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          },
+          "warning": {
+            "surfaceStandard": {
+              "bg": {
+                "value": "#ffedd5",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "surfaceInverted": {
+              "bg": {
+                "value": "#ea580c",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": "Paring for icon only (e.g. Alert) or a larger bold font weight. Otherwise AX critical."
+              },
+              "fg": {
+                "value": "{ob.s.color.text.surfaceDark.body}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          },
+          "error": {
+            "surfaceStandard": {
+              "bg": {
+                "value": "#fae1e2",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "surfaceInverted": {
+              "bg": {
+                "value": "#99191e",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "fg": {
+                "value": "{ob.s.color.text.surfaceDark.body}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          },
+          "success": {
+            "surfaceStandard": {
+              "bg": {
+                "value": "#d1fae5",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              },
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            },
+            "surfaceInverted": {
+              "bg": {
+                "value": "#047857",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": "Paring for icon only (e.g. Alert) or a larger bold font weight. Otherwise AX critical."
+              },
+              "fg": {
+                "value": "{ob.s.color.text.surfaceDark.body}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          },
+          "accent": {
+            "surfaceStandard": {
+              "bg": {
+                "value": "{ob.s.color.accent.accent}",
+                "type": "color",
+                "parent": "Core/Core",
+                "description": ""
+              }
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "#131b22",
+            "type": "color",
+            "parent": "Core/Core",
+            "description": ""
+          },
+          "focus": {
+            "value": "#8b5cf6",
+            "type": "color",
+            "parent": "Core/Core",
+            "description": ""
+          }
+        }
+      },
+      "zindex": {
+        "stepperMobile": {
+          "value": "62.5rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "1000px"
+        },
+        "header": {
+          "value": "68.75rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "1100px"
+        },
+        "drawer": {
+          "value": "75rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "1200px"
+        },
+        "modal": {
+          "value": "81.25rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "1300px"
+        },
+        "notification": {
+          "value": "87.5rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "1400px"
+        },
+        "tooltip": {
+          "value": "93.75rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "1500px"
+        }
+      },
+      "radii": {
+        "none": {
+          "value": "0rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "0px"
+        },
+        "sm": {
+          "value": "0.125rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "2px"
+        },
+        "md": {
+          "value": "0.25rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "4px"
+        },
+        "lg": {
+          "value": "0.5rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "8px"
+        },
+        "round": {
+          "value": "624.9375rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "9999px"
+        }
+      },
+      "borderWidth": {
+        "default": {
+          "value": "0.0625rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "1px"
+        },
+        "stronger": {
+          "value": "0.125rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "2px"
+        },
+        "none": {
+          "value": "0rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "0px"
+        }
+      },
+      "spacing": {
+        "xs": {
+          "value": "0.125rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "The smallest spacing in Oblique. Use it to create distance between icons and text within buttons, chips, and similar elements, where the icon and the text build a semantic entity but need a slight spacing between them for better readability.",
+          "oldValue": "2px"
+        },
+        "sm": {
+          "value": "0.25rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "The smallest spacing in Oblique. Use it to create distance between icons and text within buttons, chips, and similar elements, where the icon and the text build a semantic entity but need a slight spacing between them for better readability.",
+          "oldValue": "4px"
+        },
+        "md": {
+          "value": "0.5rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "Use this for minimal padding inside smaller components like form fields, list items, or dialog actions. It helps maintain clarity without adding bulk, ideal for grouping related items such as labels and input boxes closely together.",
+          "oldValue": "8px"
+        },
+        "lg": {
+          "value": "0.75rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "This spacing is effective for separating sections within cards. It’s also suitable for stacking controls that require a clear distinction without being too far apart, enhancing overall navigability.",
+          "oldValue": "12px"
+        },
+        "xl": {
+          "value": "1rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "A standard spacing for broader padding around modal windows, card content, and larger form elements. It provides sufficient breathing room around content blocks, improving readability and focus on individual content elements without overcrowding.",
+          "oldValue": "16px"
+        },
+        "2xl": {
+          "value": "1.5rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "24px"
+        },
+        "3xl": {
+          "value": "2rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "Great for creating more expansive gaps between larger components such as different panels in a layout or between a toolbar and the content below. This spacing can be used to enhance focus on sections of the interface that require user attention.",
+          "oldValue": "32px"
+        },
+        "4xl": {
+          "value": "3rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "The largest spacing, ideal for the most significant separations in your UI, such as between distinct content sections on a page or large screen-wide elements. It creates a strong visual hierarchy, making it easier for users to distinguish between grouped or related content at a glance.",
+          "oldValue": "48px"
+        },
+        "heading": {
+          "H1": {
+            "bottom": {
+              "value": "{ob.s.spacing.xl}",
+              "type": "dimension",
+              "parent": "Core/Core",
+              "description": ""
+            }
+          },
+          "H2": {
+            "bottom": {
+              "value": "{ob.s.spacing.xl}",
+              "type": "dimension",
+              "parent": "Core/Core",
+              "description": ""
+            }
+          },
+          "H3": {
+            "bottom": {
+              "value": "{ob.s.spacing.xl}",
+              "type": "dimension",
+              "parent": "Core/Core",
+              "description": ""
+            }
+          },
+          "H4": {
+            "bottom": {
+              "value": "{ob.s.spacing.xl}",
+              "type": "dimension",
+              "parent": "Core/Core",
+              "description": ""
+            }
+          },
+          "H5": {
+            "bottom": {
+              "value": "{ob.s.spacing.md}",
+              "type": "dimension",
+              "parent": "Core/Core",
+              "description": ""
+            }
+          },
+          "H6": {
+            "bottom": {
+              "value": "{ob.s.spacing.md}",
+              "type": "dimension",
+              "parent": "Core/Core",
+              "description": ""
+            }
+          }
+        },
+        "body": {
+          "L": {
+            "bottom": {
+              "value": "{ob.s.spacing.body.default}",
+              "type": "dimension",
+              "parent": "Core/Core",
+              "description": ""
+            }
+          },
+          "S": {
+            "bottom": {
+              "value": "{ob.s.spacing.body.default}",
+              "type": "dimension",
+              "parent": "Core/Core",
+              "description": ""
+            }
+          },
+          "default": {
+            "value": "{ob.s.spacing.3xl}",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": ""
+          }
+        },
+        "title": {
+          "L": {
+            "bottom": {
+              "value": "0rem",
+              "type": "dimension",
+              "parent": "Core/Core",
+              "description": "",
+              "oldValue": "0px"
+            }
+          },
+          "M": {
+            "bottom": {
+              "value": "0rem",
+              "type": "dimension",
+              "parent": "Core/Core",
+              "description": "",
+              "oldValue": "0px"
+            }
+          },
+          "S": {
+            "bottom": {
+              "value": "0rem",
+              "type": "dimension",
+              "parent": "Core/Core",
+              "description": "",
+              "oldValue": "0px"
+            }
+          },
+          "default": {
+            "value": "{ob.s.spacing.md}",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": ""
+          }
+        },
+        "none": {
+          "value": "0rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "The smallest spacing in Oblique. Use it to create distance between icons and text within buttons, chips, and similar elements, where the icon and the text build a semantic entity but need a slight spacing between them for better readability.",
+          "oldValue": "0px"
+        }
+      },
+      "icon": {
+        "size": {
+          "xs": {
+            "value": "{ob.p.size.200}",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": ""
+          },
+          "sm": {
+            "value": "{ob.p.size.300}",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": ""
+          },
+          "md": {
+            "value": "{ob.p.size.400}",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": ""
+          },
+          "lg": {
+            "value": "{ob.p.size.450}",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": ""
+          },
+          "xl": {
+            "value": "{ob.p.size.600}",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": ""
+          },
+          "2xl": {
+            "value": "{ob.p.size.700}",
+            "type": "dimension",
+            "parent": "Core/Core",
+            "description": ""
+          }
+        }
+      }
+    },
+    "p": {
+      "size": {
+        "0": {
+          "value": "0rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "0px"
+        },
+        "12": {
+          "value": "0.0625rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "1px"
+        },
+        "25": {
+          "value": "0.125rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "2px"
+        },
+        "37": {
+          "value": "0.1875rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "3px"
+        },
+        "50": {
+          "value": "0.25rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "4px"
+        },
+        "75": {
+          "value": "0.375rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "6px"
+        },
+        "100": {
+          "value": "0.5rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "8px"
+        },
+        "125": {
+          "value": "0.625rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "10px"
+        },
+        "150": {
+          "value": "0.75rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "12px"
+        },
+        "175": {
+          "value": "0.875rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "14px"
+        },
+        "200": {
+          "value": "1rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "16px"
+        },
+        "225": {
+          "value": "1.125rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "18px"
+        },
+        "250": {
+          "value": "1.25rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "20px"
+        },
+        "275": {
+          "value": "1.375rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "22px"
+        },
+        "300": {
+          "value": "1.5rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "24px"
+        },
+        "400": {
+          "value": "2rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "32px"
+        },
+        "450": {
+          "value": "2.25rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "36px"
+        },
+        "500": {
+          "value": "2.5rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "40px"
+        },
+        "600": {
+          "value": "3rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "48px"
+        },
+        "700": {
+          "value": "3.5rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "56px"
+        },
+        "800": {
+          "value": "4rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "64px"
+        },
+        "900": {
+          "value": "4.5rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "72px"
+        },
+        "1000": {
+          "value": "5rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "80px"
+        },
+        "1200": {
+          "value": "6rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "96px"
+        },
+        "1400": {
+          "value": "7rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "112px"
+        },
+        "1600": {
+          "value": "8rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "128px"
+        },
+        "1800": {
+          "value": "9rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "144px"
+        },
+        "2000": {
+          "value": "10rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "160px"
+        },
+        "2200": {
+          "value": "11rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "176px"
+        },
+        "2400": {
+          "value": "12rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "192px"
+        },
+        "2600": {
+          "value": "13rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "208px"
+        },
+        "2800": {
+          "value": "14rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "224px"
+        },
+        "3000": {
+          "value": "15rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "240px"
+        },
+        "3200": {
+          "value": "16rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "256px"
+        },
+        "3400": {
+          "value": "18rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "288px"
+        },
+        "3600": {
+          "value": "20rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "320px"
+        },
+        "3800": {
+          "value": "24rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "384px"
+        },
+        "6750": {
+          "value": "16.875rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "270px"
+        },
+        "_base": {
+          "value": "0.25rem",
+          "type": "dimension",
+          "parent": "Core/Core",
+          "description": "",
+          "oldValue": "4px"
+        }
+      }
+    }
+  }
+}

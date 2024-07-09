@@ -242,38 +242,6 @@
     "group": "Core"
   },
   {
-    "id": "057ec9956979e8c3196f18bf4796e9d15761db5f",
-    "name": "360-xs",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Primitives/Global": "source",
-      "Overrides/Breakpoints/@360-xs": "enabled"
-    },
-    "$figmaVariableReferences": {
-      "ob.p.scale.mult": "636d8999f0a344bb3771333cd922d88d4a6ef082",
-      "ob.p.viewport": "764d6f4348b6fd481755dbd8c8087e9af955e779"
-    },
-    "group": "Breakpoint",
-    "$figmaCollectionId": "VariableCollectionId:2002:5134",
-    "$figmaModeId": "2002:37"
-  },
-  {
-    "id": "6c212c19cc078c622676489f8ebd38d400ae82ad",
-    "name": "720-sm",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Primitives/Global": "source",
-      "Overrides/Breakpoints/@720-sm": "enabled"
-    },
-    "$figmaVariableReferences": {
-      "ob.p.scale.mult": "636d8999f0a344bb3771333cd922d88d4a6ef082",
-      "ob.p.viewport": "764d6f4348b6fd481755dbd8c8087e9af955e779"
-    },
-    "group": "Breakpoint",
-    "$figmaCollectionId": "VariableCollectionId:2002:5134",
-    "$figmaModeId": "2002:38"
-  },
-  {
     "id": "4e0825f241614aab96f3a2124acfb672f1370234",
     "name": "1440-lg",
     "$figmaStyleReferences": {},
@@ -290,19 +258,35 @@
     "group": "Breakpoint"
   },
   {
-    "id": "97d09166c6c1e1f0ce6e4db1c8e213394e91d8d4",
-    "name": "1920-xl",
+    "id": "6c212c19cc078c622676489f8ebd38d400ae82ad",
+    "name": "720-sm",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives/Global": "source",
-      "Overrides/Breakpoints/@1920-xl": "enabled"
+      "Overrides/Breakpoints/@720-sm": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:2002:5134",
-    "$figmaModeId": "2002:40",
     "$figmaVariableReferences": {
       "ob.p.scale.mult": "636d8999f0a344bb3771333cd922d88d4a6ef082",
       "ob.p.viewport": "764d6f4348b6fd481755dbd8c8087e9af955e779"
     },
+    "$figmaCollectionId": "VariableCollectionId:2002:5134",
+    "$figmaModeId": "2002:38",
+    "group": "Breakpoint"
+  },
+  {
+    "id": "057ec9956979e8c3196f18bf4796e9d15761db5f",
+    "name": "360-xs",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives/Global": "source",
+      "Overrides/Breakpoints/@360-xs": "enabled"
+    },
+    "$figmaVariableReferences": {
+      "ob.p.scale.mult": "636d8999f0a344bb3771333cd922d88d4a6ef082",
+      "ob.p.viewport": "764d6f4348b6fd481755dbd8c8087e9af955e779"
+    },
+    "$figmaCollectionId": "VariableCollectionId:2002:5134",
+    "$figmaModeId": "2002:37",
     "group": "Breakpoint"
   }
 ]
