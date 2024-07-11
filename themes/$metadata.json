@@ -29,6 +29,7 @@
     "Components/Button",
     "Components/Card",
     "Components/Chip",
+    "Components/Container",
     "Components/Column Layout",
     "Components/Datepicker",
     "Components/Dialog",
@@ -48,12 +49,8 @@
     "Components/Table",
     "Components/Tabs",
     "Components/Tooltip",
-    "Overrides/Breakpoints/@1440-lg",
-    "Overrides/Breakpoints/@720-sm",
-    "Overrides/Breakpoints/@360-xs",
-    "Core/Core",
-    "Breakpoint/1440-lg",
-    "Breakpoint/720-sm",
-    "Breakpoint/360-xs"
+    "Breakpoints/@1440-lg",
+    "Breakpoints/@720-sm",
+    "Breakpoints/@360-xs"
   ]
 }

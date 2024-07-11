@@ -3,133 +3,164 @@
     "c": {
       "infobox": {
         "icon": {
-          "size": {
-            "value": "{ob.s.icon.size.md}",
-            "type": "sizing"
-          },
           "color": {
             "info": {
-              "color": {
-                "value": "{ob.s.color.status.info.surfaceInverted.bg}",
-                "type": "color"
-              }
+              "value": "{ob.s.color.status.info.surface-dark.bg}",
+              "type": "color"
             },
             "error": {
-              "color": {
-                "value": "{ob.s.color.status.error.surfaceInverted.bg}",
-                "type": "color"
-              }
+              "value": "{ob.s.color.status.error.surface-dark.bg}",
+              "type": "color"
             },
             "warning": {
-              "color": {
-                "value": "{ob.s.color.status.warning.surfaceInverted.bg}",
-                "type": "color"
-              }
+              "value": "{ob.s.color.status.warning.surface-dark.bg}",
+              "type": "color"
             },
             "success": {
-              "color": {
-                "value": "{ob.s.color.status.success.surfaceInverted.bg}",
-                "type": "color"
-              }
+              "value": "{ob.s.color.status.success.surface-dark.bg}",
+              "type": "color"
+            },
+            "fatal": {
+              "value": "{ob.s.color.status.fatal.surface-dark.fg}",
+              "type": "color"
             }
           },
-          "paddingLeft": {
-            "value": "{ob.p.space.400}",
-            "type": "spacing"
-          },
-          "paddingTop": {
-            "value": "{ob.p.space.500}",
-            "type": "spacing"
-          }
-        },
-        "lineVertical": {
-          "color": {
-            "info": {
-              "color": {
-                "value": "{ob.s.color.status.info.surfaceInverted.bg}",
-                "type": "color"
-              }
-            },
-            "error": {
-              "color": {
-                "value": "{ob.c.infobox.icon.color.error.color}",
-                "type": "color"
-              }
-            },
-            "warning": {
-              "color": {
-                "value": "{ob.c.infobox.icon.color.warning.color}",
-                "type": "color"
-              }
-            },
-            "success": {
-              "color": {
-                "value": "{ob.c.infobox.icon.color.success.color}",
-                "type": "color"
-              }
-            }
-          },
-          "width": {
-            "value": "{ob.p.size.50}",
-            "type": "sizing"
-          }
-        },
-        "surface": {
-          "color": {
-            "bgColor": {
+          "asset": {
+            "status": {
               "info": {
-                "bgColor": {
-                  "value": "{ob.s.color.status.info.surfaceStandard.bg}",
-                  "type": "color"
-                }
-              },
-              "error": {
-                "bgColor": {
-                  "value": "{ob.s.color.status.error.surfaceStandard.bg}",
-                  "type": "color"
-                }
+                "value": "InfoCircle",
+                "type": "asset"
               },
               "warning": {
-                "bgColor": {
-                  "value": "{ob.s.color.status.warning.surfaceStandard.bg}",
-                  "type": "color"
-                }
+                "value": "WarningTriangle",
+                "type": "asset"
+              },
+              "error": {
+                "value": "WarningCircle",
+                "type": "asset"
               },
               "success": {
-                "bgColor": {
-                  "value": "{ob.s.color.status.success.surfaceStandard.bg}",
-                  "type": "color"
-                }
+                "value": "CheckmarkCircle",
+                "type": "asset"
+              },
+              "fatal": {
+                "value": "Error-new",
+                "type": "asset",
+                "description": "This icon is not yet part of the official icon set. It has to be drawn by F.Gabsa team in Illustrator."
               }
             }
-          },
-          "radius": {
-            "value": "{ob.s.corners.right.md}",
-            "type": "borderRadius"
           }
         },
-        "text": {
-          "value": "{ob.s.typography.body.L.default}",
-          "type": "typography",
+        "border": {
           "color": {
-            "value": "{ob.s.color.text.surfaceLight.body.default}",
-            "type": "color"
+            "info": {
+              "value": "{ob.s.color.status.info.surface-dark.bg}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{ob.c.infobox.icon.color.error}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{ob.c.infobox.icon.color.warning}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{ob.c.infobox.icon.color.success}",
+              "type": "color"
+            },
+            "fatal": {
+              "value": "{ob.s.color.status.fatal.surface-dark.bg}",
+              "type": "color"
+            }
           }
         },
-        "title": {
-          "value": "{ob.s.typography.body.L.strong}",
-          "type": "typography"
-        },
-        "button-container": {
-          "alignment": {
-            "value": "right",
-            "type": "spacing"
+        "container": {
+          "color": {
+            "info": {
+              "value": "{ob.s.color.status.info.surface-light.bg}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{ob.s.color.status.error.surface-light.bg}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{ob.s.color.status.warning.surface-light.bg}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{ob.s.color.status.success.surface-light.bg}",
+              "type": "color"
+            },
+            "fatal": {
+              "value": "{ob.s.color.status.fatal.surface-dark.bg}",
+              "type": "color",
+              "description": "A darker background because of the requirement from F.Gabsa to make a special variant that is consistant with the Bundeskanzlei Alertbanner:\nhttps://swiss.github.io/designsystem/?path=/docs/components-alertbanner--example"
+            }
           }
         },
-        "text-container": {
-          "padding-right": {
-            "value": "{ob.p.space.800}",
-            "type": "spacing"
+        "border-radius": {
+          "top-left": {
+            "value": "{ob.s.radii.none}",
+            "type": "borderRadius",
+            "description": "Sets the left upper corner radius to zero because there we have a left colored border and no need for rounded corners."
+          },
+          "top-right": {
+            "value": "{ob.s.radii.md}",
+            "type": "borderRadius",
+            "description": "Rounds the right upper corner to enhance visual appeal of the component."
+          },
+          "bottom-left": {
+            "value": "{ob.s.radii.none}",
+            "type": "borderRadius",
+            "description": "Sets the left upper corner radius to zero because there we have a left colored border and no need for rounded corners."
+          },
+          "bottom-right": {
+            "value": "{ob.s.radii.md}",
+            "type": "borderRadius",
+            "description": "Rounds the right bottom corner to enhance visual appeal of the component."
+          }
+        },
+        "typography": {
+          "title": {
+            "value": "{ob.s.typography.body.L.strong}",
+            "type": "typography",
+            "description": "The message is in a bold font weight to build visual contrast and emphasize the hierarchy."
+          },
+          "body": {
+            "value": "{ob.s.typography.body.L.default}",
+            "type": "typography",
+            "color": {
+              "value": "{ob.s.color.text.surfaceLight.body.default}",
+              "type": "color"
+            },
+            "description": "The message is in a medium font weight to build visual contrast and emphasize the hierarchy in case the title is present."
+          }
+        },
+        "surface-dark": {
+          "text": {
+            "color": {
+              "value": "{ob.s.color.text.surfaceDark.body}",
+              "type": "color"
+            }
+          }
+        },
+        "surface-light": {
+          "text": {
+            "color": {
+              "value": "{ob.s.color.text.surfaceLight.body.default}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "infobox": {
+          "row-gap": {
+            "value": "{ob.p.space.500}",
+            "type": "spacing",
+            "description": "This is the gap between the main content of the component and the optional button container if visible."
           }
         }
       }

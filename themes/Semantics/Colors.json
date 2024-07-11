@@ -3,8 +3,8 @@
     "s": {
       "color": {
         "action": {
-          "surfaceStandard": {
-            "buttonPrimary": {
+          "surface-light": {
+            "button-primary": {
               "fg": {
                 "value": "{ob.s.color.text.surfaceDark.body}",
                 "type": "color"
@@ -18,7 +18,7 @@
                 "type": "color"
               }
             },
-            "buttonSecondary": {
+            "button-secondary": {
               "fg": {
                 "value": "{ob.p.colors.cobalt.600}",
                 "type": "color"
@@ -32,7 +32,7 @@
                 "type": "color"
               }
             },
-            "buttonTertiary": {
+            "buttonT-ertiary": {
               "fg": {
                 "value": "{ob.p.colors.cobalt.600}",
                 "type": "color"
@@ -69,8 +69,8 @@
               }
             }
           },
-          "surfaceInverted": {
-            "buttonPrimary": {
+          "surface-dark": {
+            "button-primary": {
               "fg": {
                 "value": "{ob.s.color.text.surfaceDark.body}",
                 "type": "color"
@@ -84,7 +84,7 @@
                 "type": "color"
               }
             },
-            "buttonSecondary": {
+            "button-secondary": {
               "fg": {
                 "value": "{ob.p.colors.cobalt.600}",
                 "type": "color"
@@ -98,7 +98,7 @@
                 "type": "color"
               }
             },
-            "buttonTertiary": {
+            "button-tertiary": {
               "fg": {
                 "value": "{ob.p.colors.cobalt.600}",
                 "type": "color"
@@ -164,7 +164,7 @@
               "description": "Inverted text color in footer"
             }
           },
-          "surfaceInverted": {
+          "surface-dark": {
             "default": {
               "value": "{ob.p.colors.cobalt.700}",
               "type": "color",
@@ -354,7 +354,7 @@
                 "type": "color"
               },
               "verticalLine": {
-                "value": "{ob.s.color.status.accent.surfaceStandard.bg}",
+                "value": "{ob.s.color.status.accent.surface-light.bg}",
                 "type": "color"
               }
             },
@@ -524,7 +524,7 @@
         },
         "status": {
           "info": {
-            "surfaceStandard": {
+            "surface-light": {
               "bg": {
                 "value": "{ob.p.colors.blue.100}",
                 "type": "color"
@@ -534,7 +534,7 @@
                 "type": "color"
               }
             },
-            "surfaceInverted": {
+            "surface-dark": {
               "bg": {
                 "value": "{ob.p.colors.blue.800}",
                 "type": "color"
@@ -546,7 +546,7 @@
             }
           },
           "warning": {
-            "surfaceStandard": {
+            "surface-light": {
               "bg": {
                 "value": "{ob.p.colors.orange.100}",
                 "type": "color"
@@ -556,7 +556,7 @@
                 "type": "color"
               }
             },
-            "surfaceInverted": {
+            "surface-dark": {
               "bg": {
                 "value": "{ob.p.colors.orange.600}",
                 "type": "color",
@@ -569,7 +569,7 @@
             }
           },
           "error": {
-            "surfaceStandard": {
+            "surface-light": {
               "bg": {
                 "value": "{ob.p.colors.red.100}",
                 "type": "color"
@@ -579,7 +579,7 @@
                 "type": "color"
               }
             },
-            "surfaceInverted": {
+            "surface-dark": {
               "bg": {
                 "value": "{ob.p.colors.red.800}",
                 "type": "color"
@@ -591,7 +591,7 @@
             }
           },
           "success": {
-            "surfaceStandard": {
+            "surface-light": {
               "bg": {
                 "value": "{ob.p.colors.green.100}",
                 "type": "color"
@@ -601,7 +601,7 @@
                 "type": "color"
               }
             },
-            "surfaceInverted": {
+            "surface-dark": {
               "bg": {
                 "value": "{ob.p.colors.green.700}",
                 "type": "color",
@@ -614,9 +614,31 @@
             }
           },
           "accent": {
-            "surfaceStandard": {
+            "surface-light": {
               "bg": {
                 "value": "{ob.s.color.accent.accent}",
+                "type": "color"
+              }
+            }
+          },
+          "fatal": {
+            "surface-light": {
+              "bg": {
+                "value": "{ob.p.colors.red.100}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{ob.s.color.text.surfaceLight.body.default}",
+                "type": "color"
+              }
+            },
+            "surface-dark": {
+              "bg": {
+                "value": "{ob.p.colors.red.900}",
+                "type": "color"
+              },
+              "fg": {
+                "value": "{ob.s.color.text.surfaceDark.body}",
                 "type": "color"
               }
             }

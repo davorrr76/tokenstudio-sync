@@ -1,0 +1,136 @@
+{
+  "ob": {
+    "p": {
+      "scale": {
+        "mult": {
+          "value": "3.5",
+          "type": "number"
+        }
+      },
+      "viewport": {
+        "value": "360",
+        "type": "number",
+        "mult": {
+          "value": "5",
+          "type": "number"
+        }
+      }
+    },
+    "c": {
+      "spacing": {
+        "infobox": {
+          "padding-top": {
+            "value": "{ob.s.spacing.xl}",
+            "type": "spacing",
+            "description": "Enhances readability and visual appeal, preventing the text from appearing cramped and ensuring clarity."
+          },
+          "padding-right": {
+            "value": "{ob.s.spacing.xl}",
+            "type": "spacing",
+            "description": "Top and right padding have to be the same so the position of the close button is visually apealing."
+          },
+          "padding-bottom": {
+            "value": "{ob.s.spacing.xl}",
+            "type": "spacing",
+            "description": "Enhances readability and visual appeal, preventing the text from appearing cramped and ensuring clarity."
+          },
+          "padding-left": {
+            "value": "{ob.s.spacing.md}",
+            "type": "spacing",
+            "description": "Smaller padding to allow more space on mobile for the content."
+          },
+          "row-gap": {
+            "value": "{ob.s.spacing.2xl}",
+            "type": "spacing",
+            "description": "Sets a minimum vertical gap between container-top and container-buttons to enhance the readability."
+          },
+          "container-top": {
+            "col-gap": {
+              "value": "{ob.s.spacing.md}",
+              "type": "spacing",
+              "description": "Gap between the status icon and the text blocks for readibility and horizontal rhytm."
+            }
+          },
+          "text-blocks": {
+            "row-gap": {
+              "value": "{ob.s.spacing.md}",
+              "type": "spacing",
+              "description": "Emphasizes the visual hierarchy between the title and the body text."
+            }
+          },
+          "title-bar": {
+            "col-gap": {
+              "value": "{ob.s.spacing.xl}",
+              "type": "spacing",
+              "description": "Prevents the title coming to close to the Close button (X)"
+            },
+            "padding-top": {
+              "value": "{ob.s.spacing.none}",
+              "type": "spacing",
+              "description": "Resets the padding the needed only on desktop to align the title with the close button and the icon."
+            }
+          },
+          "body": {
+            "padding-right": {
+              "value": "{ob.s.spacing.xl}",
+              "type": "spacing",
+              "description": "Here for mobile reseting the right-padding that is larger on desktop."
+            }
+          }
+        },
+        "container-infobox": {
+          "row-gap": {
+            "value": "{ob.s.spacing.md}",
+            "type": "spacing",
+            "description": "Vertical distance / gap between infoboxes."
+          },
+          "padding-bottom": {
+            "value": "{ob.s.spacing.xl}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{ob.s.spacing.xs}",
+            "type": "spacing"
+          },
+          "padding-left": {
+            "value": "{ob.s.spacing.xl}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{ob.s.spacing.xl}",
+            "type": "spacing"
+          }
+        },
+        "container-close-button": {
+          "padding-top": {
+            "value": "{ob.s.spacing.none}",
+            "type": "spacing",
+            "description": "Resets on mobile the desktop's override required to align the title with the close button."
+          }
+        }
+      },
+      "sizing": {
+        "infobox": {
+          "icon-size": {
+            "value": "{ob.s.icon.size.sm}",
+            "type": "sizing",
+            "description": "Icon size is slightly larger than the title to be readable since it has less contrast than the text and communicates the status. On mobile even smaller to save space for the text."
+          },
+          "close-button-size": {
+            "value": "{ob.s.icon.size.sm}",
+            "type": "sizing"
+          }
+        }
+      },
+      "infobox": {
+        "border-width": {
+          "left": {
+            "value": "{ob.s.borderWidth.stronger}",
+            "type": "borderWidth",
+            "description": "A border width that is close to the line thickness of the icon (proximity and concistancy design principles). Slightly smaller on mobile because the icon got smaller too."
+          }
+        }
+      }
+    }
+  }
+}

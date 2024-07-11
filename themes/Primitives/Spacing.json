@@ -74,6 +74,10 @@
           "value": "{ob.p.space._base} * 26",
           "type": "spacing"
         },
+        "none": {
+          "value": "0",
+          "type": "spacing"
+        },
         "_base": {
           "value": "{ob.p.scaleBase}",
           "type": "spacing"
