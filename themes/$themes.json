@@ -52,7 +52,8 @@
       "Semantics/Assets": "enabled",
       "Semantics/Icons": "enabled",
       "Components/infobox": "enabled",
-      "Components/Container": "enabled"
+      "Components/Container": "enabled",
+      "Components/Button": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:4005:44599",
     "$figmaModeId": "4005:0",
