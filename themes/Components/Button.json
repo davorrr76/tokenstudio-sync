@@ -1,1 +1,34 @@
-{}
+{
+  "ob": {
+    "c": {
+      "button": {
+        "spacing": {
+          "padding": {
+            "vertical": {
+              "sm": {
+                "value": "{ob.s.spacing.sm}",
+                "type": "spacing"
+              },
+              "md": {
+                "value": "{ob.s.spacing.md}",
+                "type": "spacing"
+              },
+              "lg": {
+                "value": "{ob.s.spacing.lg}",
+                "type": "spacing"
+              }
+            }
+          }
+        },
+        "md-strong": {
+          "value": "{ob.s.typography.label.L.strong}",
+          "type": "typography"
+        },
+        "md-regular": {
+          "value": "{ob.s.typography.label.L.regular}",
+          "type": "typography"
+        }
+      }
+    }
+  }
+}
