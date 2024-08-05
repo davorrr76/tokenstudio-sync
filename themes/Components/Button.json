@@ -20,21 +20,23 @@
             }
           }
         },
-        "sm-strong": {
-          "value": "{ob.s.typography.label.S.strong}",
-          "type": "typography"
-        },
-        "sm-regular": {
-          "value": "{ob.s.typography.label.S.regular}",
-          "type": "typography"
-        },
-        "md-regular": {
-          "value": "{ob.s.typography.label.L.regular}",
-          "type": "typography"
-        },
-        "md-strong": {
-          "value": "{ob.s.typography.label.L.strong}",
-          "type": "typography"
+        "typography": {
+          "sm-strong": {
+            "value": "{ob.s.typography.label.S.strong}",
+            "type": "typography"
+          },
+          "sm-regular": {
+            "value": "{ob.s.typography.label.S.regular}",
+            "type": "typography"
+          },
+          "md-regular": {
+            "value": "{ob.s.typography.label.L.regular}",
+            "type": "typography"
+          },
+          "md-strong": {
+            "value": "{ob.s.typography.label.L.strong}",
+            "type": "typography"
+          }
         }
       }
     }

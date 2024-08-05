@@ -1,8 +1,8 @@
 {
   "ob": {
-    "s": {
-      "color": {
-        "action": {
+    "c": {
+      "button": {
+        "color": {
           "surface-light": {
             "button-primary": {
               "fg": {
@@ -32,7 +32,7 @@
                 "type": "color"
               }
             },
-            "buttonT-ertiary": {
+            "button-Tertiary": {
               "fg": {
                 "value": "{ob.p.colors.cobalt.600}",
                 "type": "color"
@@ -135,7 +135,11 @@
               }
             }
           }
-        },
+        }
+      }
+    },
+    "s": {
+      "color": {
         "accent": {
           "accent": {
             "value": "{ob.p.colors.basic.brand}",
