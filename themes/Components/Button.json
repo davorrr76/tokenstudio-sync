@@ -242,6 +242,15 @@
               }
             }
           }
+        },
+        "sizing": {
+          "min-height": {
+            "s": {
+              "value": "{ob.p.size.300}",
+              "type": "sizing",
+              "description": "Set the minimum height for a button in case the icon is missing and can not dictate the height of the button"
+            }
+          }
         }
       }
     }
