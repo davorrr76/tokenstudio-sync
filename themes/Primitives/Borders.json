@@ -76,6 +76,14 @@
           "value": "{ob.p.borderWidth._base} *1",
           "type": "borderWidth"
         },
+        "500": {
+          "value": "{ob.p.borderWidth._base} *1.25",
+          "type": "borderWidth"
+        },
+        "600": {
+          "value": "{ob.p.borderWidth._base} *1.5",
+          "type": "borderWidth"
+        },
         "none": {
           "value": "0",
           "type": "borderWidth"

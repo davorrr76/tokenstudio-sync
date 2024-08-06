@@ -24,16 +24,28 @@
         }
       },
       "borderWidth": {
-        "default": {
+        "xs": {
           "value": "{ob.p.borderWidth.100}",
           "type": "borderWidth"
         },
-        "stronger": {
+        "sm": {
           "value": "{ob.p.borderWidth.200}",
           "type": "borderWidth"
         },
-        "strongest": {
+        "md": {
           "value": "{ob.p.borderWidth.300}",
+          "type": "borderWidth"
+        },
+        "lg": {
+          "value": "{ob.p.borderWidth.400}",
+          "type": "borderWidth"
+        },
+        "xl": {
+          "value": "{ob.p.borderWidth.500}",
+          "type": "borderWidth"
+        },
+        "2xl": {
+          "value": "{ob.p.borderWidth.600}",
           "type": "borderWidth"
         },
         "none": {
@@ -113,6 +125,17 @@
             "value": "{ob.s.radii.lg}",
             "type": "borderRadius"
           }
+        }
+      },
+      "border": {
+        "focus-light": {
+          "value": {
+            "color": "{ob.s.color.border.focus-light}",
+            "width": "{ob.s.borderWidth.2xl}",
+            "style": "solid"
+          },
+          "type": "border",
+          "description": "focus for all clickable elements and form elements."
         }
       }
     }

@@ -22,6 +22,11 @@
           "type": "spacing",
           "description": "Use this for minimal padding inside smaller components like form fields, list items, or dialog actions. It helps maintain clarity without adding bulk, ideal for grouping related items such as labels and input boxes closely together."
         },
+        "ml": {
+          "value": "{ob.p.space.250}",
+          "type": "spacing",
+          "description": "Use this for minimal padding inside smaller components like form fields, list items, or dialog actions. It helps maintain clarity without adding bulk, ideal for grouping related items such as labels and input boxes closely together."
+        },
         "lg": {
           "value": "{ob.p.space.300}",
           "type": "spacing",

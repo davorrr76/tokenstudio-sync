@@ -125,7 +125,7 @@
       "infobox": {
         "border-width": {
           "left": {
-            "value": "{ob.s.borderWidth.strongest}",
+            "value": "{ob.s.borderWidth.md}",
             "type": "borderWidth",
             "description": "A border width that is close to the line thickness of the icon (proximity and concistancy design principles)."
           }
