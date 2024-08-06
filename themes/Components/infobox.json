@@ -141,7 +141,7 @@
         "surface-dark": {
           "text": {
             "color": {
-              "value": "{ob.s.color.text.surfaceDark.body}",
+              "value": "{ob.s.color.text.surface-dark.body}",
               "type": "color"
             }
           }
@@ -149,7 +149,7 @@
         "surface-light": {
           "text": {
             "color": {
-              "value": "{ob.s.color.text.surfaceLight.body.default}",
+              "value": "{ob.s.color.text.surface-light.body.default}",
               "type": "color"
             }
           }

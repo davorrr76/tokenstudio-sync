@@ -17,6 +17,34 @@
                 "value": "{ob.s.spacing.lg}",
                 "type": "spacing"
               }
+            },
+            "horizontal": {
+              "sm": {
+                "value": "{ob.s.spacing.md}",
+                "type": "spacing"
+              },
+              "md": {
+                "value": "{ob.s.spacing.lg}",
+                "type": "spacing"
+              },
+              "lg": {
+                "value": "{ob.s.spacing.2xl}",
+                "type": "spacing"
+              }
+            }
+          },
+          "gap": {
+            "sm": {
+              "value": "{ob.s.spacing.sm}",
+              "type": "spacing"
+            },
+            "md": {
+              "value": "{ob.s.spacing.md}",
+              "type": "spacing"
+            },
+            "lg": {
+              "value": "{ob.s.spacing.lg}",
+              "type": "spacing"
             }
           }
         },
@@ -48,17 +76,75 @@
         "color": {
           "surface-light": {
             "button-primary": {
-              "fg": {
-                "value": "{ob.s.color.text.surfaceDark.body}",
-                "type": "color"
+              "enabled": {
+                "fg": {
+                  "value": "{ob.s.color.text.surface-dark.body}",
+                  "type": "color"
+                },
+                "bg": {
+                  "value": "{ob.p.colors.blue.700}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "transparent",
+                  "type": "color"
+                }
               },
-              "bg": {
-                "value": "{ob.p.colors.cobalt.400}",
-                "type": "color"
+              "hover": {
+                "fg": {
+                  "value": "{ob.s.color.text.surface-dark.body}",
+                  "type": "color"
+                },
+                "bg": {
+                  "value": "{ob.p.colors.blue.600}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "transparent",
+                  "type": "color"
+                }
               },
-              "border": {
-                "value": "transparent",
-                "type": "color"
+              "focus": {
+                "fg": {
+                  "value": "{ob.s.color.text.surface-dark.body}",
+                  "type": "color"
+                },
+                "bg": {
+                  "value": "{ob.p.colors.blue.500}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "transparent",
+                  "type": "color"
+                }
+              },
+              "pressed": {
+                "fg": {
+                  "value": "{ob.s.color.text.surface-dark.body}",
+                  "type": "color"
+                },
+                "bg": {
+                  "value": "{ob.p.colors.blue.800}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "transparent",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "fg": {
+                  "value": "{ob.s.color.text.surface-dark.body}",
+                  "type": "color"
+                },
+                "bg": {
+                  "value": "{ob.p.colors.cobalt.200}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "transparent",
+                  "type": "color"
+                }
               }
             },
             "button-secondary": {
@@ -75,7 +161,7 @@
                 "type": "color"
               }
             },
-            "button-Tertiary": {
+            "button-tertiary": {
               "fg": {
                 "value": "{ob.p.colors.cobalt.600}",
                 "type": "color"
@@ -93,7 +179,7 @@
           "surface-dark": {
             "button-primary": {
               "fg": {
-                "value": "{ob.s.color.text.surfaceDark.body}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               },
               "bg": {
