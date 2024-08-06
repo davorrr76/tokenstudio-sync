@@ -112,7 +112,7 @@
       "sizing": {
         "infobox": {
           "icon-size": {
-            "value": "{ob.s.icon.size.sm}",
+            "value": "{ob.s.icon.size.md}",
             "type": "sizing",
             "description": "Icon size is slightly larger than the title to be readable since it has less contrast than the text and communicates the status. On mobile even smaller to save space for the text."
           },

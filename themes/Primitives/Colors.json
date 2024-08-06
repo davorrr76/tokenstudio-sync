@@ -635,6 +635,11 @@
             "parent": "Colors/Mode 1",
             "description": ""
           }
+        },
+        "no-color": {
+          "value": "none",
+          "type": "color",
+          "description": "Use this if the background color changes from a color to none, e.g. depending on interaction states"
         }
       }
     }
