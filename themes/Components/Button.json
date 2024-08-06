@@ -194,7 +194,7 @@
               },
               "pressed": {
                 "fg": {
-                  "value": "{ob.p.colors.blue.700}",
+                  "value": "{ob.p.colors.blue.800}",
                   "type": "color"
                 },
                 "bg": {
@@ -202,7 +202,7 @@
                   "type": "color"
                 },
                 "border": {
-                  "value": "{ob.p.colors.blue.700}",
+                  "value": "{ob.p.colors.blue.800}",
                   "type": "color"
                 }
               },
