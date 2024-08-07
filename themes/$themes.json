@@ -425,9 +425,10 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Surface/light": "enabled"
+      "Surface/light": "enabled",
+      "Primitives/Colors": "source",
+      "Semantics/Colors": "source"
     },
-    "group": "Surface",
     "$figmaCollectionId": "VariableCollectionId:4195:3467",
     "$figmaModeId": "4195:0",
     "$figmaVariableReferences": {
@@ -489,8 +490,10 @@
       "ob.c.button.color.surface-dark_old.link.hover": "bcd7b2927db34f9792ff6dd645cdbc32bba561c7",
       "ob.c.button.color.surface-dark_old.link.active": "dc7c176da388ddedfa3f6d6f3cd5377ecb87ab62",
       "ob.c.button.color.surface-dark_old.link.focus": "c8758b08dafc390c76b7a660a579ba77338100a5",
-      "ob.c.button.color.surface-dark_old.link.visited": "84729151f778fa53276dcbc87c01ad90fa445a16"
-    }
+      "ob.c.button.color.surface-dark_old.link.visited": "84729151f778fa53276dcbc87c01ad90fa445a16",
+      "ob.c.button.color.button-primary.all-states.fg": "7c3fce32f98358c540ad2a0f921c5fb30a00f951"
+    },
+    "group": "Surface"
   },
   {
     "id": "ce28bc429f67b042f21d44ea8744f4a9409b2c77",
