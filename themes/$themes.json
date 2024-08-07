@@ -367,7 +367,8 @@
       "ob.c.spacing.container-infobox.row-gap": "84f1410ebe8a212278885cc60adb3ce99339f696",
       "ob.c.sizing.infobox.icon-size": "398e9271ae3058ee62accefbf2b82609f102ad29",
       "ob.c.sizing.infobox.close-button-size": "e91b79b684225449f4d15f12913bfdbe3c815ab8",
-      "ob.c.infobox.border-width.left": "81dac90c0adf2327b3cac859a76e857621996fa1"
+      "ob.c.infobox.border-width.left": "81dac90c0adf2327b3cac859a76e857621996fa1",
+      "ob.c.spacing.infobox.container-buttons.padding-right": "e8fe896455de081c76c6a44b3dcf5c00057b7f77"
     },
     "group": "Breakpoint"
   },
@@ -416,7 +417,8 @@
       "ob.c.spacing.container-close-button.padding-top": "f3be33ddc5b57b125d43cf1559a2937753cf3de2",
       "ob.c.sizing.infobox.icon-size": "398e9271ae3058ee62accefbf2b82609f102ad29",
       "ob.c.sizing.infobox.close-button-size": "e91b79b684225449f4d15f12913bfdbe3c815ab8",
-      "ob.c.infobox.border-width.left": "81dac90c0adf2327b3cac859a76e857621996fa1"
+      "ob.c.infobox.border-width.left": "81dac90c0adf2327b3cac859a76e857621996fa1",
+      "ob.c.spacing.infobox.container-buttons.padding-right": "e8fe896455de081c76c6a44b3dcf5c00057b7f77"
     },
     "$figmaCollectionId": "VariableCollectionId:4005:44821",
     "$figmaModeId": "4005:3",

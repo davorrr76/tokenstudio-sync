@@ -128,7 +128,7 @@
           "button-secondary": {
             "enabled": {
               "fg": {
-                "value": "{ob.p.colors.basic.white}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               },
               "bg": {
@@ -136,13 +136,13 @@
                 "type": "color"
               },
               "border": {
-                "value": "{ob.p.colors.basic.white}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               }
             },
             "hover": {
               "fg": {
-                "value": "{ob.p.colors.basic.white}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               },
               "bg": {
@@ -159,7 +159,7 @@
                 }
               },
               "border": {
-                "value": "{ob.p.colors.basic.white}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               }
             },
@@ -173,61 +173,81 @@
                 "type": "color"
               },
               "border": {
-                "value": "{ob.p.colors.basic.white}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               }
             },
             "pressed": {
               "fg": {
-                "value": "{ob.p.colors.basic.white}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
-                      "value": "0.1",
-                      "space": "hsl"
+                      "type": "alpha",
+                      "value": "0.8",
+                      "space": "srgb"
                     }
                   }
-                }
+                },
+                "description": "slightly reduced opacity for pressed"
               },
               "bg": {
                 "value": "{ob.s.color.util.no-color}",
                 "type": "color"
               },
               "border": {
-                "value": "{ob.p.colors.basic.white}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "darken",
-                      "value": "0.1",
-                      "space": "hsl"
+                      "type": "alpha",
+                      "value": "0.8",
+                      "space": "srgb"
                     }
                   }
-                }
+                },
+                "description": "{ob.s.color.util.no-color}"
               }
             },
             "disabled": {
               "fg": {
-                "value": "{ob.s.color.form._defaults.disabled}",
-                "type": "color"
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.4",
+                      "space": "srgb"
+                    }
+                  }
+                }
               },
               "bg": {
                 "value": "{ob.s.color.util.no-color}",
                 "type": "color"
               },
               "border": {
-                "value": "{ob.s.color.form._defaults.disabled}",
-                "type": "color"
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.4",
+                      "space": "srgb"
+                    }
+                  }
+                }
               }
             }
           },
           "button-tertiary": {
             "enabled": {
               "fg": {
-                "value": "{ob.p.colors.blue.700}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               },
               "bg": {
@@ -241,21 +261,12 @@
             },
             "hover": {
               "fg": {
-                "value": "{ob.p.colors.blue.700}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.p.colors.blue.700}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.1",
-                      "space": "hsl"
-                    }
-                  }
-                }
+                "value": "{ob.s.color.util.no-color}",
+                "type": "color"
               },
               "border": {
                 "value": "{ob.s.color.background.surface-light.default}",
@@ -265,7 +276,7 @@
             },
             "focus": {
               "fg": {
-                "value": "{ob.p.colors.blue.700}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               },
               "bg": {
@@ -279,8 +290,17 @@
             },
             "pressed": {
               "fg": {
-                "value": "{ob.p.colors.blue.800}",
-                "type": "color"
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.8",
+                      "space": "srgb"
+                    }
+                  }
+                }
               },
               "bg": {
                 "value": "{ob.s.color.util.no-color}",
@@ -293,8 +313,17 @@
             },
             "disabled": {
               "fg": {
-                "value": "{ob.s.color.form._defaults.disabled}",
-                "type": "color"
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.4",
+                      "space": "srgb"
+                    }
+                  }
+                }
               },
               "bg": {
                 "value": "{ob.s.color.util.no-color}",

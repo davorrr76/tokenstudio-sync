@@ -76,6 +76,12 @@
               "type": "spacing",
               "description": "Here for mobile reseting the right-padding that is larger on desktop."
             }
+          },
+          "container-buttons": {
+            "padding-right": {
+              "value": "{ob.s.spacing.3xl}",
+              "type": "spacing"
+            }
           }
         },
         "container-infobox": {

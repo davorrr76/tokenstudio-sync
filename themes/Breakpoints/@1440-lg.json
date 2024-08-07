@@ -76,6 +76,12 @@
               "type": "spacing",
               "description": "Adding a larger right-padding on larger screens introduces white space that allows the design to \"breathe\"."
             }
+          },
+          "container-buttons": {
+            "padding-right": {
+              "value": "{ob.s.spacing.md}",
+              "type": "spacing"
+            }
           }
         },
         "container-close-button": {
