@@ -152,15 +152,15 @@
             "button-secondary": {
               "enabled": {
                 "fg": {
-                  "value": "{ob.s.color.text.surface-dark.body}",
+                  "value": "{ob.p.colors.blue.700}",
                   "type": "color"
                 },
                 "bg": {
-                  "value": "{ob.p.colors.blue.500}",
+                  "value": "{ob.s.color.util.no-color}",
                   "type": "color"
                 },
                 "border": {
-                  "value": "transparent",
+                  "value": "{ob.p.colors.blue.700}",
                   "type": "color"
                 }
               },
@@ -226,6 +226,87 @@
                 },
                 "border": {
                   "value": "{ob.s.color.form._defaults.disabled}",
+                  "type": "color"
+                }
+              }
+            },
+            "button-tertiary": {
+              "enabled": {
+                "fg": {
+                  "value": "{ob.p.colors.blue.700}",
+                  "type": "color"
+                },
+                "bg": {
+                  "value": "{ob.s.color.util.no-color}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "{ob.s.color.util.no-color}",
+                  "type": "color"
+                }
+              },
+              "hover": {
+                "fg": {
+                  "value": "{ob.p.colors.blue.700}",
+                  "type": "color"
+                },
+                "bg": {
+                  "value": "{ob.p.colors.blue.700}",
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "alpha",
+                        "value": "0.1",
+                        "space": "hsl"
+                      }
+                    }
+                  }
+                },
+                "border": {
+                  "value": "{ob.s.color.util.no-color}",
+                  "type": "color"
+                }
+              },
+              "focus": {
+                "fg": {
+                  "value": "{ob.p.colors.blue.700}",
+                  "type": "color"
+                },
+                "bg": {
+                  "value": "{ob.s.color.util.no-color}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "{ob.s.color.util.no-color}",
+                  "type": "color"
+                }
+              },
+              "pressed": {
+                "fg": {
+                  "value": "{ob.p.colors.blue.800}",
+                  "type": "color"
+                },
+                "bg": {
+                  "value": "{ob.s.color.util.no-color}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "{ob.s.color.util.no-color}",
+                  "type": "color"
+                }
+              },
+              "disabled": {
+                "fg": {
+                  "value": "{ob.s.color.form._defaults.disabled}",
+                  "type": "color"
+                },
+                "bg": {
+                  "value": "{ob.s.color.util.no-color}",
+                  "type": "color"
+                },
+                "border": {
+                  "value": "{ob.s.color.util.no-color}",
                   "type": "color"
                 }
               }
