@@ -122,8 +122,8 @@
             "type": "typography"
           }
         },
-        "border": {
-          "radius": {
+        "border-radius": {
+          "default": {
             "value": "{ob.p.radii.round}",
             "type": "borderRadius",
             "description": "For entirely round buttons"
