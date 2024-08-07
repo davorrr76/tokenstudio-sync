@@ -73,12 +73,6 @@
                 "value": "transparent",
                 "type": "color"
               }
-            },
-            "all-states": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
-                "type": "color"
-              }
             }
           },
           "button-secondary": {
@@ -98,7 +92,7 @@
             },
             "hover": {
               "fg": {
-                "value": "{ob.p.colors.blue.700}",
+                "value": "{ob.p.colors.blue.800}",
                 "type": "color"
               },
               "bg": {

@@ -55,11 +55,13 @@
       "Components/infobox": "enabled",
       "Components/Container": "enabled",
       "Components/Button": "enabled",
-      "Components/Badge": "enabled"
+      "Components/Badge": "enabled",
+      "Components/Footer": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:4005:44599",
     "$figmaModeId": "4005:0",
     "$figmaVariableReferences": {
+      "ob.c.footer.color.bg-color": "799b270803fec683ecb9617f6a1214625d4a1414",
       "ob.c.container-button.infobox.padding-bottom": "258b0d143441834140ed57e15557b73441b4f8ec",
       "ob.c.container-infobox.infobox.padding-bottom": "b4b43acd1186695d752a39c7f89d80178ae78363",
       "ob.c.button.spacing.spacing.with-text.spacing.padding.vertical.sm": "f6f9c34967951ecc3d10f4428d890d8763b963f0",
@@ -71,6 +73,15 @@
       "ob.c.button.spacing.spacing.with-text.spacing.gap.sm": "8a77b276c80723f9c699e9d208a3aba9fb746194",
       "ob.c.button.spacing.spacing.with-text.spacing.gap.md": "c28fe237d8b6e0ec48689b4f12c4f5a11f6a78a9",
       "ob.c.button.spacing.spacing.with-text.spacing.gap.lg": "5b1bb5e22e740bdbb8641446706ee3a1a602b47b",
+      "ob.c.button.spacing.spacing.icon-only.spacing.padding.vertical.sm": "f05ae0f51af7fad9239f6c39567ce8b0b5484c3d",
+      "ob.c.button.spacing.spacing.icon-only.spacing.padding.vertical.md": "1a8f7c48dc2e04e992d3da9400b7ba381f168304",
+      "ob.c.button.spacing.spacing.icon-only.spacing.padding.vertical.lg": "3fa77e8102a75b1bc8df01cd2a1e5350d0f3f4d3",
+      "ob.c.button.spacing.spacing.icon-only.spacing.padding.horizontal.sm": "1f6b855e6740a10cf93ddbee8ac46b5952f94fdb",
+      "ob.c.button.spacing.spacing.icon-only.spacing.padding.horizontal.md": "f942bc04b917c40736b70b5acf77ea89c5f296dc",
+      "ob.c.button.spacing.spacing.icon-only.spacing.padding.horizontal.lg": "1932c7c10868ad5f0323e975919f16a73f00f5ae",
+      "ob.c.button.spacing.spacing.icon-only.spacing.gap.sm": "00c722b0ea01363f838a31327bc3d8eaad5e5574",
+      "ob.c.button.spacing.spacing.icon-only.spacing.gap.md": "cab0c7a1e09e411efc06c7ec9969f3610c12abe2",
+      "ob.c.button.spacing.spacing.icon-only.spacing.gap.lg": "95b42541a06fb9513bfec64d72c54947ee05ee64",
       "ob.c.button.border-radius.default": "d96661729a97dd9d0b500d80be6e43f9908cd31f",
       "ob.c.button.color.surface-light.button-primary.enabled.fg": "da72874e70b84e7b3655ae9db61cd93bc5cd2e43",
       "ob.c.button.color.surface-light.button-primary.enabled.bg": "8d3249d1bcee44c6e870460646b73ee8a8448f5e",
@@ -132,15 +143,6 @@
       "ob.c.button.color.surface-dark_old.link.focus": "d4433432546ad1ef48c15bdb74a11bb758ba5e7e",
       "ob.c.button.color.surface-dark_old.link.visited": "c9da1167e582ab851bba863b73995c94a2fa07c8",
       "ob.c.button.sizing.min-height.s": "2e09b5d52f188070888a79f4a39cd96f8a6f9ac0",
-      "ob.c.button.spacing.spacing.icon-only.spacing.padding.vertical.sm": "f05ae0f51af7fad9239f6c39567ce8b0b5484c3d",
-      "ob.c.button.spacing.spacing.icon-only.spacing.padding.vertical.md": "1a8f7c48dc2e04e992d3da9400b7ba381f168304",
-      "ob.c.button.spacing.spacing.icon-only.spacing.padding.vertical.lg": "3fa77e8102a75b1bc8df01cd2a1e5350d0f3f4d3",
-      "ob.c.button.spacing.spacing.icon-only.spacing.padding.horizontal.sm": "1f6b855e6740a10cf93ddbee8ac46b5952f94fdb",
-      "ob.c.button.spacing.spacing.icon-only.spacing.padding.horizontal.md": "f942bc04b917c40736b70b5acf77ea89c5f296dc",
-      "ob.c.button.spacing.spacing.icon-only.spacing.padding.horizontal.lg": "1932c7c10868ad5f0323e975919f16a73f00f5ae",
-      "ob.c.button.spacing.spacing.icon-only.spacing.gap.sm": "00c722b0ea01363f838a31327bc3d8eaad5e5574",
-      "ob.c.button.spacing.spacing.icon-only.spacing.gap.md": "cab0c7a1e09e411efc06c7ec9969f3610c12abe2",
-      "ob.c.button.spacing.spacing.icon-only.spacing.gap.lg": "95b42541a06fb9513bfec64d72c54947ee05ee64",
       "ob.c.button.border-width": "ac26215822a98247e1cf52e5256052048a4c6119",
       "ob.c.infobox.icon.color.info": "3d698d459c2673f203072037dd14c18b52ddc164",
       "ob.c.infobox.icon.color.error": "9332a581f5f698115cf18a901b9bc4e9e6772b40",
@@ -490,8 +492,7 @@
       "ob.c.button.color.surface-dark_old.link.hover": "bcd7b2927db34f9792ff6dd645cdbc32bba561c7",
       "ob.c.button.color.surface-dark_old.link.active": "dc7c176da388ddedfa3f6d6f3cd5377ecb87ab62",
       "ob.c.button.color.surface-dark_old.link.focus": "c8758b08dafc390c76b7a660a579ba77338100a5",
-      "ob.c.button.color.surface-dark_old.link.visited": "84729151f778fa53276dcbc87c01ad90fa445a16",
-      "ob.c.button.color.button-primary.all-states.fg": "7c3fce32f98358c540ad2a0f921c5fb30a00f951"
+      "ob.c.button.color.surface-dark_old.link.visited": "84729151f778fa53276dcbc87c01ad90fa445a16"
     },
     "group": "Surface"
   },
@@ -500,9 +501,10 @@
     "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Surface/dark": "enabled"
+      "Surface/dark": "enabled",
+      "Primitives/Colors": "source",
+      "Semantics/Colors": "source"
     },
-    "group": "Surface",
     "$figmaCollectionId": "VariableCollectionId:4195:3467",
     "$figmaModeId": "4195:1",
     "$figmaVariableReferences": {
@@ -565,6 +567,7 @@
       "ob.c.button.color.surface-dark_old.link.active": "dc7c176da388ddedfa3f6d6f3cd5377ecb87ab62",
       "ob.c.button.color.surface-dark_old.link.focus": "c8758b08dafc390c76b7a660a579ba77338100a5",
       "ob.c.button.color.surface-dark_old.link.visited": "84729151f778fa53276dcbc87c01ad90fa445a16"
-    }
+    },
+    "group": "Surface"
   }
 ]
