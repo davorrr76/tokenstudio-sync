@@ -2,50 +2,104 @@
   "ob": {
     "c": {
       "button": {
-        "with-text": {
+        "spacing": {
           "spacing": {
-            "padding": {
-              "vertical": {
-                "sm": {
-                  "value": "{ob.s.spacing.sm}",
-                  "type": "spacing"
+            "with-text": {
+              "spacing": {
+                "padding": {
+                  "vertical": {
+                    "sm": {
+                      "value": "{ob.s.spacing.sm}",
+                      "type": "spacing"
+                    },
+                    "md": {
+                      "value": "{ob.s.spacing.md}",
+                      "type": "spacing"
+                    },
+                    "lg": {
+                      "value": "{ob.s.spacing.lg}",
+                      "type": "spacing"
+                    }
+                  },
+                  "horizontal": {
+                    "sm": {
+                      "value": "{ob.s.spacing.ml}",
+                      "type": "spacing"
+                    },
+                    "md": {
+                      "value": "{ob.s.spacing.xl}",
+                      "type": "spacing"
+                    },
+                    "lg": {
+                      "value": "{ob.s.spacing.2xl}",
+                      "type": "spacing"
+                    }
+                  }
                 },
-                "md": {
-                  "value": "{ob.s.spacing.md}",
-                  "type": "spacing"
-                },
-                "lg": {
-                  "value": "{ob.s.spacing.lg}",
-                  "type": "spacing"
-                }
-              },
-              "horizontal": {
-                "sm": {
-                  "value": "{ob.s.spacing.ml}",
-                  "type": "spacing"
-                },
-                "md": {
-                  "value": "{ob.s.spacing.xl}",
-                  "type": "spacing"
-                },
-                "lg": {
-                  "value": "{ob.s.spacing.2xl}",
-                  "type": "spacing"
+                "gap": {
+                  "sm": {
+                    "value": "{ob.s.spacing.sm}",
+                    "type": "spacing"
+                  },
+                  "md": {
+                    "value": "{ob.s.spacing.md}",
+                    "type": "spacing"
+                  },
+                  "lg": {
+                    "value": "{ob.s.spacing.md}",
+                    "type": "spacing"
+                  }
                 }
               }
             },
-            "gap": {
-              "sm": {
-                "value": "{ob.s.spacing.sm}",
-                "type": "spacing"
-              },
-              "md": {
-                "value": "{ob.s.spacing.md}",
-                "type": "spacing"
-              },
-              "lg": {
-                "value": "{ob.s.spacing.md}",
-                "type": "spacing"
+            "icon-only": {
+              "spacing": {
+                "padding": {
+                  "vertical": {
+                    "sm": {
+                      "value": "{ob.s.spacing.sm}",
+                      "type": "spacing"
+                    },
+                    "md": {
+                      "value": "{ob.s.spacing.md}",
+                      "type": "spacing"
+                    },
+                    "lg": {
+                      "value": "{ob.s.spacing.ml}",
+                      "type": "spacing",
+                      "description": "makes the icon-only button round 40x40"
+                    }
+                  },
+                  "horizontal": {
+                    "sm": {
+                      "value": "{ob.s.spacing.sm}",
+                      "type": "spacing"
+                    },
+                    "md": {
+                      "value": "{ob.s.spacing.md}",
+                      "type": "spacing"
+                    },
+                    "lg": {
+                      "value": "{ob.s.spacing.ml}",
+                      "type": "spacing",
+                      "description": "makes the icon-only button round 40x40"
+                    }
+                  }
+                },
+                "gap": {
+                  "sm": {
+                    "value": "{ob.s.spacing.sm}",
+                    "type": "spacing"
+                  },
+                  "md": {
+                    "value": "{ob.s.spacing.md}",
+                    "type": "spacing"
+                  },
+                  "lg": {
+                    "value": "{ob.s.spacing.lg}",
+                    "type": "spacing"
+                  }
+                }
               }
             }
           }
@@ -84,7 +138,7 @@
                   "type": "color"
                 },
                 "bg": {
-                  "value": "{ob.p.colors.blue.500}",
+                  "value": "{ob.p.colors.blue.600}",
                   "type": "color"
                 },
                 "border": {
@@ -98,7 +152,7 @@
                   "type": "color"
                 },
                 "bg": {
-                  "value": "{ob.p.colors.blue.600}",
+                  "value": "{ob.p.colors.blue.700}",
                   "type": "color"
                 },
                 "border": {
@@ -264,8 +318,9 @@
                   }
                 },
                 "border": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
+                  "value": "{ob.s.color.background.surface-light.default}",
+                  "type": "color",
+                  "description": "divides the shadow from the background color of the button. needed only in this case since the shadow and the bg-color have a similar luminosity"
                 }
               },
               "focus": {
@@ -312,7 +367,7 @@
               }
             }
           },
-          "surface-dark": {
+          "surface-dark_old": {
             "button-primary": {
               "fg": {
                 "value": "{ob.s.color.text.surface-dark.body}",
@@ -385,56 +440,6 @@
               "value": "{ob.p.size.300}",
               "type": "sizing",
               "description": "Set the minimum height for a button in case the icon is missing and can not dictate the height of the button"
-            }
-          }
-        },
-        "icon-only": {
-          "spacing": {
-            "padding": {
-              "vertical": {
-                "sm": {
-                  "value": "{ob.s.spacing.sm}",
-                  "type": "spacing"
-                },
-                "md": {
-                  "value": "{ob.s.spacing.md}",
-                  "type": "spacing"
-                },
-                "lg": {
-                  "value": "{ob.s.spacing.ml}",
-                  "type": "spacing",
-                  "description": "makes the icon-only button round 40x40"
-                }
-              },
-              "horizontal": {
-                "sm": {
-                  "value": "{ob.s.spacing.sm}",
-                  "type": "spacing"
-                },
-                "md": {
-                  "value": "{ob.s.spacing.md}",
-                  "type": "spacing"
-                },
-                "lg": {
-                  "value": "{ob.s.spacing.ml}",
-                  "type": "spacing",
-                  "description": "makes the icon-only button round 40x40"
-                }
-              }
-            },
-            "gap": {
-              "sm": {
-                "value": "{ob.s.spacing.sm}",
-                "type": "spacing"
-              },
-              "md": {
-                "value": "{ob.s.spacing.md}",
-                "type": "spacing"
-              },
-              "lg": {
-                "value": "{ob.s.spacing.lg}",
-                "type": "spacing"
-              }
             }
           }
         },
