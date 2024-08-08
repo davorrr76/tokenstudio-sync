@@ -334,6 +334,247 @@
                 "type": "color"
               }
             }
+          },
+          "button-secondary-bw": {
+            "enabled": {
+              "fg": {
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color"
+              },
+              "bg": {
+                "value": "{ob.s.color.util.no-color}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "fg": {
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color"
+              },
+              "bg": {
+                "value": "{ob.p.colors.basic.white}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.1",
+                      "space": "hsl"
+                    }
+                  }
+                }
+              },
+              "border": {
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color"
+              }
+            },
+            "focus": {
+              "fg": {
+                "value": "{ob.p.colors.basic.white}",
+                "type": "color"
+              },
+              "bg": {
+                "value": "{ob.s.color.util.no-color}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color"
+              }
+            },
+            "pressed": {
+              "fg": {
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.8",
+                      "space": "srgb"
+                    }
+                  }
+                },
+                "description": "slightly reduced opacity for pressed"
+              },
+              "bg": {
+                "value": "{ob.s.color.util.no-color}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.8",
+                      "space": "srgb"
+                    }
+                  }
+                },
+                "description": "{ob.s.color.util.no-color}"
+              }
+            },
+            "disabled": {
+              "fg": {
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.4",
+                      "space": "srgb"
+                    }
+                  }
+                }
+              },
+              "bg": {
+                "value": "{ob.s.color.util.no-color}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.4",
+                      "space": "srgb"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "button-primary-bw": {
+            "enabled": {
+              "fg": {
+                "value": "{ob.s.color.text.surface-light.body.default}",
+                "type": "color"
+              },
+              "bg": {
+                "value": "{ob.s.color.background.surface-light.default}",
+                "type": "color"
+              },
+              "border": {
+                "value": "transparent",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "fg": {
+                "value": "{ob.s.color.text.surface-light.body.default}",
+                "type": "color"
+              },
+              "bg": {
+                "value": "{ob.s.color.background.surface-light.default}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.8",
+                      "space": "srgb"
+                    }
+                  }
+                },
+                "description": "Adds 80% transparency on hover"
+              },
+              "border": {
+                "value": "transparent",
+                "type": "color"
+              }
+            },
+            "focus": {
+              "fg": {
+                "value": "{ob.s.color.text.surface-light.body.default}",
+                "type": "color"
+              },
+              "bg": {
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color"
+              },
+              "border": {
+                "value": "transparent",
+                "type": "color"
+              }
+            },
+            "pressed": {
+              "fg": {
+                "value": "{ob.s.color.text.surface-light.body.default}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.8",
+                      "space": "srgb"
+                    }
+                  }
+                },
+                "description": "Adds 80% opacity to clicked state"
+              },
+              "bg": {
+                "value": "{ob.s.color.background.surface-light.default}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.8",
+                      "space": "srgb"
+                    }
+                  }
+                },
+                "description": "Adds 80% opacity to clicked state"
+              },
+              "border": {
+                "value": "transparent",
+                "type": "color"
+              }
+            },
+            "disabled": {
+              "fg": {
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.4",
+                      "space": "srgb"
+                    }
+                  }
+                },
+                "description": "Reduced opacity for inactive"
+              },
+              "bg": {
+                "value": "{ob.s.color.background.surface-light.default}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.1",
+                      "space": "srgb"
+                    }
+                  }
+                },
+                "description": "reduced opacity for inactive"
+              },
+              "border": {
+                "value": "transparent",
+                "type": "color"
+              }
+            }
           }
         }
       }
