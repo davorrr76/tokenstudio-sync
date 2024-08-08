@@ -328,64 +328,54 @@
         },
         "blue": {
           "50": {
-            "value": "#eff6ff",
+            "value": "#F3F4F5",
             "type": "color",
-            "parent": "Colors/Mode 1",
-            "description": ""
+            "parent": "Colors/Mode 1"
           },
           "100": {
-            "value": "#dbeafe",
+            "value": "#D5DEEA",
             "type": "color",
-            "parent": "Colors/Mode 1",
-            "description": ""
+            "parent": "Colors/Mode 1"
           },
           "200": {
-            "value": "#bfdbfe",
+            "value": "#AEC9E8",
             "type": "color",
-            "parent": "Colors/Mode 1",
-            "description": ""
+            "parent": "Colors/Mode 1"
           },
           "300": {
-            "value": "#93c5fd",
+            "value": "#79B6EE",
             "type": "color",
-            "parent": "Colors/Mode 1",
-            "description": ""
+            "parent": "Colors/Mode 1"
           },
           "400": {
-            "value": "#60a5fa",
+            "value": "#37A3EA",
             "type": "color",
-            "parent": "Colors/Mode 1",
-            "description": ""
+            "parent": "Colors/Mode 1"
           },
           "500": {
-            "value": "#3b82f6",
+            "value": "#108ED1",
             "type": "color",
-            "parent": "Colors/Mode 1",
-            "description": ""
+            "parent": "Colors/Mode 1"
           },
           "600": {
-            "value": "#2563eb",
+            "value": "#0178B3",
             "type": "color",
-            "parent": "Colors/Mode 1",
-            "description": ""
+            "parent": "Colors/Mode 1"
           },
           "700": {
-            "value": "#1d4ed8",
+            "value": "#146393",
             "type": "color",
-            "parent": "Colors/Mode 1",
-            "description": ""
+            "parent": "Colors/Mode 1"
           },
           "800": {
-            "value": "#1e40af",
+            "value": "#146393",
             "type": "color",
-            "parent": "Colors/Mode 1",
-            "description": ""
+            "parent": "Colors/Mode 1"
           },
           "900": {
-            "value": "#1e3a8a",
+            "value": "#213B52",
             "type": "color",
-            "parent": "Colors/Mode 1",
-            "description": ""
+            "parent": "Colors/Mode 1"
           }
         },
         "teal": {
