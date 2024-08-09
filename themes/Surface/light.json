@@ -509,6 +509,14 @@
             }
           }
         }
+      },
+      "infobox": {
+        "text": {
+          "color": {
+            "value": "{ob.s.color.text.surface-light.body.default}",
+            "type": "color"
+          }
+        }
       }
     }
   }
