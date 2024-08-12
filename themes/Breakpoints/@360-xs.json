@@ -25,7 +25,7 @@
             "description": "Enhances readability and visual appeal, preventing the text from appearing cramped and ensuring clarity."
           },
           "padding-right": {
-            "value": "{ob.s.spacing.3xl}",
+            "value": "{ob.s.spacing.2xl}",
             "type": "spacing",
             "description": "Top and right padding have to be the same so the position of the close button is visually apealing."
           },
@@ -75,11 +75,21 @@
               "value": "{ob.s.spacing.3xl}",
               "type": "spacing",
               "description": "Here for mobile reseting the right-padding that is larger on desktop."
+            },
+            "padding-bottom": {
+              "value": "{ob.s.spacing.2xl}",
+              "type": "spacing",
+              "description": "Adding a larger right-padding on larger screens introduces white space that allows the design to \"breathe\"."
             }
           },
-          "container-buttons": {
+          "button-container": {
+            "padding-left": {
+              "value": "{ob.s.spacing.6xl}",
+              "type": "spacing",
+              "description": "Aligns the buttons with the text on mobile."
+            },
             "padding-right": {
-              "value": "{ob.s.spacing.5xl}",
+              "value": "{ob.s.spacing.6xl}",
               "type": "spacing"
             }
           }
@@ -135,6 +145,17 @@
             "type": "borderWidth",
             "description": "A border width that is close to the line thickness of the icon (proximity and concistancy design principles). Slightly smaller on mobile because the icon got smaller too."
           }
+        }
+      }
+    }
+  },
+  "c": {
+    "infobox": {
+      "button-container": {
+        "button-order": {
+          "value": "primary-first",
+          "type": "text",
+          "description": "The primary button in an Infobox on Mobile should be positioned at the Top of a button group to ensure it appears as the first element, facilitating intuitive navigation and decision-making."
         }
       }
     }

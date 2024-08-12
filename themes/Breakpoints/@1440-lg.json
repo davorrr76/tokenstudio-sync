@@ -75,9 +75,18 @@
               "value": "{ob.s.spacing.9xl}",
               "type": "spacing",
               "description": "Adding a larger right-padding on larger screens introduces white space that allows the design to \"breathe\"."
+            },
+            "padding-bottom": {
+              "value": "{ob.s.spacing.2xl}",
+              "type": "spacing",
+              "description": "Adding a larger right-padding on larger screens introduces white space that allows the design to \"breathe\"."
             }
           },
-          "container-buttons": {
+          "button-container": {
+            "padding-left": {
+              "value": "{ob.s.spacing.none}",
+              "type": "spacing"
+            },
             "padding-right": {
               "value": "{ob.s.spacing.lg}",
               "type": "spacing"
@@ -86,7 +95,7 @@
         },
         "container-close-button": {
           "padding-top": {
-            "value": "{ob.s.spacing.sm}",
+            "value": "{ob.s.spacing.none}",
             "type": "spacing",
             "description": "Required to align the title with the close button on desktop."
           }
@@ -135,6 +144,17 @@
             "type": "borderWidth",
             "description": "A border width that is close to the line thickness of the icon (proximity and concistancy design principles)."
           }
+        }
+      }
+    }
+  },
+  "c": {
+    "infobox": {
+      "button-container": {
+        "button-order": {
+          "value": "primary-last",
+          "type": "text",
+          "description": "The primary button in an Infobox on Desktop should be positioned on the right side of a right-aligned button group to ensure it appears as the last element, facilitating intuitive navigation and decision-making."
         }
       }
     }

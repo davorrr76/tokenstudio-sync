@@ -3,102 +3,100 @@
     "c": {
       "button": {
         "spacing": {
-          "spacing": {
-            "with-text": {
-              "spacing": {
-                "padding": {
-                  "vertical": {
-                    "sm": {
-                      "value": "{ob.s.spacing.sm}",
-                      "type": "spacing"
-                    },
-                    "md": {
-                      "value": "{ob.s.spacing.lg}",
-                      "type": "spacing"
-                    },
-                    "lg": {
-                      "value": "{ob.s.spacing.xl}",
-                      "type": "spacing"
-                    }
-                  },
-                  "horizontal": {
-                    "sm": {
-                      "value": "{ob.s.spacing.xl}",
-                      "type": "spacing"
-                    },
-                    "md": {
-                      "value": "{ob.s.spacing.2xl}",
-                      "type": "spacing"
-                    },
-                    "lg": {
-                      "value": "{ob.s.spacing.3xl}",
-                      "type": "spacing"
-                    }
-                  }
-                },
-                "gap": {
+          "with-text": {
+            "spacing": {
+              "padding": {
+                "vertical": {
                   "sm": {
                     "value": "{ob.s.spacing.sm}",
                     "type": "spacing"
                   },
                   "md": {
-                    "value": "{ob.s.spacing.md}",
+                    "value": "{ob.s.spacing.lg}",
                     "type": "spacing"
                   },
                   "lg": {
-                    "value": "{ob.s.spacing.lg}",
+                    "value": "{ob.s.spacing.2xl}",
+                    "type": "spacing"
+                  }
+                },
+                "horizontal": {
+                  "sm": {
+                    "value": "{ob.s.spacing.xl}",
+                    "type": "spacing"
+                  },
+                  "md": {
+                    "value": "{ob.s.spacing.3xl}",
+                    "type": "spacing"
+                  },
+                  "lg": {
+                    "value": "{ob.s.spacing.4xl}",
                     "type": "spacing"
                   }
                 }
-              }
-            },
-            "icon-only": {
-              "spacing": {
-                "padding": {
-                  "vertical": {
-                    "sm": {
-                      "value": "{ob.s.spacing.md}",
-                      "type": "spacing"
-                    },
-                    "md": {
-                      "value": "{ob.s.spacing.md}",
-                      "type": "spacing"
-                    },
-                    "lg": {
-                      "value": "{ob.s.spacing.ml}",
-                      "type": "spacing",
-                      "description": "makes the icon-only button round 40x40"
-                    }
-                  },
-                  "horizontal": {
-                    "sm": {
-                      "value": "{ob.s.spacing.md}",
-                      "type": "spacing"
-                    },
-                    "md": {
-                      "value": "{ob.s.spacing.md}",
-                      "type": "spacing"
-                    },
-                    "lg": {
-                      "value": "{ob.s.spacing.ml}",
-                      "type": "spacing",
-                      "description": "makes the icon-only button round 40x40"
-                    }
-                  }
+              },
+              "gap": {
+                "sm": {
+                  "value": "{ob.s.spacing.sm}",
+                  "type": "spacing"
                 },
-                "gap": {
+                "md": {
+                  "value": "{ob.s.spacing.md}",
+                  "type": "spacing"
+                },
+                "lg": {
+                  "value": "{ob.s.spacing.lg}",
+                  "type": "spacing"
+                }
+              }
+            }
+          },
+          "icon-only": {
+            "spacing": {
+              "padding": {
+                "vertical": {
                   "sm": {
-                    "value": "{ob.s.spacing.sm}",
-                    "type": "spacing"
-                  },
-                  "md": {
                     "value": "{ob.s.spacing.md}",
                     "type": "spacing"
                   },
-                  "lg": {
+                  "md": {
                     "value": "{ob.s.spacing.lg}",
                     "type": "spacing"
+                  },
+                  "lg": {
+                    "value": "{ob.s.spacing.2xl}",
+                    "type": "spacing",
+                    "description": "makes the icon-only button round 40x40"
                   }
+                },
+                "horizontal": {
+                  "sm": {
+                    "value": "{ob.s.spacing.md}",
+                    "type": "spacing"
+                  },
+                  "md": {
+                    "value": "{ob.s.spacing.lg}",
+                    "type": "spacing"
+                  },
+                  "lg": {
+                    "value": "{ob.s.spacing.2xl}",
+                    "type": "spacing",
+                    "description": "makes the icon-only button round 40x40"
+                  }
+                }
+              },
+              "gap": {
+                "sm": {
+                  "value": "{ob.s.spacing.sm}",
+                  "type": "spacing"
+                },
+                "md": {
+                  "value": "{ob.s.spacing.md}",
+                  "type": "spacing"
+                },
+                "lg": {
+                  "value": "{ob.s.spacing.lg}",
+                  "type": "spacing"
                 }
               }
             }

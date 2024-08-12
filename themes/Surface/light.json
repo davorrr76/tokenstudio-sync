@@ -159,7 +159,7 @@
           "button-tertiary": {
             "enabled": {
               "fg": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               },
               "bg": {
@@ -167,17 +167,17 @@
                 "type": "color"
               },
               "border": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               }
             },
             "hover": {
               "fg": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -190,14 +190,13 @@
                 }
               },
               "border": {
-                "value": "{ob.s.color.background.surface-light.default}",
-                "type": "color",
-                "description": "divides the shadow from the background color of the button. needed only in this case since the shadow and the bg-color have a similar luminosity"
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color"
               }
             },
             "focus": {
               "fg": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "bg": {
@@ -205,36 +204,74 @@
                 "type": "color"
               },
               "border": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.text.surface-dark.body}",
                 "type": "color"
               }
             },
             "pressed": {
               "fg": {
-                "value": "{ob.p.colors.blue.900}",
-                "type": "color"
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.8",
+                      "space": "srgb"
+                    }
+                  }
+                },
+                "description": "slightly reduced opacity for pressed"
               },
               "bg": {
                 "value": "{ob.s.color.util.no-color}",
                 "type": "color"
               },
               "border": {
-                "value": "{ob.s.color.util.no-color}",
-                "type": "color"
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.8",
+                      "space": "srgb"
+                    }
+                  }
+                },
+                "description": "{ob.s.color.util.no-color}"
               }
             },
             "disabled": {
               "fg": {
-                "value": "{ob.s.color.form._defaults.disabled}",
-                "type": "color"
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.4",
+                      "space": "srgb"
+                    }
+                  }
+                }
               },
               "bg": {
                 "value": "{ob.s.color.util.no-color}",
                 "type": "color"
               },
               "border": {
-                "value": "{ob.s.color.util.no-color}",
-                "type": "color"
+                "value": "{ob.s.color.text.surface-dark.body}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.4",
+                      "space": "srgb"
+                    }
+                  }
+                }
               }
             }
           },
