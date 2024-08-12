@@ -363,7 +363,6 @@
       "ob.c.spacing.infobox.body.padding-bottom": "6b8f6b772f5c91dda1e8f2ab917d176166a00560",
       "ob.c.spacing.infobox.button-container.padding-left": "81be51f6b213887f9de03cf6d6025be8d69daaec",
       "ob.c.spacing.infobox.button-container.padding-right": "e8fe896455de081c76c6a44b3dcf5c00057b7f77",
-      "ob.c.spacing.container-close-button.padding-top": "f3be33ddc5b57b125d43cf1559a2937753cf3de2",
       "ob.c.spacing.container-infobox.padding-bottom": "a6be19be8d81a0cea0b1d91eeee71515f72f739d",
       "ob.c.spacing.container-infobox.padding-top": "a2c3a66f699d423caf4fc4f4d7fb6e6be4236c79",
       "ob.c.spacing.container-infobox.padding-left": "9f6d99aacf022ca92327807254bec4497d6c0c7c",
@@ -372,7 +371,8 @@
       "ob.c.sizing.infobox.icon-size": "398e9271ae3058ee62accefbf2b82609f102ad29",
       "ob.c.sizing.infobox.close-button-size": "e91b79b684225449f4d15f12913bfdbe3c815ab8",
       "ob.c.infobox.border-width.left": "81dac90c0adf2327b3cac859a76e857621996fa1",
-      "c.infobox.button-container.button-order": "1f57bf25e1553773a0c175ecfaa5ef9049551c82"
+      "ob.c.buttons-container.spacing.gap": "7d6884831fd0906a9336f06cb8abacc1315e6cc2",
+      "c.infobox.buttons-container.buttons-order": "1f57bf25e1553773a0c175ecfaa5ef9049551c82"
     },
     "group": "Breakpoint"
   },
@@ -413,6 +413,7 @@
       "ob.c.spacing.infobox.title-bar.col-gap": "7aecf0153de4309011d7b084e2aa96f829580e03",
       "ob.c.spacing.infobox.title-bar.padding-top": "b5be06c41c046ec469d695e1336389b66d8587f9",
       "ob.c.spacing.infobox.body.padding-right": "93814a4e699e339afa77d6aa29cc2b22b09b1186",
+      "ob.c.spacing.infobox.body.padding-bottom": "6b8f6b772f5c91dda1e8f2ab917d176166a00560",
       "ob.c.spacing.infobox.button-container.padding-left": "81be51f6b213887f9de03cf6d6025be8d69daaec",
       "ob.c.spacing.infobox.button-container.padding-right": "e8fe896455de081c76c6a44b3dcf5c00057b7f77",
       "ob.c.spacing.container-infobox.row-gap": "84f1410ebe8a212278885cc60adb3ce99339f696",
@@ -420,12 +421,11 @@
       "ob.c.spacing.container-infobox.padding-top": "a2c3a66f699d423caf4fc4f4d7fb6e6be4236c79",
       "ob.c.spacing.container-infobox.padding-left": "9f6d99aacf022ca92327807254bec4497d6c0c7c",
       "ob.c.spacing.container-infobox.padding-right": "552ccb5a53019b595381af7540e30dc576ebec0f",
-      "ob.c.spacing.container-close-button.padding-top": "f3be33ddc5b57b125d43cf1559a2937753cf3de2",
       "ob.c.sizing.infobox.icon-size": "398e9271ae3058ee62accefbf2b82609f102ad29",
       "ob.c.sizing.infobox.close-button-size": "e91b79b684225449f4d15f12913bfdbe3c815ab8",
       "ob.c.infobox.border-width.left": "81dac90c0adf2327b3cac859a76e857621996fa1",
-      "c.infobox.button-container.button-order": "1f57bf25e1553773a0c175ecfaa5ef9049551c82",
-      "ob.c.spacing.infobox.body.padding-bottom": "6b8f6b772f5c91dda1e8f2ab917d176166a00560"
+      "ob.c.buttons-container.spacing.gap": "7d6884831fd0906a9336f06cb8abacc1315e6cc2",
+      "c.infobox.buttons-container.buttons-order": "2b2131772ff34c8850fd09bfb8b70f608144d567"
     },
     "$figmaCollectionId": "VariableCollectionId:4005:44821",
     "$figmaModeId": "4005:3",
