@@ -13,25 +13,25 @@
                       "type": "spacing"
                     },
                     "md": {
-                      "value": "{ob.s.spacing.md}",
+                      "value": "{ob.s.spacing.lg}",
                       "type": "spacing"
                     },
                     "lg": {
-                      "value": "{ob.s.spacing.lg}",
+                      "value": "{ob.s.spacing.xl}",
                       "type": "spacing"
                     }
                   },
                   "horizontal": {
                     "sm": {
-                      "value": "{ob.s.spacing.ml}",
-                      "type": "spacing"
-                    },
-                    "md": {
                       "value": "{ob.s.spacing.xl}",
                       "type": "spacing"
                     },
-                    "lg": {
+                    "md": {
                       "value": "{ob.s.spacing.2xl}",
+                      "type": "spacing"
+                    },
+                    "lg": {
+                      "value": "{ob.s.spacing.3xl}",
                       "type": "spacing"
                     }
                   }
@@ -46,7 +46,7 @@
                     "type": "spacing"
                   },
                   "lg": {
-                    "value": "{ob.s.spacing.md}",
+                    "value": "{ob.s.spacing.lg}",
                     "type": "spacing"
                   }
                 }
@@ -57,7 +57,7 @@
                 "padding": {
                   "vertical": {
                     "sm": {
-                      "value": "{ob.s.spacing.sm}",
+                      "value": "{ob.s.spacing.md}",
                       "type": "spacing"
                     },
                     "md": {
@@ -72,7 +72,7 @@
                   },
                   "horizontal": {
                     "sm": {
-                      "value": "{ob.s.spacing.sm}",
+                      "value": "{ob.s.spacing.md}",
                       "type": "spacing"
                     },
                     "md": {
@@ -431,15 +431,6 @@
                 "value": "{ob.p.colors.cobalt.100}",
                 "type": "color"
               }
-            }
-          }
-        },
-        "sizing": {
-          "min-height": {
-            "s": {
-              "value": "{ob.p.size.300}",
-              "type": "sizing",
-              "description": "Set the minimum height for a button in case the icon is missing and can not dictate the height of the button"
             }
           }
         },

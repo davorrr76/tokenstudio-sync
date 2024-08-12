@@ -20,22 +20,22 @@
       "spacing": {
         "infobox": {
           "padding-top": {
-            "value": "{ob.s.spacing.xl}",
+            "value": "{ob.s.spacing.3xl}",
             "type": "spacing",
             "description": "Enhances readability and visual appeal, preventing the text from appearing cramped and ensuring clarity."
           },
           "padding-right": {
-            "value": "{ob.s.spacing.xl}",
+            "value": "{ob.s.spacing.3xl}",
             "type": "spacing",
             "description": "Top and right padding have to be the same so the position of the close button is visually apealing."
           },
           "padding-bottom": {
-            "value": "{ob.s.spacing.xl}",
+            "value": "{ob.s.spacing.3xl}",
             "type": "spacing",
             "description": "Enhances readability and visual appeal, preventing the text from appearing cramped and ensuring clarity."
           },
           "padding-left": {
-            "value": "{ob.s.spacing.md}",
+            "value": "{ob.s.spacing.lg}",
             "type": "spacing",
             "description": "Smaller padding to allow more space on mobile for the content."
           },
@@ -53,14 +53,14 @@
           },
           "text-blocks": {
             "row-gap": {
-              "value": "{ob.s.spacing.md}",
+              "value": "{ob.s.spacing.lg}",
               "type": "spacing",
               "description": "Emphasizes the visual hierarchy between the title and the body text."
             }
           },
           "title-bar": {
             "col-gap": {
-              "value": "{ob.s.spacing.xl}",
+              "value": "{ob.s.spacing.3xl}",
               "type": "spacing",
               "description": "Prevents the title coming to close to the Close button (X)"
             },
@@ -72,26 +72,26 @@
           },
           "body": {
             "padding-right": {
-              "value": "{ob.s.spacing.xl}",
+              "value": "{ob.s.spacing.3xl}",
               "type": "spacing",
               "description": "Here for mobile reseting the right-padding that is larger on desktop."
             }
           },
           "container-buttons": {
             "padding-right": {
-              "value": "{ob.s.spacing.3xl}",
+              "value": "{ob.s.spacing.5xl}",
               "type": "spacing"
             }
           }
         },
         "container-infobox": {
           "row-gap": {
-            "value": "{ob.s.spacing.md}",
+            "value": "{ob.s.spacing.lg}",
             "type": "spacing",
             "description": "Vertical distance / gap between infoboxes."
           },
           "padding-bottom": {
-            "value": "{ob.s.spacing.xl}",
+            "value": "{ob.s.spacing.3xl}",
             "type": "spacing"
           },
           "padding-top": {
@@ -99,11 +99,11 @@
             "type": "spacing"
           },
           "padding-left": {
-            "value": "{ob.s.spacing.xl}",
+            "value": "{ob.s.spacing.3xl}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{ob.s.spacing.xl}",
+            "value": "{ob.s.spacing.3xl}",
             "type": "spacing"
           }
         },
