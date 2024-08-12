@@ -33,7 +33,15 @@
       "ob.s.shadow.focus-light": "S:f229f4f59cfbd0aee2a5002adc236d9b6ad77da7,",
       "ob.s.shadow.focus-dark": "S:78a365933c112895e0d03a7ef25daa65096fee77,",
       "ob.s.typography.label.M.regular": "S:7a9cf3af7e8d113799017a0ad3b10ff07a6b6db1,",
-      "ob.s.typography.label.M.strong": "S:8fb1146dc1d9e5030124fe1b97e6c5a226d85d5a,"
+      "ob.s.typography.label.M.strong": "S:8fb1146dc1d9e5030124fe1b97e6c5a226d85d5a,",
+      "ob.c.infobox.typography.title": "S:49346fa6282e3c03cb3e3a099deb4c7372862b78,",
+      "ob.c.infobox.typography.body": "S:302dca1c560d5d06e6e77a73d293d7fad3545469,",
+      "ob.c.button.typography.sm-strong": "S:de84af4fe916d6d56d9df2159caf9d1271e8acbc,",
+      "ob.c.button.typography.sm-regular": "S:24f9a2568b7a4f8b099ae36cd7a384237f42432a,",
+      "ob.c.button.typography.md-regular": "S:06e18e6cd3369301e34b2c131ebf175b87126613,",
+      "ob.c.button.typography.md-strong": "S:c2f9145c166078aacbf472c8eb88dbb956ee3e99,",
+      "ob.s.typography.label.L.regular": "S:5cb36b6371854cf9a0e2201fa7a4dab4debf9c37,",
+      "ob.s.typography.label.L.strong": "S:8cc82179d76eae145f38c4dfb05d9fcaabd70c5d,"
     },
     "selectedTokenSets": {
       "Primitives/Colors": "source",
