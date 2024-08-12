@@ -92,6 +92,12 @@
               "value": "{ob.s.spacing.6xl}",
               "type": "spacing"
             }
+          },
+          "infobox-icon-container": {
+            "padding-top": {
+              "value": "{ob.s.spacing.xs}",
+              "type": "spacing"
+            }
           }
         },
         "container-infobox": {
@@ -138,6 +144,13 @@
             "type": "borderWidth",
             "description": "A border width that is close to the line thickness of the icon (proximity and concistancy design principles). Slightly smaller on mobile because the icon got smaller too."
           }
+        },
+        "buttons-container": {
+          "buttons-order": {
+            "value": "primary-first",
+            "type": "text",
+            "description": "The primary button in an Infobox on Mobile should be positioned at the Top of a button group to ensure it appears as the first element, facilitating intuitive navigation and decision-making."
+          }
         }
       },
       "buttons-container": {
@@ -147,17 +160,6 @@
             "type": "spacing",
             "description": "Gap betweend buttons on larger screens"
           }
-        }
-      }
-    }
-  },
-  "c": {
-    "infobox": {
-      "buttons-container": {
-        "buttons-order": {
-          "value": "primary-first",
-          "type": "text",
-          "description": "The primary button in an Infobox on Mobile should be positioned at the Top of a button group to ensure it appears as the first element, facilitating intuitive navigation and decision-making."
         }
       }
     }

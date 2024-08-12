@@ -91,6 +91,18 @@
               "value": "{ob.s.spacing.lg}",
               "type": "spacing"
             }
+          },
+          "infobox-icon-container": {
+            "padding-top": {
+              "value": "{ob.s.spacing.none}",
+              "type": "spacing"
+            }
+          },
+          "infobox-icon-container-copy": {
+            "padding-top": {
+              "value": "{ob.s.spacing.xs}",
+              "type": "spacing"
+            }
           }
         },
         "container-infobox": {

@@ -115,7 +115,7 @@
     "button": {
       "text": {
         "value": {
-          "typography": "{ob.s.typography.label.L.regular}"
+          "typography": "{ob.s.typography.label.M.regular}"
         },
         "type": "composition"
       }

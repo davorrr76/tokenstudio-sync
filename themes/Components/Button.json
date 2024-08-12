@@ -112,11 +112,11 @@
             "type": "typography"
           },
           "md-regular": {
-            "value": "{ob.s.typography.label.L.regular}",
+            "value": "{ob.s.typography.label.M.regular}",
             "type": "typography"
           },
           "md-strong": {
-            "value": "{ob.s.typography.label.L.strong}",
+            "value": "{ob.s.typography.label.M.strong}",
             "type": "typography"
           }
         },
