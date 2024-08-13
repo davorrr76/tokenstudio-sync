@@ -23,7 +23,7 @@
           "type": "borderRadius"
         }
       },
-      "borderWidth": {
+      "border-width": {
         "xs": {
           "value": "{ob.p.borderWidth.100}",
           "type": "borderWidth"
@@ -131,7 +131,7 @@
         "focus-light": {
           "value": {
             "color": "{ob.s.color.border.focus-light}",
-            "width": "{ob.s.borderWidth.2xl}",
+            "width": "{ob.s.border-width.2xl}",
             "style": "solid"
           },
           "type": "border",

@@ -2,7 +2,7 @@
   "ob": {
     "c": {
       "button": {
-        "color": {
+        "color-alt": {
           "button-primary": {
             "enabled": {
               "fg": {
@@ -274,7 +274,9 @@
                 }
               }
             }
-          },
+          }
+        },
+        "color": {
           "button-primary-bw": {
             "enabled": {
               "fg": {
@@ -530,10 +532,12 @@
         }
       },
       "infobox": {
-        "text": {
-          "color": {
-            "value": "{ob.s.color.text.surface-light.body.default}",
-            "type": "color"
+        "color": {
+          "text": {
+            "color": {
+              "value": "{ob.s.color.text.surface-light.body.default}",
+              "type": "color"
+            }
           }
         }
       }

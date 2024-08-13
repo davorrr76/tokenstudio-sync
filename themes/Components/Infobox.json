@@ -137,22 +137,6 @@
             },
             "description": "The message is in a medium font weight to build visual contrast and emphasize the hierarchy in case the title is present."
           }
-        },
-        "surface-dark": {
-          "text": {
-            "color": {
-              "value": "{ob.s.color.text.surface-dark.body}",
-              "type": "color"
-            }
-          }
-        },
-        "surface-light": {
-          "text": {
-            "color": {
-              "value": "{ob.s.color.text.surface-light.body.default}",
-              "type": "color"
-            }
-          }
         }
       },
       "spacing": {

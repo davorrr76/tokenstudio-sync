@@ -4,71 +4,71 @@
       "button": {
         "spacing": {
           "with-text": {
-            "spacing": {
-              "padding": {
-                "vertical": {
-                  "sm": {
-                    "value": "{ob.s.spacing.sm}",
-                    "type": "spacing"
-                  },
-                  "md": {
-                    "value": "{ob.s.spacing.lg}",
-                    "type": "spacing"
-                  },
-                  "lg": {
-                    "value": "{ob.s.spacing.2xl}",
-                    "type": "spacing"
-                  }
-                },
-                "horizontal": {
-                  "sm": {
-                    "value": "{ob.s.spacing.xl}",
-                    "type": "spacing"
-                  },
-                  "md": {
-                    "value": "{ob.s.spacing.3xl}",
-                    "type": "spacing"
-                  },
-                  "lg": {
-                    "value": "{ob.s.spacing.4xl}",
-                    "type": "spacing"
-                  }
-                }
-              },
-              "gap": {
+            "padding": {
+              "vertical": {
                 "sm": {
                   "value": "{ob.s.spacing.sm}",
                   "type": "spacing"
                 },
                 "md": {
-                  "value": "{ob.s.spacing.md}",
+                  "value": "{ob.s.spacing.lg}",
                   "type": "spacing"
                 },
                 "lg": {
-                  "value": "{ob.s.spacing.lg}",
+                  "value": "{ob.s.spacing.2xl}",
                   "type": "spacing"
                 }
+              },
+              "horizontal": {
+                "sm": {
+                  "value": "{ob.s.spacing.xl}",
+                  "type": "spacing"
+                },
+                "md": {
+                  "value": "{ob.s.spacing.3xl}",
+                  "type": "spacing"
+                },
+                "lg": {
+                  "value": "{ob.s.spacing.4xl}",
+                  "type": "spacing"
+                }
+              }
+            },
+            "gap": {
+              "sm": {
+                "value": "{ob.s.spacing.sm}",
+                "type": "spacing"
+              },
+              "md": {
+                "value": "{ob.s.spacing.md}",
+                "type": "spacing"
+              },
+              "lg": {
+                "value": "{ob.s.spacing.lg}",
+                "type": "spacing"
               }
             }
           },
           "icon-only": {
+            "padding": {
+              "vertical": {
+                "sm": {
+                  "value": "{ob.s.spacing.md}",
+                  "type": "spacing"
+                },
+                "md": {
+                  "value": "{ob.s.spacing.lg}",
+                  "type": "spacing"
+                },
+                "lg": {
+                  "value": "{ob.s.spacing.2xl}",
+                  "type": "spacing",
+                  "description": "makes the icon-only button round 40x40"
+                }
+              }
+            },
             "spacing": {
               "padding": {
-                "vertical": {
-                  "sm": {
-                    "value": "{ob.s.spacing.md}",
-                    "type": "spacing"
-                  },
-                  "md": {
-                    "value": "{ob.s.spacing.lg}",
-                    "type": "spacing"
-                  },
-                  "lg": {
-                    "value": "{ob.s.spacing.2xl}",
-                    "type": "spacing",
-                    "description": "makes the icon-only button round 40x40"
-                  }
-                },
                 "horizontal": {
                   "sm": {
                     "value": "{ob.s.spacing.md}",
@@ -100,24 +100,6 @@
                 }
               }
             }
-          }
-        },
-        "typography": {
-          "sm-strong": {
-            "value": "{ob.s.typography.label.S.strong}",
-            "type": "typography"
-          },
-          "sm-regular": {
-            "value": "{ob.s.typography.label.S.regular}",
-            "type": "typography"
-          },
-          "md-regular": {
-            "value": "{ob.s.typography.label.M.regular}",
-            "type": "typography"
-          },
-          "md-strong": {
-            "value": "{ob.s.typography.label.M.strong}",
-            "type": "typography"
           }
         },
         "border-radius": {
@@ -125,311 +107,6 @@
             "value": "{ob.p.radii.round}",
             "type": "borderRadius",
             "description": "For entirely round buttons"
-          }
-        },
-        "color": {
-          "surface-light": {
-            "button-primary": {
-              "enabled": {
-                "fg": {
-                  "value": "{ob.s.color.text.surface-dark.body}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.p.colors.blue.600}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "transparent",
-                  "type": "color"
-                }
-              },
-              "hover": {
-                "fg": {
-                  "value": "{ob.s.color.text.surface-dark.body}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.p.colors.blue.700}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "transparent",
-                  "type": "color"
-                }
-              },
-              "focus": {
-                "fg": {
-                  "value": "{ob.s.color.text.surface-dark.body}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.p.colors.blue.500}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "transparent",
-                  "type": "color"
-                }
-              },
-              "pressed": {
-                "fg": {
-                  "value": "{ob.s.color.text.surface-dark.body}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.p.colors.blue.800}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "transparent",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "fg": {
-                  "value": "{ob.s.color.text.surface-dark.body}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.p.colors.cobalt.200}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "transparent",
-                  "type": "color"
-                }
-              }
-            },
-            "button-secondary": {
-              "enabled": {
-                "fg": {
-                  "value": "{ob.p.colors.blue.700}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "{ob.p.colors.blue.700}",
-                  "type": "color"
-                }
-              },
-              "hover": {
-                "fg": {
-                  "value": "{ob.p.colors.blue.700}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.p.colors.blue.700}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "alpha",
-                        "value": "0.1",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "border": {
-                  "value": "{ob.p.colors.blue.700}",
-                  "type": "color"
-                }
-              },
-              "focus": {
-                "fg": {
-                  "value": "{ob.p.colors.blue.700}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "{ob.p.colors.blue.700}",
-                  "type": "color"
-                }
-              },
-              "pressed": {
-                "fg": {
-                  "value": "{ob.p.colors.blue.800}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "{ob.p.colors.blue.800}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "fg": {
-                  "value": "{ob.s.color.form._defaults.disabled}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "{ob.s.color.form._defaults.disabled}",
-                  "type": "color"
-                }
-              }
-            },
-            "button-tertiary": {
-              "enabled": {
-                "fg": {
-                  "value": "{ob.p.colors.blue.700}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
-                }
-              },
-              "hover": {
-                "fg": {
-                  "value": "{ob.p.colors.blue.700}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.p.colors.blue.700}",
-                  "type": "color",
-                  "$extensions": {
-                    "studio.tokens": {
-                      "modify": {
-                        "type": "alpha",
-                        "value": "0.1",
-                        "space": "hsl"
-                      }
-                    }
-                  }
-                },
-                "border": {
-                  "value": "{ob.s.color.background.surface-light.default}",
-                  "type": "color",
-                  "description": "divides the shadow from the background color of the button. needed only in this case since the shadow and the bg-color have a similar luminosity"
-                }
-              },
-              "focus": {
-                "fg": {
-                  "value": "{ob.p.colors.blue.700}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
-                }
-              },
-              "pressed": {
-                "fg": {
-                  "value": "{ob.p.colors.blue.800}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
-                }
-              },
-              "disabled": {
-                "fg": {
-                  "value": "{ob.s.color.form._defaults.disabled}",
-                  "type": "color"
-                },
-                "bg": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
-                },
-                "border": {
-                  "value": "{ob.s.color.util.no-color}",
-                  "type": "color"
-                }
-              }
-            }
-          },
-          "surface-dark_old": {
-            "button-primary": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.p.colors.cobalt.400}",
-                "type": "color"
-              },
-              "border": {
-                "value": "none",
-                "type": "color"
-              }
-            },
-            "button-secondary": {
-              "fg": {
-                "value": "{ob.p.colors.cobalt.600}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.p.colors.basic.white}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{ob.p.colors.cobalt.600}",
-                "type": "color"
-              }
-            },
-            "button-tertiary": {
-              "fg": {
-                "value": "{ob.p.colors.cobalt.600}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.p.colors.basic.white}",
-                "type": "color"
-              },
-              "border": {
-                "value": "none",
-                "type": "color"
-              }
-            },
-            "link": {
-              "enabled": {
-                "value": "{ob.p.colors.basic.white}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{ob.p.colors.cobalt.100}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{ob.p.colors.cobalt.200}",
-                "type": "color"
-              },
-              "focus": {
-                "value": "{ob.p.colors.basic.white}",
-                "type": "color"
-              },
-              "visited": {
-                "value": "{ob.p.colors.cobalt.100}",
-                "type": "color"
-              }
-            }
           }
         },
         "border-width": {
