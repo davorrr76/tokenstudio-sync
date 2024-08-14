@@ -246,7 +246,7 @@
           }
         },
         "color": {
-          "button-tertiary-bw": {
+          "tertiary": {
             "enabled": {
               "fg": {
                 "value": "{ob.s.color.text.surface-dark.body}",
@@ -337,7 +337,7 @@
               }
             }
           },
-          "button-secondary-bw": {
+          "secondary": {
             "enabled": {
               "fg": {
                 "value": "{ob.s.color.text.surface-dark.body}",
@@ -456,7 +456,7 @@
               }
             }
           },
-          "button-primary-bw": {
+          "primary": {
             "enabled": {
               "fg": {
                 "value": "{ob.s.color.text.surface-light.body.default}",
