@@ -10,7 +10,7 @@
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.s.color.background.surface-light.default}",
+                "value": "{ob.s.color.background.contrast-high}",
                 "type": "color"
               },
               "border": {
@@ -24,7 +24,7 @@
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.s.color.background.surface-light.default}",
+                "value": "{ob.s.color.background.contrast-high}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -72,7 +72,7 @@
                 "description": "Adds 80% opacity to clicked state"
               },
               "bg": {
-                "value": "{ob.s.color.background.surface-light.default}",
+                "value": "{ob.s.color.background.contrast-high}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -106,7 +106,7 @@
                 "description": "Reduced opacity for inactive"
               },
               "bg": {
-                "value": "{ob.s.color.background.surface-light.default}",
+                "value": "{ob.s.color.background.contrast-high}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -271,7 +271,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{ob.s.color.background.surface-light.default}",
+                "value": "{ob.s.color.background.contrast-high}",
                 "type": "color",
                 "description": "divides the shadow from the background color of the button. needed only in this case since the shadow and the bg-color have a similar luminosity"
               }
@@ -463,7 +463,7 @@
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.s.color.background.surface-light.default}",
+                "value": "{ob.s.color.background.contrast-high}",
                 "type": "color"
               },
               "border": {
@@ -477,7 +477,7 @@
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.s.color.background.surface-light.default}",
+                "value": "{ob.s.color.background.contrast-high}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -525,7 +525,7 @@
                 "description": "Adds 80% opacity to clicked state"
               },
               "bg": {
-                "value": "{ob.s.color.background.surface-light.default}",
+                "value": "{ob.s.color.background.contrast-high}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -559,7 +559,7 @@
                 "description": "Reduced opacity for inactive"
               },
               "bg": {
-                "value": "{ob.s.color.background.surface-light.default}",
+                "value": "{ob.s.color.background.contrast-high}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -587,6 +587,41 @@
               "value": "{ob.s.color.text.surface-dark.body}",
               "type": "color"
             }
+          }
+        }
+      }
+    },
+    "s": {
+      "color": {
+        "background": {
+          "contrast-high": {
+            "value": "{ob.p.colors.cobalt.700}",
+            "type": "color",
+            "description": "Default dark surface color"
+          },
+          "contrast-medium": {
+            "value": "{ob.p.colors.cobalt.600}",
+            "type": "color",
+            "description": "Darker surface color"
+          }
+        },
+        "text": {
+          "emphasize-low": {
+            "value": "{ob.p.colors.cobalt.200}",
+            "type": "color"
+          },
+          "emphasize-medium": {
+            "value": "{ob.p.colors.cobalt.100}",
+            "type": "color",
+            "description": "Darker Heading Color for H6 only since it is a small font size, so it needs to be obviously strong when facing the body text."
+          },
+          "emphasize-high": {
+            "value": "{ob.p.colors.cobalt.50}",
+            "type": "color"
+          },
+          "emphasize-highest": {
+            "value": "{ob.p.colors.basic.white}",
+            "type": "color"
           }
         }
       }

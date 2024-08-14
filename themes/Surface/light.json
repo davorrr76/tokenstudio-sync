@@ -473,7 +473,7 @@
                 }
               },
               "border": {
-                "value": "{ob.s.color.background.surface-light.default}",
+                "value": "{ob.s.color.background.contrast-high}",
                 "type": "color"
               }
             },
@@ -538,6 +538,41 @@
               "value": "{ob.s.color.text.surface-light.body.default}",
               "type": "color"
             }
+          }
+        }
+      }
+    },
+    "s": {
+      "color": {
+        "background": {
+          "contrast-high": {
+            "value": "{ob.p.colors.basic.white}",
+            "type": "color",
+            "description": "Default dark surface color"
+          },
+          "contrast-medium": {
+            "value": "{ob.p.colors.cobalt.50}",
+            "type": "color",
+            "description": "Darker surface color"
+          }
+        },
+        "text": {
+          "emphasize-low": {
+            "value": "{ob.p.colors.cobalt.600}",
+            "type": "color"
+          },
+          "emphasize-medium": {
+            "value": "{ob.p.colors.cobalt.700}",
+            "type": "color",
+            "description": "Darker Heading Color for H6 only since it is a small font size, so it needs to be obviously strong when facing the body text."
+          },
+          "emphasize-high": {
+            "value": "{ob.p.colors.cobalt.800}",
+            "type": "color"
+          },
+          "emphasize-highest": {
+            "value": "{ob.p.colors.cobalt.900}",
+            "type": "color"
           }
         }
       }

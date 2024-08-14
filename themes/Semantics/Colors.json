@@ -32,15 +32,13 @@
           }
         },
         "background": {
-          "surface-light": {
-            "default": {
-              "value": "{ob.p.colors.basic.white}",
-              "type": "color",
-              "description": "Inverted text color in footer"
-            }
+          "contrast-high": {
+            "value": "{ob.p.colors.basic.white}",
+            "type": "color",
+            "description": "Inverted text color in footer"
           },
           "surface-dark": {
-            "default": {
+            "dark": {
               "value": "{ob.p.colors.cobalt.700}",
               "type": "color",
               "description": "Footer standard background color"
@@ -49,6 +47,20 @@
               "value": "{ob.p.colors.cobalt.600}",
               "type": "color",
               "description": "Footer brighter background color"
+            }
+          },
+          "surface": {
+            "default": {
+              "value": "{ob.p.colors.basic.white}",
+              "type": "color",
+              "description": "Inverted text color in footer"
+            }
+          },
+          "surface-new": {
+            "default": {
+              "value": "{ob.p.colors.basic.white}",
+              "type": "color",
+              "description": "Inverted text color in footer"
             }
           }
         },
@@ -84,316 +96,6 @@
             "body": {
               "value": "{ob.p.colors.basic.white}",
               "type": "color"
-            }
-          }
-        },
-        "form": {
-          "inputField": {
-            "enabled": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.p.colors.basic.white}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{ob.p.colors.cobalt.400}",
-                "type": "color"
-              }
-            },
-            "disabled": {
-              "fg": {
-                "value": "{ob.p.colors.cobalt.300}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.p.colors.basic.white}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{ob.p.colors.cobalt.300}",
-                "type": "color"
-              }
-            },
-            "focus": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.p.colors.basic.white}",
-                "type": "color"
-              },
-              "border": {
-                "value": "ob.s.color.form.textField.enabled.border",
-                "type": "color"
-              }
-            },
-            "errorEnabled": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.p.colors.red.50}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{ob.p.colors.red.800}",
-                "type": "color"
-              }
-            },
-            "errorHover": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.p.colors.red.50}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{ob.p.colors.red.800}",
-                "type": "color"
-              }
-            },
-            "errorFocus": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-light.body.subtle}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.p.colors.red.50}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{ob.p.colors.red.800}",
-                "type": "color"
-              }
-            },
-            "readMode": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-light.body.subtle}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "none",
-                "type": "color"
-              },
-              "border": {
-                "value": "none",
-                "type": "color"
-              }
-            }
-          },
-          "select": {
-            "hover": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.p.colors.cobalt.50}",
-                "type": "color"
-              }
-            },
-            "focus": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.p.colors.cobalt.100}",
-                "type": "color"
-              }
-            },
-            "pressed": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.s.color.background.surface-light.default}",
-                "type": "color"
-              }
-            },
-            "active": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.s.color.background.surface-light.default}",
-                "type": "color"
-              },
-              "verticalLine": {
-                "value": "{ob.s.color.status.accent.surface-light.bg}",
-                "type": "color"
-              }
-            },
-            "enabled": {
-              "fg": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.p.colors.cobalt.50}",
-                "type": "color"
-              }
-            },
-            "disabled": {
-              "fg": {
-                "value": "{ob.p.colors.cobalt.300}",
-                "type": "color"
-              },
-              "bg": {
-                "value": "{ob.s.color.background.surface-light.default}",
-                "type": "color"
-              }
-            }
-          },
-          "checkbox": {
-            "enabled": {
-              "container": {
-                "value": "#",
-                "type": "color"
-              },
-              "icon": {
-                "value": "#",
-                "type": "color"
-              },
-              "stateLayer": {
-                "value": "#",
-                "type": "color"
-              }
-            },
-            "disabled": {
-              "container": {
-                "value": "#",
-                "type": "color"
-              },
-              "icon": {
-                "value": "#",
-                "type": "color"
-              },
-              "stateLayer": {
-                "value": "#",
-                "type": "color"
-              }
-            },
-            "hover": {
-              "container": {
-                "value": "#",
-                "type": "color"
-              },
-              "icon": {
-                "value": "#",
-                "type": "color"
-              },
-              "stateLayer": {
-                "value": "#",
-                "type": "color"
-              }
-            },
-            "focus": {
-              "container": {
-                "value": "#",
-                "type": "color"
-              },
-              "icon": {
-                "value": "#",
-                "type": "color"
-              },
-              "stateLayer": {
-                "value": "#",
-                "type": "color"
-              }
-            },
-            "pressed": {
-              "container": {
-                "value": "#",
-                "type": "color"
-              },
-              "icon": {
-                "value": "#",
-                "type": "color"
-              },
-              "stateLayer": {
-                "value": "#",
-                "type": "color"
-              }
-            }
-          },
-          "_defaults": {
-            "enabled": {
-              "value": "{ob.s.color.text.surface-light.body.default}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{ob.p.colors.cobalt.300}",
-              "type": "color"
-            },
-            "error": {
-              "value": "{ob.p.colors.red.800}",
-              "type": "color"
-            },
-            "focus": {
-              "value": "{ob.s.color.border.focus-dark}",
-              "type": "color"
-            }
-          },
-          "radioButton": {
-            "enabled": {
-              "icon": {
-                "value": "#",
-                "type": "color"
-              },
-              "stateLayer": {
-                "value": "#",
-                "type": "color"
-              }
-            },
-            "disabled": {
-              "icon": {
-                "value": "#",
-                "type": "color"
-              },
-              "stateLayer": {
-                "value": "#",
-                "type": "color"
-              }
-            },
-            "hover": {
-              "icon": {
-                "value": "#",
-                "type": "color"
-              },
-              "stateLayer": {
-                "value": "#",
-                "type": "color"
-              }
-            },
-            "focus": {
-              "icon": {
-                "value": "#",
-                "type": "color"
-              },
-              "stateLayer": {
-                "value": "#",
-                "type": "color"
-              }
-            },
-            "pressed": {
-              "icon": {
-                "value": "#",
-                "type": "color"
-              },
-              "stateLayer": {
-                "value": "#",
-                "type": "color"
-              }
             }
           }
         },
