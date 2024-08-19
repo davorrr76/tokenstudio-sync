@@ -31,39 +31,6 @@
             "description": "When surrounding and touching dark elements such as primary button."
           }
         },
-        "background": {
-          "contrast-high": {
-            "value": "{ob.p.colors.basic.white}",
-            "type": "color",
-            "description": "Inverted text color in footer"
-          },
-          "surface-dark": {
-            "dark": {
-              "value": "{ob.p.colors.cobalt.700}",
-              "type": "color",
-              "description": "Footer standard background color"
-            },
-            "bright": {
-              "value": "{ob.p.colors.cobalt.600}",
-              "type": "color",
-              "description": "Footer brighter background color"
-            }
-          },
-          "surface": {
-            "default": {
-              "value": "{ob.p.colors.basic.white}",
-              "type": "color",
-              "description": "Inverted text color in footer"
-            }
-          },
-          "surface-new": {
-            "default": {
-              "value": "{ob.p.colors.basic.white}",
-              "type": "color",
-              "description": "Inverted text color in footer"
-            }
-          }
-        },
         "text": {
           "surface-light": {
             "headings": {

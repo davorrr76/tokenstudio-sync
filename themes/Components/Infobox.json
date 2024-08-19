@@ -137,10 +137,8 @@
             },
             "description": "The message is in a medium font weight to build visual contrast and emphasize the hierarchy in case the title is present."
           }
-        }
-      },
-      "spacing": {
-        "infobox": {
+        },
+        "spacing": {
           "row-gap": {
             "value": "{ob.s.spacing.4xl}",
             "type": "spacing",

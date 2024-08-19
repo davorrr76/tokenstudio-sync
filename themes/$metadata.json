@@ -50,9 +50,8 @@
     "Master Layout/Navigation",
     "Master Layout/Layout",
     "Master Layout/Footer",
-    "Breakpoints/@1440-lg",
-    "Breakpoints/@720-sm",
-    "Breakpoints/@360-xs",
+    "Breakpoints/360-xs",
+    "Breakpoints/1440-lg",
     "Surface/light",
     "Surface/dark"
   ]
