@@ -82,12 +82,12 @@
               "description": "Adding a larger right-padding on larger screens introduces white space that allows the design to \"breathe\"."
             }
           },
-          "button-container": {
+          "parentof-buttons-container": {
             "padding-left": {
               "value": "{ob.s.spacing.none}",
               "type": "spacing"
             },
-            "padding-right": {
+            "padding-bottom": {
               "value": "{ob.s.spacing.lg}",
               "type": "spacing"
             }
@@ -95,12 +95,6 @@
           "infobox-icon-container": {
             "padding-top": {
               "value": "{ob.s.spacing.none}",
-              "type": "spacing"
-            }
-          },
-          "infobox-icon-container-copy": {
-            "padding-top": {
-              "value": "{ob.s.spacing.xs}",
               "type": "spacing"
             }
           }
@@ -154,7 +148,7 @@
           "gap": {
             "value": "{ob.s.spacing.3xl}",
             "type": "spacing",
-            "description": "Gap betweend buttons on larger screens"
+            "description": "Horizontal gap between buttons on larger screens."
           }
         }
       }

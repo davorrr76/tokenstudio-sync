@@ -82,14 +82,14 @@
               "description": "Adding a larger right-padding on larger screens introduces white space that allows the design to \"breathe\"."
             }
           },
-          "button-container": {
+          "parentof-buttons-container": {
             "padding-left": {
               "value": "{ob.s.spacing.6xl}",
               "type": "spacing",
               "description": "Aligns the buttons with the text on mobile."
             },
-            "padding-right": {
-              "value": "{ob.s.spacing.6xl}",
+            "padding-bottom": {
+              "value": "{ob.s.spacing.3xl}",
               "type": "spacing"
             }
           },
@@ -156,7 +156,7 @@
           "gap": {
             "value": "{ob.s.spacing.4xl}",
             "type": "spacing",
-            "description": "Gap betweend buttons on larger screens"
+            "description": "Vertical gap between buttons for mobile devices, slightly expanded to minimize the risk of accidental tap."
           }
         }
       }

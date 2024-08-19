@@ -249,7 +249,7 @@
           "tertiary": {
             "enabled": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "bg": {
@@ -263,7 +263,7 @@
             },
             "hover": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "bg": {
@@ -278,7 +278,7 @@
             },
             "focus": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "bg": {
@@ -292,7 +292,7 @@
             },
             "pressed": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -315,7 +315,7 @@
             },
             "disabled": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -340,7 +340,7 @@
           "secondary": {
             "enabled": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "bg": {
@@ -348,13 +348,13 @@
                 "type": "color"
               },
               "border": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               }
             },
             "hover": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "bg": {
@@ -365,13 +365,13 @@
                     "modify": {
                       "type": "alpha",
                       "value": "0.1",
-                      "space": "hsl"
+                      "space": "srgb"
                     }
                   }
                 }
               },
               "border": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               }
             },
@@ -391,7 +391,7 @@
             },
             "pressed": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -425,7 +425,7 @@
             },
             "disabled": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -442,7 +442,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -463,7 +463,7 @@
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.s.color.background.contrast-high}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "border": {
@@ -477,7 +477,7 @@
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.s.color.background.contrast-high}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -525,7 +525,7 @@
                 "description": "Adds 80% opacity to clicked state"
               },
               "bg": {
-                "value": "{ob.s.color.background.contrast-high}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -584,7 +584,7 @@
         "color": {
           "text": {
             "color": {
-              "value": "{ob.s.color.text.surface-dark.body}",
+              "value": "ob.s.color.text.emphasize-highest",
               "type": "color"
             }
           }
