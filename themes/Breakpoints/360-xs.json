@@ -63,11 +63,6 @@
               "value": "{ob.s.spacing.3xl}",
               "type": "spacing",
               "description": "Prevents the title coming to close to the Close button (X)"
-            },
-            "padding-top": {
-              "value": "{ob.s.spacing.none}",
-              "type": "spacing",
-              "description": "Resets the padding the needed only on desktop to align the title with the close button and the icon."
             }
           },
           "body": {
@@ -101,6 +96,13 @@
             "padding-top": {
               "value": "{ob.s.spacing.xs}",
               "type": "spacing"
+            }
+          },
+          "title": {
+            "padding-top": {
+              "value": "{ob.s.spacing.sm}",
+              "type": "spacing",
+              "description": "Aligns the title with the status icon and the close button on desktop."
             }
           }
         },

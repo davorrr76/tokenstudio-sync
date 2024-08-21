@@ -1,1 +1,66 @@
-{}
+{
+  "ob": {
+    "c": {
+      "badge": {
+        "color": {
+          "bg": {
+            "default": {
+              "value": "{ob.p.colors.cobalt.800}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{ob.p.colors.red.700}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{ob.p.colors.cobalt.200}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{ob.p.colors.basic.white}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{ob.p.colors.basic.white}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{ob.p.colors.basic.white}",
+              "type": "color"
+            }
+          }
+        },
+        "spacing": {
+          "padding": {
+            "horizontal": {
+              "md": {
+                "value": "{ob.p.space.100}",
+                "type": "spacing",
+                "description": "makes the badge round"
+              },
+              "lg": {
+                "value": "11",
+                "type": "spacing",
+                "description": "makes the badge round"
+              }
+            },
+            "vertical": {
+              "md": {
+                "value": "{ob.p.space.none}",
+                "type": "spacing",
+                "description": "makes the badge round"
+              },
+              "lg": {
+                "value": "{ob.p.space.50}",
+                "type": "spacing",
+                "description": "makes the badge round"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
