@@ -20,7 +20,7 @@
       "infobox": {
         "spacing": {
           "padding-top": {
-            "value": "{ob.s.spacing.3xl}",
+            "value": "{ob.s.spacing.2xl}",
             "type": "spacing",
             "description": "Enhances readability and visual appeal, preventing the text from appearing cramped and ensuring clarity."
           },
@@ -53,7 +53,7 @@
           },
           "text-blocks": {
             "row-gap": {
-              "value": "{ob.s.spacing.xl}",
+              "value": "{ob.s.spacing.2xl}",
               "type": "spacing",
               "description": "Emphasizes the visual hierarchy between the title and the body text."
             }
@@ -88,19 +88,19 @@
               "type": "spacing"
             },
             "padding-right": {
-              "value": "{ob.s.spacing.none}",
+              "value": "{ob.s.spacing.5xl}",
               "type": "spacing"
             }
           },
           "infobox-icon-container": {
             "padding-top": {
-              "value": "{ob.s.spacing.xs}",
+              "value": "{ob.s.spacing.sm}",
               "type": "spacing"
             }
           },
           "title": {
             "padding-top": {
-              "value": "{ob.s.spacing.sm}",
+              "value": "{ob.s.spacing.xs}",
               "type": "spacing",
               "description": "Aligns the title with the status icon and the close button on desktop."
             }

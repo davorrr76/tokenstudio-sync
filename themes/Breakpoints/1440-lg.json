@@ -87,7 +87,7 @@
               "type": "spacing"
             },
             "padding-right": {
-              "value": "{ob.s.spacing.none}",
+              "value": "{ob.s.spacing.sm}",
               "type": "spacing"
             }
           },
