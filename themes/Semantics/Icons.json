@@ -12,7 +12,7 @@
             "type": "sizing"
           },
           "md": {
-            "value": "{ob.p.size.300}",
+            "value": "{ob.p.size.350}",
             "type": "sizing"
           },
           "lg": {

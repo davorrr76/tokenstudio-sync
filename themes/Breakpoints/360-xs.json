@@ -112,9 +112,12 @@
             "type": "sizing",
             "description": "Icon size is slightly larger than the title to be readable since it has less contrast than the text and communicates the status. On mobile even smaller to save space for the text."
           },
-          "close-button-size": {
-            "value": "{ob.s.icon.size.sm}",
-            "type": "sizing"
+          "title": {
+            "min-height": {
+              "value": "{ob.p.size.350}",
+              "type": "sizing",
+              "description": "This minimum height helps the \"title\" container keeps the height regardless if there is close-button inside the infobox on mobile. "
+            }
           }
         },
         "border-width": {
