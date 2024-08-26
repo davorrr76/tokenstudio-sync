@@ -2,8 +2,8 @@
   "ob": {
     "c": {
       "button": {
-        "alt-color": {
-          "button-primary": {
+        "colored": {
+          "primary": {
             "enabled": {
               "fg": {
                 "value": "{ob.s.color.text.surface-dark.body}",
@@ -75,7 +75,7 @@
               }
             }
           },
-          "button-secondary": {
+          "secondary": {
             "enabled": {
               "fg": {
                 "value": "{ob.p.colors.blue.800}",
@@ -156,7 +156,7 @@
               }
             }
           },
-          "button-tertiary": {
+          "tertiary": {
             "enabled": {
               "fg": {
                 "value": "{ob.s.color.text.surface-dark.body}",
@@ -276,7 +276,7 @@
             }
           }
         },
-        "color": {
+        "monochrome": {
           "primary": {
             "enabled": {
               "fg": {
@@ -557,22 +557,43 @@
           }
         },
         "text": {
-          "emphasize-low": {
-            "value": "{ob.p.colors.cobalt.600}",
-            "type": "color"
+          "default": {
+            "emphasize-low": {
+              "value": "{ob.p.colors.cobalt.600}",
+              "type": "color"
+            },
+            "emphasize-medium": {
+              "value": "{ob.p.colors.cobalt.700}",
+              "type": "color",
+              "description": "Darker Heading Color for H6 only since it is a small font size, so it needs to be obviously strong when facing the body text."
+            },
+            "emphasize-high": {
+              "value": "{ob.p.colors.cobalt.800}",
+              "type": "color"
+            },
+            "emphasize-highest": {
+              "value": "{ob.p.colors.cobalt.900}",
+              "type": "color"
+            }
           },
-          "emphasize-medium": {
-            "value": "{ob.p.colors.cobalt.700}",
-            "type": "color",
-            "description": "Darker Heading Color for H6 only since it is a small font size, so it needs to be obviously strong when facing the body text."
-          },
-          "emphasize-high": {
-            "value": "{ob.p.colors.cobalt.800}",
-            "type": "color"
-          },
-          "emphasize-highest": {
-            "value": "{ob.p.colors.cobalt.900}",
-            "type": "color"
+          "a": {
+            "link": {
+              "value": "{ob.p.colors.blue.700}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{ob.p.colors.blue.800}",
+              "type": "color",
+              "description": "Darker Heading Color for H6 only since it is a small font size, so it needs to be obviously strong when facing the body text."
+            },
+            "active": {
+              "value": "{ob.p.colors.blue.900}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{ob.p.colors.blue.700}",
+              "type": "color"
+            }
           }
         }
       }
