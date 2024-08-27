@@ -6,7 +6,7 @@
           "primary": {
             "enabled": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "bg": {
@@ -20,7 +20,7 @@
             },
             "hover": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "bg": {
@@ -34,7 +34,7 @@
             },
             "focus": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "bg": {
@@ -48,7 +48,7 @@
             },
             "pressed": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "bg": {
