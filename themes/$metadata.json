@@ -53,8 +53,8 @@
     "___________________",
     "breakpoints/1440-lg",
     "breakpoints/360-xs",
-    "button-modes/light-colored",
-    "button-modes/light-monochrome",
+    "button-modes/colored",
+    "button-modes/monochrome",
     "button-modes/dark-monochrome",
     "surface-modes/light",
     "surface-modes/dark"
