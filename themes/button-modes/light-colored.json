@@ -168,11 +168,11 @@
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "border": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.s.color.util.no-color}",
                 "type": "color"
               }
             },
@@ -226,13 +226,13 @@
             },
             "disabled": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.cobalt.500}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.4",
+                      "value": "0.5",
                       "space": "srgb"
                     }
                   }
@@ -243,17 +243,8 @@
                 "type": "color"
               },
               "border": {
-                "value": "{ob.s.color.text.surface-dark.body}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.4",
-                      "space": "srgb"
-                    }
-                  }
-                }
+                "value": "{ob.s.color.util.no-color}",
+                "type": "color"
               }
             }
           }

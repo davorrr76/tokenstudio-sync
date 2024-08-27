@@ -173,7 +173,7 @@
         "typography": {
           "text-label": {
             "font-size": {
-              "value": "roundTo( {ob.s.fontSize.md} , 2)",
+              "value": "roundTo( {ob.s.fontSize.lg} , 2)",
               "type": "fontSizes",
               "description": "Font size for button text label on mobile."
             }
