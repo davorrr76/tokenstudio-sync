@@ -26,7 +26,7 @@
     "components/container",
     "components/column-layout",
     "components/datepicker",
-    "components/Dialog",
+    "components/dialog",
     "components/expansion-panel",
     "components/external-link",
     "components/form",

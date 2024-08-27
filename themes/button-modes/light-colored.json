@@ -159,7 +159,7 @@
           "tertiary": {
             "enabled": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.blue.800}",
                 "type": "color"
               },
               "bg": {
@@ -173,7 +173,7 @@
             },
             "hover": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.blue.900}",
                 "type": "color"
               },
               "bg": {
@@ -196,7 +196,7 @@
             },
             "focus": {
               "fg": {
-                "value": "{ob.p.colors.basic.white}",
+                "value": "{ob.p.colors.blue.800}",
                 "type": "color"
               },
               "bg": {
@@ -210,7 +210,7 @@
             },
             "pressed": {
               "fg": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.blue.900}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
