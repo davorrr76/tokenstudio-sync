@@ -53,6 +53,9 @@
     "Breakpoints/1440-lg",
     "Breakpoints/360-xs",
     "Surface/light",
-    "Surface/dark"
+    "Surface/dark",
+    "Button-Modes/light-colored",
+    "Button-Modes/light-monochrome",
+    "Button-Modes/dark-monochrome"
   ]
 }
