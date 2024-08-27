@@ -150,11 +150,11 @@
             "type": "spacing"
           },
           "padding-left": {
-            "value": "{ob.s.spacing.7xl}",
+            "value": "{ob.s.spacing.none}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{ob.s.spacing.7xl}",
+            "value": "{ob.s.spacing.none}",
             "type": "spacing"
           }
         }
