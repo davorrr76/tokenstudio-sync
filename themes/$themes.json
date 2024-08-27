@@ -1,7 +1,7 @@
 [
   {
     "id": "f4b0b4cc23aff41200cbedbb7bea96e455525dfe",
-    "name": "Core",
+    "name": "core",
     "$figmaStyleReferences": {
       "ob.s.typography.body.S.regular": "S:5edd3b324d8afc8b9c4ef51d7f4774796d093eb9,",
       "ob.s.typography.body.S.bold": "S:947f379f0352ab1ff0ab1cee2e24bd30a243df9d,",
@@ -258,7 +258,7 @@
       "ob.s.icon.size.xl": "0d0c6ef57ffb0fdf7b96d9b7d144143b15c0acbd",
       "ob.s.icon.size.2xl": "c97ba29f976d4f1fdd604ed7ad28a4ac81960b7e"
     },
-    "group": "Core"
+    "group": "core"
   },
   {
     "id": "2b7ce42a1e3303f4e10fcce7381390723233a864",
@@ -315,7 +315,7 @@
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10677",
     "$figmaModeId": "6001:16",
-    "group": "Breakpoint"
+    "group": "breakpoint"
   },
   {
     "id": "057ec9956979e8c3196f18bf4796e9d15761db5f",
@@ -372,7 +372,7 @@
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10677",
     "$figmaModeId": "6001:18",
-    "group": "Breakpoint"
+    "group": "breakpoint"
   },
   {
     "id": "ab0d6c19db676a48aee4022239b359ea7df64f71",
@@ -488,7 +488,7 @@
       "ob.s.color.text.a.active": "a53bc0df3c774825e4faac041175937bdabc6497",
       "ob.s.color.text.a.focus": "c13b3caedb4a9348f8d9506c152439904d34897e"
     },
-    "group": "Surface"
+    "group": "surface"
   },
   {
     "id": "ce28bc429f67b042f21d44ea8744f4a9409b2c77",
@@ -604,7 +604,7 @@
       "ob.s.color.text.a.active": "a53bc0df3c774825e4faac041175937bdabc6497",
       "ob.s.color.text.a.focus": "c13b3caedb4a9348f8d9506c152439904d34897e"
     },
-    "group": "Surface"
+    "group": "surface"
   },
   {
     "id": "0e5cb143e75e859772a4c65b8194864665b9a4ad",
