@@ -41,19 +41,19 @@
                 "description": "makes the badge round"
               },
               "lg": {
-                "value": "{ob.p.space.250}",
+                "value": "{ob.p.space.150}",
                 "type": "spacing",
                 "description": "makes the badge round"
               }
             },
             "vertical": {
               "md": {
-                "value": "{ob.p.space.none}",
+                "value": "{ob.c.badge.spacing.padding.horizontal.md}",
                 "type": "spacing",
                 "description": "makes the badge round"
               },
               "lg": {
-                "value": "{ob.p.space.50}",
+                "value": "{ob.p.space.150}",
                 "type": "spacing",
                 "description": "makes the badge round"
               }
@@ -68,6 +68,26 @@
             },
             "lg": {
               "value": "{ob.p.size.600}",
+              "type": "sizing"
+            }
+          },
+          "min-width": {
+            "md": {
+              "value": "{ob.p.size.200}",
+              "type": "sizing"
+            },
+            "lg": {
+              "value": "{ob.p.size.300}",
+              "type": "sizing"
+            }
+          },
+          "height": {
+            "md": {
+              "value": "{ob.p.size.200}",
+              "type": "sizing"
+            },
+            "lg": {
+              "value": "{ob.p.size.300}",
               "type": "sizing"
             }
           }

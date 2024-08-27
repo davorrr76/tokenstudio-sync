@@ -94,7 +94,7 @@
           },
           "infobox-icon-container": {
             "padding-top": {
-              "value": "{ob.s.spacing.sm}",
+              "value": "{ob.s.spacing.none}",
               "type": "spacing"
             }
           },
@@ -166,6 +166,17 @@
             "value": "{ob.s.spacing.4xl}",
             "type": "spacing",
             "description": "Vertical gap between buttons for mobile devices, slightly expanded to minimize the risk of accidental tap."
+          }
+        }
+      },
+      "button": {
+        "typography": {
+          "text-label": {
+            "font-size": {
+              "value": "roundTo( {ob.s.fontSize.md} , 2)",
+              "type": "fontSizes",
+              "description": "Font size for button text label on mobile."
+            }
           }
         }
       }

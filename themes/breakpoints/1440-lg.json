@@ -167,6 +167,17 @@
             "description": "Horizontal gap between buttons on larger screens."
           }
         }
+      },
+      "button": {
+        "typography": {
+          "text-label": {
+            "font-size": {
+              "value": "{ob.s.fontSize.sm}",
+              "type": "fontSizes",
+              "description": "Font size for button text label on desktop."
+            }
+          }
+        }
       }
     }
   }

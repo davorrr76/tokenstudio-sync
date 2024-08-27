@@ -186,17 +186,8 @@
                 "type": "color"
               },
               "bg": {
-                "value": "{ob.p.colors.cobalt.400}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.1",
-                      "space": "srgb"
-                    }
-                  }
-                }
+                "value": "{ob.s.color.util.no-color}",
+                "type": "color"
               },
               "border": {
                 "value": "{ob.p.colors.cobalt.800}",
