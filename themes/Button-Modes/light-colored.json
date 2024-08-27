@@ -143,7 +143,7 @@
             },
             "disabled": {
               "fg": {
-                "value": "{ob.s.color.form._defaults.disabled}",
+                "value": "{ob.p.colors.cobalt.400}",
                 "type": "color"
               },
               "bg": {
@@ -151,7 +151,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{ob.s.color.form._defaults.disabled}",
+                "value": "{ob.p.colors.cobalt.400}",
                 "type": "color"
               }
             }
