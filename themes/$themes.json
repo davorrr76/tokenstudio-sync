@@ -66,8 +66,9 @@
       "components/container": "enabled",
       "components/footer": "enabled",
       "primitives/typography": "source",
-      "button-modes/colored": "disabled",
-      "button-modes/monochrome": "disabled"
+      "button-modes/light-colored": "disabled",
+      "button-modes/light-monochrome": "disabled",
+      "button-modes/dark-monochrome": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10676",
     "$figmaModeId": "6001:15",
@@ -289,8 +290,9 @@
       "semantics/z-Index": "source",
       "breakpoints/1440-lg": "enabled",
       "primitives/typography": "source",
-      "button-modes/colored": "disabled",
-      "button-modes/monochrome": "disabled"
+      "button-modes/light-colored": "disabled",
+      "button-modes/light-monochrome": "disabled",
+      "button-modes/dark-monochrome": "disabled"
     },
     "$figmaVariableReferences": {
       "ob.p.scale.mult": "654bfd70d50886484b2d3819877aa80cc4fa284c",
@@ -349,8 +351,9 @@
       "semantics/z-Index": "source",
       "breakpoints/360-xs": "enabled",
       "primitives/typography": "source",
-      "button-modes/colored": "disabled",
-      "button-modes/monochrome": "disabled"
+      "button-modes/light-colored": "disabled",
+      "button-modes/light-monochrome": "disabled",
+      "button-modes/dark-monochrome": "disabled"
     },
     "$figmaVariableReferences": {
       "ob.p.scale.mult": "654bfd70d50886484b2d3819877aa80cc4fa284c",
@@ -388,7 +391,7 @@
   },
   {
     "id": "0e5cb143e75e859772a4c65b8194864665b9a4ad",
-    "name": "colored",
+    "name": "light-colored",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives/global": "source",
@@ -408,7 +411,7 @@
       "semantics/shadows": "source",
       "semantics/z-Index": "source",
       "primitives/typography": "source",
-      "button-modes/colored": "enabled"
+      "button-modes/light-colored": "enabled"
     },
     "$figmaVariableReferences": {
       "ob.c.button.color.primary.enabled.fg": "cb31024148766a5acca3ff7f08fc846403c3bdc7",
@@ -463,7 +466,7 @@
   },
   {
     "id": "b646b72ac29db8b88db12c8914f2da08fc879c01",
-    "name": "monochrome",
+    "name": "light-monochrome",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives/global": "source",
@@ -483,9 +486,21 @@
       "semantics/shadows": "source",
       "semantics/z-Index": "source",
       "primitives/typography": "source",
-      "button-modes/monochrome": "enabled"
+      "button-modes/light-monochrome": "enabled",
+      "surface-modes/light": "enabled"
     },
     "$figmaVariableReferences": {
+      "ob.c.infobox.color.text.color": "84b569fdd8660a31c6b9b232d3fdad8c7cfff74e",
+      "ob.s.color.background.contrast-high": "d4bab66aa8c4a68c3a5558ba519996a0f2fe9521",
+      "ob.s.color.background.contrast-medium": "d74504a7300a712f1c1737c74b190678506d05bb",
+      "ob.s.color.text.default.emphasize-low": "32fdeddb1a64136153a9f20d021d54d84b456581",
+      "ob.s.color.text.default.emphasize-medium": "511f0b0340cb5292ac2884ea21d0a8903d83d546",
+      "ob.s.color.text.default.emphasize-high": "3ee6a0797f344d5093880c1547b8a26137faeb71",
+      "ob.s.color.text.default.emphasize-highest": "308d4f109bcbfa274cd66f989165f2f0ae36f767",
+      "ob.s.color.text.a.link": "8c2f2d776d374655cb59e55f7dddbedb0f8d362d",
+      "ob.s.color.text.a.hover": "8ede32be097bd1df79923091f5ed7ece4f963111",
+      "ob.s.color.text.a.active": "de43e6d5917c8a5d5b7375ed99cdf90435f07198",
+      "ob.s.color.text.a.focus": "11b24c2ef0787f0354a8d7f6181cef97321403a0",
       "ob.c.button.color.primary.enabled.fg": "cb31024148766a5acca3ff7f08fc846403c3bdc7",
       "ob.c.button.color.primary.enabled.bg": "9016f51fdbf84439794c53c0e210bf8f36f77c86",
       "ob.c.button.color.primary.enabled.border": "c33780a565358fb49191338395682485ade656ad",
@@ -537,7 +552,7 @@
     "group": "button-mode"
   },
   {
-    "id": "a5994e1c7bdcd8d798449aa0213a7e4a25046b66",
+    "id": "c68c94b61a0e0f335f8b6a547b58457f99e44703",
     "name": "dark-monochrome",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
@@ -545,6 +560,7 @@
       "primitives/sizing": "source",
       "primitives/spacing": "source",
       "primitives/colors": "source",
+      "primitives/typography": "source",
       "primitives/borders": "source",
       "primitives/z-Index": "source",
       "primitives/position": "source",
@@ -558,13 +574,12 @@
       "semantics/shadows": "source",
       "semantics/z-Index": "source",
       "button-modes/dark-monochrome": "enabled",
-      "primitives/typography": "source",
-      "button-modes/colored": "disabled",
-      "button-modes/monochrome": "disabled"
+      "surface-modes/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6102:643314",
-    "$figmaModeId": "6120:0",
+    "$figmaModeId": "6125:0",
     "$figmaVariableReferences": {
+      "ob.c.infobox.color.text.color": "84b569fdd8660a31c6b9b232d3fdad8c7cfff74e",
       "ob.c.button.color.tertiary.enabled.fg": "a6ea7cf2e167f0f602d99387a55d82ed58d8b633",
       "ob.c.button.color.tertiary.enabled.bg": "606479389473e411e66d5d94819dbb58b2d6efed",
       "ob.c.button.color.tertiary.enabled.border": "2f5eaa0c44d37b867f315eede08c40479e366466",
@@ -609,7 +624,17 @@
       "ob.c.button.color.primary.pressed.border": "3cd9894b4419cc434f41fdecadb1addc168ea3d6",
       "ob.c.button.color.primary.disabled.fg": "22bf1b972cc2471339506ddf0861fd31811a8867",
       "ob.c.button.color.primary.disabled.bg": "7d2b89b0913ee27198ab8bbbfaebbc997de0e281",
-      "ob.c.button.color.primary.disabled.border": "1332130a2cc1fe7432d0e3c666a947e91965baf2"
+      "ob.c.button.color.primary.disabled.border": "1332130a2cc1fe7432d0e3c666a947e91965baf2",
+      "ob.s.color.background.contrast-high": "d4bab66aa8c4a68c3a5558ba519996a0f2fe9521",
+      "ob.s.color.background.contrast-medium": "d74504a7300a712f1c1737c74b190678506d05bb",
+      "ob.s.color.text.default.emphasize-low": "32fdeddb1a64136153a9f20d021d54d84b456581",
+      "ob.s.color.text.default.emphasize-medium": "511f0b0340cb5292ac2884ea21d0a8903d83d546",
+      "ob.s.color.text.default.emphasize-high": "3ee6a0797f344d5093880c1547b8a26137faeb71",
+      "ob.s.color.text.default.emphasize-highest": "308d4f109bcbfa274cd66f989165f2f0ae36f767",
+      "ob.s.color.text.a.link": "8c2f2d776d374655cb59e55f7dddbedb0f8d362d",
+      "ob.s.color.text.a.hover": "8ede32be097bd1df79923091f5ed7ece4f963111",
+      "ob.s.color.text.a.active": "de43e6d5917c8a5d5b7375ed99cdf90435f07198",
+      "ob.s.color.text.a.focus": "11b24c2ef0787f0354a8d7f6181cef97321403a0"
     },
     "group": "button-mode"
   },
@@ -621,8 +646,9 @@
       "primitives/colors": "source",
       "semantics/colors": "source",
       "surface-modes/light": "enabled",
-      "button-modes/colored": "disabled",
-      "button-modes/monochrome": "disabled"
+      "button-modes/light-colored": "disabled",
+      "button-modes/light-monochrome": "disabled",
+      "button-modes/dark-monochrome": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:19",
@@ -649,13 +675,57 @@
       "primitives/colors": "source",
       "semantics/colors": "source",
       "surface-modes/dark": "enabled",
-      "button-modes/colored": "disabled",
-      "button-modes/monochrome": "disabled"
+      "button-modes/light-colored": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:20",
     "$figmaVariableReferences": {
       "ob.c.infobox.color.text.color": "c726aaac4e29df2b639d809d7bcce72b094cb954",
+      "ob.c.button.color.tertiary.enabled.fg": "262a680f4b50927cd8865dc0393661d611ebd26f",
+      "ob.c.button.color.tertiary.enabled.bg": "167899c1069d34c293044e780aea14dc276af64f",
+      "ob.c.button.color.tertiary.enabled.border": "aaf55afd3b6e368acf44e33cd28ee7da8c425612",
+      "ob.c.button.color.tertiary.hover.fg": "4ea48d55cb4fe90ebb37b339786e51f6aa0b6539",
+      "ob.c.button.color.tertiary.hover.bg": "3d092bc72f1e61a8cf48a6ada517a1204db3bd3e",
+      "ob.c.button.color.tertiary.hover.border": "4294e8bedb454499081c3c415abe212dd91fec50",
+      "ob.c.button.color.tertiary.focus.fg": "1a3077e93d6a4c2cfa8fdf4fc4333a4a38724fe6",
+      "ob.c.button.color.tertiary.focus.bg": "1accaa12aa83185b157a667c6450aad11bf06772",
+      "ob.c.button.color.tertiary.focus.border": "39a8ed1fd65396e4c73ca8be45437ab7ac82a15a",
+      "ob.c.button.color.tertiary.pressed.fg": "36593d3163ea129cd05f0d3a9baf37fb7a7a0e9b",
+      "ob.c.button.color.tertiary.pressed.bg": "e13fc9875b1ce87f566b9735fbd1f1cd18c3c936",
+      "ob.c.button.color.tertiary.pressed.border": "0af20c71c13590e39aa7771ad5e761e2e48d5e44",
+      "ob.c.button.color.tertiary.disabled.fg": "d1adcc59d2c9f95a69e221abea4d386e135da8e9",
+      "ob.c.button.color.tertiary.disabled.bg": "e12cbada6c94a7b97346da98741aec7a4aa6b90f",
+      "ob.c.button.color.tertiary.disabled.border": "1c7c36f6f0925c3f3809944060cb98b9188e2811",
+      "ob.c.button.color.secondary.enabled.fg": "d433888d7af59f55819f509ec65058b797672f72",
+      "ob.c.button.color.secondary.enabled.bg": "46e0086d6bd8e921a3e8f056581629732178bb2e",
+      "ob.c.button.color.secondary.enabled.border": "4c064cf09e440fec05ab5ffd135be5df4e5e17d5",
+      "ob.c.button.color.secondary.hover.fg": "6c4e646d00ac972279594834722ed919048f88ed",
+      "ob.c.button.color.secondary.hover.bg": "77545a6d90e1c66846f5ec6a32aa8e254fc6ed0c",
+      "ob.c.button.color.secondary.hover.border": "b453f9855bb31771c5de3005e01025d1580d910b",
+      "ob.c.button.color.secondary.focus.fg": "8810fb8726c1796969afa1d93f25432358804326",
+      "ob.c.button.color.secondary.focus.bg": "81da69247f9a71b7de727d8f95445f43692395ab",
+      "ob.c.button.color.secondary.focus.border": "dee6d55164a56ea74aae3d5b989c365945ebacd6",
+      "ob.c.button.color.secondary.pressed.fg": "902debfcf02c7dc6f382f6bd2ecc99876fa6b106",
+      "ob.c.button.color.secondary.pressed.bg": "3e37bd5581f6126473d0e85c6759fac034aa5fe1",
+      "ob.c.button.color.secondary.pressed.border": "de01765981d2149555cee9fd966e1afe4d443e24",
+      "ob.c.button.color.secondary.disabled.fg": "4af416f772cb81b8249cf25c09461380247ca9c5",
+      "ob.c.button.color.secondary.disabled.bg": "b5e8dbeabeaaed5d8ac638daa467d007ff38ea18",
+      "ob.c.button.color.secondary.disabled.border": "f09c90d15a4f9ca746ab487ce199ae193c23cdd7",
+      "ob.c.button.color.primary.enabled.fg": "cb00934e905029c60b2499c2b2f8a85455a48d4c",
+      "ob.c.button.color.primary.enabled.bg": "5678ae2f03b737a36d95f3d14526ee064bfb9a40",
+      "ob.c.button.color.primary.enabled.border": "0a922d6887c83f50eb55d7ec85ceb3f2c21f6fe5",
+      "ob.c.button.color.primary.hover.fg": "93c2c441621bf263d725817a327a907d0831f004",
+      "ob.c.button.color.primary.hover.bg": "cb6eb976422776406dcdcebb3dcc43ee94479fc4",
+      "ob.c.button.color.primary.hover.border": "27abd3db86a36a4c963c409eec0ccde9f404bad9",
+      "ob.c.button.color.primary.focus.fg": "b4efadecd96d85299634dd78ece3426a5cf0216b",
+      "ob.c.button.color.primary.focus.bg": "39ce965b5979b1765d9c5d9f2b4e83e902d97da7",
+      "ob.c.button.color.primary.focus.border": "1370f0a0352c332cb16aa3392f291b040cd5d7a4",
+      "ob.c.button.color.primary.pressed.fg": "fb8fa2604bf0ef769050bef62d907255af2f40e0",
+      "ob.c.button.color.primary.pressed.bg": "5536937381d4607362a6a141ea8c0a89260104a3",
+      "ob.c.button.color.primary.pressed.border": "865b08bd196c2794010661808cbe6937c8bb7d51",
+      "ob.c.button.color.primary.disabled.fg": "97548090b66fcbffe5eb7c0f1fb4a8741e5efa2b",
+      "ob.c.button.color.primary.disabled.bg": "1a97f8666241635e407b3eca1415e6caf8bb763c",
+      "ob.c.button.color.primary.disabled.border": "c4f27172b4eb2eb7bd9ea5561f270edf8c05b70d",
       "ob.s.color.background.contrast-high": "09c80c3c44251721014cb080971e52d79ed67aba",
       "ob.s.color.background.contrast-medium": "fb17b27351a5bf65d1346b3bb4cb36853661b504",
       "ob.s.color.text.default.emphasize-low": "d45e40652288443f42fedad9a0b3da8f947fe083",
