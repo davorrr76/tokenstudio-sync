@@ -60,7 +60,7 @@
     "modes/buttons/light-colored",
     "modes/buttons/light-monochrome",
     "modes/buttons/dark-monochrome",
-    "modes/surface/light",
-    "modes/surface/dark"
+    "modes/color-mode/light",
+    "modes/color-mode/dark"
   ]
 }
