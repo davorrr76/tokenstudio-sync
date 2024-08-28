@@ -113,13 +113,13 @@
                 "description": "Adds 80% opacity to clicked state"
               },
               "disabled": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.5",
+                      "value": "0.3",
                       "space": "srgb"
                     }
                   }
@@ -220,7 +220,7 @@
                 "description": "Adds 80% opacity to clicked state"
               },
               "disabled": {
-                "value": "{ob.s.color.bg.contrast-high}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {

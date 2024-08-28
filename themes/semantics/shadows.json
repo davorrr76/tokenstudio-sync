@@ -82,6 +82,20 @@
           "type": "boxShadow",
           "description": "Used for buttons, the overlay panel of the Select form element, and the components Notification and Popover."
         },
+        "none": {
+          "value": [
+            {
+              "color": "{ob.s.color.util.no-color}",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "0"
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Used to disabled a shadow for example on button state that need no shadow."
+        },
         "lg": {
           "value": [
             {

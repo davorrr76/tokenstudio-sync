@@ -125,6 +125,33 @@
           "value": "{ob.s.border-width.xs}",
           "type": "borderWidth",
           "description": "Default border width for buttons (additional hover border not included)"
+        },
+        "box-shadow": {
+          "enabled": {
+            "value": "{ob.s.shadow.none}",
+            "type": "boxShadow",
+            "description": "No shadow needed on enabled state of button."
+          },
+          "hover": {
+            "value": "{ob.s.shadow.xl}",
+            "type": "boxShadow",
+            "description": "A shadow needed for elevation effect on hover state of button."
+          },
+          "focus": {
+            "value": "{ob.s.shadow.none}",
+            "type": "boxShadow",
+            "description": "No shadow needed on focus state of button."
+          },
+          "pressed": {
+            "value": "{ob.s.shadow.none}",
+            "type": "boxShadow",
+            "description": "No shadow needed on pressed state of button."
+          },
+          "disabled": {
+            "value": "{ob.s.shadow.none}",
+            "type": "boxShadow",
+            "description": "No shadow needed on disabled state of button."
+          }
         }
       }
     }
