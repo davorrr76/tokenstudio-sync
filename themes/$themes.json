@@ -65,7 +65,10 @@
       "components/molecules/infobox": "enabled",
       "components/organisms/footer": "enabled",
       "components/molecules/containers": "enabled",
-      "components/atoms/badge": "enabled"
+      "components/atoms/badge": "enabled",
+      "modes/buttons-new/light-colored-new": "disabled",
+      "modes/buttons-new/light-monochrome-new": "disabled",
+      "modes/buttons-new/dark-monochrome-new": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10676",
     "$figmaModeId": "6001:15",
@@ -286,7 +289,10 @@
       "semantics/shadows": "source",
       "semantics/z-Index": "source",
       "primitives/typography": "source",
-      "modes/breakpoints/1440-lg": "enabled"
+      "modes/breakpoints/1440-lg": "enabled",
+      "modes/buttons-new/light-colored-new": "disabled",
+      "modes/buttons-new/light-monochrome-new": "disabled",
+      "modes/buttons-new/dark-monochrome-new": "disabled"
     },
     "$figmaVariableReferences": {
       "ob.p.scale.mult": "9226802007858c8511d248d0414899749979a8d4",
@@ -344,7 +350,10 @@
       "semantics/shadows": "source",
       "semantics/z-Index": "source",
       "primitives/typography": "source",
-      "modes/breakpoints/360-xs": "enabled"
+      "modes/breakpoints/360-xs": "enabled",
+      "modes/buttons-new/light-colored-new": "disabled",
+      "modes/buttons-new/light-monochrome-new": "disabled",
+      "modes/buttons-new/dark-monochrome-new": "disabled"
     },
     "$figmaVariableReferences": {
       "ob.p.scale.mult": "9226802007858c8511d248d0414899749979a8d4",
@@ -402,7 +411,10 @@
       "semantics/shadows": "source",
       "semantics/z-Index": "source",
       "primitives/typography": "source",
-      "modes/buttons/light-colored": "enabled"
+      "modes/buttons/light-colored": "enabled",
+      "modes/buttons-new/light-colored-new": "disabled",
+      "modes/buttons-new/light-monochrome-new": "disabled",
+      "modes/buttons-new/dark-monochrome-new": "disabled"
     },
     "$figmaVariableReferences": {
       "ob.c.button.color.primary.enabled.fg": "3bee04349b1e49637967dcc66cac13ccfd979e61",
@@ -478,7 +490,10 @@
       "semantics/z-Index": "source",
       "primitives/typography": "source",
       "modes/buttons/light-monochrome": "enabled",
-      "modes/color-mode/light": "enabled"
+      "modes/color-mode/light": "enabled",
+      "modes/buttons-new/light-colored-new": "disabled",
+      "modes/buttons-new/light-monochrome-new": "disabled",
+      "modes/buttons-new/dark-monochrome-new": "disabled"
     },
     "$figmaVariableReferences": {
       "ob.c.infobox.color.text.color": "4aa52069af6d6802aaa13185bfbe5df73c7e3493",
@@ -569,7 +584,10 @@
       "semantics/shadows": "source",
       "semantics/z-Index": "source",
       "modes/buttons/dark-monochrome": "enabled",
-      "modes/color-mode/dark": "enabled"
+      "modes/color-mode/dark": "enabled",
+      "modes/buttons-new/light-colored-new": "disabled",
+      "modes/buttons-new/light-monochrome-new": "disabled",
+      "modes/buttons-new/dark-monochrome-new": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6102:643314",
     "$figmaModeId": "6125:0",
@@ -644,7 +662,10 @@
     "selectedTokenSets": {
       "primitives/colors": "source",
       "semantics/colors": "source",
-      "modes/color-mode/light": "enabled"
+      "modes/color-mode/light": "enabled",
+      "modes/buttons-new/light-colored-new": "disabled",
+      "modes/buttons-new/light-monochrome-new": "disabled",
+      "modes/buttons-new/dark-monochrome-new": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:19",
@@ -674,7 +695,10 @@
     "selectedTokenSets": {
       "primitives/colors": "source",
       "semantics/colors": "source",
-      "modes/color-mode/dark": "enabled"
+      "modes/color-mode/dark": "enabled",
+      "modes/buttons-new/light-colored-new": "disabled",
+      "modes/buttons-new/light-monochrome-new": "disabled",
+      "modes/buttons-new/dark-monochrome-new": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:20",

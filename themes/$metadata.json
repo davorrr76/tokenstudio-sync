@@ -60,6 +60,9 @@
     "modes/buttons/light-colored",
     "modes/buttons/light-monochrome",
     "modes/buttons/dark-monochrome",
+    "modes/buttons-new/dark-monochrome-new",
+    "modes/buttons-new/light-monochrome-new",
+    "modes/buttons-new/light-colored-new",
     "modes/color-mode/light",
     "modes/color-mode/dark"
   ]
