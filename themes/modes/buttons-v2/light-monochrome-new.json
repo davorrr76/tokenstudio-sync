@@ -28,24 +28,33 @@
             },
             "secondary": {
               "enabled": {
-                "value": "{ob.p.colors.cobalt.900}",
+                "value": "{ob.p.colors.cobalt.800}",
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.p.colors.cobalt.900}",
+                "value": "{ob.p.colors.cobalt.800}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.p.colors.cobalt.900}",
+                "value": "{ob.p.colors.cobalt.800}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.p.colors.cobalt.900}",
+                "value": "{ob.p.colors.cobalt.800}",
                 "type": "color"
               },
               "disabled": {
                 "value": "{ob.p.colors.cobalt.400}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.7",
+                      "space": "srgb"
+                    }
+                  }
+                }
               }
             },
             "tertiary": {
@@ -54,25 +63,25 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.p.colors.cobalt.900}",
+                "value": "{ob.p.colors.cobalt.800}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.p.colors.cobalt.900}",
+                "value": "{ob.p.colors.cobalt.800}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.p.colors.cobalt.900}",
+                "value": "{ob.p.colors.cobalt.800}",
                 "type": "color"
               },
               "disabled": {
-                "value": "{ob.p.colors.cobalt.300}",
+                "value": "{ob.p.colors.cobalt.400}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.8",
+                      "value": "0.7",
                       "space": "srgb"
                     }
                   }
@@ -126,7 +135,7 @@
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.p.colors.cobalt.100}",
+                "value": "{ob.p.colors.cobalt.200}",
                 "type": "color"
               },
               "disabled": {
@@ -148,7 +157,7 @@
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.p.colors.cobalt.100}",
+                "value": "{ob.s.color.util.no-color}",
                 "type": "color"
               },
               "disabled": {
@@ -182,19 +191,19 @@
             },
             "secondary": {
               "enabled": {
-                "value": "{ob.p.colors.cobalt.800}",
+                "value": "{ob.p.colors.cobalt.600}",
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.p.colors.cobalt.800}",
+                "value": "{ob.p.colors.cobalt.600}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.p.colors.cobalt.800}",
+                "value": "{ob.p.colors.cobalt.600}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.p.colors.cobalt.800}",
+                "value": "{ob.p.colors.cobalt.700}",
                 "type": "color"
               },
               "disabled": {
@@ -204,7 +213,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.8",
+                      "value": "0.5",
                       "space": "srgb"
                     }
                   }

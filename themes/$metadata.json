@@ -11,7 +11,7 @@
     "semantics/assets",
     "semantics/borders",
     "semantics/colors",
-    "semantics/Icons",
+    "semantics/icons",
     "semantics/shadows",
     "semantics/spacing",
     "semantics/type-base",
@@ -57,13 +57,13 @@
     "___________________",
     "modes/breakpoints/1440-lg",
     "modes/breakpoints/360-xs",
+    "modes/color-mode/light",
+    "modes/color-mode/dark",
     "modes/buttons/light-colored",
     "modes/buttons/light-monochrome",
     "modes/buttons/dark-monochrome",
     "modes/buttons-v2/light-colored-new",
     "modes/buttons-v2/light-monochrome-new",
-    "modes/buttons-v2/dark-monochrome-new",
-    "modes/color-mode/light",
-    "modes/color-mode/dark"
+    "modes/buttons-v2/dark-monochrome-new"
   ]
 }

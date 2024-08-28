@@ -22,7 +22,7 @@
                 "type": "color"
               },
               "disabled": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               }
             },
@@ -45,7 +45,16 @@
               },
               "disabled": {
                 "value": "{ob.p.colors.cobalt.400}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.7",
+                      "space": "srgb"
+                    }
+                  }
+                }
               }
             },
             "tertiary": {
@@ -76,13 +85,13 @@
                 "description": "slightly reduced opacity for pressed"
               },
               "disabled": {
-                "value": "{ob.p.colors.cobalt.500}",
+                "value": "{ob.p.colors.cobalt.400}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.5",
+                      "value": "0.7",
                       "space": "srgb"
                     }
                   }
@@ -109,8 +118,17 @@
                 "type": "color"
               },
               "disabled": {
-                "value": "{ob.p.colors.cobalt.200}",
-                "type": "color"
+                "value": "{ob.p.colors.cobalt.400}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.7",
+                      "space": "srgb"
+                    }
+                  }
+                }
               }
             },
             "secondary": {
@@ -127,7 +145,7 @@
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.p.colors.cobalt.50}",
                 "type": "color"
               },
               "disabled": {
@@ -200,7 +218,16 @@
               },
               "disabled": {
                 "value": "{ob.p.colors.cobalt.400}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.5",
+                      "space": "srgb"
+                    }
+                  }
+                }
               }
             },
             "tertiary": {
