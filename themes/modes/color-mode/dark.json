@@ -3,9 +3,9 @@
     "c": {
       "infobox": {
         "color": {
-          "text": {
+          "fg": {
             "color": {
-              "value": "ob.s.color.text.emphasize-highest",
+              "value": "{ob.s.color.fg.static.emphasize-highest}",
               "type": "color"
             }
           }
