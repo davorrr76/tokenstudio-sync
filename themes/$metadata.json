@@ -59,11 +59,8 @@
     "modes/breakpoints/360-xs",
     "modes/color-mode/light",
     "modes/color-mode/dark",
-    "modes/buttons/light-colored",
-    "modes/buttons/light-monochrome",
-    "modes/buttons/dark-monochrome",
-    "modes/buttons-v2/light-colored-new",
-    "modes/buttons-v2/light-monochrome-new",
-    "modes/buttons-v2/dark-monochrome-new"
+    "modes/button-color-mode/light-colored",
+    "modes/button-color-mode/light-monochrome",
+    "modes/button-color-mode/dark-monochrome"
   ]
 }
