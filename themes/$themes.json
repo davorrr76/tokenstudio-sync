@@ -65,10 +65,7 @@
       "components/organisms/footer": "enabled",
       "components/molecules/containers": "enabled",
       "components/atoms/badge": "enabled",
-      "semantics/icons": "enabled",
-      "modes/button-color-mode/light-colored": "disabled",
-      "modes/button-color-mode/light-monochrome": "disabled",
-      "modes/button-color-mode/dark-monochrome": "disabled"
+      "semantics/icons": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10676",
     "$figmaModeId": "6001:15",
@@ -292,10 +289,7 @@
       "semantics/z-Index": "source",
       "primitives/typography": "source",
       "modes/breakpoints/1440-lg": "enabled",
-      "semantics/icons": "source",
-      "modes/button-color-mode/light-colored": "disabled",
-      "modes/button-color-mode/light-monochrome": "disabled",
-      "modes/button-color-mode/dark-monochrome": "disabled"
+      "semantics/icons": "source"
     },
     "$figmaVariableReferences": {
       "ob.p.scale.mult": "9226802007858c8511d248d0414899749979a8d4",
@@ -353,10 +347,7 @@
       "semantics/z-Index": "source",
       "primitives/typography": "source",
       "modes/breakpoints/360-xs": "enabled",
-      "semantics/icons": "source",
-      "modes/button-color-mode/light-colored": "disabled",
-      "modes/button-color-mode/light-monochrome": "disabled",
-      "modes/button-color-mode/dark-monochrome": "disabled"
+      "semantics/icons": "source"
     },
     "$figmaVariableReferences": {
       "ob.p.scale.mult": "9226802007858c8511d248d0414899749979a8d4",
@@ -399,34 +390,26 @@
     "selectedTokenSets": {
       "primitives/colors": "source",
       "semantics/colors": "source",
-      "components/molecules/infobox": "enabled",
-      "modes/button-color-mode/light-colored": "disabled",
-      "modes/button-color-mode/light-monochrome": "disabled",
-      "modes/button-color-mode/dark-monochrome": "disabled"
+      "modes/color-mode/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:19",
     "$figmaVariableReferences": {
-      "ob.c.infobox.icon.color.info": "cdaa04070ebcbda36c4a7bf397b14332811b05d4",
-      "ob.c.infobox.icon.color.error": "494ed3fb1b5f6e328840471f9915751b3925f68b",
-      "ob.c.infobox.icon.color.warning": "581175a2a32918ed1b5e00701f2598f5dc6dce2d",
-      "ob.c.infobox.icon.color.success": "3e4eb19e74e554c2c2c7ecb127e5c66b01673000",
-      "ob.c.infobox.icon.color.fatal": "7dba35ba7df02fba1b34ace38ce59757d8f6bc60",
-      "ob.c.infobox.border.color.info": "52674f5fb13b8abbda96e526e335521843152efe",
-      "ob.c.infobox.border.color.error": "a90bfd8fdfc27e291e54535a26b5faf58ff6ae40",
-      "ob.c.infobox.border.color.warning": "e4ea7d4199dd6c67d47f799d49622719378502d8",
-      "ob.c.infobox.border.color.success": "eebad5f0a0b50493520a64f445cd71c35048abf2",
-      "ob.c.infobox.border.color.fatal": "60f5f10325d9bd80e9e5093b5dd90251b638c413",
-      "ob.c.infobox.container.color.info": "b59433f8c836751742bf4448c8b559ad8d440806",
-      "ob.c.infobox.container.color.error": "ceac2f8bee88a07b9742385d9f911e883d0e2985",
-      "ob.c.infobox.container.color.warning": "2f414c5dec00a85fe83db5d3f2cf2ab015c52bc4",
-      "ob.c.infobox.container.color.success": "540ef7e062820f4e77a601259fec9a0d1af9376f",
-      "ob.c.infobox.container.color.fatal": "38e121ed60055361380f1507fe9016294ec242c3",
-      "ob.c.infobox.border-radius.top-left": "d381485574c2403333f118154b5a93cb4269dc78",
-      "ob.c.infobox.border-radius.top-right": "6eb6d8dd52624ec90243abaa0764df316526c7dc",
-      "ob.c.infobox.border-radius.bottom-left": "cce2315a7dbb8af8c305ff4db9b94a6c0760d100",
-      "ob.c.infobox.border-radius.bottom-right": "063b39e2c9f81f017569b1c9b1d1a7aaf2d5ec26",
-      "ob.c.infobox.spacing.row-gap": "f6745c7f055697d2378b7a04ad9454d9c2e3daba"
+      "ob.c.infobox.color.text.color": "edbb07add0bbfa66c2a229a80dc81ab437053228",
+      "ob.s.color.bg.contrast-high": "1e4449473196a1a8119ca1b0051257b4f041b428",
+      "ob.s.color.bg.contrast-medium": "e2e335f164871dcb8e2997ed670faf4eee26884f",
+      "ob.s.color.fg.static.emphasize-low": "0e352f4c1dcdca34f6d135c37e601bd837796594",
+      "ob.s.color.fg.static.emphasize-medium": "c89541b944a69aa8fa09ecab26d2ab90e54c89ad",
+      "ob.s.color.fg.static.emphasize-high": "2cc5676c97b9a72f76fe23d6e1f3aa7b24ec55c5",
+      "ob.s.color.fg.static.emphasize-highest": "f189d2d579483c06aea93d3f6bdfc227cb63177c",
+      "ob.s.color.fg.a.link": "b4803855d667c616cf502ef1775fba7886aae2ae",
+      "ob.s.color.fg.a.hover": "1e066780de2c7009c1e04dec906c55c61adf07dc",
+      "ob.s.color.fg.a.active": "e90771ea990971f980af77b510fd721114c5a4b7",
+      "ob.s.color.fg.a.focus": "41f9ff6ce18005ae65b43ba2fd9e09ea9b334cc0",
+      "ob.s.color.fg.status.info": "eca4d940f440868f2144f7aba50bb1b1dbacca0a",
+      "ob.s.color.fg.status.success": "9bf5575c2465ba0c85b6e99c10cb7200da83e9fa",
+      "ob.s.color.fg.status.warning": "9419d53e84e9910acc373bd5bf82e6949799a8cd",
+      "ob.s.color.fg.status.error": "598245c5ed475bd19d869f11ff9d1143793d3698"
     },
     "group": "surface"
   },
@@ -437,29 +420,26 @@
     "selectedTokenSets": {
       "primitives/colors": "source",
       "semantics/colors": "source",
-      "modes/color-mode/dark": "enabled",
-      "modes/button-color-mode/light-colored": "disabled",
-      "modes/button-color-mode/light-monochrome": "disabled",
-      "modes/button-color-mode/dark-monochrome": "disabled"
+      "modes/color-mode/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:20",
     "$figmaVariableReferences": {
-      "ob.c.infobox.color.fg.color": "cda3d1b0cd51c25f617725fea7d4f6e9180756ad",
-      "ob.s.color.bg.contrast-high": "fa8f6c6f7b5f0fcc9d413aeb2449683154efec8f",
-      "ob.s.color.bg.contrast-medium": "0d24b91d96e6be30fbf5c118dccb28fc2dc9c511",
-      "ob.s.color.fg.static.emphasize-low": "db68b7e2df1cd5bb9b66d41c0f1ee3ba890283dc",
-      "ob.s.color.fg.static.emphasize-medium": "b327b101377bc8aff18024bd93451abebda3fd15",
-      "ob.s.color.fg.static.emphasize-high": "1804cd846f762aa8f7ddea8d3de0d8a521fd59b2",
-      "ob.s.color.fg.static.emphasize-highest": "a0d03921670d39e57d3b84ca4b9eb7158da914ab",
-      "ob.s.color.fg.a.link": "f985571b23bb0d26349f31a1387ce5e6072a15e1",
-      "ob.s.color.fg.a.hover": "04ff67d09ef78cad7057f6f6bc9c84433b776c85",
-      "ob.s.color.fg.a.active": "4eecf5e6438c4c83050bbb265bc0d103cced343f",
-      "ob.s.color.fg.a.focus": "0deb02c07cd40a1918fa0308906a0fef5727d230",
-      "ob.s.color.fg.status.info": "5c672243f2f8078637bff7c59ae9e0839fd6746f",
-      "ob.s.color.fg.status.success": "db4c7a7a22f961b8b9de2ce988972320626fe697",
-      "ob.s.color.fg.status.warning": "5ee5b9f4b02d62ca9426f689b68e80da844eda18",
-      "ob.s.color.fg.status.error": "e5ea1d3a28f9cfbd28a62fddbb9f0a8af83f2bb2"
+      "ob.c.infobox.color.fg.color": "9b762a3b9ec347a987d30c4ddc02ded02388ff5d",
+      "ob.s.color.bg.contrast-high": "1e4449473196a1a8119ca1b0051257b4f041b428",
+      "ob.s.color.bg.contrast-medium": "e2e335f164871dcb8e2997ed670faf4eee26884f",
+      "ob.s.color.fg.static.emphasize-low": "0e352f4c1dcdca34f6d135c37e601bd837796594",
+      "ob.s.color.fg.static.emphasize-medium": "c89541b944a69aa8fa09ecab26d2ab90e54c89ad",
+      "ob.s.color.fg.static.emphasize-high": "2cc5676c97b9a72f76fe23d6e1f3aa7b24ec55c5",
+      "ob.s.color.fg.static.emphasize-highest": "f189d2d579483c06aea93d3f6bdfc227cb63177c",
+      "ob.s.color.fg.a.link": "b4803855d667c616cf502ef1775fba7886aae2ae",
+      "ob.s.color.fg.a.hover": "1e066780de2c7009c1e04dec906c55c61adf07dc",
+      "ob.s.color.fg.a.active": "e90771ea990971f980af77b510fd721114c5a4b7",
+      "ob.s.color.fg.a.focus": "41f9ff6ce18005ae65b43ba2fd9e09ea9b334cc0",
+      "ob.s.color.fg.status.info": "eca4d940f440868f2144f7aba50bb1b1dbacca0a",
+      "ob.s.color.fg.status.success": "9bf5575c2465ba0c85b6e99c10cb7200da83e9fa",
+      "ob.s.color.fg.status.warning": "9419d53e84e9910acc373bd5bf82e6949799a8cd",
+      "ob.s.color.fg.status.error": "598245c5ed475bd19d869f11ff9d1143793d3698"
     },
     "group": "surface"
   },
@@ -471,9 +451,7 @@
       "primitives/colors": "source",
       "semantics/colors": "source",
       "modes/color-mode/light": "source",
-      "modes/button-color-mode/light-colored": "enabled",
-      "modes/button-color-mode/light-monochrome": "disabled",
-      "modes/button-color-mode/dark-monochrome": "disabled"
+      "modes/button-color-mode/light-colored": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:8010:535698",
     "$figmaModeId": "8010:6",
@@ -534,9 +512,7 @@
       "primitives/colors": "source",
       "semantics/colors": "source",
       "modes/color-mode/light": "source",
-      "modes/button-color-mode/light-colored": "disabled",
-      "modes/button-color-mode/light-monochrome": "enabled",
-      "modes/button-color-mode/dark-monochrome": "disabled"
+      "modes/button-color-mode/light-monochrome": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:8010:535698",
     "$figmaModeId": "8010:7",
@@ -597,8 +573,6 @@
       "primitives/colors": "source",
       "semantics/colors": "source",
       "modes/color-mode/dark": "source",
-      "modes/button-color-mode/light-colored": "disabled",
-      "modes/button-color-mode/light-monochrome": "disabled",
       "modes/button-color-mode/dark-monochrome": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:8010:535698",

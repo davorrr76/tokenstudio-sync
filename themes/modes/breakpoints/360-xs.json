@@ -84,7 +84,7 @@
               "description": "Aligns the buttons with the text on mobile."
             },
             "padding-bottom": {
-              "value": "{ob.s.spacing.3xl}",
+              "value": "{ob.s.spacing.4xl}",
               "type": "spacing"
             },
             "padding-right": {
@@ -151,11 +151,11 @@
             "type": "spacing"
           },
           "padding-left": {
-            "value": "{ob.s.spacing.3xl}",
+            "value": "{ob.s.spacing.none}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{ob.s.spacing.3xl}",
+            "value": "{ob.s.spacing.none}",
             "type": "spacing"
           }
         }
@@ -173,7 +173,7 @@
         "typography": {
           "text-label": {
             "font-size": {
-              "value": "roundTo( {ob.s.fontSize.lg} , 2)",
+              "value": "17",
               "type": "fontSizes",
               "description": "Font size for button text label on mobile."
             }
