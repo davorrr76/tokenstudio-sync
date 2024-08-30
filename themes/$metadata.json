@@ -10,7 +10,9 @@
     "primitives/z-Index",
     "semantics/assets",
     "semantics/borders",
-    "semantics/colors",
+    "semantics/colors/static",
+    "semantics/colors/modes/light",
+    "semantics/colors/modes/dark",
     "semantics/icons",
     "semantics/shadows",
     "semantics/spacing",
@@ -54,13 +56,11 @@
     "components/templates/dashboard-A",
     "components/templates/form-onepage",
     "components/templates/form-mutlistep",
+    "components/buttons/modes/light-colored",
+    "components/buttons/modes/light-monochrome",
+    "components/buttons/modes/dark-monochrome",
     "___________________",
     "modes/breakpoints/1440-lg",
-    "modes/breakpoints/360-xs",
-    "modes/color-mode/light",
-    "modes/color-mode/dark",
-    "modes/button-color-mode/light-colored",
-    "modes/button-color-mode/light-monochrome",
-    "modes/button-color-mode/dark-monochrome"
+    "modes/breakpoints/360-xs"
   ]
 }

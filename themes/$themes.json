@@ -55,7 +55,6 @@
       "semantics/type-base": "enabled",
       "semantics/type-styles": "enabled",
       "semantics/spacing": "enabled",
-      "semantics/colors": "enabled",
       "semantics/borders": "enabled",
       "semantics/shadows": "enabled",
       "semantics/z-Index": "enabled",
@@ -65,7 +64,13 @@
       "components/organisms/footer": "enabled",
       "components/molecules/containers": "enabled",
       "components/atoms/badge": "enabled",
-      "semantics/icons": "enabled"
+      "semantics/icons": "enabled",
+      "components/buttons/modes/light-colored": "disabled",
+      "components/buttons/modes/light-monochrome": "disabled",
+      "components/buttons/modes/dark-monochrome": "disabled",
+      "semantics/colors/modes/light": "disabled",
+      "semantics/colors/modes/dark": "disabled",
+      "semantics/colors/static": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10676",
     "$figmaModeId": "6001:15",
@@ -283,13 +288,18 @@
       "semantics/type-base": "source",
       "semantics/type-styles": "source",
       "semantics/spacing": "source",
-      "semantics/colors": "source",
       "semantics/borders": "source",
       "semantics/shadows": "source",
       "semantics/z-Index": "source",
       "primitives/typography": "source",
       "modes/breakpoints/1440-lg": "enabled",
-      "semantics/icons": "source"
+      "semantics/icons": "source",
+      "components/buttons/modes/light-colored": "disabled",
+      "components/buttons/modes/light-monochrome": "disabled",
+      "components/buttons/modes/dark-monochrome": "disabled",
+      "semantics/colors/modes/light": "disabled",
+      "semantics/colors/modes/dark": "disabled",
+      "semantics/colors/static": "source"
     },
     "$figmaVariableReferences": {
       "ob.p.scale.mult": "9226802007858c8511d248d0414899749979a8d4",
@@ -341,13 +351,18 @@
       "semantics/type-base": "source",
       "semantics/type-styles": "source",
       "semantics/spacing": "source",
-      "semantics/colors": "source",
       "semantics/borders": "source",
       "semantics/shadows": "source",
       "semantics/z-Index": "source",
       "primitives/typography": "source",
       "modes/breakpoints/360-xs": "enabled",
-      "semantics/icons": "source"
+      "semantics/icons": "source",
+      "components/buttons/modes/light-colored": "disabled",
+      "components/buttons/modes/light-monochrome": "disabled",
+      "components/buttons/modes/dark-monochrome": "disabled",
+      "semantics/colors/modes/light": "disabled",
+      "semantics/colors/modes/dark": "disabled",
+      "semantics/colors/static": "source"
     },
     "$figmaVariableReferences": {
       "ob.p.scale.mult": "9226802007858c8511d248d0414899749979a8d4",
@@ -389,8 +404,12 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives/colors": "source",
-      "semantics/colors": "source",
-      "modes/color-mode/light": "enabled"
+      "components/buttons/modes/light-colored": "disabled",
+      "components/buttons/modes/light-monochrome": "disabled",
+      "components/buttons/modes/dark-monochrome": "disabled",
+      "semantics/colors/modes/light": "enabled",
+      "semantics/colors/modes/dark": "disabled",
+      "semantics/colors/static": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:19",
@@ -419,8 +438,12 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives/colors": "source",
-      "semantics/colors": "source",
-      "modes/color-mode/dark": "enabled"
+      "components/buttons/modes/light-colored": "disabled",
+      "components/buttons/modes/light-monochrome": "disabled",
+      "components/buttons/modes/dark-monochrome": "disabled",
+      "semantics/colors/modes/light": "disabled",
+      "semantics/colors/modes/dark": "enabled",
+      "semantics/colors/static": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:20",
@@ -449,9 +472,12 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives/colors": "source",
-      "semantics/colors": "source",
-      "modes/color-mode/light": "source",
-      "modes/button-color-mode/light-colored": "enabled"
+      "components/buttons/modes/light-colored": "enabled",
+      "components/buttons/modes/light-monochrome": "disabled",
+      "components/buttons/modes/dark-monochrome": "disabled",
+      "semantics/colors/modes/light": "source",
+      "semantics/colors/modes/dark": "disabled",
+      "semantics/colors/static": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:8010:535698",
     "$figmaModeId": "8010:6",
@@ -510,9 +536,12 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives/colors": "source",
-      "semantics/colors": "source",
-      "modes/color-mode/light": "source",
-      "modes/button-color-mode/light-monochrome": "enabled"
+      "components/buttons/modes/light-colored": "disabled",
+      "components/buttons/modes/light-monochrome": "enabled",
+      "components/buttons/modes/dark-monochrome": "disabled",
+      "semantics/colors/modes/light": "source",
+      "semantics/colors/modes/dark": "disabled",
+      "semantics/colors/static": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:8010:535698",
     "$figmaModeId": "8010:7",
@@ -571,9 +600,12 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives/colors": "source",
-      "semantics/colors": "source",
-      "modes/color-mode/dark": "source",
-      "modes/button-color-mode/dark-monochrome": "enabled"
+      "components/buttons/modes/light-colored": "disabled",
+      "components/buttons/modes/light-monochrome": "disabled",
+      "components/buttons/modes/dark-monochrome": "enabled",
+      "semantics/colors/modes/light": "disabled",
+      "semantics/colors/modes/dark": "source",
+      "semantics/colors/static": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:8010:535698",
     "$figmaModeId": "8010:8",
