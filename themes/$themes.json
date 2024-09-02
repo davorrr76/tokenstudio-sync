@@ -318,7 +318,8 @@
       "ob.c.infoboxes-container.spacing.padding-top": "4443531a5efc24835d680a5c89c910c9325d13c4",
       "ob.c.infoboxes-container.spacing.padding-left": "b28e511a4866968f181682014b50bf22805a1903",
       "ob.c.infoboxes-container.spacing.padding-right": "bbc1a3bcd4fd9847bd7097d68972a4ed7a09f725",
-      "ob.c.buttons-container.spacing.gap": "553005a96169ca311151ef38f59b0194b4b30ef4",
+      "ob.c.buttons-container.spacing.gap.md": "553005a96169ca311151ef38f59b0194b4b30ef4",
+      "ob.c.buttons-container.spacing.gap.sm": "298d76f13b8b45cd9f0543511fbf9f5ac593610f",
       "ob.c.button.typography.text-label.font-size": "3143ebf6495cf477928e10822bc91b8184ae2c67"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10677",
@@ -376,8 +377,9 @@
       "ob.c.infoboxes-container.spacing.padding-top": "4443531a5efc24835d680a5c89c910c9325d13c4",
       "ob.c.infoboxes-container.spacing.padding-left": "b28e511a4866968f181682014b50bf22805a1903",
       "ob.c.infoboxes-container.spacing.padding-right": "bbc1a3bcd4fd9847bd7097d68972a4ed7a09f725",
-      "ob.c.buttons-container.spacing.gap": "553005a96169ca311151ef38f59b0194b4b30ef4",
-      "ob.c.button.typography.text-label.font-size": "3143ebf6495cf477928e10822bc91b8184ae2c67"
+      "ob.c.buttons-container.spacing.gap.md": "553005a96169ca311151ef38f59b0194b4b30ef4",
+      "ob.c.button.typography.text-label.font-size": "3143ebf6495cf477928e10822bc91b8184ae2c67",
+      "ob.c.buttons-container.spacing.gap.sm": "298d76f13b8b45cd9f0543511fbf9f5ac593610f"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10677",
     "$figmaModeId": "6001:18",
@@ -395,7 +397,7 @@
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:19",
     "$figmaVariableReferences": {
-      "ob.c.infobox.color.text.color": "edbb07add0bbfa66c2a229a80dc81ab437053228",
+      "ob.c.infobox.color.text.color": "d9c629ece8cbca524a0e0864ec0ab83e913e5a95",
       "ob.s.color.bg.contrast-high": "1e4449473196a1a8119ca1b0051257b4f041b428",
       "ob.s.color.bg.contrast-medium": "e2e335f164871dcb8e2997ed670faf4eee26884f",
       "ob.s.color.fg.static.emphasize-low": "0e352f4c1dcdca34f6d135c37e601bd837796594",
@@ -425,7 +427,7 @@
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:20",
     "$figmaVariableReferences": {
-      "ob.c.infobox.color.fg.color": "9b762a3b9ec347a987d30c4ddc02ded02388ff5d",
+      "ob.c.infobox.color.fg.color": "0765986fa6c3a07cddc3e1f82eb535ae786e2a2d",
       "ob.s.color.bg.contrast-high": "1e4449473196a1a8119ca1b0051257b4f041b428",
       "ob.s.color.bg.contrast-medium": "e2e335f164871dcb8e2997ed670faf4eee26884f",
       "ob.s.color.fg.static.emphasize-low": "0e352f4c1dcdca34f6d135c37e601bd837796594",
@@ -449,9 +451,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives/colors": "source",
-      "components/buttons/modes/light-colored": "enabled",
       "semantics/colors/modes/light": "source",
-      "semantics/colors/static": "source"
+      "semantics/colors/static": "source",
+      "components/atoms/button-modes/light-colored": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:8010:535698",
     "$figmaModeId": "8010:6",
@@ -510,9 +512,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives/colors": "source",
-      "components/buttons/modes/light-monochrome": "enabled",
       "semantics/colors/modes/light": "source",
-      "semantics/colors/static": "source"
+      "semantics/colors/static": "source",
+      "components/atoms/button-modes/light-monochrome": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:8010:535698",
     "$figmaModeId": "8010:7",
@@ -571,9 +573,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives/colors": "source",
-      "components/buttons/modes/dark-monochrome": "enabled",
       "semantics/colors/modes/dark": "source",
-      "semantics/colors/static": "source"
+      "semantics/colors/static": "source",
+      "components/atoms/button-modes/dark-monochrome": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:8010:535698",
     "$figmaModeId": "8010:8",

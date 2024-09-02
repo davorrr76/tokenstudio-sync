@@ -244,18 +244,8 @@
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.s.color.text.surface-dark.body}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.8",
-                      "space": "srgb"
-                    }
-                  }
-                },
-                "description": "{ob.s.color.util.no-color}"
+                "value": "{ob.s.color.util.no-color}",
+                "type": "color"
               },
               "disabled": {
                 "value": "{ob.s.color.util.no-color}",

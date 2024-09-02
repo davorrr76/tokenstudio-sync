@@ -162,9 +162,16 @@
       "buttons-container": {
         "spacing": {
           "gap": {
-            "value": "{ob.s.spacing.3xl}",
-            "type": "spacing",
-            "description": "Horizontal gap between buttons on larger screens."
+            "md": {
+              "value": "{ob.s.spacing.3xl}",
+              "type": "spacing",
+              "description": "Horizontal gap between buttons on larger screens."
+            },
+            "sm": {
+              "value": "{ob.s.spacing.xl}",
+              "type": "spacing",
+              "description": "Horizontal gap between buttons on larger screens."
+            }
           }
         }
       },

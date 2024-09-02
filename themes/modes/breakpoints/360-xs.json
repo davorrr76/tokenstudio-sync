@@ -163,9 +163,16 @@
       "buttons-container": {
         "spacing": {
           "gap": {
-            "value": "{ob.s.spacing.4xl}",
-            "type": "spacing",
-            "description": "Vertical gap between buttons for mobile devices, slightly expanded to minimize the risk of accidental tap."
+            "md": {
+              "value": "{ob.s.spacing.4xl}",
+              "type": "spacing",
+              "description": "Vertical gap between buttons for mobile devices, slightly expanded to minimize the risk of accidental tap."
+            },
+            "sm": {
+              "value": "{ob.s.spacing.xl}",
+              "type": "spacing",
+              "description": "Horizontal gap between buttons on larger screens."
+            }
           }
         }
       },
