@@ -1,1 +1,153 @@
-{}
+{
+  "ob": {
+    "c": {
+      "popover": {
+        "spacing": {
+          "text-container": {
+            "text-container": {
+              "padding-top": {
+                "value": "{ob.s.spacing.3xl}",
+                "type": "spacing",
+                "description": "Top and right padding have to be the same so the position of the close button is visually apealing."
+              },
+              "padding-right": {
+                "value": "{ob.s.spacing.3xl}",
+                "type": "spacing",
+                "description": "Top and right padding have to be the same so the position of the close button is visually apealing."
+              },
+              "padding-bottom": {
+                "value": "{ob.s.spacing.3xl}",
+                "type": "spacing",
+                "description": "Enhances readability and visual appeal, preventing the text from appearing cramped and ensuring clarity."
+              },
+              "padding-left": {
+                "value": "{ob.s.spacing.3xl}",
+                "type": "spacing",
+                "description": "Enhances readability and visual appeal, preventing the text from appearing cramped and ensuring clarity."
+              },
+              "row-gap": {
+                "value": "{ob.s.spacing.4xl}",
+                "type": "spacing",
+                "description": "Sets a minimum vertical gap between container-top and container-buttons to enhance the readability."
+              },
+              "container-top": {
+                "col-gap": {
+                  "value": "{ob.s.spacing.2xl}",
+                  "type": "spacing",
+                  "description": "Gap between the status icon and the text blocks for readibility and horizontal rhytm."
+                }
+              },
+              "text-blocks": {
+                "row-gap": {
+                  "value": "{ob.s.spacing.xl}",
+                  "type": "spacing",
+                  "description": "Emphasizes the visual hierarchy between the title and the body text."
+                }
+              },
+              "title-bar": {
+                "col-gap": {
+                  "value": "{ob.s.spacing.2xl}",
+                  "type": "spacing",
+                  "description": "Prevents the title coming to close to the Close button (X)"
+                }
+              },
+              "body": {
+                "padding-right": {
+                  "value": "{ob.s.spacing.9xl}",
+                  "type": "spacing",
+                  "description": "Adding a larger right-padding on larger screens introduces white space that allows the design to \"breathe\"."
+                },
+                "padding-bottom": {
+                  "value": "{ob.s.spacing.2xl}",
+                  "type": "spacing",
+                  "description": "Adding a larger right-padding on larger screens introduces white space that allows the design to \"breathe\"."
+                }
+              },
+              "parentof-buttons-container": {
+                "padding-left": {
+                  "value": "{ob.s.spacing.8xl}",
+                  "type": "spacing"
+                },
+                "padding-bottom": {
+                  "value": "{ob.s.spacing.lg}",
+                  "type": "spacing"
+                },
+                "padding-right": {
+                  "value": "{ob.s.spacing.sm}",
+                  "type": "spacing"
+                }
+              },
+              "infobox-icon-container": {
+                "padding-top": {
+                  "value": "{ob.s.spacing.none}",
+                  "type": "spacing"
+                }
+              },
+              "title": {
+                "padding-top": {
+                  "value": "{ob.s.spacing.sm}",
+                  "type": "spacing",
+                  "description": "Aligns the title with the status icon and the close button on desktop."
+                }
+              },
+              "custom-buttons-container": {
+                "padding-left": {
+                  "value": "{ob.s.spacing.lg}",
+                  "type": "spacing"
+                },
+                "padding-right": {
+                  "value": "{ob.s.spacing.lg}",
+                  "type": "spacing"
+                },
+                "padding-bottom": {
+                  "value": "{ob.s.spacing.3xl}",
+                  "type": "spacing"
+                },
+                "padding-top": {
+                  "value": "{ob.s.spacing.none}",
+                  "type": "spacing"
+                },
+                "row-gap": {
+                  "value": "{ob.s.spacing.2xl}",
+                  "type": "spacing",
+                  "description": "Vertical gap between the custom buttons."
+                },
+                "gap": {
+                  "value": "{ob.s.spacing.sm}",
+                  "type": "spacing",
+                  "description": "Horizontal gap between the custom buttons."
+                }
+              }
+            }
+          }
+        },
+        "sizing": {
+          "custom-icon": {
+            "size": {
+              "value": "{ob.s.icon.size.2xl}",
+              "type": "sizing",
+              "description": "For App Launcher Widget in ePortal and similar use cases."
+            }
+          },
+          "custom-buttons-container": {
+            "width": {
+              "value": "300",
+              "type": "sizing"
+            }
+          },
+          "custom-buttons": {
+            "min-width": {
+              "value": "90",
+              "type": "sizing"
+            }
+          },
+          "width": {
+            "value": "300",
+            "type": "sizing",
+            "description": "Sets a fix default width for popover for consistency reasons.  In the project this can be overridden to meet the specifics requiremens."
+          }
+        }
+      }
+    }
+  }
+}
