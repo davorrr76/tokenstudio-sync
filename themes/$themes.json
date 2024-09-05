@@ -93,6 +93,7 @@
       "ob.c.popover.color.fg": "8cb98ae7616157b321f04fe4dcdc02e72cf04972",
       "ob.c.popover.color.border": "d370e155d01bfa88158d6ee85ee9535dca074f15",
       "ob.c.popover.border-radius": "77c4d97e20476e2397a20ecf94eb63c24da1e52d",
+      "ob.c.popover.border-width": "a4310adb88cf24a4d1d3b6632841b5b2ab289f3b",
       "ob.c.infobox.icon.color.info": "1b1212d4e6b8173935d4fce07ee6edc1843fe6e6",
       "ob.c.infobox.icon.color.error": "30227f3a18bb55ad47613ba735360c38367d7841",
       "ob.c.infobox.icon.color.warning": "cb4a0ca2fa28b8cf5f219255b2a9a84929c0174c",
@@ -391,7 +392,7 @@
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:19",
     "$figmaVariableReferences": {
-      "ob.c.infobox.color.text.color": "ac28af710f6bf7d7d7b61117de20c225a554bbf3",
+      "ob.c.infobox.color.text.color": "fd5e6f4e21e1aa33d9521c167beef26f8c8a93dc",
       "ob.s.color.bg.contrast-high": "1e4449473196a1a8119ca1b0051257b4f041b428",
       "ob.s.color.bg.contrast-medium": "e2e335f164871dcb8e2997ed670faf4eee26884f",
       "ob.s.color.fg.static.emphasize-low": "0e352f4c1dcdca34f6d135c37e601bd837796594",
@@ -456,7 +457,7 @@
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:20",
     "$figmaVariableReferences": {
-      "ob.c.infobox.color.fg.color": "8189011bf1706f068d9816cfdea9f53232f90f47",
+      "ob.c.infobox.color.fg.color": "de06073fea0156cef7636d7a7067803a56b55d4c",
       "ob.s.color.bg.contrast-high": "1e4449473196a1a8119ca1b0051257b4f041b428",
       "ob.s.color.bg.contrast-medium": "e2e335f164871dcb8e2997ed670faf4eee26884f",
       "ob.s.color.fg.static.emphasize-low": "0e352f4c1dcdca34f6d135c37e601bd837796594",

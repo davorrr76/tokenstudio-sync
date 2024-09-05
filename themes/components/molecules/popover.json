@@ -123,6 +123,11 @@
           "value": "{ob.s.radii.md}",
           "type": "borderRadius",
           "description": "Sets default border radius for Popover."
+        },
+        "border-width": {
+          "value": "{ob.s.border-width.xs}",
+          "type": "borderWidth",
+          "description": "Sets the border width of the popover's surface."
         }
       }
     }
