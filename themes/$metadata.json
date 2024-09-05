@@ -25,6 +25,7 @@
     "components/atoms/button-modes/dark-monochrome",
     "components/atoms/button-modes/light-monochrome",
     "components/atoms/chip",
+    "components/atoms/divider",
     "components/atoms/external-link",
     "components/atoms/form",
     "components/atoms/slide-toggle",
