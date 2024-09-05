@@ -53,7 +53,7 @@
           },
           "text-blocks": {
             "row-gap": {
-              "value": "{ob.s.spacing.2xl}",
+              "value": "{ob.s.spacing.lg}",
               "type": "spacing",
               "description": "Emphasizes the visual hierarchy between the title and the body text."
             }
@@ -180,9 +180,16 @@
         "typography": {
           "text-label": {
             "font-size": {
-              "value": "17",
-              "type": "fontSizes",
-              "description": "Font size for button text label on mobile."
+              "md": {
+                "value": "17",
+                "type": "fontSizes",
+                "description": "Custom font size (no primitives) for button text label on mobile."
+              },
+              "sm": {
+                "value": "{ob.s.fontSize.sm}",
+                "type": "fontSizes",
+                "description": "Font size for button text label on desktop."
+              }
             }
           }
         }

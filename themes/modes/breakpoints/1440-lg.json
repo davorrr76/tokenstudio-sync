@@ -53,7 +53,7 @@
           },
           "text-blocks": {
             "row-gap": {
-              "value": "{ob.s.spacing.3xl}",
+              "value": "{ob.s.spacing.xl}",
               "type": "spacing",
               "description": "Emphasizes the visual hierarchy between the title and the body text."
             }
@@ -179,9 +179,16 @@
         "typography": {
           "text-label": {
             "font-size": {
-              "value": "{ob.s.fontSize.sm}",
-              "type": "fontSizes",
-              "description": "Font size for button text label on desktop."
+              "md": {
+                "value": "{ob.s.fontSize.sm}",
+                "type": "fontSizes",
+                "description": "Font size for button text label on desktop."
+              },
+              "sm": {
+                "value": "{ob.s.fontSize.xs}",
+                "type": "fontSizes",
+                "description": "Font size for small button text label on desktop."
+              }
             }
           }
         }
