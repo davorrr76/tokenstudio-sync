@@ -2,7 +2,7 @@
   "ob": {
     "p": {
       "scale": {
-        "mult": {
+        "mult-responsive": {
           "value": "4",
           "type": "number"
         }

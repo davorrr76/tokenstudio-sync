@@ -58,7 +58,7 @@
           "type": "fontSizes"
         }
       },
-      "letterSpacing": {
+      "letterSpacing-depr": {
         "0": {
           "value": "auto",
           "type": "letterSpacing",
@@ -276,58 +276,65 @@
           "type": "lineHeights"
         },
         "_base": {
-          "value": "{ob.p.scaleBase}",
+          "value": "{ob.p.scale.mult-static}",
           "type": "lineHeights"
         }
       },
-      "fontSizeForRemExperimental": {
+      "fontSizeRem": {
         "100": {
-          "value": "roundTo({ob.p.fontSizeUnitless.100} / 17, 1)",
-          "type": "fontSizes"
+          "value": "0.75rem",
+          "type": "fontSizes",
+          "description": "12px @ 16 base font size"
         },
         "200": {
-          "value": "roundTo({ob.p.fontSizeUnitless.200} / 17, 1)",
-          "type": "fontSizes"
+          "value": "0.88rem",
+          "type": "fontSizes",
+          "description": "14px @ 16 base font size"
         },
         "300": {
-          "value": "roundTo( {ob.p.fontSizeUnitless.300} / 17, 1)",
-          "type": "fontSizes"
+          "value": "1.06rem",
+          "type": "fontSizes",
+          "description": "17px @ 16 base font size"
         },
         "400": {
-          "value": "roundTo({ob.p.fontSizeUnitless.400} / 17, 1)",
-          "type": "fontSizes"
+          "value": "1.44rem",
+          "type": "fontSizes",
+          "description": "23px @ 16 base font size"
         },
         "500": {
-          "value": "roundTo({ob.p.fontSizeUnitless.500} / 17, 1)",
-          "type": "fontSizes"
+          "value": "1.75rem",
+          "type": "fontSizes",
+          "description": "28px @ 16 base font size"
         },
         "600": {
-          "value": "roundTo({ob.p.fontSizeUnitless.600} / 17, 1)",
-          "type": "fontSizes"
+          "value": "2.12rem",
+          "type": "fontSizes",
+          "description": "34px @ 16 base font size"
         },
         "700": {
-          "value": "roundTo( {ob.p.fontSizeUnitless._base} / 17, 1)",
-          "type": "fontSizes"
+          "value": "2.44rem",
+          "type": "fontSizes",
+          "description": "39px @ 16 base font size"
         },
         "800": {
-          "value": "roundTo({ob.p.fontSizeUnitless.800} / 17, 1)",
-          "type": "fontSizes"
+          "value": "2.81rem",
+          "type": "fontSizes",
+          "description": "45px @ 16 base font size"
         },
         "900": {
-          "value": "roundTo( {ob.p.fontSizeUnitless.900} / 17, 1)",
-          "type": "fontSizes"
+          "value": "3.06rem",
+          "type": "fontSizes",
+          "description": "49px @ 16 base font size"
         },
         "1000": {
-          "value": "roundTo( {ob.p.fontSizeUnitless.100} / 17, 1)",
-          "type": "fontSizes"
+          "value": "3.50rem",
+          "type": "fontSizes",
+          "description": "56px @ 16 base font size"
         },
         "1100": {
-          "value": "roundTo({ob.p.fontSizeUnitless.1100} / 17, 1)",
-          "type": "fontSizes"
-        },
-        "_base": {
-          "value": "{ob.p.scaleBase}",
-          "type": "fontSizes"
+          "value": "3.75rem",
+          "type": "fontSizes",
+          "description": "60px @ 16 base font size"
         }
       },
       "textcase": {
@@ -346,6 +353,33 @@
         "capitalize": {
           "value": "uppercase",
           "type": "textCase"
+        }
+      },
+      "letterSpacing-px": {
+        "0": {
+          "value": "auto",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "50": {
+          "value": "0.5",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "neg-150": {
+          "value": "-1.5",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "neg-100": {
+          "value": "-1",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "neg-50": {
+          "value": "-0.5",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
         }
       }
     }

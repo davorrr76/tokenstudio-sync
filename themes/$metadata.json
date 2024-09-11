@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
+    "primitives/global",
     "primitives/colors",
     "primitives/borders",
-    "primitives/global",
     "primitives/position",
     "primitives/sizing",
     "primitives/spacing",
@@ -16,8 +16,10 @@
     "semantics/icons",
     "semantics/shadows",
     "semantics/spacing",
-    "semantics/type-base",
-    "semantics/type-styles",
+    "semantics/typography-base",
+    "semantics/typography-styles",
+    "semantics/typography-sizes/1440",
+    "semantics/typography-sizes/360",
     "semantics/z-Index",
     "components/atoms/badge",
     "components/atoms/button",

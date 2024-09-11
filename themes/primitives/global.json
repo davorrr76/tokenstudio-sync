@@ -2,7 +2,7 @@
   "ob": {
     "p": {
       "scaleBase": {
-        "value": "{ob.p.scale.mult} * 1",
+        "value": "{ob.p.scale.mult-responsive} * 1",
         "type": "number",
         "description": "This resizes the entire design system"
       },
@@ -33,12 +33,12 @@
           "description": "Extra large devices, large desktops"
         }
       },
-      "viewport": {
-        "value": "1080",
-        "type": "number"
-      },
       "scale": {
-        "mult": {
+        "mult-responsive": {
+          "value": "4",
+          "type": "number"
+        },
+        "mult-static": {
           "value": "4",
           "type": "number"
         }

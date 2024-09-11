@@ -3,11 +3,9 @@
     "s": {
       "fontFamily": {
         "body": {
-          "corporateFont": {
-            "value": "Noto Sans",
-            "type": "fontFamilies",
-            "description": "BIT Corporate Web Font"
-          }
+          "value": "Noto Sans",
+          "type": "fontFamilies",
+          "description": "BIT Corporate Web Font"
         }
       },
       "fontSize": {
@@ -47,36 +45,31 @@
         "_base": {
           "value": "{ob.p.fontSizeUnitless.300}",
           "type": "fontSizes"
-        },
-        "experimentalRem": {
-          "value": "{ob.p.fontSizeForRemExperimental.100} rem",
-          "type": "fontSizes",
-          "description": "This is an experiment with REM unit. has to be validated. maybe the units should be assigned in the style dictionary"
         }
       },
       "letterSpacing": {
         "superNarrow": {
-          "value": "{ob.p.letterSpacing.neg-300}",
+          "value": "{ob.p.letterSpacing-depr.neg-300}",
           "type": "letterSpacing",
           "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
         },
         "narrower": {
-          "value": "{ob.p.letterSpacing.neg-150}",
+          "value": "{ob.p.letterSpacing-depr.neg-150}",
           "type": "letterSpacing",
           "description": "For font size 3x for a more compact visual appearance.\nHas to be convertered to em!"
         },
         "narrow": {
-          "value": "{ob.p.letterSpacing.neg-50}",
+          "value": "{ob.p.letterSpacing-depr.neg-50}",
           "type": "letterSpacing",
           "description": "For font sizes 2xl for a more compact visual appearance.\nHas to be convertered to em!\n"
         },
         "normal": {
-          "value": "{ob.p.letterSpacing.0}",
+          "value": "{ob.p.letterSpacing-depr.0}",
           "type": "letterSpacing",
           "description": "Default letter spacing for body and labels.\nHas to be convertered to em!"
         },
         "wide": {
-          "value": "{ob.p.letterSpacing.50}",
+          "value": "{ob.p.letterSpacing-depr.50}",
           "type": "letterSpacing",
           "description": "For buttons for a more confortable visual appearance\nHas to be convertered to em!"
         }
@@ -245,6 +238,60 @@
             "value": "{ob.s.spacing.md}",
             "type": "spacing"
           }
+        }
+      },
+      "letterSpacingRem": {
+        "superNarrow": {
+          "value": "-0.03rem",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "narrower": {
+          "value": "-0.01rem",
+          "type": "letterSpacing",
+          "description": "For font size 3x for a more compact visual appearance.\nHas to be convertered to em!"
+        },
+        "narrow": {
+          "value": "0.005rem",
+          "type": "letterSpacing",
+          "description": "For font sizes 2xl for a more compact visual appearance.\nHas to be convertered to em!\n"
+        },
+        "normal": {
+          "value": "{ob.p.letterSpacing-depr.0}",
+          "type": "letterSpacing",
+          "description": "Default letter spacing for body and labels.\nHas to be convertered to em!"
+        },
+        "wide": {
+          "value": "0.5%",
+          "type": "letterSpacing",
+          "description": "For buttons for a more confortable visual appearance\nHas to be convertered to em!"
+        }
+      },
+      "letterSpacing-px": {
+        "superNarrow": {
+          "value": "{ob.p.letterSpacing-px.neg-150}",
+          "type": "letterSpacing",
+          "description": "For font sizes 4xl, 5xl, 6xl for a more compact visual appearance. \nHas to be convertered to em!"
+        },
+        "narrower": {
+          "value": "{ob.p.letterSpacing-px.neg-100}",
+          "type": "letterSpacing",
+          "description": "For font size 3x for a more compact visual appearance.\nHas to be convertered to em!"
+        },
+        "narrow": {
+          "value": "{ob.p.letterSpacing-px.neg-50}",
+          "type": "letterSpacing",
+          "description": "For font sizes 2xl for a more compact visual appearance.\nHas to be convertered to em!\n"
+        },
+        "normal": {
+          "value": "{ob.p.letterSpacing-px.0}",
+          "type": "letterSpacing",
+          "description": "Default letter spacing for body and labels.\nHas to be convertered to em!"
+        },
+        "wide": {
+          "value": "{ob.p.letterSpacing-px.50}",
+          "type": "letterSpacing",
+          "description": "For buttons for a more confortable visual appearance\nHas to be convertered to em!"
         }
       }
     }
