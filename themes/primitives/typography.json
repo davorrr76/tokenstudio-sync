@@ -54,7 +54,7 @@
           "type": "fontSizes"
         },
         "_base": {
-          "value": "{ob.p.scaleBase}",
+          "value": "{ob.p.scale.mult-static}",
           "type": "fontSizes"
         }
       },
