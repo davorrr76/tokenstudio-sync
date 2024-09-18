@@ -1,17 +1,5 @@
 {
   "ob": {
-    "c": {
-      "infobox": {
-        "color": {
-          "fg": {
-            "color": {
-              "value": "{ob.s.color.fg.emphasize-highest}",
-              "type": "color"
-            }
-          }
-        }
-      }
-    },
     "s": {
       "color": {
         "bg": {
@@ -134,8 +122,17 @@
         },
         "border": {
           "subtle": {
-            "value": "{ob.p.colors.cobalt.100}",
-            "type": "color"
+            "value": "{ob.p.colors.basic.white}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "srgb"
+                }
+              }
+            }
           },
           "default": {
             "value": "{ob.p.colors.cobalt.200}",

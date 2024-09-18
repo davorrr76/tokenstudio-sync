@@ -6,19 +6,19 @@
           "fg": {
             "primary": {
               "enabled": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
+                "value": "{ob.s.color.fg.emphasize-highest-inverted}",
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
+                "value": "{ob.s.color.fg.emphasize-highest-inverted}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
+                "value": "{ob.s.color.fg.emphasize-highest-inverted}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.s.color.text.surface-light.body.default}",
+                "value": "{ob.s.color.fg.emphasize-highest-inverted}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -149,7 +149,7 @@
                 "description": "Adds 80% transparency on hover"
               },
               "focus": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "pressed": {
@@ -295,11 +295,11 @@
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.s.color.text.surface-dark.body}",
+                "value": "{ob.p.colors.basic.white}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {

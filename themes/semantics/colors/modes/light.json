@@ -1,17 +1,5 @@
 {
   "ob": {
-    "c": {
-      "infobox": {
-        "color": {
-          "fg": {
-            "color": {
-              "value": "{ob.s.color.text.surface-light.body.default}",
-              "type": "color"
-            }
-          }
-        }
-      }
-    },
     "s": {
       "color": {
         "bg": {
