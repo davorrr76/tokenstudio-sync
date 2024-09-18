@@ -102,12 +102,16 @@
           }
         },
         "color": {
-          "fg": {
-            "value": "{ob.s.color.fg.static.emphasize-high}",
+          "bg": {
+            "value": "{ob.s.color.bg.contrast-high}",
             "type": "color"
           },
           "border": {
             "value": "{ob.s.color.border.default}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{ob.s.color.fg.emphasize-high}",
             "type": "color"
           }
         },

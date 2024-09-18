@@ -3,7 +3,7 @@
     "c": {
       "infobox": {
         "color": {
-          "text": {
+          "fg": {
             "color": {
               "value": "{ob.s.color.text.surface-light.body.default}",
               "type": "color"
@@ -42,24 +42,39 @@
           }
         },
         "fg": {
-          "static": {
-            "emphasize-low": {
-              "value": "{ob.p.colors.cobalt.600}",
-              "type": "color"
-            },
-            "emphasize-medium": {
-              "value": "{ob.p.colors.cobalt.700}",
-              "type": "color",
-              "description": "Darker Heading Color for H6 only since it is a small font size, so it needs to be obviously strong when facing the body text."
-            },
-            "emphasize-high": {
-              "value": "{ob.p.colors.cobalt.800}",
-              "type": "color"
-            },
-            "emphasize-highest": {
-              "value": "{ob.p.colors.cobalt.900}",
-              "type": "color"
-            }
+          "emphasize-low": {
+            "value": "{ob.p.colors.cobalt.600}",
+            "type": "color"
+          },
+          "emphasize-medium": {
+            "value": "{ob.p.colors.cobalt.700}",
+            "type": "color",
+            "description": "Darker Heading Color for H6 only since it is a small font size, so it needs to be obviously strong when facing the body text."
+          },
+          "emphasize-high": {
+            "value": "{ob.p.colors.cobalt.800}",
+            "type": "color"
+          },
+          "emphasize-highest": {
+            "value": "{ob.p.colors.cobalt.900}",
+            "type": "color"
+          },
+          "emphasize-low-inverted": {
+            "value": "{ob.p.colors.cobalt.200}",
+            "type": "color"
+          },
+          "emphasize-medium-inverted": {
+            "value": "{ob.p.colors.cobalt.100}",
+            "type": "color",
+            "description": "Darker Heading Color for H6 only since it is a small font size, so it needs to be obviously strong when facing the body text."
+          },
+          "emphasize-high-inverted": {
+            "value": "{ob.p.colors.cobalt.50}",
+            "type": "color"
+          },
+          "emphasize-highest-inverted": {
+            "value": "{ob.p.colors.basic.white}",
+            "type": "color"
           },
           "a": {
             "link": {

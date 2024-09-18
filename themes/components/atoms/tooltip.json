@@ -1,1 +1,46 @@
-{}
+{
+  "ob": {
+    "c": {
+      "tooltip": {
+        "spacing": {
+          "padding-top": {
+            "value": "{ob.s.spacing.md}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{ob.s.spacing.xl}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{ob.s.spacing.md}",
+            "type": "spacing"
+          },
+          "padding-left": {
+            "value": "{ob.s.spacing.xl}",
+            "type": "spacing"
+          }
+        },
+        "color": {
+          "bg": {
+            "value": "{ob.s.color.bg.contrast-high-inverted}",
+            "type": "color"
+          },
+          "fg": {
+            "value": "{ob.s.color.fg.emphasize-highest-inverted}",
+            "type": "color"
+          }
+        },
+        "typography": {
+          "value": "{ob.s.typography.label.M.strong}",
+          "type": "typography"
+        }
+      },
+      "tooltipr": {
+        "border-radius": {
+          "value": "{ob.s.radii.sm}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  }
+}
