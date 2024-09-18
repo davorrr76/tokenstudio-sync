@@ -2,29 +2,98 @@
   "ob": {
     "c": {
       "infobox": {
-        "icon": {
-          "color": {
+        "color": {
+          "icon": {
             "info": {
-              "value": "{ob.s.color.status.info.surface-dark.bg}",
+              "value": "{ob.s.color.status.info.fg}",
               "type": "color"
             },
             "error": {
-              "value": "{ob.s.color.status.error.surface-dark.bg}",
+              "value": "{ob.s.color.status.error.fg}",
               "type": "color"
             },
             "warning": {
-              "value": "{ob.s.color.status.warning.surface-dark.bg}",
+              "value": "{ob.s.color.status.warning.fg}",
               "type": "color"
             },
             "success": {
-              "value": "{ob.s.color.status.success.surface-dark.bg}",
+              "value": "{ob.s.color.status.success.fg}",
               "type": "color"
             },
             "fatal": {
-              "value": "{ob.s.color.status.fatal.surface-dark.fg}",
+              "value": "{ob.s.color.fg.emphasize-highest-inverted}",
               "type": "color"
             }
           },
+          "border": {
+            "info": {
+              "value": "{ob.s.color.status.info.fg}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{ob.c.infobox.color.icon.error}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{ob.c.infobox.color.icon.warning}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{ob.c.infobox.color.icon.success}",
+              "type": "color"
+            },
+            "fatal": {
+              "value": "{ob.s.color.status.fatal.bg}",
+              "type": "color"
+            }
+          },
+          "surface": {
+            "info": {
+              "value": "{ob.s.color.status.info.bg}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{ob.s.color.status.error.bg}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{ob.s.color.status.warning.bg}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{ob.s.color.status.success.bg}",
+              "type": "color"
+            },
+            "fatal": {
+              "value": "{ob.s.color.status.fatal.bg}",
+              "type": "color",
+              "description": "A darker background because of the requirement from F.Gabsa to make a special variant that is consistant with the Bundeskanzlei Alertbanner:\nhttps://swiss.github.io/designsystem/?path=/docs/components-alertbanner--example"
+            }
+          },
+          "fg": {
+            "info": {
+              "value": "{ob.s.color.fg.emphasize-highest}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{ob.s.color.fg.emphasize-highest}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{ob.s.color.fg.emphasize-highest}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{ob.s.color.fg.emphasize-highest}",
+              "type": "color"
+            },
+            "fatal": {
+              "value": "{ob.s.color.fg.emphasize-high-inverted}",
+              "type": "color"
+            }
+          }
+        },
+        "icon": {
           "asset": {
             "status": {
               "info": {
@@ -48,55 +117,6 @@
                 "type": "asset",
                 "description": "This icon is not yet part of the official icon set. It has to be drawn by F.Gabsa team in Illustrator."
               }
-            }
-          }
-        },
-        "border": {
-          "color": {
-            "info": {
-              "value": "{ob.s.color.status.info.surface-dark.bg}",
-              "type": "color"
-            },
-            "error": {
-              "value": "{ob.c.infobox.icon.color.error}",
-              "type": "color"
-            },
-            "warning": {
-              "value": "{ob.c.infobox.icon.color.warning}",
-              "type": "color"
-            },
-            "success": {
-              "value": "{ob.c.infobox.icon.color.success}",
-              "type": "color"
-            },
-            "fatal": {
-              "value": "{ob.s.color.status.fatal.surface-dark.bg}",
-              "type": "color"
-            }
-          }
-        },
-        "container": {
-          "color": {
-            "info": {
-              "value": "{ob.s.color.status.info.surface-light.bg}",
-              "type": "color"
-            },
-            "error": {
-              "value": "{ob.s.color.status.error.surface-light.bg}",
-              "type": "color"
-            },
-            "warning": {
-              "value": "{ob.s.color.status.warning.surface-light.bg}",
-              "type": "color"
-            },
-            "success": {
-              "value": "{ob.s.color.status.success.surface-light.bg}",
-              "type": "color"
-            },
-            "fatal": {
-              "value": "{ob.s.color.status.fatal.surface-dark.bg}",
-              "type": "color",
-              "description": "A darker background because of the requirement from F.Gabsa to make a special variant that is consistant with the Bundeskanzlei Alertbanner:\nhttps://swiss.github.io/designsystem/?path=/docs/components-alertbanner--example"
             }
           }
         },

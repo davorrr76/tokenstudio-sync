@@ -123,7 +123,7 @@
             },
             "secondary": {
               "enabled": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.no-color}",
                 "type": "color"
               },
               "hover": {
@@ -139,29 +139,29 @@
                 "type": "color"
               },
               "disabled": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.no-color}",
                 "type": "color"
               }
             },
             "tertiary": {
               "enabled": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.no-color}",
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.no-color}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.no-color}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.no-color}",
                 "type": "color"
               },
               "disabled": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.no-color}",
                 "type": "color"
               }
             }
@@ -222,23 +222,23 @@
             },
             "tertiary": {
               "enabled": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.no-color}",
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.no-color}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.no-color}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.no-color}",
                 "type": "color"
               },
               "disabled": {
-                "value": "{ob.s.color.util.no-color}",
+                "value": "{ob.s.color.no-color}",
                 "type": "color"
               }
             }
