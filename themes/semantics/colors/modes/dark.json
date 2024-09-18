@@ -135,8 +135,17 @@
             }
           },
           "default": {
-            "value": "{ob.p.colors.cobalt.200}",
-            "type": "color"
+            "value": "{ob.p.colors.basic.white}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.2",
+                  "space": "srgb"
+                }
+              }
+            }
           },
           "strong": {
             "value": "{ob.p.colors.cobalt.300}",

@@ -168,6 +168,22 @@
               "type": "sizing"
             }
           }
+        },
+        "surface": {
+          "size": {
+            "sm": {
+              "value": "{ob.p.size.300}",
+              "type": "sizing"
+            },
+            "md": {
+              "value": "{ob.p.size.450}",
+              "type": "sizing"
+            },
+            "lg": {
+              "value": "44",
+              "type": "sizing"
+            }
+          }
         }
       }
     }

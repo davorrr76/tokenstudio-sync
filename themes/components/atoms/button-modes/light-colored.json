@@ -167,8 +167,17 @@
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.s.color.no-color}",
-                "type": "color"
+                "value": "{ob.p.colors.cobalt.400}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.1",
+                      "space": "srgb"
+                    }
+                  }
+                }
               },
               "disabled": {
                 "value": "{ob.s.color.no-color}",
