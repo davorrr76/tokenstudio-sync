@@ -25,6 +25,16 @@
             "type": "color",
             "description": "Darker surface color"
           },
+          "contrast-medium-inverted": {
+            "value": "{ob.p.colors.black-alpha.600}",
+            "type": "color",
+            "description": "Darker surface color"
+          },
+          "contrast-high-inverted": {
+            "value": "{ob.p.colors.black-alpha.700}",
+            "type": "color",
+            "description": "Default dark surface color"
+          },
           "focus": {
             "value": "{ob.p.colors.purple.700}",
             "type": "color",
@@ -62,15 +72,15 @@
               "description": "Darker Heading Color for H6 only since it is a small font size, so it needs to be obviously strong when facing the body text."
             },
             "focus": {
-              "value": "{ob.p.colors.basic.white}",
+              "value": "{ob.p.colors.blue.500}",
               "type": "color"
             },
-            "active": {
+            "pressed": {
               "value": "{ob.p.colors.blue.800}",
               "type": "color"
             },
             "visited": {
-              "value": "{ob.p.colors.blue.800}",
+              "value": "{ob.p.colors.indigo.700}",
               "type": "color"
             },
             "disabled": {
