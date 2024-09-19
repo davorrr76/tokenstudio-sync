@@ -1,1 +1,44 @@
-{}
+{
+  "ob": {
+    "c": {
+      "spinner": {
+        "sizing": {
+          "value": "{ob.p.size.600}",
+          "type": "sizing",
+          "description": "Optimized spinner size suitable for both card elements and full-page displays, ensuring it is neither too small nor too large."
+        },
+        "color": {
+          "active": {
+            "value": "{ob.p.colors.indigo.600}",
+            "type": "color",
+            "description": "Color indicating the active part of the loading."
+          },
+          "inactive": {
+            "value": "{ob.p.colors.indigo.600}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.2",
+                  "space": "srgb"
+                }
+              }
+            },
+            "description": "Color indicating the inactive part of the loading."
+          }
+        },
+        "border-radius": {
+          "value": "{ob.s.radii.sm}",
+          "type": "borderRadius",
+          "description": "Radius SM applied to give the spinner a more organic appearance."
+        },
+        "border-width": {
+          "value": "{ob.s.border-width.3xl}",
+          "type": "borderWidth",
+          "description": "The spinner border is thick enough to stand out against the busy visual environment surrounding it."
+        }
+      }
+    }
+  }
+}

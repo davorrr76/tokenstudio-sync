@@ -108,7 +108,8 @@
           },
           "border": {
             "value": "{ob.s.color.border.default}",
-            "type": "color"
+            "type": "color",
+            "description": "Default border color for popovers."
           },
           "fg": {
             "value": "{ob.s.color.fg.emphasize-high}",

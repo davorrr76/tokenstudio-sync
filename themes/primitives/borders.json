@@ -84,6 +84,11 @@
           "value": "{ob.p.borderWidth._base} *1.5",
           "type": "borderWidth"
         },
+        "700": {
+          "value": "{ob.p.borderWidth._base} *2",
+          "type": "borderWidth",
+          "description": "Rarely used, e.g., for the Spinner component."
+        },
         "none": {
           "value": "0",
           "type": "borderWidth"

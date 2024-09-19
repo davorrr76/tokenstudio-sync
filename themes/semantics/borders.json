@@ -48,6 +48,10 @@
           "value": "{ob.p.borderWidth.600}",
           "type": "borderWidth"
         },
+        "3xl": {
+          "value": "{ob.p.borderWidth.700}",
+          "type": "borderWidth"
+        },
         "none": {
           "value": "{ob.p.borderWidth.none}",
           "type": "borderWidth"
