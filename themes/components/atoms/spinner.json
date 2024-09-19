@@ -9,22 +9,13 @@
         },
         "color": {
           "active": {
-            "value": "{ob.p.colors.indigo.600}",
+            "value": "{ob.s.color.status.loading.fg}",
             "type": "color",
             "description": "Color indicating the active part of the loading."
           },
           "inactive": {
-            "value": "{ob.p.colors.indigo.600}",
+            "value": "{ob.s.color.status.loading.bg}",
             "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.2",
-                  "space": "srgb"
-                }
-              }
-            },
             "description": "Color indicating the inactive part of the loading."
           }
         },
@@ -37,6 +28,18 @@
           "value": "{ob.s.border-width.3xl}",
           "type": "borderWidth",
           "description": "The spinner border is thick enough to stand out against the busy visual environment surrounding it."
+        },
+        "animation": {
+          "speed": {
+            "value": "0",
+            "type": "number",
+            "description": "Some number. check with R.Giller"
+          },
+          "pause": {
+            "value": "0",
+            "type": "number",
+            "description": "Some number. check with R.Giller"
+          }
         }
       }
     }
