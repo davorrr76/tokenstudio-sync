@@ -5,7 +5,7 @@
         "sizing": {
           "value": "{ob.p.size.600}",
           "type": "sizing",
-          "description": "Optimized spinner size suitable for both card elements and full-page displays, ensuring it is neither too small nor too large."
+          "description": "Optimized spinner size suitable for both 1) smaller components like Card and 2) full-page displays, ensuring it is neither too small nor too large."
         },
         "color": {
           "active": {
@@ -39,6 +39,13 @@
             "value": "0",
             "type": "number",
             "description": "Some number. check with R.Giller"
+          }
+        },
+        "fx": {
+          "blur": {
+            "value": "{ob.s.fx.blur.sm}",
+            "type": "number",
+            "description": "Background blur on the parent element behind the spinner. Has to be validated."
           }
         }
       }

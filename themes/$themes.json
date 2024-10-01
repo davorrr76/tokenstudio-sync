@@ -103,7 +103,8 @@
       "components/atoms/tooltip": "enabled",
       "components/molecules/button": "enabled",
       "components/atoms/hr": "enabled",
-      "components/atoms/spinner": "enabled"
+      "components/atoms/spinner": "enabled",
+      "semantics/fx": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10676",
     "$figmaModeId": "6001:15",
@@ -526,7 +527,7 @@
       "primitives/colors": "source",
       "semantics/colors/modes/light": "enabled",
       "semantics/colors/static": "enabled",
-      "components/atoms/button-modes/light-colored": "enabled"
+      "components/molecules/button-modes/light-colored": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:19",
@@ -629,7 +630,7 @@
       "primitives/colors": "source",
       "semantics/colors/modes/dark": "enabled",
       "semantics/colors/static": "enabled",
-      "components/atoms/button-modes/dark-monochrome": "enabled"
+      "components/molecules/button-modes/dark-monochrome": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:20",
