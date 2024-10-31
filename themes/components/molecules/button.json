@@ -116,9 +116,9 @@
         },
         "border-radius": {
           "default": {
-            "value": "{ob.p.radii.round}",
+            "value": "{ob.s.radii.sm}",
             "type": "borderRadius",
-            "description": "For entirely round standard buttons in Oblique."
+            "description": "Standard buttons in Oblique."
           }
         },
         "border-width": {
