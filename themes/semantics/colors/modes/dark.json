@@ -78,25 +78,6 @@
               }
             }
           },
-          "status": {
-            "info": {
-              "value": "{ob.p.colors.blue.700}",
-              "type": "color"
-            },
-            "success": {
-              "value": "{ob.p.colors.blue.800}",
-              "type": "color",
-              "description": "Darker Heading Color for H6 only since it is a small font size, so it needs to be obviously strong when facing the body text."
-            },
-            "warning": {
-              "value": "{ob.p.colors.blue.900}",
-              "type": "color"
-            },
-            "error": {
-              "value": "{ob.p.colors.blue.700}",
-              "type": "color"
-            }
-          },
           "emphasize-low-inverted": {
             "value": "{ob.p.colors.cobalt.600}",
             "type": "color"
@@ -162,6 +143,10 @@
               "value": "{ob.p.colors.blue.800}",
               "type": "color"
             },
+            "bg-inverted": {
+              "value": "{ob.p.colors.blue.300}",
+              "type": "color"
+            },
             "fg": {
               "value": "{ob.p.colors.blue.100}",
               "type": "color"
@@ -181,6 +166,10 @@
           "error": {
             "bg": {
               "value": "{ob.p.colors.red.800}",
+              "type": "color"
+            },
+            "bg-inverted": {
+              "value": "{ob.p.colors.red.400}",
               "type": "color"
             },
             "fg": {
