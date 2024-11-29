@@ -103,7 +103,7 @@
         },
         "color": {
           "bg": {
-            "value": "{ob.s.color.bg.contrast-high}",
+            "value": "{ob.s.color.bg.contrast-highest}",
             "type": "color"
           },
           "border": {

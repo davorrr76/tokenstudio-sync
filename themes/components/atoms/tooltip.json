@@ -26,7 +26,7 @@
         },
         "color": {
           "bg": {
-            "value": "{ob.s.color.bg.contrast-high-inverted}",
+            "value": "{ob.s.color.bg.contrast-highest-inverted}",
             "type": "color",
             "description": "Inverted background color to stand out in a busy layout."
           },

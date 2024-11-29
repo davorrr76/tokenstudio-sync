@@ -5,37 +5,37 @@
         "color": {
           "fg": {
             "enabled": {
-              "value": "{ob.p.colors.cobalt.800}",
+              "value": "{ob.s.color.fg.emphasize-medium}",
               "type": "color"
             },
             "hover": {
-              "value": "{ob.p.colors.cobalt.800}",
+              "value": "{ob.s.color.fg.emphasize-medium}",
               "type": "color"
             },
             "focus": {
-              "value": "{ob.p.colors.cobalt.800}",
+              "value": "{ob.s.color.fg.emphasize-medium}",
               "type": "color"
             },
             "pressed": {
-              "value": "{ob.p.colors.cobalt.800}",
+              "value": "{ob.s.color.fg.emphasize-medium-inverted}",
               "type": "color"
             }
           },
           "bg": {
             "enabled": {
-              "value": "{ob.p.colors.cobalt.200}",
+              "value": "{ob.s.color.bg.contrast-medium}",
               "type": "color"
             },
             "hover": {
-              "value": "{ob.p.colors.cobalt.100}",
+              "value": "{ob.s.color.bg.contrast-highest}",
               "type": "color"
             },
             "focus": {
-              "value": "{ob.p.colors.cobalt.100}",
+              "value": "{ob.s.color.bg.contrast-medium}",
               "type": "color"
             },
             "pressed": {
-              "value": "{ob.p.colors.cobalt.100}",
+              "value": "{ob.s.color.bg.contrast-medium-inverted}",
               "type": "color"
             }
           }

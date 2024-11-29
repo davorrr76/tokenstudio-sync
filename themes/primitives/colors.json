@@ -631,7 +631,7 @@
           "type": "color",
           "description": "Use this if the background color changes from a color to none, e.g. depending on interaction states"
         },
-        "black-alpha": {
+        "cobalt-alpha": {
           "50": {
             "value": "{ob.p.colors.cobalt.900}",
             "type": "color",
