@@ -3,114 +3,57 @@
     "c": {
       "tag": {
         "spacing": {
-          "with-text": {
-            "padding": {
-              "vertical": {
-                "sm": {
-                  "value": "{ob.s.spacing.sm}",
-                  "type": "spacing",
-                  "description": "Top and bottom padding – for small size tags."
-                },
-                "md": {
-                  "value": "{ob.s.spacing.lg}",
-                  "type": "spacing",
-                  "description": "Top and bottom padding  – for medium size tags."
-                },
-                "lg": {
-                  "value": "{ob.s.spacing.2xl}",
-                  "type": "spacing",
-                  "description": "Top and bottom padding  – for large size tags."
-                }
-              },
-              "horizontal": {
-                "sm": {
-                  "value": "{ob.s.spacing.xl}",
-                  "type": "spacing",
-                  "description": "Left and right padding – for small size tags."
-                },
-                "md": {
-                  "value": "{ob.s.spacing.3xl}",
-                  "type": "spacing",
-                  "description": "Left and right padding  – for medium size tags."
-                },
-                "lg": {
-                  "value": "{ob.s.spacing.4xl}",
-                  "type": "spacing",
-                  "description": "Left and right padding – for large size tags."
-                }
-              }
-            },
-            "gap": {
+          "padding": {
+            "vertical": {
               "sm": {
                 "value": "{ob.s.spacing.sm}",
                 "type": "spacing",
-                "description": "Horizontal gap between icon and text label – for small size tags."
+                "description": "Top and bottom padding – for small size tags."
               },
               "md": {
-                "value": "{ob.s.spacing.md}",
-                "type": "spacing",
-                "description": "Horizontal gap between icon and text label  – for medium size tags."
-              },
-              "lg": {
                 "value": "{ob.s.spacing.lg}",
                 "type": "spacing",
-                "description": "Horizontal gap between icon and text label – for large size tags"
+                "description": "Top and bottom padding  – for medium size tags."
+              },
+              "lg": {
+                "value": "{ob.s.spacing.2xl}",
+                "type": "spacing",
+                "description": "Top and bottom padding  – for large size tags."
+              }
+            },
+            "horizontal": {
+              "sm": {
+                "value": "{ob.s.spacing.xl}",
+                "type": "spacing",
+                "description": "Left and right padding – for small size tags."
+              },
+              "md": {
+                "value": "{ob.s.spacing.3xl}",
+                "type": "spacing",
+                "description": "Left and right padding  – for medium size tags."
+              },
+              "lg": {
+                "value": "{ob.s.spacing.4xl}",
+                "type": "spacing",
+                "description": "Left and right padding – for large size tags."
               }
             }
           },
-          "icon-only": {
-            "padding": {
-              "vertical": {
-                "sm": {
-                  "value": "{ob.s.spacing.md}",
-                  "type": "spacing",
-                  "description": "Forces the icon-only tag to be round and the same height as a small with-text tag."
-                },
-                "md": {
-                  "value": "{ob.s.spacing.lg}",
-                  "type": "spacing",
-                  "description": "Forces the icon-only tag to be round and the same height as a medium with-text tag."
-                },
-                "lg": {
-                  "value": "{ob.s.spacing.2xl}",
-                  "type": "spacing",
-                  "description": "Forces the icon-only tag to be round and the same height as a large with-text tag."
-                }
-              },
-              "horizontal": {
-                "sm": {
-                  "value": "{ob.s.spacing.md}",
-                  "type": "spacing",
-                  "description": "Forces the icon-only tag to be a circle."
-                },
-                "md": {
-                  "value": "{ob.s.spacing.lg}",
-                  "type": "spacing",
-                  "description": "Forces the icon-only tag to be a circle."
-                },
-                "lg": {
-                  "value": "{ob.s.spacing.2xl}",
-                  "type": "spacing",
-                  "description": "Forces the icon-only tag to be a circle."
-                }
-              }
+          "gap": {
+            "sm": {
+              "value": "{ob.s.spacing.sm}",
+              "type": "spacing",
+              "description": "Horizontal gap between icon and text label – for small size tags."
             },
-            "gap": {
-              "sm": {
-                "value": "{ob.s.spacing.sm}",
-                "type": "spacing",
-                "description": "Not required in the code. Used only for simpler maintaining reasons in Figma."
-              },
-              "md": {
-                "value": "{ob.s.spacing.md}",
-                "type": "spacing",
-                "description": "Not required in the code. Used only for simpler maintaining reasons in Figma."
-              },
-              "lg": {
-                "value": "{ob.s.spacing.lg}",
-                "type": "spacing",
-                "description": "Not required in the code. Used only for simpler maintaining reasons in Figma."
-              }
+            "md": {
+              "value": "{ob.s.spacing.md}",
+              "type": "spacing",
+              "description": "Horizontal gap between icon and text label  – for medium size tags."
+            },
+            "lg": {
+              "value": "{ob.s.spacing.lg}",
+              "type": "spacing",
+              "description": "Horizontal gap between icon and text label – for large size tags"
             }
           }
         },
