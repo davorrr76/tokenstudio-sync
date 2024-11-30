@@ -19,6 +19,19 @@
             "active": {
               "value": "{ob.s.color.fg.emphasize-medium-inverted}",
               "type": "color"
+            },
+            "disabled": {
+              "value": "{ob.c.tag.color.fg.enabled}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.4",
+                    "space": "srgb"
+                  }
+                }
+              }
             }
           },
           "bg": {
@@ -36,6 +49,10 @@
             },
             "active": {
               "value": "{ob.s.color.bg.contrast-medium-inverted}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{ob.s.color.bg.contrast-medium}",
               "type": "color"
             }
           }

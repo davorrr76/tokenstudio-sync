@@ -64,11 +64,6 @@
             "description": "Standard tags in Oblique."
           }
         },
-        "border-width": {
-          "value": "{ob.s.border-width.xs}",
-          "type": "borderWidth",
-          "description": "Default border width for tags (additional hover border not included)"
-        },
         "icon": {
           "size": {
             "sm": {
