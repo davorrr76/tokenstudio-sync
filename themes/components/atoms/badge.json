@@ -91,6 +91,11 @@
               "type": "sizing"
             }
           }
+        },
+        "border-radius": {
+          "value": "{ob.s.radii.round}",
+          "type": "borderRadius",
+          "description": "For entire rounded badges"
         }
       }
     }
