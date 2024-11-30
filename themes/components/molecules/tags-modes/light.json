@@ -27,7 +27,7 @@
               "type": "color"
             },
             "hover": {
-              "value": "{ob.s.color.bg.contrast-highest}",
+              "value": "{ob.s.color.bg.contrast-high}",
               "type": "color"
             },
             "focus": {

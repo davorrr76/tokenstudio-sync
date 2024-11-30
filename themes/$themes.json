@@ -79,8 +79,7 @@
       "ob.c.tag.box-shadow.enabled": "S:c8942e8a71a8e0b3a657eb0e92b5165a3b4959bb,",
       "ob.c.tag.box-shadow.hover": "S:3c463d4e5d99b4cc769eb25340b2fa1cd8a0c5fc,",
       "ob.c.tag.box-shadow.focus": "S:c3deed4fe6142f970cae0c781c1567e869356438,",
-      "ob.c.tag.box-shadow.pressed": "S:666f9c2fe38c0750e6c9d8b5893a47469ea27b1d,",
-      "ob.c.tag.box-shadow.disabled": "S:1010e085cb9299f7ad2b356c22c97c232e7f6f52,"
+      "ob.c.tag.box-shadow.pressed": "S:666f9c2fe38c0750e6c9d8b5893a47469ea27b1d,"
     },
     "selectedTokenSets": {
       "primitives/global": "source",
@@ -110,7 +109,8 @@
       "components/atoms/hr": "enabled",
       "components/atoms/spinner": "enabled",
       "semantics/fx": "enabled",
-      "components/molecules/tag": "enabled"
+      "components/molecules/tag": "enabled",
+      "components/atoms/close-button": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10676",
     "$figmaModeId": "6001:15",
@@ -257,9 +257,9 @@
       "ob.c.tag.icon.size.sm": "d3a39644143878f29a58f6e5603fa7f9f048b788",
       "ob.c.tag.icon.size.md": "008aba276e0eda30f70afd857b0bbf08391c3036",
       "ob.c.tag.icon.size.lg": "e881a4cb2454bd3cb71f3150904728198fb3b576",
-      "ob.c.tag.surface.size.sm": "9aee313fc19379d8ccf8538ce034f7f90ebce22a",
-      "ob.c.tag.surface.size.md": "b170672e7d2793d8ce06d3a2738a3e7713b9adc6",
-      "ob.c.tag.surface.size.lg": "c05bc9a24ffa1d39fc06432ff83a2bd90d9000fe",
+      "ob.c.tag.surface.min-height.sm": "9aee313fc19379d8ccf8538ce034f7f90ebce22a",
+      "ob.c.tag.surface.min-height.md": "b170672e7d2793d8ce06d3a2738a3e7713b9adc6",
+      "ob.c.tag.surface.min-height.lg": "c05bc9a24ffa1d39fc06432ff83a2bd90d9000fe",
       "ob.c.container-button.infobox.padding-bottom": "ab9b878c8dabad29b12dca0da06750d03cfd732a",
       "ob.c.container-infobox.infobox.padding-bottom": "421289926da9afd658cc99bd5f726ae17ed3a190",
       "ob.c.infobox.color.icon.info": "1b1212d4e6b8173935d4fce07ee6edc1843fe6e6",
@@ -341,7 +341,8 @@
     },
     "selectedTokenSets": {
       "modes/breakpoints/1440-lg": "enabled",
-      "semantics/typography-sizes/1440-lg": "enabled"
+      "semantics/typography-sizes/1440-lg": "enabled",
+      "components/atoms/close-button": "disabled"
     },
     "$figmaVariableReferences": {
       "ob.p.scale.mult-responsive": "d80ba948166e99d2ffc51b16741e7b2c85b20ff7",
@@ -458,7 +459,8 @@
     },
     "selectedTokenSets": {
       "modes/breakpoints/360-xs": "enabled",
-      "semantics/typography-sizes/360-xs": "enabled"
+      "semantics/typography-sizes/360-xs": "enabled",
+      "components/atoms/close-button": "disabled"
     },
     "$figmaVariableReferences": {
       "ob.p.scale.mult-responsive": "d80ba948166e99d2ffc51b16741e7b2c85b20ff7",
@@ -555,7 +557,8 @@
       "semantics/colors/modes/light": "enabled",
       "semantics/colors/static": "enabled",
       "components/molecules/button-modes/light-colored": "enabled",
-      "components/molecules/tags-modes/light": "enabled"
+      "components/molecules/tags-modes/light": "enabled",
+      "components/atoms/close-button": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:19",
@@ -667,7 +670,8 @@
       "semantics/colors/modes/dark": "enabled",
       "semantics/colors/static": "enabled",
       "components/molecules/button-modes/dark-monochrome": "enabled",
-      "components/molecules/tags-modes/dark": "enabled"
+      "components/molecules/tags-modes/dark": "enabled",
+      "components/atoms/close-button": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:20",

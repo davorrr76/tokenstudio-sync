@@ -1,0 +1,22 @@
+{
+  "ob": {
+    "c": {
+      "close-button": {
+        "sizing": {
+          "sm": {
+            "value": "{ob.s.icon.size.xs}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{ob.s.icon.size.sm}",
+            "type": "sizing"
+          },
+          "lg": {
+            "value": "{ob.s.icon.size.md}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}

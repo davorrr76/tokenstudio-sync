@@ -6,34 +6,34 @@
           "padding": {
             "vertical": {
               "sm": {
-                "value": "{ob.s.spacing.sm}",
+                "value": "{ob.s.spacing.none}",
                 "type": "spacing",
                 "description": "Top and bottom padding – for small size tags."
               },
               "md": {
-                "value": "{ob.s.spacing.lg}",
+                "value": "{ob.s.spacing.xs}",
                 "type": "spacing",
                 "description": "Top and bottom padding  – for medium size tags."
               },
               "lg": {
-                "value": "{ob.s.spacing.2xl}",
+                "value": "{ob.s.spacing.lg}",
                 "type": "spacing",
                 "description": "Top and bottom padding  – for large size tags."
               }
             },
             "horizontal": {
               "sm": {
-                "value": "{ob.s.spacing.xl}",
+                "value": "{ob.s.spacing.sm}",
                 "type": "spacing",
                 "description": "Left and right padding – for small size tags."
               },
               "md": {
-                "value": "{ob.s.spacing.3xl}",
+                "value": "{ob.s.spacing.lg}",
                 "type": "spacing",
                 "description": "Left and right padding  – for medium size tags."
               },
               "lg": {
-                "value": "{ob.s.spacing.4xl}",
+                "value": "{ob.s.spacing.2xl}",
                 "type": "spacing",
                 "description": "Left and right padding – for large size tags."
               }
@@ -69,33 +69,6 @@
           "type": "borderWidth",
           "description": "Default border width for tags (additional hover border not included)"
         },
-        "box-shadow": {
-          "enabled": {
-            "value": "{ob.s.shadow.none}",
-            "type": "boxShadow",
-            "description": "No shadow needed on enabled state of tag."
-          },
-          "hover": {
-            "value": "{ob.s.shadow.xl}",
-            "type": "boxShadow",
-            "description": "A shadow needed for elevation effect on hover state of tag."
-          },
-          "focus": {
-            "value": "{ob.s.shadow.none}",
-            "type": "boxShadow",
-            "description": "No shadow needed on focus state of tag."
-          },
-          "pressed": {
-            "value": "{ob.s.shadow.none}",
-            "type": "boxShadow",
-            "description": "No shadow needed on pressed state of tag."
-          },
-          "disabled": {
-            "value": "{ob.s.shadow.none}",
-            "type": "boxShadow",
-            "description": "No shadow needed on disabled state of tag."
-          }
-        },
         "icon": {
           "size": {
             "sm": {
@@ -113,18 +86,34 @@
           }
         },
         "surface": {
-          "size": {
+          "min-height": {
             "sm": {
-              "value": "{ob.p.size.300}",
+              "value": "{ob.p.size.250}",
               "type": "sizing"
             },
             "md": {
-              "value": "{ob.p.size.450}",
+              "value": "{ob.p.size.300}",
               "type": "sizing"
             },
             "lg": {
-              "value": "44",
+              "value": "36",
               "type": "sizing"
+            }
+          }
+        },
+        "typography": {
+          "style": {
+            "sm": {
+              "value": "{ob.s.typography.label.S.regular}",
+              "type": "typography"
+            },
+            "md": {
+              "value": "{ob.s.typography.label.M.regular}",
+              "type": "typography"
+            },
+            "lg": {
+              "value": "{ob.s.typography.label.M.regular}",
+              "type": "typography"
             }
           }
         }

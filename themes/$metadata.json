@@ -23,7 +23,7 @@
     "semantics/typography-styles",
     "semantics/z-Index",
     "components/atoms/badge",
-    "components/atoms/chip",
+    "components/atoms/close-button",
     "components/atoms/hr",
     "components/atoms/spinner",
     "components/atoms/tooltip",
