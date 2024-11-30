@@ -23,7 +23,7 @@
             },
             "horizontal": {
               "sm": {
-                "value": "{ob.s.spacing.sm}",
+                "value": "{ob.s.spacing.md}",
                 "type": "spacing",
                 "description": "Left and right padding – for small size tags."
               },
@@ -112,7 +112,7 @@
               "type": "typography"
             },
             "lg": {
-              "value": "{ob.s.typography.label.M.regular}",
+              "value": "{ob.s.typography.label.L.regular}",
               "type": "typography"
             }
           }

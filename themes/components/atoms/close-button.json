@@ -15,6 +15,32 @@
             "value": "{ob.s.icon.size.md}",
             "type": "sizing"
           }
+        },
+        "color": {
+          "enabled": {
+            "value": "{ob.s.color.fg.emphasize-high}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{ob.s.color.fg.a.hover}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{ob.s.color.border.focus-dark}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{ob.s.color.fg.emphasize-highest}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{ob.s.color.fg.emphasize-high-inverted}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{ob.s.color.fg.a.disabled}",
+            "type": "color"
+          }
         }
       }
     }

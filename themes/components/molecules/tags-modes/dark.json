@@ -16,7 +16,7 @@
               "value": "{ob.s.color.fg.emphasize-medium}",
               "type": "color"
             },
-            "pressed": {
+            "active": {
               "value": "{ob.s.color.fg.emphasize-medium-inverted}",
               "type": "color"
             }
@@ -27,14 +27,14 @@
               "type": "color"
             },
             "hover": {
-              "value": "{ob.s.color.bg.contrast-high}",
+              "value": "{ob.s.color.bg.contrast-medium}",
               "type": "color"
             },
             "focus": {
               "value": "{ob.s.color.bg.contrast-high}",
               "type": "color"
             },
-            "pressed": {
+            "active": {
               "value": "{ob.s.color.bg.contrast-high-inverted}",
               "type": "color"
             }

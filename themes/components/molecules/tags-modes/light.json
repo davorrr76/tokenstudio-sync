@@ -16,7 +16,7 @@
               "value": "{ob.s.color.fg.emphasize-medium}",
               "type": "color"
             },
-            "pressed": {
+            "active": {
               "value": "{ob.s.color.fg.emphasize-medium-inverted}",
               "type": "color"
             }
@@ -34,7 +34,7 @@
               "value": "{ob.s.color.bg.contrast-medium}",
               "type": "color"
             },
-            "pressed": {
+            "active": {
               "value": "{ob.s.color.bg.contrast-medium-inverted}",
               "type": "color"
             }
