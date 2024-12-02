@@ -5,19 +5,19 @@
         "color": {
           "fg": {
             "enabled": {
-              "value": "{ob.s.color.fg.emphasize-medium}",
+              "value": "{ob.s.color.fg.contrast-medium}",
               "type": "color"
             },
             "hover": {
-              "value": "{ob.s.color.fg.emphasize-medium}",
+              "value": "{ob.s.color.fg.contrast-medium}",
               "type": "color"
             },
             "focus": {
-              "value": "{ob.s.color.fg.emphasize-medium}",
+              "value": "{ob.s.color.fg.contrast-medium}",
               "type": "color"
             },
             "active": {
-              "value": "{ob.s.color.fg.emphasize-medium-inverted}",
+              "value": "{ob.s.color.fg.contrast-medium-inverse}",
               "type": "color"
             },
             "disabled": {
@@ -48,7 +48,7 @@
               "type": "color"
             },
             "active": {
-              "value": "{ob.s.color.bg.contrast-medium-inverted}",
+              "value": "{ob.s.color.bg.contrast-medium-inverse}",
               "type": "color"
             },
             "disabled": {

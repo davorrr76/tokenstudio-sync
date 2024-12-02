@@ -111,9 +111,6 @@
       "components/molecules/tag": "enabled",
       "components/atoms/close-button": "enabled",
       "components/molecules/pills": "enabled",
-      "components/sections/header": "disabled",
-      "components/sections/layout": "disabled",
-      "components/sections/off-canvas": "disabled",
       "components/sections/footer": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10676",
@@ -372,11 +369,7 @@
     },
     "selectedTokenSets": {
       "modes/breakpoints/1440-lg": "enabled",
-      "semantics/typography-sizes/1440-lg": "enabled",
-      "components/sections/header": "disabled",
-      "components/sections/layout": "disabled",
-      "components/sections/off-canvas": "disabled",
-      "components/sections/footer": "disabled"
+      "semantics/typography-sizes/1440-lg": "enabled"
     },
     "$figmaVariableReferences": {
       "ob.p.scale.mult-responsive": "d80ba948166e99d2ffc51b16741e7b2c85b20ff7",
@@ -493,11 +486,7 @@
     },
     "selectedTokenSets": {
       "modes/breakpoints/360-xs": "enabled",
-      "semantics/typography-sizes/360-xs": "enabled",
-      "components/sections/header": "disabled",
-      "components/sections/layout": "disabled",
-      "components/sections/off-canvas": "disabled",
-      "components/sections/footer": "disabled"
+      "semantics/typography-sizes/360-xs": "enabled"
     },
     "$figmaVariableReferences": {
       "ob.p.scale.mult-responsive": "d80ba948166e99d2ffc51b16741e7b2c85b20ff7",
@@ -595,11 +584,7 @@
       "semantics/colors/static": "enabled",
       "components/molecules/button-modes/light-colored": "enabled",
       "components/molecules/tags-modes/light": "enabled",
-      "components/molecules/pills-modes/light": "enabled",
-      "components/sections/header": "disabled",
-      "components/sections/layout": "disabled",
-      "components/sections/off-canvas": "disabled",
-      "components/sections/footer": "disabled"
+      "components/molecules/pills-modes/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:19",
@@ -652,17 +637,6 @@
       "ob.s.color.bg.contrast-highest": "1e4449473196a1a8119ca1b0051257b4f041b428",
       "ob.s.color.bg.contrast-high": "e2e335f164871dcb8e2997ed670faf4eee26884f",
       "ob.s.color.bg.contrast-medium": "d46f19e692fad08b9713829f7c0fe8b936c0244b",
-      "ob.s.color.bg.contrast-highest-inverted": "a9226c94c772c96e25211a5732c9028f8b30b7e6",
-      "ob.s.color.bg.contrast-high-inverted": "c5e4cafc8d00f87e23a4a880db6e14720aadb380",
-      "ob.s.color.bg.contrast-medium-inverted": "e31b14b2cda0701412fe3eccfb6b653925dd2c04",
-      "ob.s.color.fg.emphasize-low": "0e352f4c1dcdca34f6d135c37e601bd837796594",
-      "ob.s.color.fg.emphasize-medium": "c89541b944a69aa8fa09ecab26d2ab90e54c89ad",
-      "ob.s.color.fg.emphasize-high": "2cc5676c97b9a72f76fe23d6e1f3aa7b24ec55c5",
-      "ob.s.color.fg.emphasize-highest": "f189d2d579483c06aea93d3f6bdfc227cb63177c",
-      "ob.s.color.fg.emphasize-low-inverted": "96a6821791448d848b748f20c6216f89b3a2da2c",
-      "ob.s.color.fg.emphasize-medium-inverted": "f1b21eaaa573786e94bbb7f0df19027ab933a631",
-      "ob.s.color.fg.emphasize-high-inverted": "2b7f9934f127d3651a7418220154b007aa913f05",
-      "ob.s.color.fg.emphasize-highest-inverted": "192140fa440da192705a71ac718d87a6a606c7bb",
       "ob.s.color.fg.a.link": "b4803855d667c616cf502ef1775fba7886aae2ae",
       "ob.s.color.fg.a.hover": "1e066780de2c7009c1e04dec906c55c61adf07dc",
       "ob.s.color.fg.a.focus": "41f9ff6ce18005ae65b43ba2fd9e09ea9b334cc0",
@@ -716,7 +690,18 @@
       "ob.s.color.status.resolved.fg-medium": "8202893b34e3bdb663dcb4dc3dfc239a29a9d9cb",
       "ob.s.color.status.info.fg.contrast-medium": "c7c93f7cbe5932d19e828555991b2aa84f5b2aee",
       "ob.s.color.status.info.bg.contrast-medium": "077141eef4c491eb0fedab1e89e42007be49b33c",
-      "ob.s.color.status.info.bg.contrast-low-inverted": "3cbe86b2d7e7cfb27b02868f962a96a65771a06a"
+      "ob.s.color.status.info.bg.contrast-low-inverse": "3cbe86b2d7e7cfb27b02868f962a96a65771a06a",
+      "ob.s.color.bg.contrast-medium-inverse": "e31b14b2cda0701412fe3eccfb6b653925dd2c04",
+      "ob.s.color.bg.contrast-high-inverse": "c5e4cafc8d00f87e23a4a880db6e14720aadb380",
+      "ob.s.color.bg.contrast-highest-inverse": "a9226c94c772c96e25211a5732c9028f8b30b7e6",
+      "ob.s.color.fg.contrast-low": "0e352f4c1dcdca34f6d135c37e601bd837796594",
+      "ob.s.color.fg.contrast-medium": "c89541b944a69aa8fa09ecab26d2ab90e54c89ad",
+      "ob.s.color.fg.contrast-high": "2cc5676c97b9a72f76fe23d6e1f3aa7b24ec55c5",
+      "ob.s.color.fg.contrast-highest": "f189d2d579483c06aea93d3f6bdfc227cb63177c",
+      "ob.s.color.fg.contrast-low-inverse": "96a6821791448d848b748f20c6216f89b3a2da2c",
+      "ob.s.color.fg.contrast-medium-inverse": "f1b21eaaa573786e94bbb7f0df19027ab933a631",
+      "ob.s.color.fg.contrast-high-inverse": "2b7f9934f127d3651a7418220154b007aa913f05",
+      "ob.s.color.fg.contrast-highest-inverse": "192140fa440da192705a71ac718d87a6a606c7bb"
     },
     "group": "surface"
   },
@@ -730,11 +715,7 @@
       "semantics/colors/static": "enabled",
       "components/molecules/button-modes/dark-monochrome": "enabled",
       "components/molecules/tags-modes/dark": "enabled",
-      "components/molecules/pills-modes/dark": "enabled",
-      "components/sections/header": "disabled",
-      "components/sections/layout": "disabled",
-      "components/sections/off-canvas": "disabled",
-      "components/sections/footer": "disabled"
+      "components/molecules/pills-modes/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6001:10678",
     "$figmaModeId": "6001:20",
@@ -787,17 +768,6 @@
       "ob.s.color.bg.contrast-highest": "1e4449473196a1a8119ca1b0051257b4f041b428",
       "ob.s.color.bg.contrast-high": "e2e335f164871dcb8e2997ed670faf4eee26884f",
       "ob.s.color.bg.contrast-medium": "d46f19e692fad08b9713829f7c0fe8b936c0244b",
-      "ob.s.color.bg.contrast-medium-inverted": "e31b14b2cda0701412fe3eccfb6b653925dd2c04",
-      "ob.s.color.bg.contrast-high-inverted": "c5e4cafc8d00f87e23a4a880db6e14720aadb380",
-      "ob.s.color.bg.contrast-highest-inverted": "a9226c94c772c96e25211a5732c9028f8b30b7e6",
-      "ob.s.color.fg.emphasize-low": "0e352f4c1dcdca34f6d135c37e601bd837796594",
-      "ob.s.color.fg.emphasize-medium": "c89541b944a69aa8fa09ecab26d2ab90e54c89ad",
-      "ob.s.color.fg.emphasize-high": "2cc5676c97b9a72f76fe23d6e1f3aa7b24ec55c5",
-      "ob.s.color.fg.emphasize-highest": "f189d2d579483c06aea93d3f6bdfc227cb63177c",
-      "ob.s.color.fg.emphasize-low-inverted": "96a6821791448d848b748f20c6216f89b3a2da2c",
-      "ob.s.color.fg.emphasize-medium-inverted": "f1b21eaaa573786e94bbb7f0df19027ab933a631",
-      "ob.s.color.fg.emphasize-high-inverted": "2b7f9934f127d3651a7418220154b007aa913f05",
-      "ob.s.color.fg.emphasize-highest-inverted": "192140fa440da192705a71ac718d87a6a606c7bb",
       "ob.s.color.fg.a.link": "b4803855d667c616cf502ef1775fba7886aae2ae",
       "ob.s.color.fg.a.hover": "1e066780de2c7009c1e04dec906c55c61adf07dc",
       "ob.s.color.fg.a.focus": "41f9ff6ce18005ae65b43ba2fd9e09ea9b334cc0",
@@ -846,12 +816,23 @@
       "ob.c.tag.color.bg.disabled": "fe1296d381df10ed3f9256f7e216ad67767779fa",
       "ob.s.color.accent": "0619ed8c3c75d3c6c4665a7b0a299a80e3524d08",
       "ob.s.color.no-color": "e6d5d3f4c5e7388a8c16e0ebe4a82cb5d92a39c1",
-      "ob.s.color.status.loading.bg": "4188a455fd2ea8bd769b3ab52bf801fedc8d84f3",
-      "ob.s.color.status.loading.fg": "0a0bc819f421726ce1473acfcce92a616b5e6ed5",
       "ob.s.color.status.resolved.fg-medium": "8202893b34e3bdb663dcb4dc3dfc239a29a9d9cb",
       "ob.s.color.status.info.fg.contrast-medium": "c7c93f7cbe5932d19e828555991b2aa84f5b2aee",
       "ob.s.color.status.info.bg.contrast-medium": "077141eef4c491eb0fedab1e89e42007be49b33c",
-      "ob.s.color.status.info.bg.contrast-low-inverted": "3cbe86b2d7e7cfb27b02868f962a96a65771a06a"
+      "ob.s.color.status.info.bg.contrast-low-inverse": "3cbe86b2d7e7cfb27b02868f962a96a65771a06a",
+      "ob.s.color.bg.contrast-medium-inverse": "e31b14b2cda0701412fe3eccfb6b653925dd2c04",
+      "ob.s.color.bg.contrast-high-inverse": "c5e4cafc8d00f87e23a4a880db6e14720aadb380",
+      "ob.s.color.bg.contrast-highest-inverse": "a9226c94c772c96e25211a5732c9028f8b30b7e6",
+      "ob.s.color.fg.contrast-low": "0e352f4c1dcdca34f6d135c37e601bd837796594",
+      "ob.s.color.fg.contrast-medium": "c89541b944a69aa8fa09ecab26d2ab90e54c89ad",
+      "ob.s.color.fg.contrast-high": "2cc5676c97b9a72f76fe23d6e1f3aa7b24ec55c5",
+      "ob.s.color.fg.contrast-highest": "f189d2d579483c06aea93d3f6bdfc227cb63177c",
+      "ob.s.color.fg.contrast-low-inverse": "96a6821791448d848b748f20c6216f89b3a2da2c",
+      "ob.s.color.fg.contrast-medium-inverse": "f1b21eaaa573786e94bbb7f0df19027ab933a631",
+      "ob.s.color.fg.contrast-high-inverse": "2b7f9934f127d3651a7418220154b007aa913f05",
+      "ob.s.color.fg.contrast-highest-inverse": "192140fa440da192705a71ac718d87a6a606c7bb",
+      "ob.s.color.status.progress.bg": "4188a455fd2ea8bd769b3ab52bf801fedc8d84f3",
+      "ob.s.color.status.progress.fg": "0a0bc819f421726ce1473acfcce92a616b5e6ed5"
     },
     "group": "surface"
   }

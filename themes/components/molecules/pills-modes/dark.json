@@ -6,15 +6,15 @@
           "neutral": {
             "fg": {
               "enabled": {
-                "value": "{ob.s.color.fg.emphasize-medium}",
+                "value": "{ob.s.color.fg.contrast-medium}",
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.s.color.fg.emphasize-medium}",
+                "value": "{ob.s.color.fg.contrast-medium}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.s.color.fg.emphasize-medium}",
+                "value": "{ob.s.color.fg.contrast-medium}",
                 "type": "color"
               },
               "pressed": {
@@ -36,7 +36,7 @@
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.s.color.bg.contrast-high-inverted}",
+                "value": "{ob.s.color.bg.contrast-high-inverse}",
                 "type": "color"
               }
             }
@@ -44,15 +44,15 @@
           "resolved": {
             "fg": {
               "enabled": {
-                "value": "{ob.s.color.fg.emphasize-medium}",
+                "value": "{ob.s.color.fg.contrast-medium}",
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.s.color.fg.emphasize-medium}",
+                "value": "{ob.s.color.fg.contrast-medium}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.s.color.fg.emphasize-medium}",
+                "value": "{ob.s.color.fg.contrast-medium}",
                 "type": "color"
               },
               "pressed": {
@@ -74,7 +74,7 @@
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.s.color.bg.contrast-high-inverted}",
+                "value": "{ob.s.color.bg.contrast-high-inverse}",
                 "type": "color"
               }
             }

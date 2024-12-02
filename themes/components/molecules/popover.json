@@ -112,7 +112,7 @@
             "description": "Default border color for popovers."
           },
           "fg": {
-            "value": "{ob.s.color.fg.emphasize-high}",
+            "value": "{ob.s.color.fg.contrast-high}",
             "type": "color"
           }
         },
