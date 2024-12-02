@@ -217,13 +217,47 @@
           },
           "resolved": {
             "bg": {
-              "value": "{ob.p.colors.green.700}",
-              "type": "color",
-              "description": "Paring for icon only (e.g. Alert) or a larger bold font weight. Otherwise AX critical."
+              "contrast-low": {
+                "value": "{ob.p.colors.green.700}",
+                "type": "color",
+                "description": "Paring for icon only (e.g. Alert) or a larger bold font weight. Otherwise AX critical."
+              },
+              "contrast-medium": {
+                "value": "{ob.p.colors.green.800}",
+                "type": "color",
+                "description": "Paring for icon only (e.g. Alert) or a larger bold font weight. Otherwise AX critical."
+              },
+              "contrast-high": {
+                "value": "{ob.p.colors.green.900}",
+                "type": "color",
+                "description": "Paring for icon only (e.g. Alert) or a larger bold font weight. Otherwise AX critical."
+              },
+              "contrast-high-inverse": {
+                "value": "{ob.p.colors.green.200}",
+                "type": "color"
+              },
+              "contrast-medium-inverse": {
+                "value": "{ob.p.colors.green.300}",
+                "type": "color"
+              },
+              "contrast-low-inverse": {
+                "value": "{ob.p.colors.green.400}",
+                "type": "color"
+              }
             },
             "fg": {
-              "value": "{ob.p.colors.green.100}",
-              "type": "color"
+              "contrast-low": {
+                "value": "{ob.p.colors.green.400}",
+                "type": "color"
+              },
+              "contrast-medium": {
+                "value": "{ob.p.colors.green.300}",
+                "type": "color"
+              },
+              "contrast-high": {
+                "value": "{ob.p.colors.green.200}",
+                "type": "color"
+              }
             }
           },
           "fatal": {

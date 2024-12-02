@@ -17,7 +17,7 @@
               "type": "color"
             },
             "resolved": {
-              "value": "{ob.s.color.status.resolved.fg-medium}",
+              "value": "{ob.s.color.status.resolved.fg.contrast-medium}",
               "type": "color"
             },
             "fatal": {
@@ -61,7 +61,7 @@
               "type": "color"
             },
             "success": {
-              "value": "{ob.s.color.status.resolved.bg}",
+              "value": "{ob.s.color.status.resolved.bg.contrast-medium}",
               "type": "color"
             },
             "fatal": {

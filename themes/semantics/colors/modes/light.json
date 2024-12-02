@@ -198,12 +198,44 @@
           },
           "resolved": {
             "bg": {
-              "value": "{ob.p.colors.green.100}",
-              "type": "color"
+              "contrast-high": {
+                "value": "{ob.p.colors.green.50}",
+                "type": "color"
+              },
+              "contrast-medium": {
+                "value": "{ob.p.colors.green.100}",
+                "type": "color"
+              },
+              "contrast-low": {
+                "value": "{ob.p.colors.green.200}",
+                "type": "color"
+              },
+              "contrast-low-inverse": {
+                "value": "{ob.p.colors.green.600}",
+                "type": "color"
+              },
+              "contrast-medium-inverse": {
+                "value": "{ob.p.colors.green.700}",
+                "type": "color"
+              },
+              "contrast-high-inverse": {
+                "value": "{ob.p.colors.green.800}",
+                "type": "color"
+              }
             },
-            "fg-medium": {
-              "value": "{ob.p.colors.green.700}",
-              "type": "color"
+            "fg": {
+              "contrast-high": {
+                "value": "{ob.p.colors.green.800}",
+                "type": "color"
+              },
+              "contrast-medium": {
+                "value": "{ob.p.colors.green.700}",
+                "type": "color"
+              },
+              "contrast-low": {
+                "value": "{ob.p.colors.green.600}",
+                "type": "color"
+              }
             }
           },
           "fatal": {

@@ -111,6 +111,93 @@
               "type": "typography"
             }
           }
+        },
+        "color": {
+          "neutral": {
+            "fg": {
+              "enabled": {
+                "value": "{ob.s.color.fg.contrast-medium}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{ob.s.color.fg.contrast-medium}",
+                "type": "color"
+              },
+              "focus": {
+                "value": "{ob.s.color.fg.contrast-medium}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{ob.s.color.fg.contrast-high}",
+                "type": "color"
+              }
+            },
+            "bg": {
+              "enabled": {
+                "value": "{ob.s.color.bg.contrast-medium}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{ob.s.color.bg.contrast-highest}",
+                "type": "color"
+              },
+              "focus": {
+                "value": "{ob.s.color.bg.contrast-medium}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{ob.s.color.bg.contrast-medium}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "20",
+                      "space": "srgb"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "resolved": {
+            "fg": {
+              "enabled": {
+                "value": "{ob.s.color.fg.contrast-medium}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{ob.s.color.fg.contrast-medium}",
+                "type": "color"
+              },
+              "focus": {
+                "value": "{ob.s.color.fg.contrast-medium}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{ob.s.color.fg.contrast-high}",
+                "type": "color"
+              }
+            },
+            "bg": {
+              "enabled": {
+                "value": "{ob.s.color.status.resolved.bg.contrast-medium}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{ob.s.color.bg.contrast-highest}",
+                "type": "color"
+              },
+              "focus": {
+                "value": "{ob.s.color.status.resolved.bg.contrast-medium}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{ob.s.color.status.resolved.bg.contrast-high}",
+                "type": "color"
+              }
+            }
+          }
         }
       }
     }

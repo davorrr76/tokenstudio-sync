@@ -50,8 +50,6 @@
     "components/molecules/nav-tree",
     "components/molecules/paginator",
     "components/molecules/pills",
-    "components/molecules/pills-modes/light",
-    "components/molecules/pills-modes/dark",
     "components/molecules/popover",
     "components/molecules/progress-bar",
     "components/molecules/slider",
