@@ -9,12 +9,12 @@
         },
         "color": {
           "active": {
-            "value": "{ob.s.color.status.loading.fg}",
+            "value": "{ob.s.color.status.progress.fg}",
             "type": "color",
             "description": "Color indicating the active part of the loading."
           },
           "inactive": {
-            "value": "{ob.s.color.status.loading.bg}",
+            "value": "{ob.s.color.status.progress.bg}",
             "type": "color",
             "description": "Color indicating the inactive part of the loading."
           }

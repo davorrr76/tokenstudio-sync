@@ -67,7 +67,7 @@
               "type": "sizing"
             },
             "lg": {
-              "value": "{ob.p.size.450}",
+              "value": "{ob.p.size.600}",
               "type": "sizing"
             }
           },

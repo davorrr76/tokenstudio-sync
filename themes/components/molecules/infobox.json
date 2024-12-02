@@ -5,19 +5,19 @@
         "color": {
           "icon": {
             "info": {
-              "value": "{ob.s.color.status.info.fg}",
+              "value": "{ob.s.color.status.info.fg.contrast-medium}",
               "type": "color"
             },
             "error": {
-              "value": "{ob.s.color.status.error.fg}",
+              "value": "{ob.s.color.status.critical.fg}",
               "type": "color"
             },
             "warning": {
               "value": "{ob.s.color.status.warning.fg}",
               "type": "color"
             },
-            "success": {
-              "value": "{ob.s.color.status.success.fg}",
+            "resolved": {
+              "value": "{ob.s.color.status.resolved.fg-medium}",
               "type": "color"
             },
             "fatal": {
@@ -27,7 +27,7 @@
           },
           "border": {
             "info": {
-              "value": "{ob.s.color.status.info.fg}",
+              "value": "{ob.s.color.status.info.fg.contrast-medium}",
               "type": "color"
             },
             "error": {
@@ -39,7 +39,7 @@
               "type": "color"
             },
             "success": {
-              "value": "{ob.c.infobox.color.icon.success}",
+              "value": "{ob.c.infobox.color.icon.resolved}",
               "type": "color"
             },
             "fatal": {
@@ -49,11 +49,11 @@
           },
           "surface": {
             "info": {
-              "value": "{ob.s.color.status.info.bg}",
+              "value": "{ob.s.color.status.info.bg.contrast-medium}",
               "type": "color"
             },
             "error": {
-              "value": "{ob.s.color.status.error.bg}",
+              "value": "{ob.s.color.status.critical.bg}",
               "type": "color"
             },
             "warning": {
@@ -61,7 +61,7 @@
               "type": "color"
             },
             "success": {
-              "value": "{ob.s.color.status.success.bg}",
+              "value": "{ob.s.color.status.resolved.bg}",
               "type": "color"
             },
             "fatal": {

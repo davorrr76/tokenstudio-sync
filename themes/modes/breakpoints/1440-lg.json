@@ -83,8 +83,9 @@
               "type": "spacing"
             },
             "padding-bottom": {
-              "value": "{ob.s.spacing.lg}",
-              "type": "spacing"
+              "value": "{ob.s.spacing.sm}",
+              "type": "spacing",
+              "description": "sets right and bottom spacing from the last button to the border of the surface visually identical on desktop"
             },
             "padding-right": {
               "value": "{ob.s.spacing.sm}",
@@ -99,7 +100,7 @@
           },
           "title": {
             "padding-top": {
-              "value": "{ob.s.spacing.sm}",
+              "value": "{ob.s.spacing.xs}",
               "type": "spacing",
               "description": "Aligns the title with the status icon and the close button on desktop."
             }

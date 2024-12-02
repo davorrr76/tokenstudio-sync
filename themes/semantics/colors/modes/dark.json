@@ -173,7 +173,7 @@
               "type": "color"
             }
           },
-          "error": {
+          "critical": {
             "bg": {
               "value": "{ob.p.colors.red.800}",
               "type": "color"
@@ -187,7 +187,7 @@
               "type": "color"
             }
           },
-          "success": {
+          "resolved": {
             "bg": {
               "value": "{ob.p.colors.green.700}",
               "type": "color",

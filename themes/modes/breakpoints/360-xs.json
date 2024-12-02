@@ -30,7 +30,7 @@
             "description": "Top and right padding have to be the same so the position of the close button is visually apealing."
           },
           "padding-bottom": {
-            "value": "{ob.s.spacing.3xl}",
+            "value": "{ob.s.spacing.2xl}",
             "type": "spacing",
             "description": "Enhances readability and visual appeal, preventing the text from appearing cramped and ensuring clarity."
           },
@@ -108,7 +108,7 @@
         },
         "sizing": {
           "icon-size": {
-            "value": "{ob.s.icon.size.md}",
+            "value": "{ob.s.icon.size.lg}",
             "type": "sizing",
             "description": "Icon size is slightly larger than the title to be readable since it has less contrast than the text and communicates the status. On mobile even smaller to save space for the text."
           },

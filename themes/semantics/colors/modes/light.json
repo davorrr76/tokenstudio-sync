@@ -132,16 +132,40 @@
         "status": {
           "info": {
             "bg": {
-              "value": "{ob.p.colors.blue.100}",
-              "type": "color"
-            },
-            "bg-inverted": {
-              "value": "{ob.p.colors.blue.600}",
-              "type": "color"
+              "contrast-high": {
+                "value": "{ob.p.colors.blue.50}",
+                "type": "color"
+              },
+              "contrast-medium": {
+                "value": "{ob.p.colors.blue.100}",
+                "type": "color"
+              },
+              "contrast-low": {
+                "value": "{ob.p.colors.blue.200}",
+                "type": "color"
+              },
+              "contrast-low-inverted": {
+                "value": "{ob.p.colors.blue.600}",
+                "type": "color"
+              },
+              "contrast-medium-inverted": {
+                "value": "{ob.p.colors.blue.700}",
+                "type": "color"
+              },
+              "contrast-high-inverted": {
+                "value": "{ob.p.colors.blue.700}",
+                "type": "color"
+              }
             },
             "fg": {
-              "value": "{ob.p.colors.blue.800}",
-              "type": "color"
+              "contrast-medium": {
+                "value": "{ob.p.colors.blue.800}",
+                "type": "color"
+              },
+              "contrast-high": {
+                "value": "{ob.p.colors.blue.900}",
+                "type": "color"
+              }
             }
           },
           "warning": {
@@ -154,7 +178,7 @@
               "type": "color"
             }
           },
-          "error": {
+          "critical": {
             "bg": {
               "value": "{ob.p.colors.red.100}",
               "type": "color"
@@ -168,12 +192,12 @@
               "type": "color"
             }
           },
-          "success": {
+          "resolved": {
             "bg": {
               "value": "{ob.p.colors.green.100}",
               "type": "color"
             },
-            "fg": {
+            "fg-medium": {
               "value": "{ob.p.colors.green.700}",
               "type": "color"
             }
@@ -188,7 +212,7 @@
               "type": "color"
             }
           },
-          "loading": {
+          "progress": {
             "bg": {
               "value": "{ob.p.colors.indigo.600}",
               "type": "color",

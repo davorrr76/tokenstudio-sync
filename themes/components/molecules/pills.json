@@ -1,41 +1,41 @@
 {
   "ob": {
     "c": {
-      "tag": {
+      "pill": {
         "spacing": {
           "padding": {
             "vertical": {
               "sm": {
-                "value": "{ob.s.spacing.none}",
-                "type": "spacing",
-                "description": "Top and bottom padding – for small size tags."
-              },
-              "md": {
                 "value": "{ob.s.spacing.xs}",
                 "type": "spacing",
-                "description": "Top and bottom padding  – for medium size tags."
+                "description": "Top and bottom padding – for small size pills."
+              },
+              "md": {
+                "value": "{ob.s.spacing.sm}",
+                "type": "spacing",
+                "description": "Top and bottom padding  – for medium size pills."
               },
               "lg": {
                 "value": "{ob.s.spacing.lg}",
                 "type": "spacing",
-                "description": "Top and bottom padding  – for large size tags."
+                "description": "Top and bottom padding  – for large size pills."
               }
             },
             "horizontal": {
               "sm": {
                 "value": "{ob.s.spacing.md}",
                 "type": "spacing",
-                "description": "Left and right padding – for small size tags."
+                "description": "Left and right padding – for small size pills."
               },
               "md": {
                 "value": "{ob.s.spacing.lg}",
                 "type": "spacing",
-                "description": "Left and right padding  – for medium size tags."
+                "description": "Left and right padding  – for medium size pills."
               },
               "lg": {
                 "value": "{ob.s.spacing.2xl}",
                 "type": "spacing",
-                "description": "Left and right padding – for large size tags."
+                "description": "Left and right padding – for large size pills."
               }
             }
           },
@@ -43,17 +43,17 @@
             "sm": {
               "value": "{ob.s.spacing.sm}",
               "type": "spacing",
-              "description": "Horizontal gap between icon and text label – for small size tags."
+              "description": "Horizontal gap between icon and text label – for small size pills."
             },
             "md": {
               "value": "{ob.s.spacing.md}",
               "type": "spacing",
-              "description": "Horizontal gap between icon and text label  – for medium size tags."
+              "description": "Horizontal gap between icon and text label  – for medium size pills."
             },
             "lg": {
               "value": "{ob.s.spacing.lg}",
               "type": "spacing",
-              "description": "Horizontal gap between icon and text label – for large size tags"
+              "description": "Horizontal gap between icon and text label – for large size pills"
             }
           }
         },
@@ -61,7 +61,7 @@
           "default": {
             "value": "{ob.s.radii.round}",
             "type": "borderRadius",
-            "description": "Standard tags in Oblique."
+            "description": "Standard pills in Oblique."
           }
         },
         "icon": {
@@ -107,7 +107,7 @@
               "type": "typography"
             },
             "lg": {
-              "value": "{ob.s.typography.label.L.regular}",
+              "value": "{ob.s.typography.label.M.regular}",
               "type": "typography"
             }
           }
