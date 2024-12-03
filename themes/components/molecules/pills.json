@@ -391,25 +391,25 @@
           "info": {
             "fg": {
               "enabled": {
-                "value": "{ob.s.color.status.scheduled.fg.contrast-high}",
+                "value": "{ob.s.color.status.info.fg.contrast-high}",
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.s.color.status.scheduled.fg.contrast-high}",
+                "value": "{ob.s.color.status.info.fg.contrast-high}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.s.color.status.scheduled.fg.contrast-high}",
+                "value": "{ob.s.color.status.info.fg.contrast-high}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.s.color.status.scheduled.fg.contrast-high}",
+                "value": "{ob.s.color.status.info.fg.contrast-high}",
                 "type": "color"
               }
             },
             "bg": {
               "enabled": {
-                "value": "{ob.s.color.status.scheduled.bg.contrast-medium}",
+                "value": "{ob.s.color.status.info.bg.contrast-medium}",
                 "type": "color"
               },
               "hover": {
@@ -417,11 +417,87 @@
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.s.color.status.scheduled.bg.contrast-medium}",
+                "value": "{ob.s.color.status.info.bg.contrast-medium}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.s.color.status.scheduled.bg.contrast-low}",
+                "value": "{ob.s.color.status.info.bg.contrast-low}",
+                "type": "color"
+              }
+            }
+          },
+          "waiting": {
+            "fg": {
+              "enabled": {
+                "value": "{ob.s.color.status.waiting.fg.contrast-high}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{ob.s.color.status.waiting.fg.contrast-high}",
+                "type": "color"
+              },
+              "focus": {
+                "value": "{ob.s.color.status.waiting.fg.contrast-high}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{ob.s.color.status.waiting.fg.contrast-high}",
+                "type": "color"
+              }
+            },
+            "bg": {
+              "enabled": {
+                "value": "{ob.s.color.status.waiting.bg.contrast-medium}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{ob.s.color.bg.contrast-highest}",
+                "type": "color"
+              },
+              "focus": {
+                "value": "{ob.s.color.status.waiting.bg.contrast-high}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{ob.s.color.status.waiting.bg.contrast-low}",
+                "type": "color"
+              }
+            }
+          },
+          "critical-new": {
+            "fg": {
+              "enabled": {
+                "value": "{ob.s.color.status.critical-new.fg.contrast-high}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{ob.s.color.status.critical-new.fg.contrast-high}",
+                "type": "color"
+              },
+              "focus": {
+                "value": "{ob.s.color.status.critical-new.fg.contrast-high}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{ob.s.color.status.critical-new.fg.contrast-high}",
+                "type": "color"
+              }
+            },
+            "bg": {
+              "enabled": {
+                "value": "{ob.s.color.status.critical-new.bg.contrast-medium}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{ob.s.color.bg.contrast-highest}",
+                "type": "color"
+              },
+              "focus": {
+                "value": "{ob.s.color.status.critical-new.bg.contrast-high}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{ob.s.color.status.critical-new.bg.contrast-low}",
                 "type": "color"
               }
             }

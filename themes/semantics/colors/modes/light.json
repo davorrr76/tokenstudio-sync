@@ -457,6 +457,90 @@
                 "type": "color"
               }
             }
+          },
+          "waiting": {
+            "bg": {
+              "contrast-high": {
+                "value": "{ob.p.colors.purple.50}",
+                "type": "color"
+              },
+              "contrast-medium": {
+                "value": "{ob.p.colors.purple.100}",
+                "type": "color"
+              },
+              "contrast-low": {
+                "value": "{ob.p.colors.purple.200}",
+                "type": "color"
+              },
+              "contrast-low-inverse": {
+                "value": "{ob.p.colors.purple.600}",
+                "type": "color"
+              },
+              "contrast-medium-inverse": {
+                "value": "{ob.p.colors.purple.700}",
+                "type": "color"
+              },
+              "contrast-high-inverse": {
+                "value": "{ob.p.colors.purple.800}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "contrast-high": {
+                "value": "{ob.p.colors.purple.800}",
+                "type": "color"
+              },
+              "contrast-medium": {
+                "value": "{ob.p.colors.purple.700}",
+                "type": "color"
+              },
+              "contrast-low": {
+                "value": "{ob.p.colors.purple.600}",
+                "type": "color"
+              }
+            }
+          },
+          "critical-new": {
+            "bg": {
+              "contrast-high": {
+                "value": "{ob.p.colors.red.50}",
+                "type": "color"
+              },
+              "contrast-medium": {
+                "value": "{ob.p.colors.red.100}",
+                "type": "color"
+              },
+              "contrast-low": {
+                "value": "{ob.p.colors.red.200}",
+                "type": "color"
+              },
+              "contrast-low-inverse": {
+                "value": "{ob.p.colors.red.600}",
+                "type": "color"
+              },
+              "contrast-medium-inverse": {
+                "value": "{ob.p.colors.red.700}",
+                "type": "color"
+              },
+              "contrast-high-inverse": {
+                "value": "{ob.p.colors.red.800}",
+                "type": "color"
+              }
+            },
+            "fg": {
+              "contrast-high": {
+                "value": "{ob.p.colors.red.800}",
+                "type": "color"
+              },
+              "contrast-medium": {
+                "value": "{ob.p.colors.red.700}",
+                "type": "color"
+              },
+              "contrast-low": {
+                "value": "{ob.p.colors.red.600}",
+                "type": "color"
+              }
+            }
           }
         },
         "shadow": {
