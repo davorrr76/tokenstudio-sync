@@ -28,19 +28,19 @@
             },
             "secondary": {
               "enabled": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.p.colors.steelblue.800}",
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.p.colors.blue.900}",
+                "value": "{ob.p.colors.steelblue.900}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.p.colors.steelblue.800}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.p.colors.blue.900}",
+                "value": "{ob.p.colors.steelblue.900}",
                 "type": "color"
               },
               "disabled": {
@@ -59,19 +59,19 @@
             },
             "tertiary": {
               "enabled": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.p.colors.steelblue.800}",
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.p.colors.blue.900}",
+                "value": "{ob.p.colors.steelblue.900}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.p.colors.steelblue.800}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.p.colors.blue.900}",
+                "value": "{ob.p.colors.steelblue.900}",
                 "type": "color",
                 "$extensions": {
                   "studio.tokens": {
@@ -102,19 +102,19 @@
           "bg": {
             "primary": {
               "enabled": {
-                "value": "{ob.p.colors.blue.700}",
+                "value": "{ob.p.colors.steelblue.700}",
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.p.colors.blue.600}",
+                "value": "{ob.p.colors.steelblue.600}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.p.colors.steelblue.800}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.p.colors.steelblue.800}",
                 "type": "color"
               },
               "disabled": {
@@ -210,19 +210,19 @@
             },
             "secondary": {
               "enabled": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.p.colors.steelblue.800}",
                 "type": "color"
               },
               "hover": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.p.colors.steelblue.800}",
                 "type": "color"
               },
               "focus": {
-                "value": "{ob.p.colors.blue.800}",
+                "value": "{ob.p.colors.steelblue.800}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{ob.p.colors.blue.900}",
+                "value": "{ob.p.colors.steelblue.900}",
                 "type": "color"
               },
               "disabled": {

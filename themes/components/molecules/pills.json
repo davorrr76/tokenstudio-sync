@@ -113,7 +113,7 @@
           }
         },
         "color": {
-          "neutral": {
+          "closed": {
             "fg": {
               "enabled": {
                 "value": "{ob.s.color.fg.contrast-medium}",
@@ -351,6 +351,44 @@
             }
           },
           "scheduled": {
+            "fg": {
+              "enabled": {
+                "value": "{ob.s.color.status.scheduled.fg.contrast-high}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{ob.s.color.status.scheduled.fg.contrast-high}",
+                "type": "color"
+              },
+              "focus": {
+                "value": "{ob.s.color.status.scheduled.fg.contrast-high}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{ob.s.color.status.scheduled.fg.contrast-high}",
+                "type": "color"
+              }
+            },
+            "bg": {
+              "enabled": {
+                "value": "{ob.s.color.status.scheduled.bg.contrast-medium}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{ob.s.color.bg.contrast-highest}",
+                "type": "color"
+              },
+              "focus": {
+                "value": "{ob.s.color.status.scheduled.bg.contrast-medium}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{ob.s.color.status.scheduled.bg.contrast-low}",
+                "type": "color"
+              }
+            }
+          },
+          "info": {
             "fg": {
               "enabled": {
                 "value": "{ob.s.color.status.scheduled.fg.contrast-high}",

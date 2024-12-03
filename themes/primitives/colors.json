@@ -326,7 +326,7 @@
             "description": ""
           }
         },
-        "blue": {
+        "steelblue": {
           "50": {
             "value": "#F3F4F5",
             "type": "color",
