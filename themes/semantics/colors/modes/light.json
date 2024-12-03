@@ -133,41 +133,41 @@
           "info": {
             "bg": {
               "contrast-high": {
-                "value": "{ob.p.colors.steelblue.50}",
+                "value": "{ob.p.colors.blue.50}",
                 "type": "color"
               },
               "contrast-medium": {
-                "value": "{ob.p.colors.steelblue.100}",
+                "value": "{ob.p.colors.blue.100}",
                 "type": "color"
               },
               "contrast-low": {
-                "value": "{ob.p.colors.steelblue.200}",
+                "value": "{ob.p.colors.blue.200}",
                 "type": "color"
               },
               "contrast-low-inverse": {
-                "value": "{ob.p.colors.steelblue.600}",
+                "value": "{ob.p.colors.blue.600}",
                 "type": "color"
               },
               "contrast-medium-inverse": {
-                "value": "{ob.p.colors.steelblue.700}",
+                "value": "{ob.p.colors.blue.700}",
                 "type": "color"
               },
               "contrast-high-inverse": {
-                "value": "{ob.p.colors.steelblue.800}",
+                "value": "{ob.p.colors.blue.800}",
                 "type": "color"
               }
             },
             "fg": {
               "contrast-high": {
-                "value": "{ob.p.colors.steelblue.900}",
+                "value": "{ob.p.colors.blue.900}",
                 "type": "color"
               },
               "contrast-medium": {
-                "value": "{ob.p.colors.steelblue.800}",
+                "value": "{ob.p.colors.blue.800}",
                 "type": "color"
               },
               "contrast-low": {
-                "value": "{ob.p.colors.steelblue.700}",
+                "value": "{ob.p.colors.blue.700}",
                 "type": "color"
               }
             }
