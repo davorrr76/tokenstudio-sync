@@ -4,11 +4,15 @@
       "badge": {
         "color": {
           "bg": {
-            "default": {
+            "severity-low": {
               "value": "{ob.p.colors.cobalt.800}",
               "type": "color"
             },
-            "warning": {
+            "severity-medium": {
+              "value": "{ob.p.colors.cobalt.800}",
+              "type": "color"
+            },
+            "severity-high": {
               "value": "{ob.p.colors.red.700}",
               "type": "color"
             },
@@ -18,11 +22,15 @@
             }
           },
           "fg": {
-            "default": {
+            "severity-low": {
               "value": "{ob.p.colors.basic.white}",
               "type": "color"
             },
-            "warning": {
+            "severity-medium": {
+              "value": "{ob.p.colors.basic.white}",
+              "type": "color"
+            },
+            "severity-high": {
               "value": "{ob.p.colors.basic.white}",
               "type": "color"
             },

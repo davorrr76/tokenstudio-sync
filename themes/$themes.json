@@ -183,11 +183,7 @@
       "ob.s.zindex.modal": "98fa9541ac9e5f55aa694de6e737fd3794ab6b73",
       "ob.s.zindex.notification": "19046b96bcf909d211beeeb00cb7986c19c907b1",
       "ob.s.zindex.tooltip": "89ff777af35b39665633dc722000530f452cf001",
-      "ob.c.badge.color.bg.default": "ea316fcda5533329f19fe297fb604b9db27977b0",
-      "ob.c.badge.color.bg.warning": "d210a89f5195d625c374644bf15741217a256745",
       "ob.c.badge.color.bg.disabled": "a35ec15af8acb50d995bc636c5f29d65fb018c62",
-      "ob.c.badge.color.fg.default": "00445589022bf026f7e191bc81adafef58798ca0",
-      "ob.c.badge.color.fg.warning": "394ec7e8a5bc1d654385779e0e7f1c457b480ad3",
       "ob.c.badge.color.fg.disabled": "99ecb733959ef0bf77e4a8427c010ad095c522d8",
       "ob.c.badge.spacing.padding.horizontal.sm": "cd42a0b214c84b6c897038aff96927372f607f0c",
       "ob.c.badge.spacing.padding.horizontal.lg": "fb68f97d13f3f281aa0cf25958b399232a36e2cf",
@@ -416,7 +412,11 @@
       "ob.c.popover.color.fg": "8cb98ae7616157b321f04fe4dcdc02e72cf04972",
       "ob.c.popover.border-radius": "7cb819554730e85223a79a65b9b73da329f04171",
       "ob.c.popover.border-width": "0433e5ec9153f1dc737f20adf2e5fa4916575fcf",
-      "ob.c.footer.color.bg-color": "bf34124e949f1f110e90ee31ff21b32ad0e5cef7"
+      "ob.c.footer.color.bg-color": "bf34124e949f1f110e90ee31ff21b32ad0e5cef7",
+      "ob.c.badge.color.bg.severity-low": "ea316fcda5533329f19fe297fb604b9db27977b0",
+      "ob.c.badge.color.bg.severity-high": "d210a89f5195d625c374644bf15741217a256745",
+      "ob.c.badge.color.fg.severity-low": "00445589022bf026f7e191bc81adafef58798ca0",
+      "ob.c.badge.color.fg.severity-medium": "394ec7e8a5bc1d654385779e0e7f1c457b480ad3"
     },
     "group": "core"
   },
