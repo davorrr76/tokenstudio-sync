@@ -10,17 +10,8 @@
                 "type": "color"
               },
               "disabled": {
-                "value": "{ob.s.color.status.closed.bg.contrast-low-inverse}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.6",
-                      "space": "srgb"
-                    }
-                  }
-                }
+                "value": "{ob.s.color.bg.contrast-low}",
+                "type": "color"
               }
             },
             "severity-medium": {
@@ -29,8 +20,18 @@
                 "type": "color"
               },
               "disabled": {
-                "value": "{ob.s.color.status.info.bg.contrast-high-inverse}",
-                "type": "color"
+                "value": "{ob.s.color.status.info.bg.contrast-low-inverse}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.5",
+                      "space": "lch",
+                      "color": "{ob.c.badge.color.bg.severity-low.enabled}"
+                    }
+                  }
+                }
               }
             },
             "severity-high": {
@@ -44,9 +45,10 @@
                 "$extensions": {
                   "studio.tokens": {
                     "modify": {
-                      "type": "alpha",
-                      "value": "0.8",
-                      "space": "srgb"
+                      "type": "mix",
+                      "value": "0.3",
+                      "space": "srgb",
+                      "color": "{ob.c.badge.color.bg.severity-low.enabled}"
                     }
                   }
                 }
@@ -70,7 +72,7 @@
                 "type": "color"
               },
               "disabled": {
-                "value": "{ob.s.color.fg.contrast-medium-inverse}",
+                "value": "{ob.s.color.fg.contrast-lowest-inverse}",
                 "type": "color"
               }
             },
@@ -80,7 +82,7 @@
                 "type": "color"
               },
               "disabled": {
-                "value": "{ob.s.color.fg.contrast-medium-inverse}",
+                "value": "{ob.s.color.fg.contrast-lowest-inverse}",
                 "type": "color"
               }
             }
