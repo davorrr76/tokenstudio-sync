@@ -108,17 +108,8 @@
                 "type": "color"
               },
               "disabled": {
-                "value": "{ob.p.colors.cobalt.300}",
-                "type": "color",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.8",
-                      "space": "srgb"
-                    }
-                  }
-                }
+                "value": "{ob.s.color.status.disabled.bg.contrast-medium-inverse}",
+                "type": "color"
               }
             },
             "secondary": {
