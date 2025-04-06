@@ -132,21 +132,15 @@
         }
       },
       "paragraphSpacing": {
-        "xs": {
-          "value": "2* {ob.p.lineHeight._base}",
-          "type": "paragraphSpacing"
-        },
-        "sm": {
+        "standard": {
           "value": "3* {ob.p.lineHeight._base}",
-          "type": "paragraphSpacing"
+          "type": "paragraphSpacing",
+          "description": "Standard spacing between two paragraphs <p> on xs screens."
         },
-        "md": {
+        "last": {
           "value": "4* {ob.p.lineHeight._base}",
-          "type": "paragraphSpacing"
-        },
-        "lg": {
-          "value": "5* {ob.p.lineHeight._base}",
-          "type": "paragraphSpacing"
+          "type": "paragraphSpacing",
+          "description": "Spacing after the last <p> paragraph on xs screens, before the next heading. Usually larger than the standard paragraphSpacing to improve the visual hierarchy."
         }
       },
       "text-decoration": {

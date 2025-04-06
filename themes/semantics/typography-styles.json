@@ -205,7 +205,7 @@
                 "fontWeight": "{ob.s.fontWeight.medium}",
                 "lineHeight": "{ob.s.lineHeight.md}",
                 "letterSpacing": "{ob.s.letterSpacing-px.normal}",
-                "paragraphSpacing": "{ob.s.paragraphSpacing.sm}"
+                "paragraphSpacing": "{ob.s.paragraphSpacing.standard}"
               },
               "type": "typography"
             },
@@ -216,7 +216,7 @@
                 "fontWeight": "{ob.s.fontWeight.semiBold}",
                 "lineHeight": "{ob.s.lineHeight.md}",
                 "letterSpacing": "{ob.s.letterSpacing-px.normal}",
-                "paragraphSpacing": "{ob.s.paragraphSpacing.sm}",
+                "paragraphSpacing": "{ob.s.paragraphSpacing.standard}",
                 "textDecoration": "{ob.p.text-decoration.underline}"
               },
               "type": "typography"
@@ -228,7 +228,7 @@
                 "fontWeight": "{ob.s.fontWeight.semiBold}",
                 "lineHeight": "{ob.s.lineHeight.md}",
                 "letterSpacing": "{ob.s.letterSpacing-px.normal}",
-                "paragraphSpacing": "{ob.s.paragraphSpacing.sm}",
+                "paragraphSpacing": "{ob.s.paragraphSpacing.standard}",
                 "textDecoration": "{ob.p.text-decoration.none}"
               },
               "type": "typography"
@@ -240,7 +240,7 @@
                 "fontWeight": "{ob.s.fontWeight.bold}",
                 "lineHeight": "{ob.s.lineHeight.md}",
                 "letterSpacing": "{ob.s.letterSpacing-px.normal}",
-                "paragraphSpacing": "{ob.s.paragraphSpacing.sm}"
+                "paragraphSpacing": "{ob.s.paragraphSpacing.standard}"
               },
               "type": "typography"
             },
@@ -251,7 +251,7 @@
                 "fontWeight": "{ob.s.fontWeight.bold}",
                 "lineHeight": "{ob.s.lineHeight.md}",
                 "letterSpacing": "{ob.s.letterSpacing-px.normal}",
-                "paragraphSpacing": "{ob.s.paragraphSpacing.sm}",
+                "paragraphSpacing": "{ob.s.paragraphSpacing.standard}",
                 "textDecoration": "{ob.p.text-decoration.underline}"
               },
               "type": "typography"
@@ -263,7 +263,7 @@
                 "fontWeight": "{ob.s.fontWeight.bold}",
                 "lineHeight": "{ob.s.lineHeight.md}",
                 "letterSpacing": "{ob.s.letterSpacing-px.normal}",
-                "paragraphSpacing": "{ob.s.paragraphSpacing.sm}",
+                "paragraphSpacing": "{ob.s.paragraphSpacing.standard}",
                 "textDecoration": "{ob.p.text-decoration.none}"
               },
               "type": "typography"
