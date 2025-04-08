@@ -137,9 +137,9 @@
           "description": "Standard spacing between two paragraphs <p> on lg screens."
         },
         "last": {
-          "value": "4* {ob.p.lineHeight._base}",
+          "value": "7* {ob.p.lineHeight._base}",
           "type": "paragraphSpacing",
-          "description": "Spacing after the last <p> paragraph on lg screens, before the next heading. Usually larger than the standard paragraphSpacing to improve the visual hierarchy."
+          "description": "Spacing after the last <p> paragraph on lg screens, before the next heading. Usually larger than the standard paragraphSpacing to improve the visual hierarchy. This token must be based on ob.p.lineHeight._base. That way the stacked text elements (e.g., headings, paragraphs) preserve baseline grid alignment.."
         }
       },
       "text-decoration": {
@@ -191,16 +191,16 @@
             }
           }
         },
-        "body": {
+        "paragraph": {
           "L": {
             "bottom": {
-              "value": "{ob.s.spacing.body.default}",
+              "value": "{ob.s.spacing.paragraph.default}",
               "type": "spacing"
             }
           },
           "S": {
             "bottom": {
-              "value": "{ob.s.spacing.body.default}",
+              "value": "{ob.s.spacing.paragraph.default}",
               "type": "spacing"
             }
           },

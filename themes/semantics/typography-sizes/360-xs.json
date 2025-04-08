@@ -138,7 +138,7 @@
           "description": "Standard spacing between two paragraphs <p> on xs screens."
         },
         "last": {
-          "value": "4* {ob.p.lineHeight._base}",
+          "value": "7* {ob.p.lineHeight._base}",
           "type": "paragraphSpacing",
           "description": "Spacing after the last <p> paragraph on xs screens, before the next heading. Usually larger than the standard paragraphSpacing to improve the visual hierarchy."
         }
@@ -192,16 +192,16 @@
             }
           }
         },
-        "body": {
+        "paragraph": {
           "L": {
             "bottom": {
-              "value": "{ob.s.spacing.body.default}",
+              "value": "{ob.s.spacing.paragraph.default}",
               "type": "spacing"
             }
           },
           "S": {
             "bottom": {
-              "value": "{ob.s.spacing.body.default}",
+              "value": "{ob.s.spacing.paragraph.default}",
               "type": "spacing"
             }
           },
